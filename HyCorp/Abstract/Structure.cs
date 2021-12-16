@@ -46,6 +46,28 @@ namespace HyCorp
         void AddProductionDownstreamTeam(IConsumer<Output> team);
     }
 
+    public interface IPlanner
+    {
+        Type GetPlanningInputType();
+        Type GetPlanningOutputType();
+        void Plan();
+    }
+
+    public interface IProducer
+    {
+        Type GetProductionInputType();
+        Type GetProductionOutputType();
+        void Produce();
+    }
+
+    public abstract class Intermediate<TEnclosed>
+    {
+        public TEnclosed Product {get; private set;}
+        public Intermediate(TEnclosed product)
+        {
+            Product = product;
+        }
+    }
 
 
 
@@ -141,6 +163,60 @@ namespace HyCorp
     }
 
 
+    /// <summary>
+    /// Teams (Nodes): Perform a step in the big-picture process.
+    /// </summary>
+    public abstract class NewTeam
+    {
+        public Type TeamInput { get; protected set; }
+        public Type TeamOutput { get; protected set; }
+        public bool IsPlanningTeam { get; protected set; }
+        public bool IsProductionTeam { get; protected set; }
+        public NewManager Manager { get; protected set; }
+        public NewClerk Clerk { get; protected set; }
+        public NewTeamLead Lead { get; protected set; }
+        public List<NewTeam> PlanningDownstreamTeams { get; protected set; } = new List<NewTeam>();
+        public List<NewTeam> ProductionDownstreamTeams { get; protected set; } = new List<NewTeam>();
+
+        public string Name { get; protected set; }
+
+
+        public void Hire(NewManager manager) { Manager = manager; }
+        public void Hire(NewClerk clerk) { Clerk = clerk; }
+        public void Hire(NewTeamLead lead) { Lead = lead; }
+
+        public void AddPlanningDownstreamTeam(NewTeam team) { PlanningDownstreamTeams.Add(team); }
+        public void AddProductionDownstreamTeam(NewTeam team) { ProductionDownstreamTeams.Add(team); }
+
+        public override string ToString()
+        {
+            return $"{Name}: consumes {TeamInput.Name}, produces {TeamOutput.Name}";
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public abstract class Organization<Input, Output>
     {
         public List<IConsumer<Input>> StartingTeams { get; protected set; }
@@ -221,6 +297,15 @@ namespace HyCorp
         {
             from.AddProductionDownstreamTeam(to);
         }
+    }
+
+
+    public static class LaborPool
+    {
+        public static List<Type> Workers { get; private set; } = new List<Type>();
+        public static List<Type> TeamLeads { get; private set; } = new List<Type>();
+        public static void AddWorker(Type worker) { Workers.Add(worker); }
+        public static void AddTeamLead(Type teamLead) { TeamLeads.Add(teamLead); }
     }
 
 

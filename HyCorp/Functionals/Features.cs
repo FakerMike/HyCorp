@@ -272,6 +272,7 @@ namespace HyCorp
     public class FeatureVector
     {
         public List<Feature> Features { get; private set; }
+        public IDFeature ID { get; private set; }
         public Feature Label { get; private set; }
         public Dictionary<string, Feature> ByName { get; private set; }
 
@@ -289,6 +290,13 @@ namespace HyCorp
         {
             Features = new List<Feature>(features);
             Label = label;
+        }
+
+        public FeatureVector(IEnumerable<Feature> features, Feature label, IDFeature id)
+        {
+            Features = new List<Feature>(features);
+            Label = label;
+            ID = id;
         }
     }
 }

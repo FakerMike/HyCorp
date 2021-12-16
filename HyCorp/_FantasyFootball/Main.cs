@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using HyCorp.FantasyFootball.Corps;
+using HyCorp.FantasyFootball.Corps.HotCo;
 
 namespace HyCorp.FantasyFootball
 {
@@ -17,6 +18,12 @@ namespace HyCorp.FantasyFootball
         
         static void Main(string[] args)
         {
+            LaborPool.AddWorker(typeof(HotCoDataImportWorker));
+            LaborPool.AddWorker(typeof(HotCoExecutiveWorker));
+
+            LaborPool.AddTeamLead(typeof(TeamLeadHotCoDataImport));
+            LaborPool.AddTeamLead(typeof(TeamLeadHotCoExecutive));
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new UI());

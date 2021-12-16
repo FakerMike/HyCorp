@@ -22,6 +22,18 @@ namespace HyCorp
 
     }
 
+
+    public abstract class NewClerk
+    {
+
+    }
+
+    public class TypedClerk<TInput, TOutput> : NewClerk
+    {
+
+    }
+
+
     public class AnyInputClerk<Input, Output> : Clerk<Input, Output>
     {
         public AnyInputClerk(Team<Input, Output> team) : base(team)

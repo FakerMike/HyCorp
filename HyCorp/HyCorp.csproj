@@ -56,6 +56,8 @@
     <Compile Include="UI.Designer.cs">
       <DependentUpon>UI.cs</DependentUpon>
     </Compile>
+    <Compile Include="_FantasyFootball\HotCo\HotCo.cs" />
+    <Compile Include="_FantasyFootball\HotCo\Labor Pool\TeamLeads.cs" />
     <Compile Include="_FantasyFootball\HotCo\Labor Pool\Workers.cs" />
     <Compile Include="_FantasyFootball\HotCo\Workflow.cs" />
     <Compile Include="_FantasyFootball\NaiveCo\NaiveCoModelingTeam.cs" />

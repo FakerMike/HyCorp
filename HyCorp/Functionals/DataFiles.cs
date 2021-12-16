@@ -44,6 +44,7 @@ namespace HyCorp
     /// </summary>
     public class ProcessedDataFile
     {
+
         public List<FeatureColumn> ColumnList { get; private set; }
         public Dictionary<Feature, FeatureColumn> ColumnDictionary { get; private set; }
         public List<Feature> Features { get; private set; }
@@ -66,6 +67,8 @@ namespace HyCorp
             Features.Add(column.Feature);
             FeatureDictionary.Add(column.Feature.Name, column.Feature);
         }
+
+
 
         public List<List<IValue>> GetRows()
         {

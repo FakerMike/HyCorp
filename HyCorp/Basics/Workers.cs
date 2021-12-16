@@ -16,6 +16,12 @@ namespace HyCorp
         public abstract object Train(object input);
     }
 
+    public abstract class NewWorker
+    {
+        public abstract bool CanPlan(Type PlanningInput, Type PlanningOutput);
+        public abstract bool CanProduce(Type ProductionInput, Type ProductionOutput);
+    }
+
     public abstract class TypedWorker<TrainingInput, PredictionInput, Output> : Worker
     {
         public abstract void Train(TrainingInput input);
@@ -25,6 +31,51 @@ namespace HyCorp
     public interface IWorker
     {
         // Nothing yet.
+    }
+
+    public abstract class PlanningWorker<TInput, TOutput> : NewWorker
+    {
+        protected TInput input;
+        public abstract TOutput Plan(TInput input);
+        public override bool CanPlan(Type PlanningInput, Type PlanningOutput)
+        {
+            if (PlanningInput is TInput && PlanningOutput is TOutput) return true;
+            return false;
+        }
+        public override bool CanProduce(Type ProductionInput, Type ProductionOutput)
+        {
+            return false;
+        }
+    }
+
+    public abstract class ProductionWorker<TInput, TOutput> : NewWorker
+    {
+        public abstract TOutput Produce(TInput input);
+        public override bool CanPlan(Type PlanningInput, Type PlanningOutput)
+        {
+            return false;
+        }
+        public override bool CanProduce(Type ProductionInput, Type ProductionOutput)
+        {
+            if (ProductionInput is TInput && ProductionOutput is TOutput) return true;
+            return false;
+        }
+    }
+
+    public abstract class CrossFunctionalWorker<TPlanningInput, TPlanningOutput, TProductionInput, TProductionOutput> : NewWorker
+    {
+        public abstract TPlanningOutput Plan(TPlanningInput input);
+        public abstract TProductionOutput Produce(TProductionInput input);
+        public override bool CanPlan(Type PlanningInput, Type PlanningOutput)
+        {
+            if (PlanningInput is TPlanningInput && PlanningOutput is TPlanningOutput) return true;
+            return false;
+        }
+        public override bool CanProduce(Type ProductionInput, Type ProductionOutput)
+        {
+            if (ProductionInput is TPlanningInput && ProductionOutput is TPlanningOutput) return true;
+            return false;
+        }
     }
 
     public class ChaosWorker : TypedWorker<ExampleSet, Example, Prediction>

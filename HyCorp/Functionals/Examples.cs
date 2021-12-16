@@ -31,6 +31,16 @@ namespace HyCorp
         {
             FeatureValues[feature] = value;
         }
+
+        public void SetID(IDValue value)
+        {
+            ID = value;
+        }
+
+        public void SetLabel(IValue value)
+        {
+            Label = value;
+        }
     }
 
     public class ExampleSet
@@ -43,6 +53,12 @@ namespace HyCorp
         public ExampleSet(IEnumerable<Feature> features, Feature label)
         {
             Features = new FeatureVector(features, label);
+            Examples = new List<Example>();
+        }
+
+        public ExampleSet(FeatureVector features)
+        {
+            Features = features;
             Examples = new List<Example>();
         }
 

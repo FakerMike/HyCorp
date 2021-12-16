@@ -24,6 +24,11 @@ namespace HyCorp
 
         private void RunButton_Click(object sender, EventArgs e)
         {
+
+            HyCorp<RawDataFile, FantasyFootballProduct> HotCo = new HotCo();
+
+
+            /*
             HyCorp<RawDataFile, FantasyFootballProduct> naiveCo = new NaiveCo();
 
             naiveCo.PlanningOrganization.AddInput(FileTools.Load(@"_FantasyFootball\Data\Training\DraftKingsRaw2014-2021W9.csv"));
@@ -39,7 +44,7 @@ namespace HyCorp
 
 
 
-            Print(product);
+            Print(product);*/
 
         }
 
