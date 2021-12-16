@@ -26,8 +26,9 @@ namespace HyCorp
         private void RunButton_Click(object sender, EventArgs e)
         {
 
-            HyCorp<RawDataFile, FantasyFootballProduct> HotCo = new HotCo();
-            HotCo.PlanningOrganization.AddInput(FileTools.Load(@"_FantasyFootball\Data\Training\DraftKingsRaw2014-2021W9.csv"));
+            HyCorp HotCo = new HotCo();
+            HotCo.Plan(FileTools.Load(@"FantasyFootball\Data\Training\DraftKingsRaw2014-2021W9.csv"));
+            UI.Instance.Print(HotCo.PlanningOrganization.StartingTeam.Clerk.PlanningOutput);
 
 
 

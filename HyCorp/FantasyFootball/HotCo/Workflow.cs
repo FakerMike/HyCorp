@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HyCorp.FantasyFootball.Corps.HotCo
 {
-    public class HotCoDataImportTeam : NewTeam
+    public class HotCoDataImportTeam : Team
     {
         public HotCoDataImportTeam()
         {
@@ -16,8 +16,8 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
             IsPlanningTeam = true;
             IsProductionTeam = true;
 
-            Hire(new TypedClerk<RawDataFile, FullExampleSet>());
-            Hire(new NewManager(this));
+            Hire(new Clerk(this));
+            Hire(new NoOptionManager(this));
             Manager.HireLead();
             Manager.HireWorkers();
         }
@@ -28,9 +28,20 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
         public FullExampleSet(ExampleSet product) : base(product) { }
     }
 
-    public class HotCoExecutiveTeam : Team<FullExampleSet, ByDatePairedExampleSet>
+    public class HotCoExecutiveTeam : Team
     {
+        public HotCoExecutiveTeam(HotCo company) : base()
+        {
+            TeamInput = typeof(FullExampleSet);
+            TeamOutput = typeof(ByDatePairedExampleSet);
+            IsPlanningTeam = true;
+            IsProductionTeam = false;
 
+            Hire(new ClerkHotCoExecutive(this, company));
+            Hire(new NoOptionManager(this));
+            Manager.HireLead();
+            Manager.HireWorkers();
+        }
     }
 
     public class PairedExampleSet
@@ -49,7 +60,7 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
         public ByDatePairedExampleSet(PairedExampleSet product) : base(product) { }
     }
 
-    public class HotCoDataEnrichmentTeam : Team<ByDatePairedExampleSet, EnrichedByDatePairedExampleSet>
+    public class HotCoDataEnrichmentTeam : Team
     {
 
     }
@@ -59,9 +70,10 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
         public EnrichedByDatePairedExampleSet(PairedExampleSet product) : base(product) { }
     }
 
-    public class HotCoModelingTeam : Team<EnrichedByDatePairedExampleSet, PlayersWithPredictedScores>
+    public class HotCoModelingTeam : Team
     {
 
+    
     }
 
     public class PlayersWithPredictedScores : Intermediate<List<Player>>
@@ -69,7 +81,7 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
         public PlayersWithPredictedScores(List<Player> product) : base(product) { }
     }
 
-    public class HotCoPickerTeam : Team<PlayersWithPredictedScores, FantasyFootballProduct>
+    public class HotCoPickerTeam : Team
     {
 
     }

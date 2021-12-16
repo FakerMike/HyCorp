@@ -6,12 +6,18 @@ using System.Threading.Tasks;
 
 namespace HyCorp.FantasyFootball.Corps.HotCo
 {
-    class HotCo : HyCorp<RawDataFile, FantasyFootballProduct>
+    public class HotCo : HyCorp
     {
         protected override void BuildOrganization()
         {
             HotCoDataImportTeam hotCoDataImportTeam = new HotCoDataImportTeam();
-            
+            HotCoExecutiveTeam hotCoExecutiveTeam = new HotCoExecutiveTeam(this);
+
+
+            PlanningOrganization.AddStartingTeam(hotCoDataImportTeam);
+            PlanningOrganization.AddNextTeam(hotCoExecutiveTeam);
+
+            ProductionOrganization.AddStartingTeam(hotCoDataImportTeam);
         }
     }
 }

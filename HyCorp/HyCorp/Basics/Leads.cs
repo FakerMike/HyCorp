@@ -10,26 +10,35 @@ namespace HyCorp
     /// <summary>
     /// Leads (boosters):  Aggregate Worker product
     /// </summary>
-    public abstract class Lead<Input, Output>
-    {
-        public abstract Output Produce(List<Input> inputs, List<Worker> workers);
-        public abstract Output Train(List<Input> trainingInputs, List<Worker> workers);
-    }
 
-    public abstract class NewTeamLead
+    public abstract class TeamLead
     {
-        public Dictionary<NewWorker, double> Workers { get; protected set; } = new Dictionary<NewWorker, double>();
+        public List<HeadCount> HeadCount { get; protected set; } = new List<HeadCount>();
+        public double FireThreshold { get; protected set; } = 0.2;
+
         public abstract bool CanPlan(Type PlanningInput, Type PlanningOutput);
         public abstract bool CanProduce(Type ProductionInput, Type ProductionOutput);
         public abstract int MinHires();
         public abstract int MaxHires();
-        public abstract bool CanUse(NewWorker worker);
-        public void AddWorker(NewWorker worker) { Workers[worker] =  1.0; }
+        public abstract bool CanUse(Worker worker);
+        public void AddWorker(Worker worker) { HeadCount.Add(new HeadCount(worker)); }
+        public abstract object Plan(Clerk clerk);
+        public abstract object Produce(Clerk clerk);
     }
 
-    public abstract class PlanningTeamLead<TInput, TOutput> : NewTeamLead
+    public class HeadCount
     {
-        public abstract TOutput Plan(TInput input);
+        public Worker Worker { get; protected set; }
+        public double Rating = 1;
+
+        public HeadCount(Worker worker)
+        {
+            Worker = worker;
+        }
+    }
+
+    public abstract class PlanningTeamLead<TInput, TOutput> : TeamLead
+    {
         public override bool CanPlan(Type PlanningInput, Type PlanningOutput)
         {
             if (PlanningInput == typeof(TInput) && PlanningOutput == typeof(TOutput)) return true;
@@ -41,9 +50,8 @@ namespace HyCorp
         }
     }
 
-    public abstract class ProductionTeamLead<TInput, TOutput> : NewTeamLead
+    public abstract class ProductionTeamLead<TInput, TOutput> : TeamLead
     {
-        public abstract TOutput Produce(TInput input);
         public override bool CanPlan(Type PlanningInput, Type PlanningOutput)
         {
             return false;
@@ -55,10 +63,8 @@ namespace HyCorp
         }
     }
 
-    public abstract class CrossFunctionalTeamLead<TPlanningInput, TPlanningOutput, TProductionInput, TProductionOutput> : NewTeamLead
+    public abstract class CrossFunctionalTeamLead<TPlanningInput, TPlanningOutput, TProductionInput, TProductionOutput> : TeamLead
     {
-        public abstract TPlanningOutput Plan(TPlanningInput input);
-        public abstract TProductionOutput Produce(TProductionInput input);
         public override bool CanPlan(Type PlanningInput, Type PlanningOutput)
         {
             if (PlanningInput == typeof(TPlanningInput) && PlanningOutput == typeof(TPlanningOutput)) return true;
@@ -74,7 +80,7 @@ namespace HyCorp
 
     public class PassThroughPlanningTeamLead<TInput, TOutput> : PlanningTeamLead<TInput, TOutput>
     {
-        public override bool CanUse(NewWorker worker)
+        public override bool CanUse(Worker worker)
         {
             return worker.CanPlan(typeof(TInput), typeof(TOutput));
         }
@@ -89,15 +95,20 @@ namespace HyCorp
             return 1;
         }
 
-        public override TOutput Plan(TInput input)
+        public override object Plan(Clerk clerk)
         {
-            return (Workers.Keys.First() as PlanningWorker<TInput, TOutput>).Plan(input);
+            return (HeadCount[0].Worker as PlanningWorker<TInput, TOutput>).Plan((TInput) clerk.PlanningInput);
+        }
+
+        public override object Produce(Clerk clerk)
+        {
+            throw new Exception("Not a production lead");
         }
     }
 
     public class PassThroughProductionTeamLead<TInput, TOutput> : ProductionTeamLead<TInput, TOutput>
     {
-        public override bool CanUse(NewWorker worker)
+        public override bool CanUse(Worker worker)
         {
             return worker.CanProduce(typeof(TInput), typeof(TOutput));
         }
@@ -112,15 +123,20 @@ namespace HyCorp
             return 1;
         }
 
-        public override TOutput Produce(TInput input)
+        public override object Produce(Clerk clerk)
         {
-            return (Workers.Keys.First() as ProductionWorker<TInput, TOutput>).Produce(input);
+            return (HeadCount[0].Worker as ProductionWorker<TInput, TOutput>).Produce((TInput)clerk.ProductionInput);
+        }
+
+        public override object Plan(Clerk clerk)
+        {
+            throw new Exception("Not a planning lead");
         }
     }
 
     public class PassThroughCrossFunctionalTeamLead<TPlanningInput, TPlanningOutput, TProductionInput, TProductionOutput> : CrossFunctionalTeamLead<TPlanningInput, TPlanningOutput, TProductionInput, TProductionOutput>
     {
-        public override bool CanUse(NewWorker worker)
+        public override bool CanUse(Worker worker)
         {
             if (worker.CanPlan(typeof(TPlanningInput), typeof(TPlanningOutput)) && worker.CanProduce(typeof(TPlanningInput), typeof(TPlanningOutput))) return true;
             return false;
@@ -136,32 +152,16 @@ namespace HyCorp
             return 1;
         }
 
-        public override TProductionOutput Produce(TProductionInput input)
+        public override object Produce(Clerk clerk)
         {
-            return (Workers.Keys.First() as CrossFunctionalWorker<TPlanningInput, TPlanningOutput, TProductionInput, TProductionOutput>).Produce(input);
+            return (HeadCount[0].Worker as CrossFunctionalWorker<TPlanningInput, TPlanningOutput, TProductionInput, TProductionOutput>).Produce((TProductionInput)clerk.ProductionInput);
         }
 
-        public override TPlanningOutput Plan(TPlanningInput input)
+        public override object Plan(Clerk clerk)
         {
-            return (Workers.Keys.First() as CrossFunctionalWorker<TPlanningInput, TPlanningOutput, TProductionInput, TProductionOutput>).Plan(input);
-        }
-    }
-
-
-
-
-
-    public class OneWorkerTeamLead<Input, Output> : Lead<Input, Output>
-    {
-        public override Output Produce(List<Input> inputs, List<Worker> workers)
-        {
-            return (Output) workers[0].Work(inputs);
-        }
-
-        public override Output Train(List<Input> trainingInputs, List<Worker> workers)
-        {
-            return (Output) workers[0].Train(trainingInputs);
+            return (HeadCount[0].Worker as CrossFunctionalWorker<TPlanningInput, TPlanningOutput, TProductionInput, TProductionOutput>).Plan((TPlanningInput)clerk.PlanningInput);
         }
     }
+
 
 }
