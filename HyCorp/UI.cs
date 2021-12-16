@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using HyCorp.FantasyFootball;
 using HyCorp.FantasyFootball.Corps;
+using HyCorp.FantasyFootball.Corps.HotCo;
 
 namespace HyCorp
 {
@@ -26,6 +27,8 @@ namespace HyCorp
         {
 
             HyCorp<RawDataFile, FantasyFootballProduct> HotCo = new HotCo();
+            HotCo.PlanningOrganization.AddInput(FileTools.Load(@"_FantasyFootball\Data\Training\DraftKingsRaw2014-2021W9.csv"));
+
 
 
             /*

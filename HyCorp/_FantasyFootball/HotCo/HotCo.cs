@@ -10,7 +10,8 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
     {
         protected override void BuildOrganization()
         {
-            throw new NotImplementedException();
+            HotCoDataImportTeam hotCoDataImportTeam = new HotCoDataImportTeam();
+            
         }
     }
 }

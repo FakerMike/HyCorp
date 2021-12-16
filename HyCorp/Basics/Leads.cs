@@ -18,13 +18,13 @@ namespace HyCorp
 
     public abstract class NewTeamLead
     {
-        protected List<NewWorker> workers = new List<NewWorker>();
+        public Dictionary<NewWorker, double> Workers { get; protected set; } = new Dictionary<NewWorker, double>();
         public abstract bool CanPlan(Type PlanningInput, Type PlanningOutput);
         public abstract bool CanProduce(Type ProductionInput, Type ProductionOutput);
         public abstract int MinHires();
         public abstract int MaxHires();
         public abstract bool CanUse(NewWorker worker);
-        public void AddWorker(NewWorker worker) { workers.Add(worker); }
+        public void AddWorker(NewWorker worker) { Workers[worker] =  1.0; }
     }
 
     public abstract class PlanningTeamLead<TInput, TOutput> : NewTeamLead
@@ -32,7 +32,7 @@ namespace HyCorp
         public abstract TOutput Plan(TInput input);
         public override bool CanPlan(Type PlanningInput, Type PlanningOutput)
         {
-            if (PlanningInput is TInput && PlanningOutput is TOutput) return true;
+            if (PlanningInput == typeof(TInput) && PlanningOutput == typeof(TOutput)) return true;
             return false;
         }
         public override bool CanProduce(Type ProductionInput, Type ProductionOutput)
@@ -50,7 +50,7 @@ namespace HyCorp
         }
         public override bool CanProduce(Type ProductionInput, Type ProductionOutput)
         {
-            if (ProductionInput is TInput && ProductionOutput is TOutput) return true;
+            if (ProductionInput == typeof(TInput) && ProductionOutput == typeof(TOutput)) return true;
             return false;
         }
     }
@@ -61,12 +61,12 @@ namespace HyCorp
         public abstract TProductionOutput Produce(TProductionInput input);
         public override bool CanPlan(Type PlanningInput, Type PlanningOutput)
         {
-            if (PlanningInput is TPlanningInput && PlanningOutput is TPlanningOutput) return true;
+            if (PlanningInput == typeof(TPlanningInput) && PlanningOutput == typeof(TPlanningOutput)) return true;
             return false;
         }
         public override bool CanProduce(Type ProductionInput, Type ProductionOutput)
         {
-            if (ProductionInput is TPlanningInput && ProductionOutput is TPlanningOutput) return true;
+            if (ProductionInput == typeof(TProductionInput) && ProductionOutput == typeof(TProductionOutput)) return true;
             return false;
         }
     }
@@ -91,7 +91,7 @@ namespace HyCorp
 
         public override TOutput Plan(TInput input)
         {
-            return (workers[0] as PlanningWorker<TInput, TOutput>).Plan(input);
+            return (Workers.Keys.First() as PlanningWorker<TInput, TOutput>).Plan(input);
         }
     }
 
@@ -114,7 +114,7 @@ namespace HyCorp
 
         public override TOutput Produce(TInput input)
         {
-            return (workers[0] as ProductionWorker<TInput, TOutput>).Produce(input);
+            return (Workers.Keys.First() as ProductionWorker<TInput, TOutput>).Produce(input);
         }
     }
 
@@ -138,12 +138,12 @@ namespace HyCorp
 
         public override TProductionOutput Produce(TProductionInput input)
         {
-            return (workers[0] as CrossFunctionalWorker<TPlanningInput, TPlanningOutput, TProductionInput, TProductionOutput>).Produce(input);
+            return (Workers.Keys.First() as CrossFunctionalWorker<TPlanningInput, TPlanningOutput, TProductionInput, TProductionOutput>).Produce(input);
         }
 
         public override TPlanningOutput Plan(TPlanningInput input)
         {
-            return (workers[0] as CrossFunctionalWorker<TPlanningInput, TPlanningOutput, TProductionInput, TProductionOutput>).Plan(input);
+            return (Workers.Keys.First() as CrossFunctionalWorker<TPlanningInput, TPlanningOutput, TProductionInput, TProductionOutput>).Plan(input);
         }
     }
 

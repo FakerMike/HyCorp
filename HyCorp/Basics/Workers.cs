@@ -39,7 +39,7 @@ namespace HyCorp
         public abstract TOutput Plan(TInput input);
         public override bool CanPlan(Type PlanningInput, Type PlanningOutput)
         {
-            if (PlanningInput is TInput && PlanningOutput is TOutput) return true;
+            if (PlanningInput == typeof(TInput) && PlanningOutput == typeof(TOutput)) return true;
             return false;
         }
         public override bool CanProduce(Type ProductionInput, Type ProductionOutput)
@@ -57,7 +57,7 @@ namespace HyCorp
         }
         public override bool CanProduce(Type ProductionInput, Type ProductionOutput)
         {
-            if (ProductionInput is TInput && ProductionOutput is TOutput) return true;
+            if (ProductionInput == typeof(TInput) && ProductionOutput == typeof(TOutput)) return true;
             return false;
         }
     }
@@ -68,12 +68,12 @@ namespace HyCorp
         public abstract TProductionOutput Produce(TProductionInput input);
         public override bool CanPlan(Type PlanningInput, Type PlanningOutput)
         {
-            if (PlanningInput is TPlanningInput && PlanningOutput is TPlanningOutput) return true;
+            if (PlanningInput == typeof(TPlanningInput) && PlanningOutput == typeof(TPlanningOutput)) return true;
             return false;
         }
         public override bool CanProduce(Type ProductionInput, Type ProductionOutput)
         {
-            if (ProductionInput is TPlanningInput && ProductionOutput is TPlanningOutput) return true;
+            if (ProductionInput == typeof(TProductionInput) && ProductionOutput == typeof(TProductionOutput)) return true;
             return false;
         }
     }
