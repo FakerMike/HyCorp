@@ -18,35 +18,6 @@ namespace HyCorp
     }
 
 
-    public abstract class PlanningWorker<TInput, TOutput> : Worker
-    {
-        protected TInput input;
-        public abstract TOutput Plan(TInput input);
-        public override bool CanPlan(Type PlanningInput, Type PlanningOutput)
-        {
-            if (PlanningInput == typeof(TInput) && PlanningOutput == typeof(TOutput)) return true;
-            return false;
-        }
-        public override bool CanProduce(Type ProductionInput, Type ProductionOutput)
-        {
-            return false;
-        }
-    }
-
-    public abstract class ProductionWorker<TInput, TOutput> : Worker
-    {
-        public abstract TOutput Produce(TInput input);
-        public override bool CanPlan(Type PlanningInput, Type PlanningOutput)
-        {
-            return false;
-        }
-        public override bool CanProduce(Type ProductionInput, Type ProductionOutput)
-        {
-            if (ProductionInput == typeof(TInput) && ProductionOutput == typeof(TOutput)) return true;
-            return false;
-        }
-    }
-
     public abstract class CrossFunctionalWorker<TPlanningInput, TPlanningOutput, TProductionInput, TProductionOutput> : Worker
     {
         public abstract TPlanningOutput Plan(TPlanningInput input);

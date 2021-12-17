@@ -28,7 +28,7 @@ namespace HyCorp
 
             HyCorp HotCo = new HotCo();
             HotCo.Plan(FileTools.Load(@"FantasyFootball\Data\Training\DraftKingsRaw2014-2021W9.csv"));
-            UI.Instance.Print(HotCo.PlanningOrganization.StartingTeam.Clerk.PlanningOutput);
+            UI.Instance.Print(HotCo.Organization.StartingTeam.Clerk.PlanningOutput);
 
 
 

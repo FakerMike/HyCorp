@@ -13,8 +13,6 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
         {
             TeamInput = typeof(RawDataFile);
             TeamOutput = typeof(FullExampleSet);
-            IsPlanningTeam = true;
-            IsProductionTeam = true;
 
             Hire(new Clerk(this));
             Hire(new NoOptionManager(this));
@@ -25,6 +23,8 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
 
     public class FullExampleSet : Intermediate<ExampleSet>
     {
+        public int TrainingWeek = 5;
+        public int TrainingYear = 2014;
         public FullExampleSet(ExampleSet product) : base(product) { }
     }
 
@@ -34,8 +34,6 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
         {
             TeamInput = typeof(FullExampleSet);
             TeamOutput = typeof(ByDatePairedExampleSet);
-            IsPlanningTeam = true;
-            IsProductionTeam = false;
 
             Hire(new ClerkHotCoExecutive(this, company));
             Hire(new NoOptionManager(this));
@@ -57,12 +55,26 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
 
     public class ByDatePairedExampleSet : Intermediate<PairedExampleSet>
     {
-        public ByDatePairedExampleSet(PairedExampleSet product) : base(product) { }
+        public int Year;
+        public int Week;
+        public ByDatePairedExampleSet(PairedExampleSet product, int week, int year) : base(product) {
+            Year = year;
+            Week = week;
+        }
     }
 
     public class HotCoDataEnrichmentTeam : Team
     {
+        public HotCoDataEnrichmentTeam() : base()
+        {
+            TeamInput = typeof(ByDatePairedExampleSet);
+            TeamOutput = typeof(EnrichedByDatePairedExampleSet);
 
+            Hire(new Clerk(this));
+            Hire(new RandomReplacementOnlyManager(this));
+            Manager.HireLead();
+            Manager.HireWorkers();
+        }
     }
 
     public class EnrichedByDatePairedExampleSet : Intermediate<PairedExampleSet>
@@ -81,8 +93,19 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
         public PlayersWithPredictedScores(List<Player> product) : base(product) { }
     }
 
-    public class HotCoPickerTeam : Team
+    public class HotCoPlayerPickerTeam : Team
     {
 
     }
+
+    public class HotCoPotentialTeamList : Intermediate<List<FantasyFootballTeam>>
+    {
+        public HotCoPotentialTeamList(List<FantasyFootballTeam> product) : base(product) { }
+    }
+
+    public class HotCoFilterTeam : Team
+    {
+
+    }
+
 }

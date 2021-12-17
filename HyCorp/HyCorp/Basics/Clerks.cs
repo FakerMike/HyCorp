@@ -24,14 +24,16 @@ namespace HyCorp
         public virtual void Plan(object planningInput)
         {
             PlanningInput = planningInput;
-            try
+            for (int i = 0; i < team.Manager.Budget; i++)
             {
-                if (!team.IsPlanningTeam) throw new Exception("Wrong type of team!");
                 PlanningOutput = team.Lead.Plan(this);
-                team.PlanningDownstreamTeam.Clerk.Plan(PlanningOutput);
-            } catch(Exception e)
+                team.Lead.Evaluate();
+                team.Manager.UpdateHeadCount();
+                if (!team.Manager.MadeChange) break;
+            }
+            if (team.DownstreamTeam != null)
             {
-                UI.Instance.Print(e.Message);
+                team.DownstreamTeam.Clerk.Plan(PlanningOutput);
             }
         }
 
@@ -40,9 +42,8 @@ namespace HyCorp
             ProductionInput = productionInput;
             try
             {
-                if (!team.IsProductionTeam) throw new Exception("Wrong type of team!");
                 ProductionOutput = team.Lead.Produce(this);
-                team.ProductionDownstreamTeam.Clerk.Produce(ProductionOutput);
+                team.DownstreamTeam.Clerk.Produce(ProductionOutput);
             }
             catch (Exception e)
             {

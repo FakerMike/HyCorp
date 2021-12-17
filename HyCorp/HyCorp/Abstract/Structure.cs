@@ -12,13 +12,11 @@ namespace HyCorp
     /// </summary>
     public abstract class HyCorp
     {
-        public PlanningOrganization PlanningOrganization { get; protected set; }
-        public ProductionOrganization ProductionOrganization { get; protected set; }
+        public Organization Organization { get; protected set; }
 
         public HyCorp()
         {
-            PlanningOrganization = new PlanningOrganization();
-            ProductionOrganization = new ProductionOrganization();
+            Organization = new Organization();
             BuildOrganization();
         }
 
@@ -26,12 +24,12 @@ namespace HyCorp
 
         public void Plan(object PlanningInput)
         {
-            PlanningOrganization.StartingTeam.Clerk.Plan(PlanningInput);
+            Organization.StartingTeam.Clerk.Plan(PlanningInput);
         }
 
         public void Produce(object ProductionInput)
         {
-            PlanningOrganization.StartingTeam.Clerk.Produce(ProductionInput);
+            Organization.StartingTeam.Clerk.Produce(ProductionInput);
         }
 
     }
@@ -53,13 +51,11 @@ namespace HyCorp
     {
         public Type TeamInput { get; protected set; }
         public Type TeamOutput { get; protected set; }
-        public bool IsPlanningTeam { get; protected set; }
-        public bool IsProductionTeam { get; protected set; }
         public Manager Manager { get; protected set; }
         public Clerk Clerk { get; protected set; }
         public TeamLead Lead { get; protected set; }
-        public Team PlanningDownstreamTeam { get; protected set; }
-        public Team ProductionDownstreamTeam { get; protected set; }
+        public Team DownstreamTeam { get; protected set; }
+
 
         public int Depth { get; protected set; }
 
@@ -70,8 +66,8 @@ namespace HyCorp
         public void Hire(Clerk clerk) { Clerk = clerk; }
         public void Hire(Manager manager) { Manager = manager; }
 
-        public void AddPlanningDownstreamTeam(Team team) { PlanningDownstreamTeam = team; }
-        public void AddProductionDownstreamTeam(Team team) { ProductionDownstreamTeam = team; }
+        public void AddDownstreamTeam(Team team) { DownstreamTeam = team; }
+
         public void SetDepth(int depth) { Depth = depth; }
 
         public override string ToString()
@@ -83,7 +79,7 @@ namespace HyCorp
 
 
 
-    public abstract class Organization
+    public class Organization
     {
         public Team StartingTeam { get; protected set; }
         public Team EndingTeam { get; protected set; }
@@ -99,29 +95,14 @@ namespace HyCorp
             EndingTeam = team;
         }
 
-        public abstract void AddNextTeam(Team next);
-
-    }
-
-    public class PlanningOrganization : Organization
-    {
-        public override void AddNextTeam(Team next)
-        {
-            EndingTeam.AddPlanningDownstreamTeam(next);
+        public void AddNextTeam(Team next) {
+            EndingTeam.AddDownstreamTeam(next);
             next.SetDepth(EndingTeam.Depth + 1);
             EndingTeam = next;
         }
+
     }
 
-    public class ProductionOrganization : Organization
-    {
-        public override void AddNextTeam(Team next)
-        {
-            EndingTeam.AddProductionDownstreamTeam(next);
-            next.SetDepth(EndingTeam.Depth + 1);
-            EndingTeam = next;
-        }
-    }
 
 
     public static class LaborPool

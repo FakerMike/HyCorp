@@ -10,14 +10,9 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
     {
         protected override void BuildOrganization()
         {
-            HotCoDataImportTeam hotCoDataImportTeam = new HotCoDataImportTeam();
-            HotCoExecutiveTeam hotCoExecutiveTeam = new HotCoExecutiveTeam(this);
-
-
-            PlanningOrganization.AddStartingTeam(hotCoDataImportTeam);
-            PlanningOrganization.AddNextTeam(hotCoExecutiveTeam);
-
-            ProductionOrganization.AddStartingTeam(hotCoDataImportTeam);
+            Organization.AddStartingTeam(new HotCoDataImportTeam());
+            Organization.AddNextTeam(new HotCoExecutiveTeam(this));
+            Organization.AddNextTeam(new HotCoDataEnrichmentTeam());
         }
     }
 }

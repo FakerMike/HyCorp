@@ -8,33 +8,33 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
 {
     public class ClerkHotCoExecutive : Clerk
     {
-        private int Epoch = 0;
-
         public ClerkHotCoExecutive(Team team, HotCo company) : base(team) {}
 
         public override void Plan(object planningInput)
         {
             PlanningInput = planningInput;
-            try
-            {
-                if (!team.IsPlanningTeam) throw new Exception("Wrong type of team!");
-                RunSimulation();
-            }
-            catch (Exception e)
-            {
-                UI.Instance.Print(e.Message);
-            }
+            RunSimulation();
         }
 
         public override void Produce(object productionInput)
         {
-            UI.Instance.Print("This is a planning clerk only!");
+            
         }
 
         public void RunSimulation()
         {
-            PlanningOutput = team.Lead.Plan(this);
-            team.PlanningDownstreamTeam.Clerk.Plan(PlanningOutput);
+            FullExampleSet input = PlanningInput as FullExampleSet;
+            while (input.TrainingYear < 2021 || input.TrainingWeek <= 9)
+            {
+                PlanningOutput = team.Lead.Plan(this);
+                team.DownstreamTeam.Clerk.Plan(PlanningOutput);
+                input.TrainingWeek++;
+                if (input.TrainingWeek > 17)
+                {
+                    input.TrainingWeek = 5;
+                    input.TrainingYear++;
+                }
+            }
         }
 
     }

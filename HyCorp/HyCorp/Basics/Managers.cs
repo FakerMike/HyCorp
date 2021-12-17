@@ -18,6 +18,9 @@ namespace HyCorp
         protected List<Type> availableLeads = new List<Type>();
         protected List<Type> availableWorkers = new List<Type>();
 
+        public int Budget { get; protected set; } = 10;
+        public bool MadeChange { get; protected set; } = false;
+
         public Manager(Team team)
         {
             this.team = team;
@@ -27,7 +30,7 @@ namespace HyCorp
             foreach(Type newTeamLead in LaborPool.TeamLeads)
             {
                 TeamLead lead = Activator.CreateInstance(newTeamLead) as TeamLead;
-                if ((team.IsPlanningTeam && !lead.CanPlan(team.TeamInput, team.TeamOutput)) || (team.IsProductionTeam && !lead.CanProduce(team.TeamInput, team.TeamOutput))) continue;
+                if (!lead.CanLead(team.TeamInput, team.TeamOutput)) continue;
                 availableLeads.Add(newTeamLead);
                 break;
             }
@@ -40,7 +43,7 @@ namespace HyCorp
                 foreach (Type newWorker in LaborPool.Workers)
                 {
                     Worker worker = Activator.CreateInstance(newWorker) as Worker;
-                    if ((team.IsPlanningTeam && !worker.CanPlan(team.TeamInput, team.TeamOutput)) || (team.IsProductionTeam && !worker.CanProduce(team.TeamInput, team.TeamOutput))) continue;
+                    if (!team.Lead.CanUse(worker)) continue;
                     availableWorkers.Add(newWorker);
                     break;
                 }
@@ -67,10 +70,11 @@ namespace HyCorp
 
         public override void UpdateHeadCount()
         {
-            team.Lead.HeadCount.RemoveAll(x => x.Rating <= team.Lead.FireThreshold);
-            for (int i = 0; i < (team.Lead.MaxHires() - team.Lead.HeadCount.Count); i++)
+            team.Lead.DoLayoffs();
+            for (int i = 0; i < (team.Lead.MaxHires() - team.Lead.Workers.Count); i++)
             {
                 team.Lead.AddWorker(Activator.CreateInstance(availableWorkers[rand.Next(0, availableWorkers.Count)]) as Worker);
+                MadeChange = true;
             }
         }
     }

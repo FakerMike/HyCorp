@@ -50,6 +50,24 @@ namespace HyCorp
         public List<Example> Examples { get; private set; }
 
 
+        public ExampleSet(ExampleSet set)
+        {
+            Features = new FeatureVector(set.Features.Features, set.Features.Label, set.Features.ID);
+            Examples = new List<Example>();
+            foreach (Example x in set.Examples)
+            {
+                Example y = new Example(new Dictionary<Feature, IValue>(), x.Weight);
+                foreach (Feature f in x.FeatureValues.Keys)
+                {
+                    y.SetAttributeValue(f, x.FeatureValues[f]);
+                }
+                y.SetID(x.ID);
+                y.SetLabel(x.Label);
+                Examples.Add(y);
+            }
+        }
+
+
         public ExampleSet(IEnumerable<Feature> features, Feature label)
         {
             Features = new FeatureVector(features, label);

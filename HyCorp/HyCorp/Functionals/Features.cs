@@ -289,14 +289,30 @@ namespace HyCorp
         public FeatureVector(IEnumerable<Feature> features, Feature label)
         {
             Features = new List<Feature>(features);
+            ByName = new Dictionary<string, Feature>();
+            foreach (Feature f in features)
+            {
+                ByName[f.Name] = f;
+            }
             Label = label;
         }
 
         public FeatureVector(IEnumerable<Feature> features, Feature label, IDFeature id)
         {
             Features = new List<Feature>(features);
+            ByName = new Dictionary<string, Feature>();
+            foreach (Feature f in features)
+            {
+                ByName[f.Name] = f;
+            }
             Label = label;
             ID = id;
+        }
+
+        public void AddFeature(Feature feature)
+        {
+            Features.Add(feature);
+            ByName[feature.Name] = feature;
         }
     }
 }

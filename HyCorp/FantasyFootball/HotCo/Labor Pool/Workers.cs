@@ -16,11 +16,75 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
     {
     }
 
-    public abstract class HotCoExecutiveWorkerProfile : PlanningWorker<FullExampleSet, ByDatePairedExampleSet>
+    public abstract class HotCoExecutiveWorkerProfile : CrossFunctionalWorker<FullExampleSet, ByDatePairedExampleSet, FullExampleSet, ByDatePairedExampleSet>
     {
     }
 
+    public abstract class WorkerProfileHotCoDataEnrichment : CrossFunctionalWorker<CustomInputHotCoDataEnrichment,CustomOutputHotCoDataEnrichment,CustomInputHotCoDataEnrichment,CustomOutputHotCoDataEnrichment>
+    {
+        protected static Random rand = new Random();
+    }
 
+    public class WorkerHotCoHistoricalAverageDataEnrichment : WorkerProfileHotCoDataEnrichment
+    {
+        public override CustomOutputHotCoDataEnrichment Plan(CustomInputHotCoDataEnrichment input)
+        {
+            CustomOutputHotCoDataEnrichment output = new CustomOutputHotCoDataEnrichment();
+            int weeks = rand.Next(2, input.TestWeek);
+            ContinuousFeature feature = new ContinuousFeature($"{weeks}WeekAverageScore");
+            List<double> values = new List<double>();
+            Feature week = input.Features.ByName["Week"];
+            foreach (Example x in input.MostRecent)
+            {
+                double result = 0;
+                double count = 0;
+                foreach (Example y in input.ExampleByID[x.ID.Value])
+                {
+                    if ((x.FeatureValues[week] as ContinuousValue).Value <= (y.FeatureValues[week] as ContinuousValue).Value + weeks){
+                        result += (y.Label as ContinuousValue).Value;
+                        count++;
+                    }
+                }
+                if (count > 0)
+                {
+                    result /= count;
+                }
+                values.Add(result);
+                output.TrainingFeatureValues[x] = new ContinuousValue(result);
+            }
+
+            foreach (Example x in input.TestExamples)
+            {
+                double result = 0;
+                double count = 0;
+                if (input.ExampleByID.ContainsKey(x.ID.Value))
+                {
+                    foreach (Example y in input.ExampleByID[x.ID.Value])
+                    {
+                        if ((x.FeatureValues[week] as ContinuousValue).Value <= (y.FeatureValues[week] as ContinuousValue).Value + weeks)
+                        {
+                            result += (y.Label as ContinuousValue).Value;
+                            count++;
+                        }
+                    }
+                }
+                if (count > 0)
+                {
+                    result /= count;
+                }
+                output.TestFeatureValues[x] = new ContinuousValue(result);
+            }
+
+            feature.AutoSet(values);
+            output.EnrichedFeature = feature;
+            return output;
+        }
+
+        public override CustomOutputHotCoDataEnrichment Produce(CustomInputHotCoDataEnrichment input)
+        {
+            throw new NotImplementedException();
+        }
+    }
 
     public class HotCoExecutiveWorker : HotCoExecutiveWorkerProfile
     {
@@ -29,8 +93,18 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
             ExampleSet OriginalSet = input.Product;
             ContinuousFeature year = OriginalSet.Features.ByName["Year"] as ContinuousFeature;
             ContinuousFeature week = OriginalSet.Features.ByName["Week"] as ContinuousFeature;
-            //year.ChangeSplittingCondition()
-            return null;
+            year.ChangeSplittingCondition(x => { if (x.Value == input.TrainingYear) return 0; return 1; }, 2);
+            week.ChangeSplittingCondition(x => { if (x.Value < input.TrainingWeek) return 0; if (x.Value == input.TrainingWeek) return 1; return 2; }, 3);
+            List<ExampleSet> split = OriginalSet.Split(year)[0].Split(week);
+            PairedExampleSet paired = new PairedExampleSet(split[0], split[1]);
+            UI.Instance.Print($"Year: {input.TrainingYear}, Week: {input.TrainingWeek}.  Training Data: {paired.TrainingSet.Examples.Count} lines, Test Data: {paired.TestSet.Examples.Count}");
+            return new ByDatePairedExampleSet(paired, input.TrainingWeek, input.TrainingYear);
+        }
+
+        public override ByDatePairedExampleSet Produce(FullExampleSet input)
+        {
+            // TODO:  Production side
+            throw new NotImplementedException();
         }
     }
 
