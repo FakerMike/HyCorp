@@ -70,6 +70,7 @@ namespace HyCorp
 
         public override void UpdateHeadCount()
         {
+            MadeChange = false;
             team.Lead.DoLayoffs();
             for (int i = 0; i < (team.Lead.MaxHires() - team.Lead.Workers.Count); i++)
             {

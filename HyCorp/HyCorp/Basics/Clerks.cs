@@ -24,6 +24,7 @@ namespace HyCorp
         public virtual void Plan(object planningInput)
         {
             PlanningInput = planningInput;
+            team.Lead.Prepare(this);
             for (int i = 0; i < team.Manager.Budget; i++)
             {
                 PlanningOutput = team.Lead.Plan(this);

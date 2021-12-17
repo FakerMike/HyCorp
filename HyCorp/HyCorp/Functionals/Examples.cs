@@ -11,7 +11,8 @@ namespace HyCorp
     {
         public Dictionary<Feature, IValue> FeatureValues { get; private set; }
         public IDValue ID { get; private set; }
-        public IValue Label { get; private set; }
+        public ContinuousValue ContinuousLabel { get; private set; }
+        public CategoricalValue CategoricalLabel { get; private set; }
         public double Weight { get; private set; }
 
         public Example(Dictionary<Feature, IValue> values, double weight)
@@ -24,7 +25,7 @@ namespace HyCorp
         {
             FeatureValues = values;
             Weight = weight;
-            Label = label;
+            SetLabel(label);
         }
 
         public void SetAttributeValue(Feature feature, IValue value)
@@ -39,7 +40,8 @@ namespace HyCorp
 
         public void SetLabel(IValue value)
         {
-            Label = value;
+            if (value is ContinuousValue) ContinuousLabel = value as ContinuousValue;
+            else CategoricalLabel = value as CategoricalValue;
         }
     }
 
@@ -52,7 +54,7 @@ namespace HyCorp
 
         public ExampleSet(ExampleSet set)
         {
-            Features = new FeatureVector(set.Features.Features, set.Features.Label, set.Features.ID);
+            Features = new FeatureVector(set.Examples[0].FeatureValues.Keys, set.Features.Label, set.Features.ID);
             Examples = new List<Example>();
             foreach (Example x in set.Examples)
             {
@@ -62,7 +64,7 @@ namespace HyCorp
                     y.SetAttributeValue(f, x.FeatureValues[f]);
                 }
                 y.SetID(x.ID);
-                y.SetLabel(x.Label);
+                y.SetLabel(x.ContinuousLabel);
                 Examples.Add(y);
             }
         }

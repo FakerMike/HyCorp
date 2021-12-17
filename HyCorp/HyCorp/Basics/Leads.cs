@@ -21,6 +21,7 @@ namespace HyCorp
         public abstract int MaxHires();
         public abstract bool CanUse(Worker worker);
         public void AddWorker(Worker worker) { Workers[worker] = new PerformanceEvaluation(); }
+        public virtual void Prepare(Clerk clerk) { }
         public abstract object Plan(Clerk clerk);
         public abstract object Produce(Clerk clerk);
         public abstract void Evaluate();

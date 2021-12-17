@@ -22,8 +22,63 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
     public class TeamLeadHotCoExecutive : PassThroughCrossFunctionalTeamLead<FullExampleSet, ByDatePairedExampleSet> { }
 
 
+
+
+    public class TeamLeadHotCoModeling : CrossFunctionalTeamLead<EnrichedByDatePairedExampleSet, PlayersWithPredictedHotChance>
+    {
+        public override bool CanUse(Worker worker)
+        {
+            if (worker is WorkerProfileHotCoModeling) return true;
+            return false;
+        }
+
+        public override void Evaluate()
+        {
+            // TODO : worst 10% by accuracy get fired
+        }
+
+        public override int MaxHires()
+        {
+            return 500;
+        }
+
+        public override int MinHires()
+        {
+            return 10;
+        }
+
+        public override object Plan(Clerk clerk)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override object Produce(Clerk clerk)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+
+
+    public class CIHotCoModeling
+    {
+        public ExampleSet TrainingSet;
+        public ExampleSet TestSet;
+    }
+
+    public class COHotCoModeling
+    {
+        public Dictionary<Example, double> Predictions = new Dictionary<Example, double>();
+    }
+
+
+
+
     public class TeamLeadHotCoDataEnrichment : CrossFunctionalTeamLead<ByDatePairedExampleSet, EnrichedByDatePairedExampleSet>
     {
+        private ExampleSet TrainingSet;
+        private ExampleSet TestSet;
+        private CIDataEnrichment workerInput;
 
         public override bool CanUse(Worker worker)
         {
@@ -46,16 +101,16 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
             return 1;
         }
 
-        public override object Plan(Clerk clerk)
+        public override void Prepare(Clerk clerk)
         {
             ByDatePairedExampleSet input = clerk.PlanningInput as ByDatePairedExampleSet;
-            CustomInputHotCoDataEnrichment workerInput = new CustomInputHotCoDataEnrichment
+            workerInput = new CIDataEnrichment
             {
                 TestYear = input.Year,
                 TestWeek = input.Week,
             };
-            ExampleSet TestSet = new ExampleSet(input.Product.TestSet); // Copy this, we will edit
-            ExampleSet TrainingSet = new ExampleSet(input.Product.TrainingSet);
+            TestSet = new ExampleSet(input.Product.TestSet); // Copy this, we will edit
+            TrainingSet = new ExampleSet(input.Product.TrainingSet);
             Feature week = TrainingSet.Features.ByName["Week"];
             Feature year = TrainingSet.Features.ByName["Year"];
             workerInput.Features = TrainingSet.Features;
@@ -67,25 +122,27 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
                 }
                 else
                 {
-                    workerInput.ExampleByID[x.ID.Value] = new List<Example>{x};
+                    workerInput.ExampleByID[x.ID.Value] = new List<Example> { x };
                 }
-                
-                if (((ContinuousValue) x.FeatureValues[week]).Value == input.Week - 1 && ((ContinuousValue)x.FeatureValues[year]).Value == input.Year)
+
+                if (((ContinuousValue)x.FeatureValues[week]).Value == input.Week - 1 && ((ContinuousValue)x.FeatureValues[year]).Value == input.Year)
                 {
                     workerInput.MostRecent.Add(x);
                 }
             }
             foreach (Example x in TestSet.Examples)
-            { 
+            {
                 workerInput.TestExamples.Add(x);
             }
 
+        }
 
-            HashSet<string> featureNames = new HashSet<string>();
+        public override object Plan(Clerk clerk)
+        {
             foreach (Worker w in Workers.Keys)
             {
-                CustomOutputHotCoDataEnrichment workerOutput = (w as WorkerProfileHotCoDataEnrichment).Plan(workerInput);
-                if (featureNames.Contains(workerOutput.EnrichedFeature.Name))
+                COHotCoDataEnrichment workerOutput = (w as WorkerProfileHotCoDataEnrichment).Plan(workerInput);
+                if (workerOutput.EnrichedFeature.Name == "BadIdea")
                 {
                     Workers[w].Rating = 0;  // Already got this feature, fired.
                     continue;
@@ -124,7 +181,7 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
         }
     }
 
-    public class CustomInputHotCoDataEnrichment
+    public class CIDataEnrichment
     {
         public Dictionary<string, List<Example>> ExampleByID = new Dictionary<string, List<Example>>();
         public List<Example> MostRecent = new List<Example>();
@@ -134,7 +191,7 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
         public int TestWeek;
     }
 
-    public class CustomOutputHotCoDataEnrichment
+    public class COHotCoDataEnrichment
     {
         public Feature EnrichedFeature;
         public Dictionary<Example, IValue> TrainingFeatureValues = new Dictionary<Example, IValue>();

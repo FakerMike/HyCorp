@@ -20,18 +20,44 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
     {
     }
 
-    public abstract class WorkerProfileHotCoDataEnrichment : CrossFunctionalWorker<CustomInputHotCoDataEnrichment,CustomOutputHotCoDataEnrichment,CustomInputHotCoDataEnrichment,CustomOutputHotCoDataEnrichment>
+    public abstract class WorkerProfileHotCoDataEnrichment : CrossFunctionalWorker<CIDataEnrichment,COHotCoDataEnrichment,CIDataEnrichment,COHotCoDataEnrichment>
     {
         protected static Random rand = new Random();
+        protected static HashSet<string> featureIdeas = new HashSet<string>();
+        protected bool initialized = false;
     }
+
+    public abstract class WorkerProfileHotCoModeling : CrossFunctionalWorker<CIHotCoModeling, COHotCoModeling, CIHotCoModeling, COHotCoModeling>
+    {
+        protected bool initialized = false;
+    }
+
+
+
+
+
 
     public class WorkerHotCoHistoricalAverageDataEnrichment : WorkerProfileHotCoDataEnrichment
     {
-        public override CustomOutputHotCoDataEnrichment Plan(CustomInputHotCoDataEnrichment input)
+        private int weeks;
+        private string idea;
+        private ContinuousFeature feature;
+        public override COHotCoDataEnrichment Plan(CIDataEnrichment input)
         {
-            CustomOutputHotCoDataEnrichment output = new CustomOutputHotCoDataEnrichment();
-            int weeks = rand.Next(2, input.TestWeek);
-            ContinuousFeature feature = new ContinuousFeature($"{weeks}WeekAverageScore");
+            if (!initialized)
+            {
+                initialized = true;
+                weeks = rand.Next(2, input.TestWeek);
+                idea = $"{weeks}WeekAverageScore";
+                if (featureIdeas.Contains(idea))
+                {
+                    feature = new ContinuousFeature("BadIdea");
+                    return new COHotCoDataEnrichment { EnrichedFeature = new ContinuousFeature("BadIdea") };
+                }
+                feature = new ContinuousFeature(idea);
+            }
+            
+            COHotCoDataEnrichment output = new COHotCoDataEnrichment();
             List<double> values = new List<double>();
             Feature week = input.Features.ByName["Week"];
             foreach (Example x in input.MostRecent)
@@ -40,8 +66,10 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
                 double count = 0;
                 foreach (Example y in input.ExampleByID[x.ID.Value])
                 {
-                    if ((x.FeatureValues[week] as ContinuousValue).Value <= (y.FeatureValues[week] as ContinuousValue).Value + weeks){
-                        result += (y.Label as ContinuousValue).Value;
+                    if (((x.FeatureValues[week] as ContinuousValue).Value <= (y.FeatureValues[week] as ContinuousValue).Value + weeks + 1)
+                        && ((x.FeatureValues[week] as ContinuousValue).Value > (y.FeatureValues[week] as ContinuousValue).Value))
+                    {
+                        result += y.ContinuousLabel.Value;
                         count++;
                     }
                 }
@@ -61,9 +89,10 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
                 {
                     foreach (Example y in input.ExampleByID[x.ID.Value])
                     {
-                        if ((x.FeatureValues[week] as ContinuousValue).Value <= (y.FeatureValues[week] as ContinuousValue).Value + weeks)
+                        if (((x.FeatureValues[week] as ContinuousValue).Value <= (y.FeatureValues[week] as ContinuousValue).Value + weeks + 1)
+                        && ((x.FeatureValues[week] as ContinuousValue).Value > (y.FeatureValues[week] as ContinuousValue).Value))
                         {
-                            result += (y.Label as ContinuousValue).Value;
+                            result += y.ContinuousLabel.Value;
                             count++;
                         }
                     }
@@ -80,7 +109,7 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
             return output;
         }
 
-        public override CustomOutputHotCoDataEnrichment Produce(CustomInputHotCoDataEnrichment input)
+        public override COHotCoDataEnrichment Produce(CIDataEnrichment input)
         {
             throw new NotImplementedException();
         }

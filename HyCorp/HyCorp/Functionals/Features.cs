@@ -311,6 +311,7 @@ namespace HyCorp
 
         public void AddFeature(Feature feature)
         {
+            if (Features.Contains(feature)) return;
             Features.Add(feature);
             ByName[feature.Name] = feature;
         }

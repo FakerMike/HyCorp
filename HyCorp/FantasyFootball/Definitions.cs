@@ -107,6 +107,7 @@ namespace HyCorp.FantasyFootball
         public PlayerRole Role { get; private set; }
         public int Salary { get; private set; }
         public Histogram ProjectedScore { get; private set; }
+        public double HotChance { get; private set; }
 
         public Player(string name, PlayerRole role, int salary, Histogram projectedScore)
         {
@@ -114,6 +115,14 @@ namespace HyCorp.FantasyFootball
             Role = role;
             Salary = salary;
             ProjectedScore = projectedScore;
+        }
+
+        public Player(string name, PlayerRole role, int salary, double hotChance)
+        {
+            Name = name;
+            Role = role;
+            Salary = salary;
+            HotChance = hotChance;
         }
 
         public int CompareTo(Player other)
@@ -125,6 +134,12 @@ namespace HyCorp.FantasyFootball
         {
             return Name;
         }
+
+        public void SetHotChance(double chance)
+        {
+            HotChance = chance;
+        }
+
     }
 
     public enum PlayerRole

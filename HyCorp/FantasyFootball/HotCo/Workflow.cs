@@ -88,9 +88,9 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
     
     }
 
-    public class PlayersWithPredictedScores : Intermediate<List<Player>>
+    public class PlayersWithPredictedHotChance : Intermediate<List<Player>>
     {
-        public PlayersWithPredictedScores(List<Player> product) : base(product) { }
+        public PlayersWithPredictedHotChance(List<Player> product) : base(product) { }
     }
 
     public class HotCoPlayerPickerTeam : Team
