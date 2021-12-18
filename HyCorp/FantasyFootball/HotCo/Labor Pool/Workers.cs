@@ -12,11 +12,11 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
      * 
      */
 
-    public abstract class HotCoDataImportWorkerProfile : CrossFunctionalWorker<RawDataFile,FullExampleSet,RawDataFile,FullExampleSet>
+    public abstract class WorkerProfileHotCoDataImport : CrossFunctionalWorker<RawDataFile,FullExampleSet,RawDataFile,FullExampleSet>
     {
     }
 
-    public abstract class HotCoExecutiveWorkerProfile : CrossFunctionalWorker<FullExampleSet, ByDatePairedExampleSet, FullExampleSet, ByDatePairedExampleSet>
+    public abstract class WorkerProfileHotCoExecutive : CrossFunctionalWorker<FullExampleSet, ByDatePairedExampleSet, FullExampleSet, ByDatePairedExampleSet>
     {
     }
 
@@ -39,8 +39,68 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
         protected bool initialized = false;
     }
 
+    public abstract class WorkerProfileHotCoFilter : CrossFunctionalWorker<PotentialTeamList, FantasyFootballProduct, PotentialTeamList, FantasyFootballProduct>
+    {
+    }
+
+
+
+    public class WorkerHotCoFilter : WorkerProfileHotCoFilter
+    {
+        public override FantasyFootballProduct Plan(PotentialTeamList input)
+        {
+            List<FantasyFootballTeam> chosenTeams = new List<FantasyFootballTeam>();
+            foreach (FantasyFootballTeam team in input.Product)
+            {
+                if (team.RemainingSalary() > 0)
+                {
+                    bool add = true;
+                    foreach (FantasyFootballTeam chosenTeam in chosenTeams)
+                    {
+                        if (team.SharesEightPlayersWith(chosenTeam)) { add = false; break; }
+                    }
+                    if (add)
+                    {
+                        chosenTeams.Add(team);
+                        if (chosenTeams.Count == 10) break;
+                    }
+                }
+            }
+            return new FantasyFootballProduct(chosenTeams);
+        }
+
+        public override FantasyFootballProduct Produce(PotentialTeamList input)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+
 
     public class WorkerHotCoSwapPicker : WorkerProfileHotCoPicker
+    {
+        public override FantasyFootballTeam Plan(PlayerPicker input)
+        {
+            FantasyFootballTeam team = input.GetRandomTeam();
+            for (int i = 0; i < 200; i++)
+            {
+                int swapIndex = rand.Next(9);
+                int salaryRangeMax = team.Team[swapIndex].Salary + team.RemainingSalary() - rand.Next(0,5) * 100;
+                int salaryRangeMin = salaryRangeMax - 100 * (15 - i/20);
+                if (salaryRangeMin > team.Team[swapIndex].Salary) salaryRangeMin = team.Team[swapIndex].Salary;
+                input.SmartSwap(team, swapIndex, salaryRangeMin, salaryRangeMax);
+            }
+            return team;
+        }
+
+        public override FantasyFootballTeam Produce(PlayerPicker input)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+
+    public class WorkerHotCoRandomPicker : WorkerProfileHotCoPicker
     {
         public override FantasyFootballTeam Plan(PlayerPicker input)
         {
@@ -52,9 +112,6 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
             throw new NotImplementedException();
         }
     }
-
-
-
 
 
     public class WorkerHotCoModelingRandomTree : WorkerProfileHotCoModeling
@@ -227,7 +284,7 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
         }
     }
 
-    public class HotCoExecutiveWorker : HotCoExecutiveWorkerProfile
+    public class HotCoExecutiveWorker : WorkerProfileHotCoExecutive
     {
         public override ByDatePairedExampleSet Plan(FullExampleSet input)
         {
@@ -238,7 +295,7 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
             week.ChangeSplittingCondition(x => { if (x.Value < input.TrainingWeek) return 0; if (x.Value == input.TrainingWeek) return 1; return 2; }, 3);
             List<ExampleSet> split = OriginalSet.Split(year)[0].Split(week);
             PairedExampleSet paired = new PairedExampleSet(split[0], split[1]);
-            UI.Instance.Print($"Year: {input.TrainingYear}, Week: {input.TrainingWeek}.  Training Data: {paired.TrainingSet.Examples.Count} lines, Test Data: {paired.TestSet.Examples.Count}");
+            //UI.Instance.Print($"Year: {input.TrainingYear}, Week: {input.TrainingWeek}.  Training Data: {paired.TrainingSet.Examples.Count} lines, Test Data: {paired.TestSet.Examples.Count}");
             return new ByDatePairedExampleSet(paired, input.TrainingWeek, input.TrainingYear);
         }
 
@@ -250,7 +307,7 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
     }
 
 
-    public class HotCoDataImportWorker : HotCoDataImportWorkerProfile
+    public class HotCoDataImportWorker : WorkerProfileHotCoDataImport
     {
         public override FullExampleSet Plan(RawDataFile input)
         {

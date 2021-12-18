@@ -113,7 +113,7 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
         {
             Name = "Picker Team";
             TeamInput = typeof(PlayersWithPredictedHotChance);
-            TeamOutput = typeof(HotCoPotentialTeamList);
+            TeamOutput = typeof(PotentialTeamList);
 
             Hire(new Clerk(this));
             Hire(new RandomReplacementOnlyManager(this));
@@ -122,14 +122,24 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
         }
     }
 
-    public class HotCoPotentialTeamList : Intermediate<List<FantasyFootballTeam>>
+    public class PotentialTeamList : Intermediate<List<FantasyFootballTeam>>
     {
-        public HotCoPotentialTeamList(List<FantasyFootballTeam> product) : base(product) { }
+        public PotentialTeamList(List<FantasyFootballTeam> product) : base(product) { }
     }
 
     public class HotCoFilterTeam : Team
     {
+        public HotCoFilterTeam()
+        {
+            Name = "Filter Team";
+            TeamInput = typeof(PotentialTeamList);
+            TeamOutput = typeof(FantasyFootballProduct);
 
+            Hire(new Clerk(this));
+            Hire(new NoOptionManager(this));
+            Manager.HireLead();
+            Manager.HireWorkers();
+        }
     }
 
 }

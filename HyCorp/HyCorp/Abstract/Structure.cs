@@ -61,6 +61,9 @@ namespace HyCorp
 
         public string Name { get; protected set; }
 
+        public object GetPlanningOutput() { return Clerk.PlanningOutput; }
+        public object GetProductionOutput() { return Clerk.ProductionOutput; }
+
 
         public void Hire(TeamLead lead) { Lead = lead; }
         public void Hire(Clerk clerk) { Clerk = clerk; }
@@ -99,6 +102,13 @@ namespace HyCorp
             EndingTeam.AddDownstreamTeam(next);
             next.SetDepth(EndingTeam.Depth + 1);
             EndingTeam = next;
+        }
+
+        public T FindTeamOfType<T>()
+        {
+            if (StartingTeam == null) return default;
+            if (StartingTeam is T) return (T)Convert.ChangeType(StartingTeam, typeof(T));
+            return StartingTeam.Clerk.FindTeamOfType<T>();
         }
 
     }

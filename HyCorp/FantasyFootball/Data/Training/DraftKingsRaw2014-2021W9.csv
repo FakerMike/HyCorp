@@ -121,7 +121,6 @@
 1,2014,2907,Theo Riddick,RB,det,h,nyg,0.4,3100
 1,2014,2822,Anthony Sherman,RB,kan,h,ten,0.4,3000
 1,2014,2861,Bernard Pierce,RB,bal,h,cin,0.4,4600
-1,2014,2973,Ray Agnew,RB,cle,a,pit,0.2,0
 1,2014,2881,Jonathan Grimes,RB,hou,h,was,0.2,3000
 1,2014,2935,Jerick McKinnon,RB,min,a,stl,0.1,3000
 1,2014,2825,James Develin,RB,nwe,a,mia,0,3000
@@ -232,12 +231,9 @@
 1,2014,3872,Michael Crabtree,WR,sfo,a,dal,4.5,6100
 1,2014,5136,Doug Baldwin,WR,sea,h,gnb,4.4,3500
 1,2014,3900,Victor Cruz,WR,nyg,a,det,4.4,6300
-1,2014,3586,Santonio Holmes,WR,chi,h,buf,4.1,0
 1,2014,3610,Miles Austin,WR,cle,a,pit,4,3600
-1,2014,5364,Devin Street,WR,dal,h,sfo,3.8,0
 1,2014,3743,Andre Caldwell,WR,den,h,ind,3.6,3000
 1,2014,3678,Jacoby Jones,WR,bal,h,cin,3.6,3000
-1,2014,5361,Taylor Gabriel,WR,cle,a,pit,3.3,0
 1,2014,3978,Andre Roberts,WR,was,a,hou,3.2,3000
 1,2014,3501,Larry Fitzgerald,WR,ari,h,sdg,3.2,6700
 1,2014,5337,Frankie Hammond,WR,kan,h,ten,3.2,3000
@@ -254,7 +250,6 @@
 1,2014,5186,Jermaine Kearse,WR,sea,h,gnb,1.8,3300
 1,2014,3654,Micheal Spurlock,WR,chi,h,buf,1.8,3000
 1,2014,5229,Jaron Brown,WR,ari,h,sdg,1.6,3000
-1,2014,5178,Damaris Johnson,WR,hou,h,was,1.1,0
 1,2014,3611,Jason Avant,WR,kan,h,ten,1,3000
 1,2014,5258,Allen Robinson,WR,jac,a,phi,1,3200
 1,2014,5271,Dri Archer,WR,pit,h,cle,0.4,3000
@@ -332,7 +327,6 @@
 1,2014,4552,Coby Fleener,TE,ind,a,den,5.1,3700
 1,2014,4484,Jim Dray,TE,cle,a,pit,5,3000
 1,2014,4543,Charles Clay,TE,mia,h,nwe,4.7,3900
-1,2014,4591,Tim Wright,TE,nwe,a,mia,4.5,0
 1,2014,4363,Brent Celek,TE,phi,h,jac,4.5,3500
 1,2014,4560,Taylor Thompson,TE,ten,a,kan,4.4,3000
 1,2014,4562,Ladarius Green,TE,sdg,a,ari,4.4,3200
@@ -352,7 +346,6 @@
 1,2014,4462,Brandon Pettigrew,TE,det,h,nyg,1.9,3200
 1,2014,4542,Virgil Green,TE,den,h,ind,1.8,3000
 1,2014,4532,Luke Stocker,TE,tam,h,car,1.8,3000
-1,2014,4641,Gator Hoskins,TE,sea,h,gnb,1.7,
 1,2014,4337,Daniel Fells,TE,nyg,a,det,1.7,3000
 1,2014,4592,Ryan Griffin,TE,hou,h,was,1.6,3000
 1,2014,4573,Jordan Reed,TE,was,a,hou,1.4,4600
@@ -939,7 +932,6 @@
 3,2014,2665,Marcel Reece,RB,oak,a,nwe,5.6,3000
 3,2014,2886,Montee Ball,RB,den,a,sea,5.4,5900
 3,2014,2647,Mike Tolbert,RB,car,h,pit,5.4,3300
-3,2014,2794,Daniel Thomas,RB,mia,h,kan,4.6,0
 3,2014,2881,Jonathan Grimes,RB,hou,a,nyg,4.6,3000
 3,2014,2896,Eddie Lacy,RB,gnb,a,det,4.5,5900
 3,2014,2911,Benny Cunningham,RB,stl,h,dal,4.4,3100
@@ -964,7 +956,6 @@
 3,2014,2692,Cedric Peerman,RB,cin,h,ten,1.5,3000
 3,2014,2867,Robert Turbin,RB,sea,h,den,1.5,3300
 3,2014,2913,Jamize Olawale,RB,oak,a,nwe,1.4,3000
-3,2014,2982,Branden Oliver,RB,sdg,a,buf,1.1,0
 3,2014,2840,Jordan Todman,RB,jac,h,ind,1,3000
 3,2014,2467,Frank Gore,RB,sfo,a,ari,1,4800
 3,2014,2869,Travaris Cadet,RB,nor,h,min,0.9,3000
@@ -979,7 +970,6 @@
 3,2014,2802,DuJuan Harris,RB,gnb,a,det,0.2,3000
 3,2014,2979,Austin Johnson,RB,nor,h,min,0.2,3000
 3,2014,2689,Danny Woodhead,RB,sdg,a,buf,0.1,4500
-3,2014,2855,Dan Herron,RB,ind,a,jac,0.1,0
 3,2014,2899,Latavius Murray,RB,oak,a,nwe,0.1,3000
 3,2014,2880,Lance Dunbar,RB,dal,a,stl,0,3000
 3,2014,2507,Leon Washington,RB,ten,a,cin,0,3000
@@ -1208,13 +1198,11 @@
 3,2014,4270,Antonio Gates,TE,sdg,a,buf,1.8,6100
 3,2014,4335,Owen Daniels,TE,bal,a,cle,1.8,3600
 3,2014,4370,Dante Rosario,TE,chi,a,nyj,1.8,3000
-3,2014,4643,Marcel Jensen,TE,jac,h,ind,1.8,0
 3,2014,4570,Gavin Escobar,TE,dal,a,stl,1.7,3000
 3,2014,4639,Brian Leonhardt,TE,oak,a,nwe,1.7,3000
 3,2014,2978,Ryan Hewitt,TE,cin,h,ten,1.6,3000
 3,2014,4493,Jermaine Gresham,TE,cin,h,ten,1.5,3000
 3,2014,4584,Joseph Fauria,TE,det,h,gnb,1.3,3000
-3,2014,4474,Kevin Brock,TE,cin,h,ten,0.7,0
 3,2014,4614,Cooper Helfet,TE,sea,h,den,0,3000
 3,2014,4391,Clark Harris,TE,cin,h,ten,0,3000
 3,2014,4618,Trey Burton,TE,phi,h,was,0,3000
@@ -1376,7 +1364,6 @@
 4,2014,2908,Kyle Juszczyk,RB,bal,h,car,2.8,3000
 4,2014,2933,Carlos Hyde,RB,sfo,h,phi,2.6,3200
 4,2014,2721,LeGarrette Blount,RB,nwe,a,kan,2.5,4200
-4,2014,2855,Dan Herron,RB,ind,h,ten,2.4,0
 4,2014,2957,Damien Williams,RB,mia,a,oak,2.3,3000
 4,2014,2502,Maurice Jones-Drew,RB,oak,h,mia,2.3,3900
 4,2014,2900,Joseph Randle,RB,dal,h,nor,2.2,3000
@@ -1417,7 +1404,6 @@
 4,2014,2881,Jonathan Grimes,RB,hou,h,buf,0,3000
 4,2014,2913,Jamize Olawale,RB,oak,h,mia,0,3000
 4,2014,2777,James Starks,RB,gnb,a,chi,0,3000
-4,2014,2947,Tauren Poole,RB,nor,a,dal,-1,0
 4,2014,3328,Steve Smith,WR,bal,h,car,35.9,5600
 4,2014,3751,Jordy Nelson,WR,gnb,a,chi,35.8,7200
 4,2014,3474,Antonio Brown,WR,pit,h,tam,35.78,7800
@@ -1439,7 +1425,6 @@
 4,2014,5158,Rueben Randle,WR,nyg,a,was,16.9,4100
 4,2014,5253,Mike Evans,WR,tam,a,pit,16.5,4200
 4,2014,5078,Mike Williams,WR,buf,a,hou,16.4,3000
-4,2014,3820,Louis Murphy,WR,tam,a,pit,15.9,0
 4,2014,5153,Alshon Jeffery,WR,chi,h,gnb,15.1,6600
 4,2014,3902,Eric Decker,WR,nyj,h,det,14.8,5600
 4,2014,5194,Jeremy Ross,WR,det,a,nyj,14.5,3000
@@ -1563,7 +1548,6 @@
 4,2014,4569,Zach Ertz,TE,phi,a,sfo,7.3,4000
 4,2014,4639,Brian Leonhardt,TE,oak,h,mia,7.3,3000
 4,2014,4629,Richard Rodgers,TE,gnb,a,chi,7.2,3000
-4,2014,4645,Nic Jacobs,TE,jac,a,sdg,7.2,0
 4,2014,4270,Antonio Gates,TE,sdg,h,jac,6,4400
 4,2014,4491,Garrett Graham,TE,hou,h,buf,5.8,3300
 4,2014,4543,Charles Clay,TE,mia,a,oak,5.2,3300
@@ -1575,7 +1559,6 @@
 4,2014,5098,David Ausberry,TE,oak,h,mia,3.4,3000
 4,2014,4574,Mychal Rivera,TE,oak,h,mia,3,3000
 4,2014,4323,Vernon Davis,TE,sfo,h,phi,2.8,4500
-4,2014,4598,Chase Ford,TE,min,h,atl,2.7,0
 4,2014,4575,Adrien Robinson,TE,nyg,a,was,2.5,3000
 4,2014,4577,Levine Toilolo,TE,atl,a,min,2.2,3000
 4,2014,4599,Derek Carrier,TE,sfo,h,phi,2,3000
@@ -1707,7 +1690,6 @@
 5,2014,2658,Rashad Jennings,RB,nyg,h,atl,9.2,5500
 5,2014,2865,Trent Richardson,RB,ind,h,bal,8.7,4900
 5,2014,2958,De'Anthony Thomas,RB,kan,a,sfo,8.7,3000
-5,2014,2691,Chris Ogbonnaya,RB,nyg,h,atl,8.4,0
 5,2014,2721,LeGarrette Blount,RB,nwe,h,cin,7.6,3000
 5,2014,2935,Jerick McKinnon,RB,min,a,gnb,7.6,3400
 5,2014,2965,Juwan Thompson,RB,den,h,ari,7.5,3000
@@ -1718,7 +1700,6 @@
 5,2014,2873,Matt Asiata,RB,min,a,gnb,6.2,4700
 5,2014,2983,Darrin Reaves,RB,car,h,chi,6.1,3000
 5,2014,2484,Darren Sproles,RB,phi,h,stl,5.1,5100
-5,2014,2984,George Winn,RB,det,h,buf,4.8,0
 5,2014,2741,Chris Ivory,RB,nyj,a,sdg,4.4,3100
 5,2014,2840,Jordan Todman,RB,jac,h,pit,4.3,3000
 5,2014,2933,Carlos Hyde,RB,sfo,h,kan,4.3,3000
@@ -1867,7 +1848,6 @@
 5,2014,5203,Corey Fuller,WR,det,h,buf,3.7,3000
 5,2014,5351,Jeff Janis,WR,gnb,h,min,3.6,3000
 5,2014,3604,Lance Moore,WR,pit,a,jac,3.6,3000
-5,2014,5211,Ace Sanders,WR,jac,h,pit,3.2,0
 5,2014,5106,Greg Salas,WR,nyj,a,sdg,3.2,3000
 5,2014,5292,Brenton Bersin,WR,car,h,chi,3.1,3000
 5,2014,3946,Brandon LaFell,WR,nwe,h,cin,3,3000
@@ -1888,7 +1868,6 @@
 5,2014,3851,Danny Amendola,WR,nwe,h,cin,1.7,3000
 5,2014,5155,Keshawn Martin,WR,hou,a,dal,1.7,3000
 5,2014,3677,Calvin Johnson,WR,det,h,buf,1.7,8200
-5,2014,3103,Charles Johnson,WR,min,a,gnb,1.7,0
 5,2014,3586,Santonio Holmes,WR,chi,a,car,1.6,3000
 5,2014,5261,Josh Huff,WR,phi,h,stl,1.4,3000
 5,2014,5154,A.J. Jenkins,WR,kan,a,sfo,1.1,3000
@@ -1943,7 +1922,6 @@
 5,2014,4311,Heath Miller,TE,pit,a,jac,7.6,4000
 5,2014,4327,Anthony Fasano,TE,kan,a,sfo,7.2,3000
 5,2014,4571,Chris Gragg,TE,buf,a,det,7.2,3000
-5,2014,4512,Michael Palmer,TE,pit,a,jac,7.1,0
 5,2014,4569,Zach Ertz,TE,phi,h,stl,6.9,3800
 5,2014,4533,Jordan Cameron,TE,cle,a,ten,6.3,4400
 5,2014,4598,Chase Ford,TE,min,a,gnb,6.1,3000
@@ -2127,7 +2105,6 @@
 6,2014,2896,Eddie Lacy,RB,gnb,a,mia,4,6300
 6,2014,2829,Stevan Ridley,RB,nwe,a,buf,3.9,3700
 6,2014,2467,Frank Gore,RB,sfo,a,stl,3.8,4800
-6,2014,2456,Ronnie Brown,RB,sdg,a,oak,3.6,0
 6,2014,2741,Chris Ivory,RB,nyj,h,den,3.1,4300
 6,2014,2983,Darrin Reaves,RB,car,a,cin,2.9,3100
 6,2014,2706,Knowshon Moreno,RB,mia,h,gnb,2.8,4200
@@ -2146,7 +2123,6 @@
 6,2014,2972,Ka'Deem Carey,RB,chi,a,atl,1.9,3000
 6,2014,2830,Shane Vereen,RB,nwe,a,buf,1.7,5100
 6,2014,2882,Robert Hughes,RB,ari,h,was,1.7,3000
-6,2014,2984,George Winn,RB,det,a,min,1.6,0
 6,2014,2549,John Kuhn,RB,gnb,a,mia,1.5,3000
 6,2014,2913,Jamize Olawale,RB,oak,h,sdg,1.5,3000
 6,2014,2825,James Develin,RB,nwe,a,buf,1.2,3000
@@ -2221,10 +2197,8 @@
 6,2014,3754,Pierre Garcon,WR,was,a,ari,13.1,5800
 6,2014,3748,Eddie Royal,WR,sdg,a,oak,12.9,5500
 6,2014,3995,Golden Tate,WR,det,a,min,11.4,6300
-6,2014,5244,Brian Tyms,WR,nwe,a,buf,11.3,0
 6,2014,3898,Riley Cooper,WR,phi,h,nyg,10.9,3500
 6,2014,5089,Julio Jones,WR,atl,h,chi,10.9,8400
-6,2014,5277,Michael Campanaro,WR,bal,a,tam,10.8,0
 6,2014,5158,Rueben Randle,WR,nyg,a,phi,10.8,4600
 6,2014,5207,Justin Hunter,WR,ten,h,jac,10.7,4800
 6,2014,3550,Vincent Jackson,WR,tam,h,bal,10.6,5700
@@ -2276,7 +2250,6 @@
 6,2014,3802,Percy Harvin,WR,nyj,h,den,2.9,5400
 6,2014,3825,Justin Brown,WR,pit,a,cle,2.9,3000
 6,2014,3732,Eric Weems,WR,atl,h,chi,2.4,3000
-6,2014,5074,Damian Williams,WR,stl,h,sfo,2.4,0
 6,2014,5206,DeAndre Hopkins,WR,hou,h,ind,2.2,5800
 6,2014,5166,T.J. Graham,WR,nyj,h,den,2.1,3000
 6,2014,5163,Cole Beasley,WR,dal,a,sea,2.1,3000
@@ -2328,7 +2301,6 @@
 6,2014,3678,Jacoby Jones,WR,bal,a,tam,0,3000
 6,2014,5265,Bruce Ellington,WR,sfo,a,stl,0,3000
 6,2014,5223,Russell Shepard,WR,tam,h,bal,0,3000
-6,2014,5270,Walter Powell,WR,nyj,h,den,-1,
 6,2014,5130,Dwayne Harris,WR,dal,a,sea,-1,3000
 6,2014,4603,Jace Amaro,TE,nyj,h,den,22.8,3000
 6,2014,4533,Jordan Cameron,TE,cle,h,pit,22.2,3600
@@ -2534,7 +2506,6 @@
 7,2014,2779,Ben Tate,RB,min,a,buf,4.4,5300
 7,2014,2933,Carlos Hyde,RB,sfo,a,den,4.3,3400
 7,2014,2620,Peyton Hillis,RB,nyg,a,dal,4.3,3000
-7,2014,2855,Dan Herron,RB,ind,h,cin,3.7,0
 7,2014,2889,Giovani Bernard,RB,cin,a,ind,3.6,7800
 7,2014,2840,Jordan Todman,RB,jac,h,cle,3.6,3000
 7,2014,2601,Jackie Battle,RB,ten,a,was,3.6,3000
@@ -2563,7 +2534,6 @@
 7,2014,2908,Kyle Juszczyk,RB,bal,h,atl,1.4,3000
 7,2014,2973,Ray Agnew,RB,cle,a,jac,1.3,3000
 7,2014,2683,Frank Summers,RB,buf,h,min,1.2,3000
-7,2014,2953,Jonas Gray,RB,nwe,h,nyj,1.2,0
 7,2014,2924,C.J. Anderson,RB,den,h,sfo,0.9,3000
 7,2014,2502,Maurice Jones-Drew,RB,oak,h,ari,0.6,3000
 7,2014,2898,Christine Michael,RB,sea,a,stl,0.5,3000
@@ -2629,7 +2599,6 @@
 7,2014,3983,Emmanuel Sanders,WR,den,h,sfo,13.1,5900
 7,2014,3437,Andre Johnson,WR,hou,a,pit,12.7,5200
 7,2014,3589,Derek Hagan,WR,ten,a,was,12.5,3000
-7,2014,5367,Martavis Bryant,WR,pit,h,hou,12,0
 7,2014,3423,Anquan Boldin,WR,sfo,a,den,12,4500
 7,2014,5198,Keenan Allen,WR,sdg,h,kan,11.8,4600
 7,2014,5292,Brenton Bersin,WR,car,a,gnb,11.1,3000
@@ -2683,11 +2652,9 @@
 7,2014,5275,Kamar Aiken,WR,bal,h,atl,2.8,3000
 7,2014,3670,Ted Ginn Jr.,WR,ari,a,oak,2.7,3000
 7,2014,3848,Darrius Heyward-Bey,WR,pit,h,hou,2.7,3000
-7,2014,5277,Michael Campanaro,WR,bal,h,atl,2.7,0
 7,2014,3611,Jason Avant,WR,kan,a,sdg,2.6,3800
 7,2014,5178,Damaris Johnson,WR,hou,a,pit,2.5,3000
 7,2014,3824,Kenny Britt,WR,stl,h,sea,2.4,3200
-7,2014,5090,Greg Little,WR,cin,a,ind,2.3,0
 7,2014,5109,Denarius Moore,WR,oak,h,ari,2.3,3000
 7,2014,3967,David Nelson,WR,nyj,a,nwe,2.1,3000
 7,2014,5339,Albert Wilson,WR,kan,a,sdg,2.1,3000
@@ -2959,7 +2926,6 @@
 8,2014,2456,Ronnie Brown,RB,sdg,a,den,2,3000
 8,2014,2969,Isaiah Crowell,RB,cle,h,oak,1.9,3400
 8,2014,2954,James White,RB,nwe,h,chi,1.7,3000
-8,2014,2855,Dan Herron,RB,ind,a,pit,1.7,0
 8,2014,2851,Bryce Brown,RB,buf,a,nyj,1.5,3400
 8,2014,2979,Austin Johnson,RB,nor,h,gnb,1.3,3000
 8,2014,2900,Joseph Randle,RB,dal,h,was,1.3,3000
@@ -3056,7 +3022,6 @@
 8,2014,5090,Greg Little,WR,cin,h,bal,7.2,3000
 8,2014,3731,Harry Douglas,WR,atl,h,det,7.2,3000
 8,2014,5103,Cecil Shorts,WR,jac,h,mia,7.1,4300
-8,2014,5277,Michael Campanaro,WR,bal,a,cin,7,0
 8,2014,3328,Steve Smith,WR,bal,a,cin,6.5,5600
 8,2014,3627,Brandon Marshall,WR,chi,a,nwe,6.5,6100
 8,2014,3497,Jerricho Cotchery,WR,car,h,sea,6.3,3200
@@ -3282,7 +3247,6 @@
 9,2014,1413,Nick Foles,QB,phi,a,hou,8.06,7700
 9,2014,1445,Austin Davis,QB,stl,a,sfo,7.1,5500
 9,2014,1231,Philip Rivers,QB,sdg,a,mia,1.82,8300
-9,2014,1436,Matt Simms,QB,nyj,a,kan,1.76,0
 9,2014,1298,Matt Moore,QB,mia,h,sdg,0.84,5000
 9,2014,1262,Kellen Clemens,QB,sdg,a,mia,0.4,5000
 9,2014,1234,Matt Schaub,QB,oak,a,sea,0,5000
@@ -3322,7 +3286,6 @@
 9,2014,2924,C.J. Anderson,RB,den,a,nwe,8.1,3000
 9,2014,2911,Benny Cunningham,RB,stl,a,sfo,7.8,3000
 9,2014,2975,Lorenzo Taliaferro,RB,bal,a,pit,7.5,3300
-9,2014,2943,Marion Grice,RB,ari,a,dal,7.2,0
 9,2014,2779,Ben Tate,RB,min,h,was,7.2,4300
 9,2014,2957,Damien Williams,RB,mia,h,sdg,7.1,3000
 9,2014,2467,Frank Gore,RB,sfo,h,stl,6.8,3800
@@ -3345,7 +3308,6 @@
 9,2014,2890,Rex Burkhead,RB,cin,h,jac,3,3000
 9,2014,2882,Robert Hughes,RB,ari,a,dal,2.8,3000
 9,2014,2906,Michael Cox,RB,nyg,h,ind,2.7,3000
-9,2014,2855,Dan Herron,RB,ind,a,nyg,2.4,0
 9,2014,2721,LeGarrette Blount,RB,nwe,h,den,2.3,3000
 9,2014,2741,Chris Ivory,RB,nyj,a,kan,2.2,4500
 9,2014,2965,Juwan Thompson,RB,den,a,nwe,2.2,3200
@@ -3361,7 +3323,6 @@
 9,2014,2891,Knile Davis,RB,kan,h,nyj,0.9,3400
 9,2014,2895,Mike James,RB,tam,a,cle,0.9,3000
 9,2014,2456,Ronnie Brown,RB,sdg,a,mia,0.5,3000
-9,2014,2904,Edwin Baker,RB,nor,a,car,0.2,0
 9,2014,2900,Joseph Randle,RB,dal,h,ari,0.2,3000
 9,2014,2837,Henry Hynoski,RB,nyg,h,ind,0.2,3000
 9,2014,2861,Bernard Pierce,RB,bal,a,pit,0.2,3000
@@ -3538,7 +3499,6 @@
 9,2014,4573,Jordan Reed,TE,was,a,min,2.7,4400
 9,2014,4363,Brent Celek,TE,phi,a,hou,2.7,3000
 9,2014,4578,Luke Willson,TE,sea,h,oak,2.6,3000
-9,2014,4641,Gator Hoskins,TE,sea,h,oak,2.4,
 9,2014,4311,Heath Miller,TE,pit,h,bal,2.4,4300
 9,2014,4411,Jacob Tamme,TE,den,a,nwe,2,3000
 9,2014,4538,Lance Kendricks,TE,stl,a,sfo,1.7,3000
@@ -4054,7 +4014,6 @@
 11,2014,3953,Dexter McCluster,RB,ten,h,pit,3.2,3000
 11,2014,2865,Trent Richardson,RB,ind,h,nwe,3.1,3800
 11,2014,2930,Devonta Freeman,RB,atl,a,car,2.8,3000
-11,2014,2551,Brian Leonard,RB,nor,h,cin,2.5,0
 11,2014,2601,Jackie Battle,RB,ten,h,pit,2.4,3000
 11,2014,2794,Daniel Thomas,RB,mia,h,buf,2.3,3000
 11,2014,2822,Anthony Sherman,RB,kan,h,sea,2.3,3000
@@ -4176,13 +4135,11 @@
 11,2014,3851,Danny Amendola,WR,nwe,a,ind,3.3,3000
 11,2014,5173,Travis Benjamin,WR,cle,h,hou,3.3,3400
 11,2014,5367,Martavis Bryant,WR,pit,a,ten,3.1,6200
-11,2014,5238,Marquess Wilson,WR,chi,h,min,3.1,0
 11,2014,5219,Brice Butler,WR,oak,a,sdg,2.5,3000
 11,2014,3604,Lance Moore,WR,pit,a,ten,2.5,3000
 11,2014,3969,Preston Parker,WR,nyg,h,sfo,1.9,3800
 11,2014,5290,James Wright,WR,cin,a,nor,1.8,3000
 11,2014,3737,Steve Johnson,WR,sfo,a,nyg,1.8,3900
-11,2014,5179,Joseph Morgan,WR,nor,h,cin,1.7,0
 11,2014,5194,Jeremy Ross,WR,det,a,ari,1.7,3000
 11,2014,5215,Markus Wheaton,WR,pit,a,ten,1.6,3300
 11,2014,5155,Keshawn Martin,WR,hou,a,cle,1.6,3000
@@ -4276,7 +4233,6 @@
 11,2014,4598,Chase Ford,TE,min,a,chi,1.4,3500
 11,2014,4639,Brian Leonhardt,TE,oak,a,sdg,1.4,3000
 11,2014,4450,David Johnson,TE,sdg,h,oak,1.4,3000
-11,2014,4637,Phillip Supernaw,TE,bal,h,-,1.3,0
 11,2014,4614,Cooper Helfet,TE,sea,a,kan,1.2,3000
 11,2014,4571,Chris Gragg,TE,buf,a,mia,1.2,3000
 11,2014,4391,Clark Harris,TE,cin,a,nor,0,3000
@@ -4382,11 +4338,9 @@
 12,2014,2629,Jamaal Charles,RB,kan,a,oak,22.2,7900
 12,2014,2969,Isaiah Crowell,RB,cle,a,atl,20.8,3800
 12,2014,2658,Rashad Jennings,RB,nyg,h,dal,20,5100
-12,2014,2721,LeGarrette Blount,RB,nwe,h,det,19.8,0
 12,2014,2831,DeMarco Murray,RB,dal,a,nyg,19.3,8500
 12,2014,2928,Jeremy Hill,RB,cin,a,hou,16.6,5700
 12,2014,2830,Shane Vereen,RB,nwe,h,det,14,5300
-12,2014,2855,Dan Herron,RB,ind,h,jac,13.6,0
 12,2014,2520,Fred Jackson,RB,buf,h,nyj,13.5,5000
 12,2014,2730,Anthony Dixon,RB,buf,h,nyj,13.2,3700
 12,2014,2418,Steven Jackson,RB,atl,h,cle,13.1,4000
@@ -4674,7 +4628,6 @@
 12,2014,4292,Ben Watson,TE,nor,h,bal,1.4,3000
 12,2014,4513,Logan Paulsen,TE,was,a,sfo,1.1,3000
 12,2014,4411,Jacob Tamme,TE,den,h,mia,0.9,3400
-12,2014,4324,Marcedes Lewis,TE,jac,a,ind,0.5,0
 12,2014,4628,Justin Perillo,TE,gnb,a,min,0,3000
 12,2014,4391,Clark Harris,TE,cin,a,hou,0,3000
 12,2014,4618,Trey Burton,TE,phi,h,ten,0,3000
@@ -4784,7 +4737,6 @@
 13,2014,2696,Arian Foster,RB,hou,h,ten,21.5,8800
 13,2014,2642,Justin Forsett,RB,bal,h,sdg,17.3,6300
 13,2014,2793,Mark Ingram,RB,nor,a,pit,17.1,6800
-13,2014,2855,Dan Herron,RB,ind,h,was,16.6,0
 13,2014,2813,Roy Helu,RB,was,a,ind,16.6,3400
 13,2014,2629,Jamaal Charles,RB,kan,h,den,15.9,8600
 13,2014,2552,Marshawn Lynch,RB,sea,a,sfo,15.1,6400
@@ -5086,7 +5038,6 @@
 13,2014,4583,Zach Sudfeld,TE,nyj,h,mia,3,3000
 13,2014,4324,Marcedes Lewis,TE,jac,h,nyg,2.8,3000
 13,2014,4586,Josh Hill,TE,nor,a,pit,2.7,3000
-13,2014,4648,Cameron Brate,TE,tam,h,cin,2.7,0
 13,2014,4495,Clay Harbor,TE,jac,h,nyg,2.7,3000
 13,2014,4591,Tim Wright,TE,nwe,a,gnb,2.2,3400
 13,2014,4562,Ladarius Green,TE,sdg,a,bal,2.1,3000
@@ -5101,7 +5052,6 @@
 13,2014,4411,Jacob Tamme,TE,den,a,kan,1.4,3100
 13,2014,2978,Ryan Hewitt,TE,cin,a,tam,1.3,3000
 13,2014,4462,Brandon Pettigrew,TE,det,h,chi,1.2,3000
-13,2014,4641,Gator Hoskins,TE,sea,a,sfo,1,
 13,2014,4617,Blake Annen,TE,chi,a,det,0,3000
 13,2014,4391,Clark Harris,TE,cin,a,tam,0,3000
 13,2014,4618,Trey Burton,TE,phi,a,dal,0,3000
@@ -5229,9 +5179,7 @@
 14,2014,2642,Justin Forsett,RB,bal,a,mia,15.8,6900
 14,2014,2418,Steven Jackson,RB,atl,a,gnb,15.6,3900
 14,2014,2859,Lamar Miller,RB,mia,h,bal,13.9,4500
-14,2014,2918,Kerwynn Williams,RB,ari,h,kan,13,0
 14,2014,2969,Isaiah Crowell,RB,cle,h,ind,11.4,5000
-14,2014,2855,Dan Herron,RB,ind,a,cle,11.1,0
 14,2014,2899,Latavius Murray,RB,oak,h,sfo,10.5,3800
 14,2014,2916,Fozzy Whittaker,RB,car,a,nor,10.1,3000
 14,2014,2705,Donald Brown,RB,sdg,h,nwe,9.9,3000
@@ -5440,7 +5388,6 @@
 14,2014,3670,Ted Ginn Jr.,WR,ari,h,kan,1.8,3100
 14,2014,3774,Josh Morgan,WR,chi,h,dal,1.8,3000
 14,2014,3862,Brandon Gibson,WR,mia,h,bal,1.7,3000
-14,2014,5187,Chris Owusu,WR,nyj,a,min,1.7,0
 14,2014,5090,Greg Little,WR,cin,h,pit,1.6,3000
 14,2014,5263,Davante Adams,WR,gnb,h,atl,1.6,4200
 14,2014,3303,Reggie Wayne,WR,ind,a,cle,1.5,4800
@@ -5657,7 +5604,6 @@
 15,2014,2889,Giovani Bernard,RB,cin,a,cle,13.3,4400
 15,2014,2520,Fred Jackson,RB,buf,h,gnb,12.8,5200
 15,2014,2879,Chris Polk,RB,phi,h,dal,12.6,3000
-15,2014,2915,Chris Thompson,RB,was,a,nyg,12.4,0
 15,2014,2613,Matt Forte,RB,chi,h,nor,11.9,9000
 15,2014,2793,Mark Ingram,RB,nor,a,chi,11.9,6000
 15,2014,2924,C.J. Anderson,RB,den,a,sdg,11.6,7800
@@ -6129,8 +6075,6 @@
 16,2014,2741,Chris Ivory,RB,nyj,h,nwe,5.3,3800
 16,2014,2905,Joe Banyard,RB,min,a,mia,5.2,3000
 16,2014,2456,Ronnie Brown,RB,sdg,a,sfo,5.2,3000
-16,2014,2990,Fitzgerald Toussaint,RB,bal,a,hou,5.1,0
-16,2014,2775,C.J. Spiller,RB,buf,a,oak,5,0
 16,2014,2598,Pierre Thomas,RB,nor,h,atl,4.4,3800
 16,2014,2900,Joseph Randle,RB,dal,h,ind,4.4,3000
 16,2014,2773,Alfonso Smith,RB,sfo,h,sdg,4.3,3500
@@ -6500,12 +6444,10 @@
 17,2014,1175,Josh McCown,QB,tam,h,nor,8.2,5200
 17,2014,1334,Chase Daniel,QB,kan,h,sdg,7.88,5000
 17,2014,1213,Shaun Hill,QB,stl,a,sea,7.72,5200
-17,2014,1460,Connor Shaw,QB,cle,a,bal,5.98,0
 17,2014,1414,Brock Osweiler,QB,den,h,oak,5.46,5000
 17,2014,1452,Jimmy Garoppolo,QB,nwe,h,buf,5.2,5000
 17,2014,1131,Tom Brady,QB,nwe,h,buf,4.1,7800
 17,2014,1307,Matt Flynn,QB,gnb,h,det,0.24,5000
-17,2014,1285,Jordan Palmer,QB,ten,h,ind,0.18,
 17,2014,1234,Matt Schaub,QB,oak,a,den,0,5000
 17,2014,1227,Luke McCown,QB,nor,a,tam,0,5000
 17,2014,5071,Joe Webb,QB,car,a,atl,0,5000
@@ -6939,7 +6881,6 @@
 1,2015,1175,Josh McCown,QB,cle,a,nyj,3.26,5200
 1,2015,1441,Derek Carr,QB,oak,h,cin,3.24,6100
 1,2015,1302,Joe Flacco,QB,bal,a,den,2.68,6700
-1,2015,1489,Tyler Murphy,QB,pit,a,nwe,2.6,0
 1,2015,1241,Matt Cassel,QB,dal,h,nyg,0,5800
 1,2015,1227,Luke McCown,QB,nor,a,ari,0,5000
 1,2015,5071,Joe Webb,QB,car,a,jac,0,5000
@@ -6985,7 +6926,6 @@
 1,2015,2553,Adrian Peterson,RB,min,a,sfo,8.2,7700
 1,2015,2994,Tevin Coleman,RB,atl,h,phi,8,4800
 1,2015,2930,Devonta Freeman,RB,atl,h,phi,7.7,4300
-1,2015,2877,Will Johnson,RB,pit,a,nwe,6.7,0
 1,2015,2901,Denard Robinson,RB,jac,h,car,6.5,3000
 1,2015,2858,Doug Martin,RB,tam,h,ten,6.4,4500
 1,2015,2719,Joique Bell,RB,det,a,sdg,6.1,5200
@@ -7117,7 +7057,6 @@
 1,2015,5238,Marquess Wilson,WR,chi,h,gnb,7.9,3500
 1,2015,3423,Anquan Boldin,WR,sfo,h,min,7.6,6200
 1,2015,3670,Ted Ginn Jr.,WR,car,a,jac,7.4,3000
-1,2015,5287,Willie Snead,WR,nor,a,ari,7.3,0
 1,2015,3978,Andre Roberts,WR,was,h,mia,6.6,3200
 1,2015,3995,Golden Tate,WR,det,a,sdg,6.4,6300
 1,2015,3437,Andre Johnson,WR,ind,a,buf,6.4,6100
@@ -7456,7 +7395,6 @@
 2,2015,2861,Bernard Pierce,RB,jac,h,mia,0.4,3000
 2,2015,2980,Jay Prosch,RB,hou,a,car,0.4,3000
 2,2015,5401,Jarryd Hayne,RB,sfo,a,pit,0.3,3000
-2,2015,2918,Kerwynn Williams,RB,ari,a,chi,0.3,0
 2,2015,2916,Fozzy Whittaker,RB,car,h,hou,0.3,3000
 2,2015,5415,Michael Burton,RB,det,a,min,0.2,3000
 2,2015,2982,Branden Oliver,RB,sdg,a,cin,0.2,3300
@@ -7573,7 +7511,6 @@
 2,2015,5162,Kendall Wright,WR,ten,a,cle,3.7,5000
 2,2015,5420,Quincy Enunwa,WR,nyj,a,ind,3.7,3000
 2,2015,5384,Phillip Dorsett,WR,ind,h,nyj,3.5,3300
-2,2015,5418,Chandler Worthy,WR,hou,a,car,3.5,0
 2,2015,3604,Lance Moore,WR,det,a,min,3.4,3000
 2,2015,5226,Marlon Brown,WR,bal,a,oak,3.2,3200
 2,2015,2958,De'Anthony Thomas,WR,kan,h,den,3,3000
@@ -7654,7 +7591,6 @@
 2,2015,4323,Vernon Davis,TE,sfo,a,pit,11.2,3000
 2,2015,4543,Charles Clay,TE,buf,h,nwe,10.9,3400
 2,2015,4582,Travis Kelce,TE,kan,h,den,9.8,5100
-2,2015,4597,Jake Stoneburner,TE,mia,a,jac,9.8,0
 2,2015,4562,Ladarius Green,TE,sdg,a,cin,9.7,3500
 2,2015,4437,Jared Cook,TE,stl,a,was,9.7,3000
 2,2015,4533,Jordan Cameron,TE,mia,a,jac,9.2,4000
@@ -7684,10 +7620,8 @@
 2,2015,4535,Lee Smith,TE,oak,h,bal,1.6,2500
 2,2015,4493,Jermaine Gresham,TE,ari,a,chi,1.5,2600
 2,2015,4651,Clive Walford,TE,oak,h,bal,1.4,2500
-2,2015,4667,Jerome Cunningham,TE,nyg,h,atl,1.3,0
 2,2015,4431,Matthew Mulligan,TE,buf,h,nwe,1.2,2500
 2,2015,4586,Josh Hill,TE,nor,h,tam,1.2,2600
-2,2015,4668,Geoff Swaim,TE,dal,a,phi,1,0
 2,2015,4614,Cooper Helfet,TE,sea,a,gnb,0,2500
 2,2015,4391,Clark Harris,TE,cin,h,sdg,0,2500
 2,2015,4618,Trey Burton,TE,phi,h,dal,0,2500
@@ -7850,7 +7784,6 @@
 3,2015,3953,Dexter McCluster,RB,ten,h,ind,5.2,3000
 3,2015,2991,Melvin Gordon,RB,sdg,a,min,5.1,5000
 3,2015,2911,Benny Cunningham,RB,stl,h,pit,5,4000
-3,2015,2953,Jonas Gray,RB,mia,h,buf,4.9,0
 3,2015,2775,C.J. Spiller,RB,nor,a,car,4.6,4800
 3,2015,2858,Doug Martin,RB,tam,a,hou,4.6,5100
 3,2015,2520,Fred Jackson,RB,sea,h,chi,4.2,3000
@@ -7998,7 +7931,6 @@
 3,2015,5252,Sammy Watkins,WR,buf,a,mia,4.9,6100
 3,2015,3848,Darrius Heyward-Bey,WR,pit,a,stl,4.9,3500
 3,2015,5226,Marlon Brown,WR,bal,h,cin,4.9,3000
-3,2015,5070,Bryan Walters,WR,jac,a,nwe,4.8,0
 3,2015,3748,Eddie Royal,WR,chi,a,sea,4.7,3700
 3,2015,5277,Michael Campanaro,WR,bal,h,cin,3.9,3000
 3,2015,5207,Justin Hunter,WR,ten,h,ind,3.9,3400
@@ -8017,7 +7949,6 @@
 3,2015,5204,Chris Givens,WR,bal,h,cin,2.4,3000
 3,2015,5381,Devin Funchess,WR,car,h,nor,2.4,3100
 3,2015,5256,Marqise Lee,WR,jac,a,nwe,2.3,3400
-3,2015,5292,Brenton Bersin,WR,car,h,nor,2.3,0
 3,2015,5148,Michael Floyd,WR,ari,h,sfo,2.2,4000
 3,2015,3587,Greg Jennings,WR,mia,h,buf,2,3300
 3,2015,5326,Brandon Coleman,WR,nor,a,car,1.9,3700
@@ -8295,7 +8226,6 @@
 4,2015,2935,Jerick McKinnon,RB,min,a,den,0.6,3000
 4,2015,2500,DeAngelo Williams,RB,pit,h,bal,0.5,4600
 4,2015,5371,Jeremy Langford,RB,chi,h,oak,0.4,3000
-4,2015,2917,Cierre Wood,RB,buf,h,nyg,0.4,0
 4,2015,2818,Jacquizz Rodgers,RB,chi,h,oak,0.3,3000
 4,2015,2873,Matt Asiata,RB,min,a,den,0.3,3000
 4,2015,5423,Alonzo Harris,RB,gnb,a,sfo,0,3000
@@ -8668,7 +8598,6 @@
 5,2015,2856,Ronnie Hillman,RB,den,a,oak,3.6,4900
 5,2015,2928,Jeremy Hill,RB,cin,h,sea,3.5,6100
 5,2015,2775,C.J. Spiller,RB,nor,a,phi,3.2,3800
-5,2015,2855,Dan Herron,RB,buf,a,ten,2.8,0
 5,2015,3953,Dexter McCluster,RB,ten,h,buf,2.8,3000
 5,2015,2995,Ameer Abdullah,RB,det,h,ari,2.6,4100
 5,2015,2965,Juwan Thompson,RB,den,a,oak,2.6,3000
@@ -8680,11 +8609,9 @@
 5,2015,2871,Alfred Morris,RB,was,a,atl,1.5,4000
 5,2015,2913,Jamize Olawale,RB,oak,h,den,1.3,3000
 5,2015,5401,Jarryd Hayne,RB,sfo,a,nyg,0.9,3000
-5,2015,2988,Zurlon Tipton,RB,ind,a,hou,0.9,0
 5,2015,2932,Tre Mason,RB,stl,a,gnb,0.8,3700
 5,2015,2898,Christine Michael,RB,dal,h,nwe,0.6,3000
 5,2015,2861,Bernard Pierce,RB,jac,a,tam,0.6,3000
-5,2015,3191,Rod Smith,RB,dal,h,nwe,0.5,0
 5,2015,2818,Jacquizz Rodgers,RB,chi,a,kan,0.3,3000
 5,2015,2549,John Kuhn,RB,gnb,h,stl,0.3,3000
 5,2015,2994,Tevin Coleman,RB,atl,h,was,0.3,4200
@@ -8785,7 +8712,6 @@
 5,2015,5216,Terrance Williams,WR,dal,h,nwe,5,4300
 5,2015,5386,Tyler Lockett,WR,sea,a,cin,4.9,3400
 5,2015,3848,Darrius Heyward-Bey,WR,pit,a,sdg,4.4,3500
-5,2015,5194,Jeremy Ross,WR,bal,h,cle,4.4,0
 5,2015,5205,Marquise Goodwin,WR,buf,a,ten,4.4,3000
 5,2015,3550,Vincent Jackson,WR,tam,h,jac,4.4,5000
 5,2015,3571,Roddy White,WR,atl,h,was,4.3,3500
@@ -8845,7 +8771,6 @@
 5,2015,3610,Miles Austin,WR,phi,h,nor,0,3300
 5,2015,3678,Jacoby Jones,WR,sdg,h,pit,0,3000
 5,2015,3802,Percy Harvin,WR,buf,a,ten,-0.1,4600
-5,2015,5109,Denarius Moore,WR,buf,a,ten,-1,0
 5,2015,4401,Gary Barnidge,TE,cle,a,bal,30.9,3800
 5,2015,4270,Antonio Gates,TE,sdg,h,pit,30.2,4200
 5,2015,4568,Tyler Eifert,TE,cin,h,sea,29,4600
@@ -9046,7 +8971,6 @@
 6,2015,5395,David Johnson,RB,ari,a,pit,2.7,4200
 6,2015,2520,Fred Jackson,RB,sea,h,car,2.7,3000
 6,2015,2867,Robert Turbin,RB,cle,h,den,2.7,3000
-6,2015,2535,Ahmad Bradshaw,RB,ind,h,nwe,2.6,0
 6,2015,2822,Anthony Sherman,RB,kan,a,min,2.3,3000
 6,2015,2991,Melvin Gordon,RB,sdg,a,gnb,1.9,4600
 6,2015,2791,Darrel Young,RB,was,a,nyj,1.8,3000
@@ -9166,7 +9090,6 @@
 6,2015,5385,Chris Conley,WR,kan,a,min,4.6,3000
 6,2015,5381,Devin Funchess,WR,car,a,sea,4.4,3000
 6,2015,3809,Mike Wallace,WR,min,h,kan,4.3,4500
-6,2015,5295,Ryan Grant,WR,was,a,nyj,4.2,
 6,2015,3497,Jerricho Cotchery,WR,car,a,sea,4.1,3000
 6,2015,5204,Chris Givens,WR,bal,a,sfo,3.8,3000
 6,2015,3743,Andre Caldwell,WR,den,a,cle,3.8,3000
@@ -9258,7 +9181,6 @@
 6,2015,4670,Will Tye,TE,nyg,a,phi,4.2,2500
 6,2015,4577,Levine Toilolo,TE,atl,a,nor,3.8,2500
 6,2015,4642,Demetrius Harris,TE,kan,a,min,3.5,2500
-6,2015,4628,Justin Perillo,TE,gnb,h,sdg,3.1,0
 6,2015,4594,Jack Doyle,TE,ind,h,nwe,2.7,2500
 6,2015,4578,Luke Willson,TE,sea,h,car,2.6,2500
 6,2015,2978,Ryan Hewitt,TE,cin,a,buf,2.6,2500
@@ -9492,7 +9414,6 @@
 7,2015,5148,Michael Floyd,WR,ari,h,bal,14.9,3200
 7,2015,5367,Martavis Bryant,WR,pit,a,kan,14.8,4700
 7,2015,5162,Kendall Wright,WR,ten,h,atl,14.6,5200
-7,2015,5295,Ryan Grant,WR,was,h,tam,14.4,
 7,2015,5255,Brandin Cooks,WR,nor,a,ind,14.1,5500
 7,2015,5344,Donte Moncrief,WR,ind,h,nor,13.4,5200
 7,2015,5341,Allen Hurns,WR,jac,h,buf,13.3,5300
@@ -9535,7 +9456,6 @@
 7,2015,5097,Dontrelle Inman,WR,sdg,h,oak,4.6,3000
 7,2015,5361,Taylor Gabriel,WR,cle,a,stl,4.5,3000
 7,2015,2958,De'Anthony Thomas,WR,kan,h,pit,4.5,3000
-7,2015,3946,Brandon LaFell,WR,nwe,h,nyj,4.5,0
 7,2015,5187,Chris Owusu,WR,nyj,a,nwe,4.5,3000
 7,2015,5254,Jordan Matthews,WR,phi,a,car,4.4,6400
 7,2015,5140,Andrew Hawkins,WR,cle,a,stl,4.1,3000
@@ -9789,7 +9709,6 @@
 8,2015,2647,Mike Tolbert,RB,car,h,ind,5,3000
 8,2015,2908,Kyle Juszczyk,RB,bal,h,sdg,4.9,3000
 8,2015,5371,Jeremy Langford,RB,chi,h,min,4.6,3000
-8,2015,5426,Kendall Gaskins,RB,sfo,a,stl,4.3,0
 8,2015,2873,Matt Asiata,RB,min,a,chi,4.1,3000
 8,2015,5320,Mike Davis,RB,sfo,a,stl,3.8,3000
 8,2015,2777,James Starks,RB,gnb,a,den,3.8,4300
@@ -9897,7 +9816,6 @@
 8,2015,5367,Martavis Bryant,WR,pit,h,cin,8.9,5300
 8,2015,5212,Kenny Stills,WR,mia,a,nwe,8.8,3000
 8,2015,5204,Chris Givens,WR,bal,h,sdg,8.7,3000
-8,2015,3946,Brandon LaFell,WR,nwe,h,mia,8.7,0
 8,2015,3670,Ted Ginn Jr.,WR,car,h,ind,8,3400
 8,2015,5253,Mike Evans,WR,tam,a,atl,7.8,6800
 8,2015,5361,Taylor Gabriel,WR,cle,h,ari,7.2,3000
@@ -9912,7 +9830,6 @@
 8,2015,3737,Steve Johnson,WR,sdg,a,bal,4.8,3200
 8,2015,3103,Charles Johnson,WR,min,a,chi,4.5,3000
 8,2015,3571,Roddy White,WR,atl,h,tam,4.4,3900
-8,2015,5412,Adam Humphries,WR,tam,a,atl,4.4,0
 8,2015,3983,Emmanuel Sanders,WR,den,h,gnb,4.2,7500
 8,2015,5339,Albert Wilson,WR,kan,h,det,4.2,3000
 8,2015,5353,Bennie Fowler,WR,den,h,gnb,4.1,3000
@@ -10132,7 +10049,6 @@
 9,2015,2467,Frank Gore,RB,ind,h,den,17.2,4800
 9,2015,2603,Darren McFadden,RB,dal,h,phi,16.2,4300
 9,2015,2830,Shane Vereen,RB,nyg,a,tam,14.3,4400
-9,2015,2875,Shaun Draughn,RB,sfo,h,atl,13.6,0
 9,2015,2793,Mark Ingram,RB,nor,h,ten,13.6,6500
 9,2015,2993,T.J. Yeldon,RB,jac,a,nyj,13.1,4800
 9,2015,2874,Brandon Bolden,RB,nwe,h,was,12.9,3000
@@ -10157,7 +10073,6 @@
 9,2015,2934,Andre Williams,RB,nyg,a,tam,4.7,3000
 9,2015,2484,Darren Sproles,RB,phi,a,dal,4.6,3800
 9,2015,2915,Chris Thompson,RB,was,a,nwe,4.1,3300
-9,2015,2998,Jay Ajayi,RB,mia,a,buf,4.1,0
 9,2015,2935,Jerick McKinnon,RB,min,h,stl,3.1,3000
 9,2015,2902,Zac Stacy,RB,nyj,h,jac,2.9,3000
 9,2015,2972,Ka'Deem Carey,RB,chi,a,sdg,2.8,3000
@@ -10170,7 +10085,6 @@
 9,2015,2878,Jorvorskie Lane,RB,tam,h,nyg,1.5,3000
 9,2015,2705,Donald Brown,RB,sdg,h,chi,1.3,3000
 9,2015,2916,Fozzy Whittaker,RB,car,h,gnb,1.3,3000
-9,2015,2598,Pierre Thomas,RB,sfo,h,atl,1.2,0
 9,2015,2774,Antone Smith,RB,chi,a,sdg,1.1,3000
 9,2015,2871,Alfred Morris,RB,was,a,nwe,1,3300
 9,2015,2932,Tre Mason,RB,stl,a,min,0.9,3300
@@ -10283,7 +10197,6 @@
 9,2015,5265,Bruce Ellington,WR,sfo,h,atl,2.9,3000
 9,2015,5238,Marquess Wilson,WR,chi,a,sdg,2.5,4000
 9,2015,5188,Jarius Wright,WR,min,h,stl,2.2,3000
-9,2015,5314,Javontee Herndon,WR,sdg,h,chi,2.2,0
 9,2015,5400,Lucky Whitehead,WR,dal,h,phi,1.8,3000
 9,2015,5191,Josh Bellamy,WR,chi,a,sdg,1.6,3000
 9,2015,3860,Brandon Tate,WR,cin,h,cle,1.4,3000
@@ -10328,7 +10241,6 @@
 9,2015,3678,Jacoby Jones,WR,pit,h,oak,0,3000
 9,2015,3587,Greg Jennings,WR,mia,a,buf,0,3000
 9,2015,5223,Russell Shepard,WR,tam,h,nyg,0,3000
-9,2015,3818,Marcus Thigpen,WR,oak,a,pit,-1,0
 9,2015,4360,Delanie Walker,TE,ten,a,nor,30.5,4200
 9,2015,4568,Tyler Eifert,TE,cin,h,cle,28.3,5400
 9,2015,4335,Owen Daniels,TE,den,a,ind,25.2,2600
@@ -10363,7 +10275,6 @@
 9,2015,4324,Marcedes Lewis,TE,jac,a,nyj,3.7,2500
 9,2015,4574,Mychal Rivera,TE,oak,a,pit,3.6,2500
 9,2015,4554,Rhett Ellison,TE,min,h,stl,3.1,2500
-9,2015,4667,Jerome Cunningham,TE,nyg,a,tam,3,0
 9,2015,4648,Cameron Brate,TE,tam,h,nyg,2.7,2500
 9,2015,4542,Virgil Green,TE,den,a,ind,2.3,2500
 9,2015,4484,Jim Dray,TE,cle,a,cin,2.3,2500
@@ -10618,7 +10529,6 @@
 10,2015,5208,Cordarrelle Patterson,WR,min,a,oak,6.6,3000
 10,2015,3770,DeSean Jackson,WR,was,h,nor,6.4,5400
 10,2015,5378,Nelson Agholor,WR,phi,h,mia,6.2,3400
-10,2015,3529,Wes Welker,WR,stl,h,chi,6.2,0
 10,2015,5381,Devin Funchess,WR,car,a,ten,6.1,3500
 10,2015,5268,Cody Latimer,WR,den,h,kan,6,3000
 10,2015,5070,Bryan Walters,WR,jac,a,bal,5.9,3300
@@ -10628,7 +10538,6 @@
 10,2015,3602,Marques Colston,WR,nor,a,was,5.2,3400
 10,2015,3581,Nate Washington,WR,hou,a,cin,5.2,4400
 10,2015,5254,Jordan Matthews,WR,phi,h,mia,5.1,6200
-10,2015,5260,Paul Richardson,WR,sea,h,ari,5,0
 10,2015,5217,Robert Woods,WR,buf,a,nyj,4.9,3600
 10,2015,5157,Brian Quick,WR,stl,h,chi,4.7,3000
 10,2015,3830,Jeremy Maclin,WR,kan,a,den,4.7,5500
@@ -10728,7 +10637,6 @@
 10,2015,4492,Jimmy Graham,TE,sea,h,ari,7.1,4900
 10,2015,4376,Scott Chandler,TE,nwe,a,nyg,7.1,2500
 10,2015,4601,Eric Ebron,TE,det,a,gnb,6.8,3300
-10,2015,1450,Ryan Griffin,TE,hou,a,cin,6.6,0
 10,2015,4457,Brandon Myers,TE,tam,h,dal,6.5,2500
 10,2015,4660,Nick Boyle,TE,bal,h,jac,6.5,2500
 10,2015,4568,Tyler Eifert,TE,cin,h,hou,5.6,5800
@@ -10881,7 +10789,6 @@
 11,2015,2777,James Starks,RB,gnb,a,min,5.4,5300
 11,2015,2719,Joique Bell,RB,det,h,oak,5,3300
 11,2015,5375,Terron Ward,RB,atl,h,ind,4.8,3000
-11,2015,2867,Robert Turbin,RB,dal,a,mia,4.8,0
 11,2015,2915,Chris Thompson,RB,was,a,car,4.7,3200
 11,2015,2930,Devonta Freeman,RB,atl,h,ind,4.3,8400
 11,2015,2908,Kyle Juszczyk,RB,bal,h,stl,4.3,3000
@@ -10908,7 +10815,6 @@
 11,2015,2829,Stevan Ridley,RB,nyj,a,hou,0.5,3000
 11,2015,2863,Bobby Rainey,RB,tam,a,phi,0.5,3000
 11,2015,2549,John Kuhn,RB,gnb,a,min,0.4,3000
-11,2015,5431,Akeem Hunt,RB,hou,h,nyj,0.4,0
 11,2015,2980,Jay Prosch,RB,hou,h,nyj,0.3,3000
 11,2015,2665,Marcel Reece,RB,oak,a,det,0.2,3400
 11,2015,5414,Raheem Mostert,RB,bal,h,stl,0,3000
@@ -11006,7 +10912,6 @@
 11,2015,3611,Jason Avant,WR,kan,a,sdg,4.6,3000
 11,2015,5204,Chris Givens,WR,bal,h,stl,4.5,3200
 11,2015,3824,Kenny Britt,WR,stl,a,bal,4.4,3400
-11,2015,5420,Quincy Enunwa,WR,nyj,a,hou,4.2,0
 11,2015,5378,Nelson Agholor,WR,phi,h,tam,4.1,3300
 11,2015,5159,Mohamed Sanu,WR,cin,a,ari,4.1,3000
 11,2015,5151,T.Y. Hilton,WR,ind,a,atl,4.1,6200
@@ -11031,7 +10936,6 @@
 11,2015,5417,Cameron Meredith,WR,chi,h,den,1.6,3000
 11,2015,5410,Jamison Crowder,WR,was,a,car,1.5,3800
 11,2015,5376,Amari Cooper,WR,oak,a,det,1.4,6800
-11,2015,5391,Rashad Greene,WR,jac,h,ten,1.2,0
 11,2015,2958,De'Anthony Thomas,WR,kan,a,sdg,0.7,3000
 11,2015,3809,Mike Wallace,WR,min,h,gnb,0.6,3500
 11,2015,5157,Brian Quick,WR,stl,a,bal,0,3000
@@ -11103,7 +11007,6 @@
 11,2015,4574,Mychal Rivera,TE,oak,a,det,3.1,2500
 11,2015,4599,Derek Carrier,TE,was,a,car,2.7,2500
 11,2015,4637,Phillip Supernaw,TE,ten,a,jac,2.6,2500
-11,2015,1450,Ryan Griffin,TE,hou,h,nyj,2.6,0
 11,2015,4411,Jacob Tamme,TE,atl,h,ind,2.6,3600
 11,2015,4543,Charles Clay,TE,buf,a,nwe,2.4,4000
 11,2015,4542,Virgil Green,TE,den,a,chi,1.9,2500
@@ -11426,7 +11329,6 @@
 12,2015,5212,Kenny Stills,WR,mia,a,nyj,3.2,3300
 12,2015,5410,Jamison Crowder,WR,was,h,nyg,3.2,3600
 12,2015,2622,Kevin Smith,WR,sea,h,pit,3.1,3000
-12,2015,5295,Ryan Grant,WR,was,h,nyg,2.9,
 12,2015,5157,Brian Quick,WR,stl,a,cin,2.8,3000
 12,2015,5148,Michael Floyd,WR,ari,a,sfo,2.4,3800
 12,2015,3604,Lance Moore,WR,det,h,phi,2.4,3000
@@ -11481,7 +11383,6 @@
 12,2015,3678,Jacoby Jones,WR,pit,a,sea,0,3000
 12,2015,5223,Russell Shepard,WR,tam,a,ind,0,3000
 12,2015,5222,Chris Harper,WR,nwe,a,den,-1,3000
-12,2015,5194,Jeremy Ross,WR,oak,a,ten,-1,0
 12,2015,5265,Bruce Ellington,WR,sfo,h,ari,-1,3000
 12,2015,4534,Julius Thomas,TE,jac,h,sdg,29.6,3400
 12,2015,4270,Antonio Gates,TE,sdg,a,jac,21.3,4700
@@ -11542,7 +11443,6 @@
 12,2015,4667,Jerome Cunningham,TE,nyg,a,was,1.2,2500
 12,2015,4535,Lee Smith,TE,oak,a,ten,1.2,2500
 12,2015,4565,Cory Harkey,TE,stl,a,cin,1.2,2500
-12,2015,4644,Asante Cleveland,TE,nwe,a,den,1.1,0
 12,2015,4576,Dion Sims,TE,mia,a,nyj,0.9,2500
 12,2015,4570,Gavin Escobar,TE,dal,h,car,0.8,2500
 12,2015,4614,Cooper Helfet,TE,sea,h,pit,0,2500
@@ -11667,7 +11567,6 @@
 13,2015,2707,LeSean McCoy,RB,buf,h,hou,14.2,5700
 13,2015,2940,Antonio Andrews,RB,ten,h,jac,13.8,3600
 13,2015,2647,Mike Tolbert,RB,car,a,nor,13.1,3000
-13,2015,2918,Kerwynn Williams,RB,ari,a,stl,11.9,0
 13,2015,2777,James Starks,RB,gnb,a,det,11,4500
 13,2015,2741,Chris Ivory,RB,nyj,a,nyg,10.9,5900
 13,2015,2603,Darren McFadden,RB,dal,a,was,10.9,5300
@@ -11691,7 +11590,6 @@
 13,2015,2991,Melvin Gordon,RB,sdg,h,den,6.3,3400
 13,2015,2887,Kenjon Barner,RB,phi,a,nwe,5.6,3000
 13,2015,2856,Ronnie Hillman,RB,den,a,sdg,5.6,4500
-13,2015,2894,Mike Gillislee,RB,buf,h,hou,5.6,0
 13,2015,2721,LeGarrette Blount,RB,nwe,h,phi,5.4,5100
 13,2015,2855,Dan Herron,RB,ind,a,pit,5.4,3000
 13,2015,2935,Jerick McKinnon,RB,min,h,sea,5.4,3000
@@ -11717,12 +11615,10 @@
 13,2015,2831,DeMarco Murray,RB,phi,a,nwe,2.4,5800
 13,2015,2869,Travaris Cadet,RB,sfo,a,chi,2.2,3000
 13,2015,2934,Andre Williams,RB,nyg,h,nyj,2.2,3000
-13,2015,5434,John Crockett,RB,gnb,a,det,2.2,0
 13,2015,2877,Will Johnson,RB,pit,h,ind,2,3000
 13,2015,2903,Stepfan Taylor,RB,ari,a,stl,2,3000
 13,2015,2834,Bruce Miller,RB,sfo,a,chi,1.8,3000
 13,2015,5431,Akeem Hunt,RB,hou,a,buf,1.7,3000
-13,2015,2988,Zurlon Tipton,RB,ind,a,pit,1.7,0
 13,2015,2890,Rex Burkhead,RB,cin,a,cle,1.6,3000
 13,2015,2957,Damien Williams,RB,mia,h,bal,1.6,3000
 13,2015,2960,Alfred Blue,RB,hou,a,buf,1.4,4600
@@ -11732,7 +11628,6 @@
 13,2015,2916,Fozzy Whittaker,RB,car,a,nor,1.1,3000
 13,2015,2775,C.J. Spiller,RB,nor,h,car,1,3000
 13,2015,2908,Kyle Juszczyk,RB,bal,a,mia,0.8,3600
-13,2015,2802,DuJuan Harris,RB,sea,a,min,0.7,0
 13,2015,2730,Anthony Dixon,RB,buf,h,hou,0.6,3000
 13,2015,2986,Will Tukuafu,RB,sea,a,min,0.4,3000
 13,2015,2829,Stevan Ridley,RB,nyj,a,nyg,0.4,3000
@@ -11814,7 +11709,6 @@
 13,2015,3891,Dez Bryant,WR,dal,a,was,9.2,7500
 13,2015,5408,Seth Roberts,WR,oak,h,kan,9.1,3600
 13,2015,3423,Anquan Boldin,WR,sfo,a,chi,8.7,4100
-13,2015,5433,Darius Jennings,WR,cle,h,cin,8.5,0
 13,2015,5216,Terrance Williams,WR,dal,a,was,8.3,4100
 13,2015,5276,Jeremy Butler,WR,bal,a,mia,8.3,3000
 13,2015,5381,Devin Funchess,WR,car,a,nor,8.3,3700
@@ -11873,7 +11767,6 @@
 13,2015,5166,T.J. Graham,WR,nor,h,car,1,3000
 13,2015,5265,Bruce Ellington,WR,sfo,a,chi,1,3000
 13,2015,5159,Mohamed Sanu,WR,cin,a,cle,0.7,3000
-13,2015,5178,Damaris Johnson,WR,nwe,h,phi,0.6,0
 13,2015,3743,Andre Caldwell,WR,den,a,sdg,0.3,3000
 13,2015,5160,Deonte Thompson,WR,chi,h,sfo,0,3000
 13,2015,5353,Bennie Fowler,WR,den,a,sdg,0,3000
@@ -12151,7 +12044,6 @@
 14,2015,2976,Orleans Darkwa,RB,nyg,a,mia,2.6,3500
 14,2015,2829,Stevan Ridley,RB,nyj,h,ten,2.3,3000
 14,2015,5415,Michael Burton,RB,det,a,stl,2.2,3000
-14,2015,2598,Pierre Thomas,RB,was,a,chi,2.2,0
 14,2015,2830,Shane Vereen,RB,nyg,a,mia,2,4000
 14,2015,2909,Derrick Coleman,RB,sea,a,bal,1.9,3000
 14,2015,2935,Jerick McKinnon,RB,min,a,ari,1.8,3000
@@ -12283,12 +12175,10 @@
 14,2015,3423,Anquan Boldin,WR,sfo,a,cle,4.2,4000
 14,2015,5167,Chris Hogan,WR,buf,a,phi,4,3000
 14,2015,5380,DeVante Parker,WR,mia,h,nyg,3.6,4000
-14,2015,5123,Vincent Brown,WR,sdg,a,kan,3.2,0
 14,2015,5263,Davante Adams,WR,gnb,h,dal,3.2,4200
 14,2015,5424,Stefon Diggs,WR,min,a,ari,3.2,4400
 14,2015,3587,Greg Jennings,WR,mia,h,nyg,3.2,3000
 14,2015,5256,Marqise Lee,WR,jac,h,ind,3.1,3000
-14,2015,5368,Chris Matthews,WR,bal,h,sea,3.1,0
 14,2015,3497,Jerricho Cotchery,WR,car,h,atl,3,3200
 14,2015,5103,Cecil Shorts,WR,hou,h,nwe,2.9,3600
 14,2015,3983,Emmanuel Sanders,WR,den,h,oak,2.7,5900
@@ -12401,7 +12291,6 @@
 14,2015,4551,Dwayne Allen,TE,ind,a,jac,1.7,2500
 14,2015,4552,Coby Fleener,TE,ind,a,jac,1.6,3000
 14,2015,4586,Josh Hill,TE,nor,a,tam,1.6,2500
-14,2015,4639,Brian Leonhardt,TE,sfo,a,cle,1.4,0
 14,2015,4628,Justin Perillo,TE,gnb,h,dal,1.3,2500
 14,2015,4363,Brent Celek,TE,phi,h,buf,1.1,2800
 14,2015,4391,Clark Harris,TE,cin,h,pit,0,2500
@@ -12547,7 +12436,6 @@
 15,2015,2889,Giovani Bernard,RB,cin,a,sfo,9.1,4500
 15,2015,5415,Michael Burton,RB,det,a,nor,9,3000
 15,2015,2899,Latavius Murray,RB,oak,h,gnb,9,4500
-15,2015,2898,Christine Michael,RB,sea,h,cle,8.4,0
 15,2015,2871,Alfred Morris,RB,was,h,buf,8.4,3600
 15,2015,2834,Bruce Miller,RB,sfo,h,cin,8.3,3000
 15,2015,2912,Zach Line,RB,min,h,chi,7.7,3000
@@ -12569,13 +12457,11 @@
 15,2015,2927,Bishop Sankey,RB,ten,a,nwe,5.3,3000
 15,2015,2741,Chris Ivory,RB,nyj,a,dal,5.2,5200
 15,2015,2875,Shaun Draughn,RB,sfo,h,cin,5.2,4600
-15,2015,5438,Joey Iosefa,RB,nwe,h,ten,5.1,0
 15,2015,2907,Theo Riddick,RB,det,a,nor,5,4000
 15,2015,2707,LeSean McCoy,RB,buf,a,was,4.7,6300
 15,2015,3552,Matt Jones,RB,was,h,buf,4.6,4000
 15,2015,2859,Lamar Miller,RB,mia,a,sdg,4.4,6300
 15,2015,2873,Matt Asiata,RB,min,h,chi,4.4,3000
-15,2015,2851,Bryce Brown,RB,sea,h,cle,4.3,0
 15,2015,5372,Karlos Williams,RB,buf,a,was,4.1,3600
 15,2015,2972,Ka'Deem Carey,RB,chi,a,min,3.8,3000
 15,2015,2775,C.J. Spiller,RB,nor,h,det,3.8,3200
@@ -12589,7 +12475,6 @@
 15,2015,2934,Andre Williams,RB,nyg,h,car,2.1,3000
 15,2015,2730,Anthony Dixon,RB,buf,a,was,1.9,3000
 15,2015,5413,Jalston Fowler,RB,ten,a,nwe,1.8,3000
-15,2015,5439,Terrence Magee,RB,bal,h,kan,1.7,0
 15,2015,2855,Dan Herron,RB,ind,h,hou,1.6,3500
 15,2015,2791,Darrel Young,RB,was,h,buf,1.6,3000
 15,2015,2979,Austin Johnson,RB,nor,h,det,1.6,3000
@@ -12605,7 +12490,6 @@
 15,2015,2879,Chris Polk,RB,hou,a,ind,0.6,3600
 15,2015,2988,Zurlon Tipton,RB,ind,h,hou,0.4,3200
 15,2015,2831,DeMarco Murray,RB,phi,h,ari,0.3,4000
-15,2015,2814,Kendall Hunter,RB,nor,h,det,0.2,0
 15,2015,2980,Jay Prosch,RB,hou,a,ind,0.2,3000
 15,2015,2881,Jonathan Grimes,RB,hou,a,ind,0.1,3000
 15,2015,2867,Robert Turbin,RB,dal,h,nyj,0.1,3500
@@ -12735,7 +12619,6 @@
 15,2015,5204,Chris Givens,WR,bal,h,kan,2.5,3400
 15,2015,5229,Jaron Brown,WR,ari,a,phi,2.5,3000
 15,2015,5167,Chris Hogan,WR,buf,a,was,2.3,3000
-15,2015,5295,Ryan Grant,WR,was,h,buf,2.3,
 15,2015,3867,Hakeem Nicks,WR,nyg,h,car,2,3000
 15,2015,5241,Myles White,WR,nyg,h,car,2,3000
 15,2015,3604,Lance Moore,WR,det,a,nor,2,3000
@@ -12943,7 +12826,6 @@
 16,2015,1232,Ben Roethlisberger,QB,pit,a,bal,5.8,6800
 16,2015,1060,Matt Hasselbeck,QB,ind,a,mia,3.96,5100
 16,2015,1272,Charlie Whitehurst,QB,ind,a,mia,3.02,5000
-16,2015,1468,B.J. Daniels,QB,hou,a,ten,0.88,0
 16,2015,1433,Scott Tolzien,QB,gnb,a,ari,0.16,5000
 16,2015,5071,Joe Webb,QB,car,a,atl,0,5000
 16,2015,1290,Drew Stanton,QB,ari,h,gnb,-0.04,5000
@@ -12986,8 +12868,6 @@
 16,2015,2520,Fred Jackson,RB,sea,h,stl,10.4,3500
 16,2015,2719,Joique Bell,RB,det,h,sfo,10.2,4000
 16,2015,2754,Ryan Mathews,RB,phi,h,was,9.8,3800
-16,2015,5401,Jarryd Hayne,RB,sfo,a,det,9.7,0
-16,2015,2802,DuJuan Harris,RB,sfo,a,det,9.4,0
 16,2015,2995,Ameer Abdullah,RB,det,h,sfo,8.8,3800
 16,2015,2927,Bishop Sankey,RB,ten,h,hou,8.4,3000
 16,2015,2889,Giovani Bernard,RB,cin,a,den,8.3,4300
@@ -13022,7 +12902,6 @@
 16,2015,5431,Akeem Hunt,RB,hou,a,ten,1.9,3000
 16,2015,2890,Rex Burkhead,RB,cin,a,den,1.8,3000
 16,2015,2932,Tre Mason,RB,stl,a,sea,1.6,3000
-16,2015,2418,Steven Jackson,RB,nwe,a,nyj,1.5,0
 16,2015,2914,Spencer Ware,RB,kan,h,cle,1.5,4000
 16,2015,2820,Taiwan Jones,RB,oak,h,sdg,1.5,3000
 16,2015,2855,Dan Herron,RB,ind,a,mia,1.4,3200
@@ -13130,7 +13009,6 @@
 16,2015,5362,Corey Brown,WR,car,a,atl,6.9,3400
 16,2015,3437,Andre Johnson,WR,ind,a,mia,6.9,3400
 16,2015,5276,Jeremy Butler,WR,bal,h,pit,6.8,3600
-16,2015,5433,Darius Jennings,WR,cle,a,kan,6.7,0
 16,2015,5225,Kenbrell Thompkins,WR,nyj,h,nwe,6.7,3000
 16,2015,5204,Chris Givens,WR,bal,h,pit,6.5,3100
 16,2015,5386,Tyler Lockett,WR,sea,h,stl,6.3,4500
@@ -13154,7 +13032,6 @@
 16,2015,3946,Brandon LaFell,WR,nwe,a,nyj,3.8,4500
 16,2015,5344,Donte Moncrief,WR,ind,a,mia,3.5,4300
 16,2015,5387,Justin Hardy,WR,atl,h,car,3.5,3000
-16,2015,5295,Ryan Grant,WR,was,a,phi,3.4,
 16,2015,3809,Mike Wallace,WR,min,h,nyg,3.1,3400
 16,2015,5376,Amari Cooper,WR,oak,h,sdg,3,6000
 16,2015,5191,Josh Bellamy,WR,chi,a,tam,3,3000
@@ -13165,7 +13042,6 @@
 16,2015,5367,Martavis Bryant,WR,pit,a,bal,2,5600
 16,2015,5412,Adam Humphries,WR,tam,h,chi,2,3300
 16,2015,3670,Ted Ginn Jr.,WR,car,a,atl,1.9,4900
-16,2015,5440,Ben Edwards,WR,nyg,a,min,1.9,0
 16,2015,5261,Josh Huff,WR,phi,h,was,1.8,3200
 16,2015,5286,Jonathan Krause,WR,phi,h,was,1.7,3000
 16,2015,5157,Brian Quick,WR,stl,a,sea,1.6,3000
@@ -13234,12 +13110,10 @@
 16,2015,4533,Jordan Cameron,TE,mia,h,ind,6.4,2500
 16,2015,4670,Will Tye,TE,nyg,a,min,5.8,3500
 16,2015,4648,Cameron Brate,TE,tam,h,chi,5.6,2500
-16,2015,4674,Matt LaCosse,TE,nyg,a,min,5.2,0
 16,2015,4562,Ladarius Green,TE,sdg,a,oak,4.7,2700
 16,2015,4667,Jerome Cunningham,TE,nyg,a,min,4.1,2500
 16,2015,4327,Anthony Fasano,TE,ten,h,hou,4.1,2500
 16,2015,4571,Chris Gragg,TE,buf,h,dal,3.9,2500
-16,2015,4518,Andrew Quarless,TE,gnb,a,ari,3.7,0
 16,2015,4495,Clay Harbor,TE,jac,a,nor,3.7,2500
 16,2015,4650,Maxx Williams,TE,bal,h,pit,3.6,3000
 16,2015,4552,Coby Fleener,TE,ind,a,mia,3.3,2700
@@ -13359,7 +13233,6 @@
 17,2015,1242,Ryan Fitzpatrick,QB,nyj,a,buf,13.44,5400
 17,2015,1336,Brian Hoyer,QB,hou,h,jac,12.96,5100
 17,2015,1441,Derek Carr,QB,oak,a,kan,11.96,5300
-17,2015,1330,Josh Freeman,QB,ind,h,ten,11.36,0
 17,2015,1414,Brock Osweiler,QB,den,h,sdg,10.28,5100
 17,2015,1435,Case Keenum,QB,stl,a,sfo,9.44,5100
 17,2015,1361,Colt McCoy,QB,was,a,dal,8.82,5000
@@ -13368,7 +13241,6 @@
 17,2015,1444,Alex Tanney,QB,ten,a,ind,7.96,5000
 17,2015,1440,Zach Mettenberger,QB,ten,a,ind,6.92,5100
 17,2015,1442,Blake Bortles,QB,jac,a,hou,6.56,6700
-17,2015,1416,Ryan Lindley,QB,ind,h,ten,6.32,
 17,2015,1131,Tom Brady,QB,nwe,a,mia,5.26,7400
 17,2015,1439,Teddy Bridgewater,QB,min,a,gnb,3.16,5100
 17,2015,1081,Peyton Manning,QB,den,h,sdg,2.56,5800
@@ -13427,7 +13299,6 @@
 17,2015,2907,Theo Riddick,RB,det,a,chi,7.3,4000
 17,2015,2859,Lamar Miller,RB,mia,h,nwe,7.3,6200
 17,2015,2777,James Starks,RB,gnb,h,min,7.2,3600
-17,2015,5320,Mike Davis,RB,sfo,h,stl,6.9,0
 17,2015,5431,Akeem Hunt,RB,hou,h,jac,6.5,3000
 17,2015,2995,Ameer Abdullah,RB,det,a,chi,6.1,3700
 17,2015,2896,Eddie Lacy,RB,gnb,h,min,6.1,4500
@@ -13446,7 +13317,6 @@
 17,2015,2929,Terrance West,RB,bal,a,cin,3.2,3800
 17,2015,2754,Ryan Mathews,RB,phi,a,nyg,2.8,3600
 17,2015,2934,Andre Williams,RB,nyg,h,phi,2.6,3000
-17,2015,5441,Malcolm Brown,RB,stl,a,sfo,2.5,
 17,2015,2913,Jamize Olawale,RB,oak,a,kan,2.4,3000
 17,2015,2940,Antonio Andrews,RB,ten,a,ind,2.3,3500
 17,2015,2834,Bruce Miller,RB,sfo,h,stl,2.2,3000
@@ -13538,7 +13408,6 @@
 17,2015,5199,Tavon Austin,WR,stl,a,sfo,11.2,4100
 17,2015,3824,Kenny Britt,WR,stl,a,sfo,11.1,3600
 17,2015,5113,Torrey Smith,WR,sfo,h,stl,11.1,3300
-17,2015,5295,Ryan Grant,WR,was,a,dal,10.8,
 17,2015,5433,Darius Jennings,WR,cle,h,pit,10.5,3000
 17,2015,5323,Odell Beckham Jr.,WR,nyg,h,phi,10.4,9000
 17,2015,5173,Travis Benjamin,WR,cle,h,pit,10.3,4100
@@ -13590,7 +13459,6 @@
 17,2015,3946,Brandon LaFell,WR,nwe,a,mia,2.7,4000
 17,2015,5159,Mohamed Sanu,WR,cin,h,bal,2.7,3000
 17,2015,5148,Michael Floyd,WR,ari,h,sea,2.6,5200
-17,2015,5442,Kasen Williams,WR,sea,a,ari,2.3,
 17,2015,5364,Devin Street,WR,dal,h,was,2.1,3000
 17,2015,5212,Kenny Stills,WR,mia,h,nwe,2.1,3200
 17,2015,3571,Roddy White,WR,atl,h,nor,2,3600
@@ -13878,10 +13746,8 @@
 1,2016,2990,Fitzgerald Toussaint,RB,pit,a,was,0.6,3500
 1,2016,2894,Mike Gillislee,RB,buf,a,bal,0.6,3800
 1,2016,2972,Ka'Deem Carey,RB,chi,a,hou,0.4,3500
-1,2016,2549,John Kuhn,RB,nor,h,oak,0.4,0
 1,2016,2874,Brandon Bolden,RB,nwe,a,ari,0.4,3000
 1,2016,2960,Alfred Blue,RB,hou,h,chi,0.4,3600
-1,2016,5492,Keith Smith,RB,dal,h,nyg,0.3,0
 1,2016,2645,Chris Johnson,RB,ari,h,nwe,0.2,3700
 1,2016,2980,Jay Prosch,RB,hou,h,chi,0.2,3000
 1,2016,5473,Wendell Smallwood,RB,phi,h,cle,0.1,3000
@@ -14079,7 +13945,6 @@
 1,2016,4461,Zach Miller,TE,chi,a,hou,4.4,3700
 1,2016,4407,Martellus Bennett,TE,nwe,a,ari,4.4,3400
 1,2016,4642,Demetrius Harris,TE,kan,h,sdg,4,2500
-1,2016,4592,Ryan Griffin,TE,hou,h,chi,3.7,0
 1,2016,4538,Lance Kendricks,TE,lar,a,sfo,3.5,3200
 1,2016,4629,Richard Rodgers,TE,gnb,a,jac,3.2,3100
 1,2016,4668,Geoff Swaim,TE,dal,h,nyg,3.1,2500
@@ -14268,7 +14133,6 @@
 2,2016,5483,Dwayne Washington,RB,det,h,ten,3.1,3000
 2,2016,2881,Jonathan Grimes,RB,hou,h,kan,3.1,3000
 2,2016,2549,John Kuhn,RB,nor,a,nyg,3,3000
-2,2016,2818,Jacquizz Rodgers,RB,tam,a,ari,2.9,0
 2,2016,2777,James Starks,RB,gnb,a,min,2.9,4000
 2,2016,2647,Mike Tolbert,RB,car,h,sfo,2.5,3000
 2,2016,2901,Denard Robinson,RB,jac,a,sdg,2.4,3100
@@ -14439,7 +14303,6 @@
 2,2016,5391,Rashad Greene,WR,jac,a,sdg,1.7,3100
 2,2016,5097,Dontrelle Inman,WR,sdg,h,jac,1.7,3600
 2,2016,5429,Quan Bray,WR,ind,a,den,1.7,3000
-2,2016,5295,Ryan Grant,WR,was,h,dal,1.5,
 2,2016,5476,Braxton Miller,WR,hou,h,kan,1.1,3000
 2,2016,5261,Josh Huff,WR,phi,a,chi,0.9,3000
 2,2016,5496,Tommylee Lewis,WR,nor,a,nyg,0.9,3000
@@ -14690,7 +14553,6 @@
 3,2016,2818,Jacquizz Rodgers,RB,tam,h,lar,3.3,3000
 3,2016,2741,Chris Ivory,RB,jac,h,bal,3.3,3900
 3,2016,2873,Matt Asiata,RB,min,a,car,2.9,3000
-3,2016,3953,Dexter McCluster,RB,sdg,a,ind,2.9,0
 3,2016,2915,Chris Thompson,RB,was,a,nyg,2.6,3400
 3,2016,5482,Andy Janovich,RB,den,a,cin,2.5,3000
 3,2016,2954,James White,RB,nwe,h,hou,2.4,4200
@@ -14703,7 +14565,6 @@
 3,2016,5504,Derek Watt,RB,sdg,a,ind,1.6,3000
 3,2016,2822,Anthony Sherman,RB,kan,h,nyj,1.3,3000
 3,2016,4663,Malcolm Johnson,RB,cle,a,mia,1.3,3000
-3,2016,5439,Terrence Magee,RB,sea,h,sfo,1.2,0
 3,2016,2960,Alfred Blue,RB,hou,a,nwe,1.2,3400
 3,2016,2908,Kyle Juszczyk,RB,bal,a,jac,1.2,3000
 3,2016,5493,Rob Kelley,RB,was,a,nyg,0.7,3000
@@ -15081,7 +14942,6 @@
 4,2016,5472,Paul Perkins,RB,nyg,a,min,10,3000
 4,2016,2907,Theo Riddick,RB,det,a,chi,9.8,5200
 4,2016,2873,Matt Asiata,RB,min,h,nyg,9.8,3300
-4,2016,2775,C.J. Spiller,RB,sea,a,nyj,9.7,0
 4,2016,2914,Spencer Ware,RB,kan,a,pit,9.6,5700
 4,2016,2721,LeGarrette Blount,RB,nwe,h,buf,8.8,5000
 4,2016,2500,DeAngelo Williams,RB,pit,h,kan,7.9,6200
@@ -15127,7 +14987,6 @@
 4,2016,5445,Derrick Henry,RB,ten,a,hou,0.9,3500
 4,2016,2629,Jamaal Charles,RB,kan,a,pit,0.7,5400
 4,2016,2912,Zach Line,RB,min,h,nyg,0.6,3000
-4,2016,2719,Joique Bell,RB,chi,h,det,0.6,0
 4,2016,5493,Rob Kelley,RB,was,h,cle,0.4,3400
 4,2016,5450,Alex Collins,RB,sea,a,nyj,0.1,3000
 4,2016,5414,Raheem Mostert,RB,chi,h,det,0,3000
@@ -15681,7 +15540,6 @@
 5,2016,4270,Antonio Gates,TE,sdg,a,oak,12,4000
 5,2016,4640,C.J. Fiedorowicz,TE,hou,a,min,10.1,2500
 5,2016,4656,C.J. Uzomah,TE,cin,a,dal,9.3,2500
-5,2016,1475,Connor Hamlett,TE,cle,h,nwe,8.7,0
 5,2016,4262,Jason Witten,TE,dal,h,cin,7.3,4400
 5,2016,4569,Zach Ertz,TE,phi,a,det,6.7,3500
 5,2016,4652,Tyler Kroft,TE,cin,a,dal,5.9,2500
@@ -15695,7 +15553,6 @@
 5,2016,4604,Xavier Grimble,TE,pit,h,nyj,3.3,2500
 5,2016,4594,Jack Doyle,TE,ind,h,chi,2.8,2600
 5,2016,4592,Ryan Griffin,TE,hou,a,min,2.8,2500
-5,2016,4555,Dominique Jones,TE,mia,h,ten,2.4,0
 5,2016,4677,Austin Hooper,TE,atl,a,den,2.4,2500
 5,2016,4457,Brandon Myers,TE,tam,a,car,2.2,2500
 5,2016,4327,Anthony Fasano,TE,ten,a,mia,2,2500
@@ -15878,7 +15735,6 @@
 6,2016,2500,DeAngelo Williams,RB,pit,a,mia,1,4800
 6,2016,2495,Reggie Bush,RB,buf,h,sfo,0.6,3000
 6,2016,2887,Kenjon Barner,RB,phi,a,was,0.6,3000
-6,2016,2642,Justin Forsett,RB,det,h,lar,0.5,0
 6,2016,5494,Kenneth Farrow,RB,sdg,h,den,0.5,3000
 6,2016,2875,Shaun Draughn,RB,sfo,a,buf,0.2,3000
 6,2016,2871,Alfred Morris,RB,dal,a,gnb,0.2,3300
@@ -15942,7 +15798,6 @@
 6,2016,3885,Arrelious Benn,WR,jac,a,chi,12.1,3000
 6,2016,3848,Darrius Heyward-Bey,WR,pit,a,mia,12,3000
 6,2016,5455,Tyler Boyd,WR,cin,a,nwe,11.9,3000
-6,2016,5288,Cobi Hamilton,WR,pit,a,mia,11.6,0
 6,2016,5481,Ricardo Louis,WR,cle,a,ten,11.5,3000
 6,2016,5216,Terrance Williams,WR,dal,a,gnb,11.5,3800
 6,2016,5353,Bennie Fowler,WR,den,a,sdg,11.2,3000
@@ -16235,19 +16090,16 @@
 7,2016,2898,Christine Michael,RB,sea,a,ari,8.5,6700
 7,2016,2754,Ryan Mathews,RB,phi,h,min,8.3,3900
 7,2016,5320,Mike Davis,RB,sfo,h,tam,8.1,3000
-7,2016,2802,DuJuan Harris,RB,sfo,h,tam,7.7,0
 7,2016,2957,Damien Williams,RB,mia,h,buf,7.6,3000
 7,2016,2997,Duke Johnson,RB,cle,a,cin,7.3,3900
 7,2016,2741,Chris Ivory,RB,jac,h,oak,7.1,3400
 7,2016,2484,Darren Sproles,RB,phi,h,min,6.9,3800
 7,2016,2642,Justin Forsett,RB,det,h,was,6.8,3300
 7,2016,2972,Ka'Deem Carey,RB,chi,a,gnb,6.7,3000
-7,2016,2774,Antone Smith,RB,tam,a,sfo,6.7,0
 7,2016,2935,Jerick McKinnon,RB,min,a,phi,5.8,4300
 7,2016,2604,Tim Hightower,RB,nor,a,kan,5.4,3000
 7,2016,2960,Alfred Blue,RB,hou,a,den,5.3,3000
 7,2016,2890,Rex Burkhead,RB,cin,h,cle,4.3,3000
-7,2016,2975,Lorenzo Taliaferro,RB,bal,a,nyj,4,0
 7,2016,2993,T.J. Yeldon,RB,jac,h,oak,3.8,4100
 7,2016,5448,C.J. Prosise,RB,sea,a,ari,3.7,3000
 7,2016,5449,DeAndre Washington,RB,oak,a,jac,3.2,3900
@@ -16278,7 +16130,6 @@
 7,2016,2863,Bobby Rainey,RB,nyg,a,lar,0.9,3200
 7,2016,2892,Andre Ellington,RB,ari,h,sea,0.7,3000
 7,2016,2856,Ronnie Hillman,RB,min,a,phi,0.6,3000
-7,2016,5509,Don Jackson,RB,gnb,h,chi,0.6,0
 7,2016,2549,John Kuhn,RB,nor,a,kan,0.3,3000
 7,2016,5445,Derrick Henry,RB,ten,h,ind,0.3,3100
 7,2016,2912,Zach Line,RB,min,a,phi,0.2,3000
@@ -16416,7 +16267,6 @@
 7,2016,5353,Bennie Fowler,WR,den,h,hou,1.7,3000
 7,2016,5508,Roger Lewis,WR,nyg,a,lar,1.7,3000
 7,2016,5481,Ricardo Louis,WR,cle,a,cin,1.5,3000
-7,2016,5295,Ryan Grant,WR,was,a,det,1.5,
 7,2016,5177,Andre Holmes,WR,oak,a,jac,1.5,3000
 7,2016,5497,Aaron Burbridge,WR,sfo,h,tam,1.5,3000
 7,2016,5160,Deonte Thompson,WR,chi,a,gnb,1.4,3000
@@ -16628,11 +16478,9 @@
 8,2016,2754,Ryan Mathews,RB,phi,a,dal,8.1,4000
 8,2016,2987,Charcandrick West,RB,kan,a,ind,8,3000
 8,2016,5451,Jonathan Williams,RB,buf,h,nwe,7.2,3000
-8,2016,5375,Terron Ward,RB,atl,h,gnb,6.7,0
 8,2016,2914,Spencer Ware,RB,kan,a,ind,6.7,6800
 8,2016,2867,Robert Turbin,RB,ind,h,kan,6.4,3000
 8,2016,5504,Derek Watt,RB,sdg,a,den,6.3,3000
-8,2016,2965,Juwan Thompson,RB,den,h,sdg,6.1,0
 8,2016,5490,Jalen Richard,RB,oak,a,tam,5.7,3100
 8,2016,2954,James White,RB,nwe,a,buf,4.9,4800
 8,2016,2495,Reggie Bush,RB,buf,h,nwe,4.6,3300
@@ -16729,7 +16577,6 @@
 8,2016,5382,Dorial Green-Beckham,WR,phi,a,dal,10.5,3000
 8,2016,5223,Russell Shepard,WR,tam,h,oak,10.4,3300
 8,2016,3670,Ted Ginn Jr.,WR,car,h,ari,10.3,3900
-8,2016,5511,Geronimo Allison,WR,gnb,a,atl,10.1,0
 8,2016,5186,Jermaine Kearse,WR,sea,a,nor,9.7,3100
 8,2016,5070,Bryan Walters,WR,jac,a,ten,9.4,3000
 8,2016,5257,Kelvin Benjamin,WR,car,h,ari,9.3,7200
@@ -16763,7 +16610,6 @@
 8,2016,5454,Will Fuller,WR,hou,h,det,3.3,6000
 8,2016,5151,T.Y. Hilton,WR,ind,h,kan,3,7900
 8,2016,5219,Brice Butler,WR,dal,h,phi,2.9,3800
-8,2016,5295,Ryan Grant,WR,was,a,cin,2.7,
 8,2016,5506,Charone Peake,WR,nyj,a,cle,2.3,3000
 8,2016,5387,Justin Hardy,WR,atl,h,gnb,2.3,3000
 8,2016,5461,Tajae Sharpe,WR,ten,h,jac,2.1,3200
@@ -16978,7 +16824,6 @@
 9,2016,2873,Matt Asiata,RB,min,h,det,6.1,4300
 9,2016,2840,Jordan Todman,RB,ind,a,gnb,6,3000
 9,2016,2871,Alfred Morris,RB,dal,a,cle,5.6,4600
-9,2016,2895,Mike James,RB,tam,h,atl,5,0
 9,2016,5449,DeAndre Washington,RB,oak,h,den,4.5,3300
 9,2016,2867,Robert Turbin,RB,ind,a,gnb,4.3,3400
 9,2016,2495,Reggie Bush,RB,buf,a,sea,4.2,3000
@@ -17124,7 +16969,6 @@
 9,2016,5501,Jordan Taylor,WR,den,a,oak,1.6,3000
 9,2016,5168,Marvin Jones,WR,det,a,min,1.5,5600
 9,2016,5173,Travis Benjamin,WR,sdg,h,ten,1.5,5600
-9,2016,5276,Jeremy Butler,WR,sdg,h,ten,1.5,0
 9,2016,5353,Bennie Fowler,WR,den,a,oak,1.4,3000
 9,2016,5462,Pharoh Cooper,WR,lar,h,car,1.3,3000
 9,2016,5479,Chris Moore,WR,bal,h,pit,0.2,3000
@@ -17331,7 +17175,6 @@
 10,2016,2889,Giovani Bernard,RB,cin,a,nyg,6.6,4600
 10,2016,5371,Jeremy Langford,RB,chi,a,tam,6.6,3700
 10,2016,2935,Jerick McKinnon,RB,min,a,was,6.3,3800
-10,2016,5431,Akeem Hunt,RB,hou,a,jac,6.3,0
 10,2016,2741,Chris Ivory,RB,jac,h,hou,6.1,3400
 10,2016,2997,Duke Johnson,RB,cle,a,bal,6.1,4000
 10,2016,2915,Chris Thompson,RB,was,h,min,5.6,4000
@@ -17353,7 +17196,6 @@
 10,2016,5482,Andy Janovich,RB,den,a,nor,1.9,3000
 10,2016,2802,DuJuan Harris,RB,sfo,a,ari,1.4,4100
 10,2016,2933,Carlos Hyde,RB,sfo,a,ari,1.4,5500
-10,2016,5373,Paul Lasike,RB,chi,a,tam,1.3,0
 10,2016,5446,Kenyan Drake,RB,mia,a,sdg,0.9,3000
 10,2016,2912,Zach Line,RB,min,a,was,0.5,3000
 10,2016,2775,C.J. Spiller,RB,nyj,h,lar,0.4,3000
@@ -17740,7 +17582,6 @@
 11,2016,2895,Mike James,RB,tam,a,kan,0.9,3100
 11,2016,5373,Paul Lasike,RB,chi,a,nyg,0.5,3000
 11,2016,2802,DuJuan Harris,RB,sfo,h,nwe,0.4,4000
-11,2016,5510,Troymaine Pope,RB,sea,h,phi,0.3,0
 11,2016,2871,Alfred Morris,RB,dal,h,bal,0.3,4700
 11,2016,2986,Will Tukuafu,RB,sea,h,phi,0.2,3000
 11,2016,5446,Kenyan Drake,RB,mia,a,lar,0.2,3000
@@ -17847,7 +17688,6 @@
 11,2016,5191,Josh Bellamy,WR,chi,a,nyg,5.2,3000
 11,2016,5157,Brian Quick,WR,lar,h,mia,5.1,3400
 11,2016,5186,Jermaine Kearse,WR,sea,h,phi,4.9,3000
-11,2016,5238,Marquess Wilson,WR,chi,a,nyg,4.5,0
 11,2016,5290,James Wright,WR,cin,h,buf,4.2,3000
 11,2016,5148,Michael Floyd,WR,ari,a,min,4.1,4000
 11,2016,3995,Golden Tate,WR,det,h,jac,4.1,5300
@@ -17872,7 +17712,6 @@
 11,2016,5480,Alex Erickson,WR,cin,h,buf,1.7,3000
 11,2016,5408,Seth Roberts,WR,oak,h,hou,1.6,3000
 11,2016,5260,Paul Richardson,WR,sea,h,phi,1.6,3000
-11,2016,5295,Ryan Grant,WR,was,h,gnb,1.4,
 11,2016,3731,Harry Douglas,WR,ten,a,ind,1.3,3000
 11,2016,5409,J.J. Nelson,WR,ari,a,min,1,4700
 11,2016,3949,Marc Mariani,WR,ten,a,ind,0,3000
@@ -18126,7 +17965,6 @@
 12,2016,2549,John Kuhn,RB,nor,h,lar,1.7,3000
 12,2016,2825,James Develin,RB,nwe,a,nyj,1.5,3000
 12,2016,2802,DuJuan Harris,RB,sfo,a,mia,1.5,4000
-12,2016,5516,George Farmer,RB,sea,a,tam,1.4,0
 12,2016,2916,Fozzy Whittaker,RB,car,a,oak,1.4,3000
 12,2016,2881,Jonathan Grimes,RB,hou,h,sdg,1.4,3000
 12,2016,5451,Jonathan Williams,RB,buf,h,jac,1.2,3000
@@ -18566,7 +18404,6 @@
 13,2016,5405,Corey Grant,RB,jac,h,den,0.2,3000
 13,2016,5371,Jeremy Langford,RB,chi,h,sfo,0.2,4100
 13,2016,5504,Derek Watt,RB,sdg,h,tam,0.2,3000
-13,2016,5516,George Farmer,RB,sea,h,car,0.1,0
 13,2016,2777,James Starks,RB,gnb,h,hou,0.1,4400
 13,2016,2880,Lance Dunbar,RB,dal,a,min,0,3000
 13,2016,2986,Will Tukuafu,RB,sea,h,car,0,3000
@@ -18647,7 +18484,6 @@
 13,2016,3627,Brandon Marshall,WR,nyj,h,ind,8.3,6900
 13,2016,5459,Michael Thomas,WR,nor,h,det,8.2,6900
 13,2016,3423,Anquan Boldin,WR,det,a,nor,8,4100
-13,2016,5458,T.J. Jones,WR,det,a,nor,7.9,
 13,2016,5518,Cody Core,WR,cin,h,phi,7.8,3000
 13,2016,5205,Marquise Goodwin,WR,buf,a,oak,7.5,3400
 13,2016,3978,Andre Roberts,WR,det,a,nor,7.5,3000
@@ -18670,7 +18506,6 @@
 13,2016,5163,Cole Beasley,WR,dal,a,min,4.3,5500
 13,2016,5212,Kenny Stills,WR,mia,a,bal,4.1,3900
 13,2016,5290,James Wright,WR,cin,h,phi,4,3000
-13,2016,5295,Ryan Grant,WR,was,a,ari,4,
 13,2016,5412,Adam Humphries,WR,tam,a,sdg,3.9,3600
 13,2016,5257,Kelvin Benjamin,WR,car,a,sea,3.8,6200
 13,2016,5208,Cordarrelle Patterson,WR,min,h,dal,3.6,3900
@@ -18776,7 +18611,6 @@
 13,2016,5419,Darren Waller,TE,bal,h,mia,2.5,2500
 13,2016,4675,Hunter Henry,TE,sdg,h,tam,2.4,2900
 13,2016,4407,Martellus Bennett,TE,nwe,h,lar,2.4,4800
-13,2016,4658,Gerald Christian,TE,buf,a,oak,2.4,0
 13,2016,4593,Brandon Bostick,TE,nyj,h,ind,2.2,2500
 13,2016,4686,Jerell Adams,TE,nyg,a,pit,2,2500
 13,2016,4609,Darren Fells,TE,ari,h,was,1.9,2500
@@ -18932,9 +18766,7 @@
 14,2016,2987,Charcandrick West,RB,kan,h,oak,6.4,4900
 14,2016,2890,Rex Burkhead,RB,cin,a,cle,6.1,3500
 14,2016,2754,Ryan Mathews,RB,phi,h,was,6,4000
-14,2016,2665,Marcel Reece,RB,sea,a,gnb,5.8,0
 14,2016,5445,Derrick Henry,RB,ten,h,den,5.7,5200
-14,2016,2642,Justin Forsett,RB,den,a,ten,5.5,0
 14,2016,5472,Paul Perkins,RB,nyg,h,dal,5.5,3800
 14,2016,2997,Duke Johnson,RB,cle,h,cin,5.5,3500
 14,2016,2604,Tim Hightower,RB,nor,a,tam,4.9,4500
@@ -18960,12 +18792,10 @@
 14,2016,5405,Corey Grant,RB,jac,h,min,1.3,3000
 14,2016,5510,Troymaine Pope,RB,sea,a,gnb,1.2,3000
 14,2016,2613,Matt Forte,RB,nyj,a,sfo,0.8,6800
-14,2016,2719,Joique Bell,RB,det,h,chi,0.8,0
 14,2016,2990,Fitzgerald Toussaint,RB,pit,a,buf,0.6,4300
 14,2016,2991,Melvin Gordon,RB,sdg,a,car,0.5,7400
 14,2016,2495,Reggie Bush,RB,buf,h,pit,0.4,3000
 14,2016,5441,Malcolm Brown,RB,lar,h,atl,0.4,3000
-14,2016,5522,Brandon Wilds,RB,nyj,a,sfo,0.4,0
 14,2016,5473,Wendell Smallwood,RB,phi,h,was,0.3,3800
 14,2016,2777,James Starks,RB,gnb,h,sea,0.3,3800
 14,2016,2972,Ka'Deem Carey,RB,chi,a,det,0.2,3000
@@ -19043,7 +18873,6 @@
 14,2016,5326,Brandon Coleman,WR,nor,a,tam,9.7,3000
 14,2016,5386,Tyler Lockett,WR,sea,a,gnb,9.6,3700
 14,2016,5385,Chris Conley,WR,kan,h,oak,9,3100
-14,2016,5247,Nick Williams,WR,atl,a,lar,8.9,0
 14,2016,5387,Justin Hardy,WR,atl,a,lar,8.9,3000
 14,2016,5432,Tyrell Williams,WR,sdg,a,car,8.8,6100
 14,2016,5424,Stefon Diggs,WR,min,a,jac,8.5,6500
@@ -19081,7 +18910,6 @@
 14,2016,5407,Keith Mumphery,WR,hou,a,ind,3.6,3000
 14,2016,5380,DeVante Parker,WR,mia,h,ari,3.4,5300
 14,2016,5408,Seth Roberts,WR,oak,a,kan,3.2,3000
-14,2016,5261,Josh Huff,WR,tam,h,nor,3.2,0
 14,2016,5500,Chester Rogers,WR,ind,h,hou,3.1,3000
 14,2016,5467,Shane Wynn,WR,jac,h,min,2.9,3000
 14,2016,5362,Corey Brown,WR,car,h,sdg,2.7,3000
@@ -19365,7 +19193,6 @@
 15,2016,2998,Jay Ajayi,RB,mia,a,nyj,5.1,5700
 15,2016,2887,Kenjon Barner,RB,phi,a,bal,5.1,3600
 15,2016,2931,Charles Sims,RB,tam,a,dal,4.9,3800
-15,2016,5524,Byron Marshall,RB,phi,a,bal,4.8,0
 15,2016,2992,Todd Gurley,RB,lar,a,sea,4.6,4500
 15,2016,2908,Kyle Juszczyk,RB,bal,h,phi,4.5,3000
 15,2016,2741,Chris Ivory,RB,jac,a,hou,4.4,3700
@@ -19490,7 +19317,6 @@
 15,2016,1407,Terrelle Pryor,WR,cle,a,buf,5.9,5200
 15,2016,5199,Tavon Austin,WR,lar,a,sea,5.7,3700
 15,2016,5222,Chris Harper,WR,sfo,a,atl,5.6,3000
-15,2016,5525,Wendall Williams,WR,hou,h,jac,5.4,0
 15,2016,5500,Chester Rogers,WR,ind,a,min,5.4,3000
 15,2016,5452,Corey Coleman,WR,cle,a,buf,5.4,4100
 15,2016,5410,Jamison Crowder,WR,was,h,car,5.4,5400
@@ -19503,7 +19329,6 @@
 15,2016,3423,Anquan Boldin,WR,det,a,nyg,4.3,4500
 15,2016,5257,Kelvin Benjamin,WR,car,a,was,4,5500
 15,2016,5162,Kendall Wright,WR,ten,a,kan,3.9,3200
-15,2016,5277,Michael Campanaro,WR,bal,h,phi,3.9,0
 15,2016,3900,Victor Cruz,WR,nyg,h,det,3.9,3300
 15,2016,5376,Amari Cooper,WR,oak,a,sdg,3.8,7100
 15,2016,5506,Charone Peake,WR,nyj,h,mia,3.8,3000
@@ -19918,7 +19743,6 @@
 16,2016,5335,Jarvis Landry,WR,mia,a,buf,5.9,5500
 16,2016,5488,Malcolm Mitchell,WR,nwe,h,nyj,5.9,5200
 16,2016,5386,Tyler Lockett,WR,sea,h,ari,5.8,4800
-16,2016,5295,Ryan Grant,WR,was,a,chi,5.5,
 16,2016,5420,Quincy Enunwa,WR,nyj,a,nwe,5.2,4000
 16,2016,3997,Demaryius Thomas,WR,den,a,kan,5,6400
 16,2016,3627,Brandon Marshall,WR,nyj,a,nwe,4.8,5300
@@ -19954,7 +19778,6 @@
 16,2016,5412,Adam Humphries,WR,tam,a,nor,2.2,3700
 16,2016,5191,Josh Bellamy,WR,chi,h,was,2.1,3200
 16,2016,5528,Demarcus Ayers,WR,pit,h,bal,1.9,3000
-16,2016,5458,T.J. Jones,WR,det,a,dal,1.9,
 16,2016,5381,Devin Funchess,WR,car,h,atl,1.9,3400
 16,2016,5290,James Wright,WR,cin,a,hou,1.8,3000
 16,2016,5384,Phillip Dorsett,WR,ind,a,oak,1.8,3900
@@ -20050,7 +19873,6 @@
 16,2016,4602,Austin Seferian-Jenkins,TE,nyj,a,nwe,2.7,2500
 16,2016,5517,Danny Vitale,TE,cle,h,sdg,2.5,2500
 16,2016,4323,Vernon Davis,TE,was,a,chi,2.3,3000
-16,2016,4698,Henry Krieger-Coble,TE,den,a,kan,2.3,0
 16,2016,4327,Anthony Fasano,TE,ten,a,jac,2.2,2500
 16,2016,5419,Darren Waller,TE,bal,a,pit,2.1,2500
 16,2016,4697,Chris Manhertz,TE,car,h,atl,2,2500
@@ -20195,7 +20017,6 @@
 17,2016,2721,LeGarrette Blount,RB,nwe,a,mia,11.1,5700
 17,2016,2998,Jay Ajayi,RB,mia,h,nwe,10.9,5900
 17,2016,2869,Travaris Cadet,RB,nor,a,atl,10.8,3000
-17,2016,5374,Terrell Watson,RB,phi,h,dal,10.3,0
 17,2016,2915,Chris Thompson,RB,was,h,nyg,10.2,3700
 17,2016,2467,Frank Gore,RB,ind,h,jac,9.6,4700
 17,2016,2949,George Atkinson,RB,cle,a,pit,9.4,3000
@@ -20205,7 +20026,6 @@
 17,2016,2881,Jonathan Grimes,RB,hou,a,ten,8.9,3000
 17,2016,2604,Tim Hightower,RB,nor,a,atl,8.9,4000
 17,2016,5371,Jeremy Langford,RB,chi,a,min,8.7,4000
-17,2016,2934,Andre Williams,RB,sdg,h,kan,8.7,0
 17,2016,5449,DeAndre Washington,RB,oak,a,den,7.7,3800
 17,2016,2929,Terrance West,RB,bal,a,cin,7.5,4400
 17,2016,2873,Matt Asiata,RB,min,h,chi,7.5,3100
@@ -20247,8 +20067,6 @@
 17,2016,2916,Fozzy Whittaker,RB,car,a,tam,0.9,3000
 17,2016,2891,Knile Davis,RB,kan,a,sdg,0.9,3000
 17,2016,5490,Jalen Richard,RB,oak,a,den,0.8,3900
-17,2016,2905,Joe Banyard,RB,jac,a,ind,0.7,0
-17,2016,5414,Raheem Mostert,RB,sfo,h,sea,0.6,0
 17,2016,2997,Duke Johnson,RB,cle,a,pit,0.4,3500
 17,2016,2965,Juwan Thompson,RB,den,h,oak,0.1,3000
 17,2016,5451,Jonathan Williams,RB,buf,a,nyj,0.1,3000
@@ -20273,7 +20091,6 @@
 17,2016,2820,Taiwan Jones,RB,oak,a,den,0,3000
 17,2016,2805,Patrick DiMarco,RB,atl,h,nor,0,3000
 17,2016,5413,Jalston Fowler,RB,ten,h,hou,0,3000
-17,2016,5530,Brandon Burks,RB,nyj,h,buf,-0.4,
 17,2016,2802,DuJuan Harris,RB,sfo,h,sea,-1.1,3900
 17,2016,3826,Julian Edelman,WR,nwe,a,mia,34.7,6400
 17,2016,5459,Michael Thomas,WR,nor,a,atl,34.6,6700
@@ -20362,7 +20179,6 @@
 17,2016,5255,Brandin Cooks,WR,nor,a,atl,4.9,6900
 17,2016,5223,Russell Shepard,WR,tam,h,car,4.9,3400
 17,2016,5264,John Brown,WR,ari,a,lar,4.5,3600
-17,2016,5458,T.J. Jones,WR,det,h,gnb,4.5,
 17,2016,5481,Ricardo Louis,WR,cle,a,pit,4.2,3000
 17,2016,5275,Kamar Aiken,WR,bal,a,cin,4.2,3000
 17,2016,5506,Charone Peake,WR,nyj,h,buf,4.2,3000
@@ -20374,7 +20190,6 @@
 17,2016,5393,DeAndre Smelter,WR,sfo,h,sea,3.3,3000
 17,2016,5199,Tavon Austin,WR,lar,h,ari,3,4300
 17,2016,3900,Victor Cruz,WR,nyg,a,was,2.7,3800
-17,2016,5531,Damier Byrd,WR,car,a,tam,2.6,
 17,2016,5503,Mike Thomas,WR,lar,h,ari,2.5,3000
 17,2016,5512,Maurice Harris,WR,was,h,nyg,2.5,3000
 17,2016,5382,Dorial Green-Beckham,WR,phi,h,dal,2.5,3200
@@ -20629,7 +20444,6 @@
 1,2017,5470,Tyler Ervin,RB,hou,h,jac,6.6,3000
 1,2017,2741,Chris Ivory,RB,jac,a,hou,6.3,3600
 1,2017,2467,Frank Gore,RB,ind,a,lar,6.2,4300
-1,2017,5565,Chris Carson,RB,sea,a,gnb,5.9,0
 1,2017,2892,Andre Ellington,RB,ari,a,det,5.5,3400
 1,2017,5535,Joe Mixon,RB,cin,h,bal,5.4,5500
 1,2017,5472,Paul Perkins,RB,nyg,a,dal,4.5,4300
@@ -20755,7 +20569,6 @@
 1,2017,3983,Emmanuel Sanders,WR,den,h,lac,5.6,5200
 1,2017,3946,Brandon LaFell,WR,cin,h,bal,5.4,3700
 1,2017,5481,Ricardo Louis,WR,cle,h,pit,5.2,3000
-1,2017,5458,T.J. Jones,WR,det,h,ari,5.2,
 1,2017,5205,Marquise Goodwin,WR,sfo,h,car,5.1,3200
 1,2017,5219,Brice Butler,WR,dal,h,nyg,4,3000
 1,2017,3902,Eric Decker,WR,ten,h,oak,4,5000
@@ -21030,14 +20843,12 @@
 2,2017,2889,Giovani Bernard,RB,cin,h,hou,4.6,4000
 2,2017,5544,Elijah McGuire,RB,nyj,a,oak,4.6,3500
 2,2017,5470,Tyler Ervin,RB,hou,a,cin,4.6,3000
-2,2017,2645,Chris Johnson,RB,ari,a,ind,4.4,0
 2,2017,5472,Paul Perkins,RB,nyg,h,det,4.2,3800
 2,2017,5539,D'Onta Foreman,RB,hou,a,cin,4,4100
 2,2017,2612,Jonathan Stewart,RB,car,h,buf,4,4400
 2,2017,2831,DeMarco Murray,RB,ten,a,jac,3.8,6300
 2,2017,2969,Isaiah Crowell,RB,cle,a,bal,3.7,4900
 2,2017,2816,Dion Lewis,RB,nwe,a,nor,3.5,3400
-2,2017,5450,Alex Collins,RB,bal,h,cle,3.2,0
 2,2017,2982,Branden Oliver,RB,lac,h,mia,3.1,4000
 2,2017,2976,Orleans Darkwa,RB,nyg,h,det,3,3400
 2,2017,2928,Jeremy Hill,RB,cin,h,hou,2.9,3900
@@ -21106,7 +20917,6 @@
 2,2017,5089,Julio Jones,WR,atl,h,gnb,18.8,9200
 2,2017,5367,Martavis Bryant,WR,pit,h,min,18.8,5500
 2,2017,5326,Brandon Coleman,WR,nor,h,nwe,18.2,3300
-2,2017,5475,Rashard Higgins,WR,cle,a,bal,16.9,0
 2,2017,5160,Deonte Thompson,WR,chi,a,tam,15.7,3000
 2,2017,5256,Marqise Lee,WR,jac,h,ten,14.6,3800
 2,2017,5206,DeAndre Hopkins,WR,hou,a,cin,14.3,5800
@@ -21168,7 +20978,6 @@
 2,2017,5252,Sammy Watkins,WR,lar,h,was,5,5200
 2,2017,5456,Sterling Shepard,WR,nyg,h,det,5,4700
 2,2017,5502,Robby Anderson,WR,nyj,a,oak,4.8,3400
-2,2017,5577,Tanner Gentry,WR,chi,a,tam,4.7,0
 2,2017,5481,Ricardo Louis,WR,cle,a,bal,4.7,3000
 2,2017,5339,Albert Wilson,WR,kan,h,phi,4.6,3300
 2,2017,5111,Jeremy Kerley,WR,nyj,a,oak,4.4,3600
@@ -21482,7 +21291,6 @@
 3,2017,2899,Latavius Murray,RB,min,h,tam,0.5,3200
 3,2017,5397,Zach Zenner,RB,det,h,atl,0.5,3300
 3,2017,5374,Terrell Watson,RB,pit,a,chi,0.3,3000
-3,2017,3552,Matt Jones,RB,ind,h,cle,0.3,0
 3,2017,2918,Kerwynn Williams,RB,ari,h,dal,0.3,4000
 3,2017,5482,Andy Janovich,RB,den,a,buf,0.2,3000
 3,2017,5414,Raheem Mostert,RB,sfo,h,lar,0.1,3000
@@ -21564,7 +21372,6 @@
 3,2017,5381,Devin Funchess,WR,car,h,nor,9.8,4200
 3,2017,5153,Alshon Jeffery,WR,phi,h,nyg,9.6,5900
 3,2017,5353,Bennie Fowler,WR,den,a,buf,9.5,3000
-3,2017,5458,T.J. Jones,WR,det,h,atl,9.3,
 3,2017,5111,Jeremy Kerley,WR,nyj,h,mia,9.2,3600
 3,2017,3891,Dez Bryant,WR,dal,a,ari,9.2,6800
 3,2017,5254,Jordan Matthews,WR,buf,h,den,9.1,3500
@@ -21595,7 +21402,6 @@
 3,2017,1407,Terrelle Pryor,WR,was,h,oak,3.9,5900
 3,2017,5430,Kaelin Clay,WR,buf,h,den,3.8,3000
 3,2017,5552,Cooper Kupp,WR,lar,a,sfo,3.7,4700
-3,2017,5584,Jordan Leslie,WR,cle,a,ind,3.6,0
 3,2017,5432,Tyrell Williams,WR,lac,h,kan,3.5,4600
 3,2017,5555,Taywan Taylor,WR,ten,h,sea,3.5,3600
 3,2017,5551,ArDarius Stewart,WR,nyj,h,mia,3.4,3100
@@ -21997,7 +21803,6 @@
 4,2017,5265,Bruce Ellington,WR,hou,h,ten,8.7,3700
 4,2017,5136,Doug Baldwin,WR,sea,h,ind,8.5,6900
 4,2017,5485,Tyreek Hill,WR,kan,h,was,8.5,6800
-4,2017,5458,T.J. Jones,WR,det,a,min,8.3,
 4,2017,3824,Kenny Britt,WR,cle,h,cin,8.2,4300
 4,2017,5341,Allen Hurns,WR,jac,a,nyj,8.2,4700
 4,2017,5134,Aldrick Robinson,WR,sfo,a,ari,8.2,3000
@@ -22221,27 +22026,21 @@
 4,2017,7030,Tennessee,Def,ten,a,hou,0,3300
 4,2017,7006,Chicago,Def,chi,a,gnb,-2,2100
 4,2017,7009,Dallas,Def,dal,h,lar,-3,2500
-5,2017,1518,Deshaun Watson,QB,hou,h,kan,35.54,0
 5,2017,1514,Carson Wentz,QB,phi,h,ari,31.26,6600
 5,2017,1501,Dak Prescott,QB,dal,h,gnb,30.74,6800
-5,2017,1254,Alex Smith,QB,kan,a,hou,29.86,0
 5,2017,1378,Cam Newton,QB,car,a,det,29.2,6500
 5,2017,1336,Brian Hoyer,QB,sfo,a,ind,25.12,4700
 5,2017,1252,Aaron Rodgers,QB,gnb,a,dal,24.04,8100
 5,2017,1496,Jacoby Brissett,QB,ind,h,sfo,21.96,5600
 5,2017,1231,Philip Rivers,QB,lac,a,nyg,21.82,5800
-5,2017,1465,Jameis Winston,QB,tam,h,nwe,21.46,0
 5,2017,1403,Andy Dalton,QB,cin,h,buf,18.32,6000
 5,2017,1495,Kevin Hogan,QB,cle,h,nyj,17.76,4600
-5,2017,1131,Tom Brady,QB,nwe,a,tam,17.62,0
 5,2017,1340,Matthew Stafford,QB,det,h,car,16.16,6300
 5,2017,1207,Carson Palmer,QB,ari,a,phi,15.64,5900
 5,2017,1225,Eli Manning,QB,nyg,h,lac,15,6100
 5,2017,1175,Josh McCown,QB,nyj,a,cle,14.46,4500
 5,2017,1412,Russell Wilson,QB,sea,a,lar,12.52,7100
 5,2017,1421,E.J. Manuel,QB,oak,h,bal,11.86,4900
-5,2017,1435,Case Keenum,QB,min,a,chi,11.8,0
-5,2017,1519,Mitchell Trubisky,QB,chi,h,min,11.32,0
 5,2017,1490,Jared Goff,QB,lar,h,sea,10.72,5300
 5,2017,1232,Ben Roethlisberger,QB,pit,h,jac,10.58,6400
 5,2017,1400,Tyrod Taylor,QB,buf,a,cin,9.94,5000
@@ -22250,31 +22049,23 @@
 5,2017,1263,Jay Cutler,QB,mia,h,ten,7.48,5200
 5,2017,1517,DeShone Kizer,QB,cle,h,nyj,4.38,5500
 5,2017,1442,Blake Bortles,QB,jac,a,pit,3.7,4800
-5,2017,1344,Sam Bradford,QB,min,a,chi,1.44,0
 5,2017,5071,Joe Webb,QB,buf,a,cin,0,4000
 5,2017,2991,Melvin Gordon,RB,lac,a,nyg,37.3,6000
 5,2017,5534,Leonard Fournette,RB,jac,a,pit,34.4,7000
-5,2017,2935,Jerick McKinnon,RB,min,a,chi,26.6,0
 5,2017,5543,Aaron Jones,RB,gnb,a,dal,23.4,5100
 5,2017,2888,Le'Veon Bell,RB,pit,h,jac,19.3,9500
 5,2017,5370,Javorius Allen,RB,bal,a,oak,18.5,4500
-5,2017,5560,Kareem Hunt,RB,kan,a,hou,17.6,0
 5,2017,2997,Duke Johnson,RB,cle,h,nyj,17.3,4900
 5,2017,5444,Ezekiel Elliott,RB,dal,h,gnb,17.2,8800
 5,2017,5548,Marlon Mack,RB,ind,h,sfo,16.3,3800
 5,2017,2892,Andre Ellington,RB,ari,a,phi,15.3,4600
-5,2017,2987,Charcandrick West,RB,kan,a,hou,15.3,0
-5,2017,2858,Doug Martin,RB,tam,h,nwe,15.2,0
 5,2017,2707,LeSean McCoy,RB,buf,a,cin,14.9,7800
 5,2017,5536,Christian McCaffrey,RB,car,a,det,14.8,5700
 5,2017,2976,Orleans Darkwa,RB,nyg,h,lac,14.2,3400
 5,2017,5547,Wayne Gallman,RB,nyg,h,lac,13.2,3900
-5,2017,2954,James White,RB,nwe,a,tam,13,0
-5,2017,2911,Benny Cunningham,RB,chi,h,min,12.7,0
 5,2017,2552,Marshawn Lynch,RB,oak,h,bal,12.3,5100
 5,2017,2467,Frank Gore,RB,ind,h,sfo,11.6,4400
 5,2017,5535,Joe Mixon,RB,cin,h,buf,11.1,5500
-5,2017,2859,Lamar Miller,RB,hou,h,kan,10.9,0
 5,2017,5567,Matt Breida,RB,sfo,a,ind,10.1,3800
 5,2017,2831,DeMarco Murray,RB,ten,a,mia,9.9,5400
 5,2017,2908,Kyle Juszczyk,RB,sfo,a,ind,9.7,3000
@@ -22282,22 +22073,17 @@
 5,2017,2998,Jay Ajayi,RB,mia,h,ten,8.9,6600
 5,2017,2969,Isaiah Crowell,RB,cle,h,nyj,8.7,4700
 5,2017,2830,Shane Vereen,RB,nyg,h,lac,8.5,3400
-5,2017,2931,Charles Sims,RB,tam,h,nwe,8.4,0
-5,2017,2816,Dion Lewis,RB,nwe,a,tam,8.3,0
-5,2017,5447,Jordan Howard,RB,chi,h,min,7.6,0
 5,2017,2721,LeGarrette Blount,RB,phi,h,ari,7.4,4200
 5,2017,2612,Jonathan Stewart,RB,car,a,det,7.4,3900
 5,2017,2819,Bilal Powell,RB,nyj,a,cle,7.3,6200
 5,2017,5397,Zach Zenner,RB,det,h,car,7.1,3300
 5,2017,5586,J.D. McKissic,RB,sea,a,lar,6.6,3200
 5,2017,2647,Mike Tolbert,RB,buf,a,cin,6.4,3800
-5,2017,2899,Latavius Murray,RB,min,a,chi,6.3,0
 5,2017,2992,Todd Gurley,RB,lar,h,sea,6,8000
 5,2017,5575,Austin Ekeler,RB,lac,a,nyg,5.8,3000
 5,2017,5402,Thomas Rawls,RB,sea,a,lar,5.5,3700
 5,2017,5450,Alex Collins,RB,bal,a,oak,5.5,4000
 5,2017,2889,Giovani Bernard,RB,cin,h,buf,5.2,4100
-5,2017,2894,Mike Gillislee,RB,nwe,a,tam,5.2,0
 5,2017,5544,Elijah McGuire,RB,nyj,a,cle,5,4300
 5,2017,5441,Malcolm Brown,RB,lar,h,sea,4.9,3900
 5,2017,5583,Corey Clement,RB,phi,h,ari,4.9,3800
@@ -22307,16 +22093,12 @@
 5,2017,2867,Robert Turbin,RB,ind,h,sfo,3.9,3700
 5,2017,2957,Damien Williams,RB,mia,h,ten,3.8,3800
 5,2017,2896,Eddie Lacy,RB,sea,a,lar,3.8,3400
-5,2017,5539,D'Onta Foreman,RB,hou,h,kan,3.7,0
 5,2017,5490,Jalen Richard,RB,oak,h,bal,3.7,3900
 5,2017,5492,Keith Smith,RB,dal,h,gnb,3,3000
 5,2017,2933,Carlos Hyde,RB,sfo,a,ind,2.8,6900
 5,2017,3191,Rod Smith,RB,dal,h,gnb,2.8,3300
-5,2017,2818,Jacquizz Rodgers,RB,tam,h,nwe,2.5,0
 5,2017,2887,Kenjon Barner,RB,phi,h,ari,2.3,3000
-5,2017,5581,C.J. Ham,RB,min,a,chi,2.1,0
 5,2017,2929,Terrance West,RB,bal,a,oak,1.7,4000
-5,2017,5564,Tarik Cohen,RB,chi,h,min,1.7,0
 5,2017,5588,Elijhaa Penny,RB,ari,a,phi,1.6,3000
 5,2017,2928,Jeremy Hill,RB,cin,h,buf,1.6,3400
 5,2017,2913,Jamize Olawale,RB,oak,h,bal,1.3,3000
@@ -22348,27 +22130,20 @@
 5,2017,5091,A.J. Green,WR,cin,h,buf,33.9,8200
 5,2017,3474,Antonio Brown,WR,pit,h,jac,28.7,8400
 5,2017,5151,T.Y. Hilton,WR,ind,h,sfo,27.7,6000
-5,2017,5206,DeAndre Hopkins,WR,hou,h,kan,27.2,0
 5,2017,5263,Davante Adams,WR,gnb,a,dal,25.6,5800
 5,2017,5323,Odell Beckham Jr.,WR,nyg,h,lac,21.5,8500
-5,2017,5167,Chris Hogan,WR,nwe,a,tam,21.4,0
 5,2017,3872,Michael Crabtree,WR,oak,h,bal,20.2,6400
-5,2017,5454,Will Fuller,WR,hou,h,kan,20.2,0
 5,2017,5205,Marquise Goodwin,WR,sfo,a,ind,19.6,3800
 5,2017,5378,Nelson Agholor,WR,phi,h,ari,19.3,3900
 5,2017,3809,Mike Wallace,WR,bal,a,oak,19.3,4000
-5,2017,3770,DeSean Jackson,WR,tam,h,nwe,18.6,0
 5,2017,5163,Cole Beasley,WR,dal,h,gnb,18.3,4100
 5,2017,5381,Devin Funchess,WR,car,a,det,18.3,5600
 5,2017,3754,Pierre Garcon,WR,sfo,a,ind,17.4,6100
-5,2017,5485,Tyreek Hill,WR,kan,a,hou,16.8,0
 5,2017,3891,Dez Bryant,WR,dal,h,gnb,16.2,6500
 5,2017,5257,Kelvin Benjamin,WR,car,a,det,15.8,5900
 5,2017,5113,Torrey Smith,WR,phi,h,ari,15.7,3600
-5,2017,3851,Danny Amendola,WR,nwe,a,tam,15.7,0
 5,2017,5335,Jarvis Landry,WR,mia,h,ten,15.4,5800
 5,2017,5186,Jermaine Kearse,WR,nyj,a,cle,13.8,4500
-5,2017,5255,Brandin Cooks,WR,nwe,a,tam,13.5,0
 5,2017,5409,J.J. Nelson,WR,ari,a,phi,12.4,4900
 5,2017,5217,Robert Woods,WR,lar,h,sea,12.4,3700
 5,2017,5481,Ricardo Louis,WR,cle,h,nyj,12.1,3700
@@ -22380,20 +22155,14 @@
 5,2017,3860,Brandon Tate,WR,buf,a,cin,10.5,3000
 5,2017,3751,Jordy Nelson,WR,gnb,a,dal,10.4,8100
 5,2017,3830,Jeremy Maclin,WR,bal,a,oak,10.3,4200
-5,2017,5253,Mike Evans,WR,tam,h,nwe,9.9,0
 5,2017,5508,Roger Lewis,WR,nyg,h,lac,9.9,3000
 5,2017,5553,JuJu Smith-Schuster,WR,pit,h,jac,9.8,3500
 5,2017,3995,Golden Tate,WR,det,h,car,9.8,6300
-5,2017,5333,Adam Thielen,WR,min,a,chi,9.5,0
-5,2017,5162,Kendall Wright,WR,chi,h,min,8.6,0
 5,2017,5367,Martavis Bryant,WR,pit,h,jac,8.4,5000
 5,2017,3946,Brandon LaFell,WR,cin,h,buf,8.2,3500
-5,2017,5412,Adam Humphries,WR,tam,h,nwe,8.1,0
-5,2017,2958,De'Anthony Thomas,WR,kan,a,hou,8,0
 5,2017,5111,Jeremy Kerley,WR,nyj,a,cle,7.9,3900
 5,2017,5219,Brice Butler,WR,dal,h,gnb,7.7,3500
 5,2017,5136,Doug Baldwin,WR,sea,a,lar,7.7,7000
-5,2017,5385,Chris Conley,WR,kan,a,hou,7.6,0
 5,2017,3902,Eric Decker,WR,ten,a,mia,7.4,4000
 5,2017,5552,Cooper Kupp,WR,lar,h,sea,7.4,4500
 5,2017,5442,Kasen Williams,WR,cle,h,nyj,7.3,3000
@@ -22408,31 +22177,21 @@
 5,2017,5350,Jared Abbrederis,WR,det,h,car,5.7,3000
 5,2017,5408,Seth Roberts,WR,oak,h,bal,5.4,3600
 5,2017,5173,Travis Benjamin,WR,lac,a,nyg,5.2,4000
-5,2017,5265,Bruce Ellington,WR,hou,h,kan,5,0
-5,2017,5513,Bryce Treggs,WR,cle,h,nyj,4.8,0
 5,2017,5462,Pharoh Cooper,WR,lar,h,sea,4.2,3000
 5,2017,5275,Kamar Aiken,WR,ind,h,sfo,4.2,3000
 5,2017,5341,Allen Hurns,WR,jac,a,pit,4.1,4700
-5,2017,5339,Albert Wilson,WR,kan,a,hou,3.8,0
 5,2017,5502,Robby Anderson,WR,nyj,a,cle,3.6,4000
 5,2017,3627,Brandon Marshall,WR,nyg,h,lac,3.5,4600
 5,2017,5379,Breshad Perriman,WR,bal,a,oak,3.5,3000
 5,2017,5223,Russell Shepard,WR,car,a,det,3.5,3700
 5,2017,5216,Terrance Williams,WR,dal,h,gnb,3.4,3600
 5,2017,5432,Tyrell Williams,WR,lac,a,nyg,3.2,5300
-5,2017,5458,T.J. Jones,WR,det,h,car,3.2,
-5,2017,5589,Chris Thompson,WR,hou,h,kan,2.9,0
-5,2017,5148,Michael Floyd,WR,min,a,chi,2.9,0
-5,2017,5394,Tre McBride,WR,chi,h,min,2.8,0
 5,2017,5475,Rashard Higgins,WR,cle,h,nyj,2.7,3500
 5,2017,5455,Tyler Boyd,WR,cin,h,buf,2.6,3200
-5,2017,5515,Demarcus Robinson,WR,kan,a,hou,2.6,0
 5,2017,5212,Kenny Stills,WR,mia,h,ten,2.3,3700
 5,2017,5557,Zay Jones,WR,buf,a,cin,1.9,3600
-5,2017,5215,Markus Wheaton,WR,chi,h,min,1.9,0
 5,2017,5456,Sterling Shepard,WR,nyg,h,lac,1.9,5200
 5,2017,5376,Amari Cooper,WR,oak,h,bal,1.8,5700
-5,2017,5579,Chris Godwin,WR,tam,h,nwe,1.8,0
 5,2017,5277,Michael Campanaro,WR,bal,a,oak,1.8,3000
 5,2017,5480,Alex Erickson,WR,cin,h,buf,1.6,3000
 5,2017,5571,Trent Taylor,WR,sfo,a,ind,1.6,3400
@@ -22441,7 +22200,6 @@
 5,2017,5207,Justin Hunter,WR,pit,h,jac,1.6,3000
 5,2017,5134,Aldrick Robinson,WR,sfo,a,ind,1.5,3100
 5,2017,5590,Max McCaffrey,WR,jac,a,pit,1.4,3000
-5,2017,5424,Stefon Diggs,WR,min,a,chi,1.4,0
 5,2017,5570,Keelan Cole,WR,jac,a,pit,1.4,3000
 5,2017,5551,ArDarius Stewart,WR,nyj,a,cle,1.2,3000
 5,2017,5486,Jakeem Grant,WR,mia,h,ten,0.9,3000
@@ -22475,9 +22233,6 @@
 5,2017,4482,Ed Dickson,TE,car,a,det,25.5,2900
 5,2017,4703,George Kittle,TE,sfo,a,ind,21.3,2500
 5,2017,4569,Zach Ertz,TE,phi,h,ari,18.1,6200
-5,2017,4582,Travis Kelce,TE,kan,a,hou,17.8,0
-5,2017,4648,Cameron Brate,TE,tam,h,nwe,17.8,0
-5,2017,4537,Kyle Rudolph,TE,min,a,chi,16.5,0
 5,2017,4609,Darren Fells,TE,det,h,car,16.4,2500
 5,2017,4492,Jimmy Graham,TE,sea,a,lar,15.7,4900
 5,2017,4602,Austin Seferian-Jenkins,TE,nyj,a,cle,14.9,3500
@@ -22485,12 +22240,10 @@
 5,2017,4680,Tyler Higbee,TE,lar,h,sea,13.8,2500
 5,2017,4675,Hunter Henry,TE,lac,a,nyg,13.2,3800
 5,2017,4262,Jason Witten,TE,dal,h,gnb,13.1,4200
-5,2017,4461,Zach Miller,TE,chi,h,min,12.9,0
 5,2017,4661,Nick O'Leary,TE,buf,a,cin,10.4,2500
 5,2017,4618,Trey Burton,TE,phi,h,ari,9.6,2500
 5,2017,4637,Phillip Supernaw,TE,ten,a,mia,9.6,2500
 5,2017,4407,Martellus Bennett,TE,gnb,a,dal,8.3,4100
-5,2017,4679,Stephen Anderson,TE,hou,h,kan,8.3,0
 5,2017,4652,Tyler Kroft,TE,cin,h,buf,7.8,3200
 5,2017,4706,Jonnu Smith,TE,ten,a,mia,7.1,2600
 5,2017,5411,Vince Mayle,TE,bal,a,oak,6.2,2500
@@ -22498,17 +22251,13 @@
 5,2017,4653,Jesse James,TE,pit,h,jac,5.4,3000
 5,2017,4690,Seth DeValve,TE,cle,h,nyj,5.4,2600
 5,2017,4543,Charles Clay,TE,buf,a,cin,5.1,4800
-5,2017,4642,Demetrius Harris,TE,kan,a,hou,5.1,0
 5,2017,4590,Brandon Williams,TE,ind,h,sfo,4.7,2500
-5,2017,4681,Ross Travis,TE,kan,a,hou,4.6,0
 5,2017,4437,Jared Cook,TE,oak,h,bal,4.5,3900
 5,2017,4704,Eric Tomlinson,TE,nyj,a,cle,4.4,2500
 5,2017,4270,Antonio Gates,TE,lac,a,nyg,4.3,3300
-5,2017,4592,Ryan Griffin,TE,hou,h,kan,4.2,0
 5,2017,4493,Jermaine Gresham,TE,ari,a,phi,3.6,2700
 5,2017,4538,Lance Kendricks,TE,gnb,a,dal,3.4,2500
 5,2017,4656,C.J. Uzomah,TE,cin,h,buf,3.1,2500
-5,2017,4576,Dion Sims,TE,chi,h,min,2.7,0
 5,2017,4629,Richard Rodgers,TE,gnb,a,dal,2.6,2700
 5,2017,4534,Julius Thomas,TE,mia,h,ten,2.5,2800
 5,2017,4324,Marcedes Lewis,TE,jac,a,pit,2.4,2800
@@ -22552,28 +22301,22 @@
 5,2017,7012,Green Bay,Def,gnb,a,dal,12,2400
 5,2017,7003,Baltimore,Def,bal,a,oak,12,2900
 5,2017,7023,Philadelphia,Def,phi,h,ari,10,3100
-5,2017,7015,Kansas City,Def,kan,a,hou,10,0
 5,2017,7026,LA Chargers,Def,lac,a,nyg,10,2500
 5,2017,7007,Cincinnati,Def,cin,h,buf,9,3300
 5,2017,7030,Tennessee,Def,ten,a,mia,9,3000
 5,2017,7004,Buffalo,Def,buf,a,cin,8,2600
-5,2017,7029,Tampa Bay,Def,tam,h,nwe,8,0
 5,2017,7021,New York J,Def,nyj,a,cle,8,3000
 5,2017,7005,Carolina,Def,car,a,det,8,2500
 5,2017,7025,LA Rams,Def,lar,h,sea,8,2800
-5,2017,7006,Chicago,Def,chi,h,min,7,0
 5,2017,7008,Cleveland,Def,cle,h,nyj,6,3000
 5,2017,7027,San Francisco,Def,sfo,a,ind,6,2600
-5,2017,7017,Minnesota,Def,min,a,chi,6,0
 5,2017,7009,Dallas,Def,dal,h,gnb,5,2100
 5,2017,7024,Pittsburgh,Def,pit,h,jac,5,3900
 5,2017,7020,New York G,Def,nyg,h,lac,4,3600
 5,2017,7011,Detroit,Def,det,h,car,3,3200
-5,2017,7018,New England,Def,nwe,a,tam,3,0
 5,2017,7001,Arizona,Def,ari,a,phi,2,2300
 5,2017,7013,Indianapolis,Def,ind,h,sfo,2,2700
 5,2017,7022,Oakland,Def,oak,h,bal,0,2900
-5,2017,7032,Houston,Def,hou,h,kan,-3,0
 6,2017,1415,Kirk Cousins,QB,was,h,sfo,31.8,6800
 6,2017,1175,Josh McCown,QB,nyj,h,nwe,25.26,5200
 6,2017,1518,Deshaun Watson,QB,hou,h,cle,24.3,6700
@@ -22636,7 +22379,6 @@
 6,2017,5370,Javorius Allen,RB,bal,h,chi,9.6,5400
 6,2017,5564,Tarik Cohen,RB,chi,a,bal,9.44,5100
 6,2017,2969,Isaiah Crowell,RB,cle,a,hou,9.3,4200
-6,2017,2863,Bobby Rainey,RB,bal,h,chi,9.1,0
 6,2017,2721,LeGarrette Blount,RB,phi,a,car,8.7,4700
 6,2017,2467,Frank Gore,RB,ind,a,ten,8.7,4500
 6,2017,2954,James White,RB,nwe,a,nyj,8.5,5200
@@ -22742,7 +22484,6 @@
 6,2017,5153,Alshon Jeffery,WR,phi,a,car,11.1,6300
 6,2017,5412,Adam Humphries,WR,tam,a,ari,11.1,4000
 6,2017,5217,Robert Woods,WR,lar,a,jac,11,3700
-6,2017,5595,Marvin Hall,WR,atl,h,mia,11,0
 6,2017,5182,Rishard Matthews,WR,ten,h,ind,10.9,5400
 6,2017,3754,Pierre Garcon,WR,sfo,a,was,10.5,6300
 6,2017,5206,DeAndre Hopkins,WR,hou,h,cle,9.9,8100
@@ -22761,7 +22502,6 @@
 6,2017,5381,Devin Funchess,WR,car,h,phi,6.6,6100
 6,2017,5408,Seth Roberts,WR,oak,h,lac,6.5,3600
 6,2017,5387,Justin Hardy,WR,atl,h,mia,6.4,3900
-6,2017,5458,T.J. Jones,WR,det,a,nor,6.3,
 6,2017,5553,JuJu Smith-Schuster,WR,pit,a,kan,6.2,3600
 6,2017,5462,Pharoh Cooper,WR,lar,a,jac,6,3000
 6,2017,3809,Mike Wallace,WR,bal,h,chi,6,4300
@@ -23065,7 +22805,6 @@
 7,2017,2552,Marshawn Lynch,RB,oak,h,kan,0.9,4600
 7,2017,5544,Elijah McGuire,RB,nyj,a,mia,0.7,4200
 7,2017,2928,Jeremy Hill,RB,cin,a,pit,0.7,3400
-7,2017,5484,Josh Ferguson,RB,ind,h,jac,0.5,0
 7,2017,5567,Matt Breida,RB,sfo,h,dal,0.5,4400
 7,2017,2887,Kenjon Barner,RB,phi,h,was,0.4,3600
 7,2017,5414,Raheem Mostert,RB,sfo,h,dal,0,3000
@@ -23107,7 +22846,6 @@
 7,2017,5253,Mike Evans,WR,tam,a,buf,21.8,7600
 7,2017,3891,Dez Bryant,WR,dal,a,sfo,19.3,7800
 7,2017,5341,Allen Hurns,WR,jac,a,ind,18.1,4100
-7,2017,5160,Deonte Thompson,WR,buf,h,tam,17.7,0
 7,2017,5173,Travis Benjamin,WR,lac,h,den,17.6,3300
 7,2017,5255,Brandin Cooks,WR,nwe,h,atl,16.5,7400
 7,2017,3474,Antonio Brown,WR,pit,h,cin,16.5,8900
@@ -23147,7 +22885,6 @@
 7,2017,5091,A.J. Green,WR,cin,a,pit,7.1,8300
 7,2017,5182,Rishard Matthews,WR,ten,a,cle,7,5500
 7,2017,5460,Josh Doctson,WR,was,a,phi,6.9,3800
-7,2017,5234,Griff Whalen,WR,bal,a,min,6.3,0
 7,2017,5593,Travis Rudolph,WR,nyg,h,sea,6.2,3300
 7,2017,5199,Tavon Austin,WR,lar,h,ari,6.2,3100
 7,2017,3501,Larry Fitzgerald,WR,ari,a,lar,5.9,7300
@@ -23505,7 +23242,6 @@
 8,2017,5177,Andre Holmes,WR,buf,h,oak,14.1,3200
 8,2017,3872,Michael Crabtree,WR,oak,a,buf,13.3,6300
 8,2017,5257,Kelvin Benjamin,WR,car,a,tam,12.9,6400
-8,2017,5458,T.J. Jones,WR,det,h,pit,12.8,
 8,2017,5394,Tre McBride,WR,chi,a,nor,12.2,3000
 8,2017,3474,Antonio Brown,WR,pit,a,det,12,8800
 8,2017,5091,A.J. Green,WR,cin,h,ind,11.7,8600
@@ -23899,7 +23635,6 @@
 9,2017,3770,DeSean Jackson,WR,tam,a,nor,5.3,5500
 9,2017,5454,Will Fuller,WR,hou,h,ind,5.2,7000
 9,2017,5265,Bruce Ellington,WR,hou,h,ind,5.2,3000
-9,2017,5458,T.J. Jones,WR,det,a,gnb,4.9,
 9,2017,5408,Seth Roberts,WR,oak,a,mia,4.8,3000
 9,2017,3946,Brandon LaFell,WR,cin,a,jac,4.8,3400
 9,2017,5550,Corey Davis,WR,ten,h,bal,4.8,4400
@@ -24230,7 +23965,6 @@
 10,2017,5191,Josh Bellamy,WR,chi,h,gnb,13.7,3000
 10,2017,5255,Brandin Cooks,WR,nwe,a,den,13.4,6000
 10,2017,5344,Donte Moncrief,WR,ind,h,pit,13,3000
-10,2017,5512,Maurice Harris,WR,was,h,min,13,0
 10,2017,5380,DeVante Parker,WR,mia,a,car,12.6,6000
 10,2017,5508,Roger Lewis,WR,nyg,a,sfo,12.3,3100
 10,2017,5252,Sammy Watkins,WR,lar,h,hou,12.1,4800
@@ -24262,7 +23996,6 @@
 10,2017,5460,Josh Doctson,WR,was,h,min,7,4100
 10,2017,5223,Russell Shepard,WR,car,h,mia,7,3000
 10,2017,5432,Tyrell Williams,WR,lac,a,jac,6.9,3400
-10,2017,3820,Louis Murphy,WR,sfo,h,nyg,6.8,0
 10,2017,5601,Chad Hansen,WR,nyj,a,tam,6.3,3000
 10,2017,5159,Mohamed Sanu,WR,atl,h,dal,5.9,5100
 10,2017,5268,Cody Latimer,WR,den,h,nwe,5.8,3000
@@ -24302,7 +24035,6 @@
 10,2017,5173,Travis Benjamin,WR,lac,a,jac,1.3,3500
 10,2017,5572,Amara Darboh,WR,sea,a,ari,1.3,3000
 10,2017,5478,Eli Rogers,WR,pit,a,ind,1.2,3000
-10,2017,5458,T.J. Jones,WR,det,h,cle,1.2,
 10,2017,5199,Tavon Austin,WR,lar,h,hou,0.2,3000
 10,2017,5476,Braxton Miller,WR,hou,a,lar,0.1,3000
 10,2017,5589,Chris Thompson,WR,hou,a,lar,0,3000
@@ -24514,7 +24246,6 @@
 11,2017,2887,Kenjon Barner,RB,phi,a,dal,9.6,3000
 11,2017,2871,Alfred Morris,RB,dal,h,phi,9.1,4500
 11,2017,2552,Marshawn Lynch,RB,oak,h,nwe,8.7,4300
-11,2017,5320,Mike Davis,RB,sea,h,atl,7.9,0
 11,2017,2890,Rex Burkhead,RB,nwe,a,oak,7.7,3600
 11,2017,2689,Danny Woodhead,RB,bal,a,gnb,7.3,4400
 11,2017,5535,Joe Mixon,RB,cin,a,den,6.9,4000
@@ -24545,7 +24276,6 @@
 11,2017,5566,Matthew Dayes,RB,cle,h,jac,1.5,3000
 11,2017,2889,Giovani Bernard,RB,cin,a,den,1.4,3000
 11,2017,2954,James White,RB,nwe,a,oak,1.3,4700
-11,2017,5532,Joe Kerridge,RB,gnb,h,bal,1.3,0
 11,2017,5537,James Conner,RB,pit,h,ten,1.2,4500
 11,2017,3191,Rod Smith,RB,dal,h,phi,1.1,3400
 11,2017,5581,C.J. Ham,RB,min,h,lar,0.8,3000
@@ -24554,7 +24284,6 @@
 11,2017,2818,Jacquizz Rodgers,RB,tam,h,-,0.3,4000
 11,2017,2910,Tommy Bohanon,RB,jac,a,cle,0.3,3000
 11,2017,5431,Akeem Hunt,RB,kan,a,nyg,0.3,3000
-11,2017,5524,Byron Marshall,RB,was,a,nor,0.2,0
 11,2017,2912,Zach Line,RB,nor,h,was,0.2,3000
 11,2017,2934,Andre Williams,RB,lac,h,buf,0.2,3000
 11,2017,2896,Eddie Lacy,RB,sea,h,atl,0.2,3500
@@ -24618,7 +24347,6 @@
 11,2017,3770,DeSean Jackson,WR,tam,h,-,10.8,5100
 11,2017,5260,Paul Richardson,WR,sea,h,atl,10.6,4700
 11,2017,5256,Marqise Lee,WR,jac,a,cle,9.5,5500
-11,2017,5458,T.J. Jones,WR,det,a,chi,9.5,
 11,2017,5594,Mike Williams,WR,lac,h,buf,8.8,3200
 11,2017,5553,JuJu Smith-Schuster,WR,pit,h,ten,8.7,6000
 11,2017,5508,Roger Lewis,WR,nyg,h,kan,8.5,3000
@@ -24672,7 +24400,6 @@
 11,2017,5503,Mike Thomas,WR,lar,a,min,2.2,3000
 11,2017,5287,Willie Snead,WR,nor,h,was,2.2,3000
 11,2017,5432,Tyrell Williams,WR,lac,h,buf,2.1,3600
-11,2017,5520,Kalif Raymond,WR,nyg,h,kan,2.1,0
 11,2017,5578,Mack Hollins,WR,phi,a,dal,1.7,3000
 11,2017,5515,Demarcus Robinson,WR,kan,a,nyg,1.7,3400
 11,2017,3860,Brandon Tate,WR,buf,a,lac,1.7,3000
@@ -24729,7 +24456,6 @@
 11,2017,4652,Tyler Kroft,TE,cin,a,den,9.2,2900
 11,2017,4601,Eric Ebron,TE,det,a,chi,8.9,3300
 11,2017,4714,Jeremy Sprinkle,TE,was,a,nor,7.7,2500
-11,2017,4715,Austin Traylor,TE,den,h,cin,7.6,0
 11,2017,4534,Julius Thomas,TE,mia,h,-,7,2800
 11,2017,4494,Rob Gronkowski,TE,nwe,a,oak,6.6,7200
 11,2017,4586,Josh Hill,TE,nor,h,was,6.5,2500
@@ -25075,7 +24801,6 @@
 12,2017,5287,Willie Snead,WR,nor,a,lar,1.9,3000
 12,2017,5148,Michael Floyd,WR,min,a,det,1.8,3000
 12,2017,5555,Taywan Taylor,WR,ten,a,ind,1.8,3000
-12,2017,3731,Harry Douglas,WR,ten,a,ind,1.8,0
 12,2017,5134,Aldrick Robinson,WR,sfo,h,sea,1.8,3100
 12,2017,5580,Chad Williams,WR,ari,h,jac,1.8,3000
 12,2017,3830,Jeremy Maclin,WR,bal,h,hou,1.6,5000
@@ -25083,7 +24808,6 @@
 12,2017,5219,Brice Butler,WR,dal,h,lac,1.5,3100
 12,2017,5380,DeVante Parker,WR,mia,a,nwe,1.5,5900
 12,2017,2580,Ryan Grant,WR,was,h,nyg,1.3,3700
-12,2017,5602,JoJo Natson,WR,nyj,h,car,0.9,
 12,2017,5498,Trevor Davis,WR,gnb,a,pit,0.4,3000
 12,2017,5386,Tyler Lockett,WR,sea,a,sfo,0.2,4600
 12,2017,5589,Chris Thompson,WR,hou,a,bal,0,3000
@@ -25513,7 +25237,6 @@
 13,2017,5585,Noah Brown,WR,dal,h,was,0.8,3000
 13,2017,5199,Tavon Austin,WR,lar,a,ari,0.8,3000
 13,2017,5551,ArDarius Stewart,WR,nyj,h,kan,0.5,3000
-13,2017,5606,Bobo Wilson,WR,tam,a,gnb,0.4,0
 13,2017,5486,Jakeem Grant,WR,mia,h,den,0.2,3000
 13,2017,5219,Brice Butler,WR,dal,h,was,0,3100
 13,2017,5366,Freddie Martino,WR,tam,a,gnb,0,3000
@@ -25603,7 +25326,6 @@
 13,2017,4700,O.J. Howard,TE,tam,a,gnb,2.7,2800
 13,2017,4599,Derek Carrier,TE,lar,a,ari,2.4,2500
 13,2017,4653,Jesse James,TE,pit,a,cin,2.3,3000
-13,2017,4682,Alan Cross,TE,tam,a,gnb,2.3,0
 13,2017,5436,Daniel Brown,TE,chi,h,sfo,2.3,2500
 13,2017,4716,Antony Auclair,TE,tam,a,gnb,2.1,2500
 13,2017,4538,Lance Kendricks,TE,gnb,h,tam,2.1,2500
@@ -25897,7 +25619,6 @@
 14,2017,5268,Cody Latimer,WR,den,h,nyj,5.7,3000
 14,2017,5454,Will Fuller,WR,hou,h,sfo,5.6,4300
 14,2017,5554,Kenny Golladay,WR,det,a,tam,5.6,3900
-14,2017,5458,T.J. Jones,WR,det,a,tam,5.6,
 14,2017,5412,Adam Humphries,WR,tam,h,det,5.5,3100
 14,2017,5216,Terrance Williams,WR,dal,a,nyg,5.5,3700
 14,2017,5408,Seth Roberts,WR,oak,a,kan,5.4,4000
@@ -25917,7 +25638,6 @@
 14,2017,5582,Josh Reynolds,WR,lar,h,phi,3.7,3400
 14,2017,5229,Jaron Brown,WR,ari,h,ten,3.5,3400
 14,2017,5188,Jarius Wright,WR,min,a,car,3.3,3000
-14,2017,5607,Darius Powe,WR,nyg,h,dal,3.3,0
 14,2017,5580,Chad Williams,WR,ari,h,ten,3.3,3000
 14,2017,5571,Trent Taylor,WR,sfo,a,hou,3.1,3300
 14,2017,3820,Louis Murphy,WR,sfo,a,hou,3,3000
@@ -26165,7 +25885,6 @@
 15,2017,2899,Latavius Murray,RB,min,h,cin,17.4,4900
 15,2017,2997,Duke Johnson,RB,cle,h,bal,16.3,4400
 15,2017,5544,Elijah McGuire,RB,nyj,a,nor,16.2,3500
-15,2017,2963,Kapri Bibbs,RB,was,h,ari,15.3,0
 15,2017,2816,Dion Lewis,RB,nwe,a,pit,15,5400
 15,2017,5547,Wayne Gallman,RB,nyg,h,phi,13.9,3900
 15,2017,2889,Giovani Bernard,RB,cin,a,min,13.3,5300
@@ -26290,7 +26009,6 @@
 15,2017,5598,Kendrick Bourne,WR,sfo,h,ten,12.5,3000
 15,2017,5191,Josh Bellamy,WR,chi,a,det,12,3000
 15,2017,3997,Demaryius Thomas,WR,den,a,ind,11.9,5600
-15,2017,5458,T.J. Jones,WR,det,h,chi,11.6,
 15,2017,5168,Marvin Jones,WR,det,h,chi,11.5,6200
 15,2017,5508,Roger Lewis,WR,nyg,h,phi,11.4,3000
 15,2017,3902,Eric Decker,WR,ten,a,sfo,11.3,3300
@@ -26321,7 +26039,6 @@
 15,2017,5091,A.J. Green,WR,cin,a,min,5,6500
 15,2017,5216,Terrance Williams,WR,dal,a,oak,4.9,3600
 15,2017,5159,Mohamed Sanu,WR,atl,a,tam,4.6,6000
-15,2017,5602,JoJo Natson,WR,nyj,a,nor,4.4,
 15,2017,5199,Tavon Austin,WR,lar,a,sea,4.4,3000
 15,2017,3474,Antonio Brown,WR,pit,h,nwe,4.4,9100
 15,2017,3851,Danny Amendola,WR,nwe,a,pit,4.3,5000
@@ -26361,7 +26078,6 @@
 15,2017,5572,Amara Darboh,WR,sea,h,lar,1.8,3000
 15,2017,5388,Sammie Coates,WR,cle,h,bal,1.8,3000
 15,2017,5212,Kenny Stills,WR,mia,a,buf,1.8,5000
-15,2017,3824,Kenny Britt,WR,nwe,a,pit,1.7,0
 15,2017,5136,Doug Baldwin,WR,sea,h,lar,1.6,6700
 15,2017,5097,Dontrelle Inman,WR,chi,a,det,1.5,3100
 15,2017,5384,Phillip Dorsett,WR,nwe,a,pit,1.4,3400
@@ -26639,7 +26355,6 @@
 16,2017,5504,Derek Watt,RB,lac,a,nyj,3.6,3000
 16,2017,5583,Corey Clement,RB,phi,h,oak,3,3600
 16,2017,2931,Charles Sims,RB,tam,a,car,2.9,3500
-16,2017,2829,Stevan Ridley,RB,pit,a,hou,2.8,0
 16,2017,2612,Jonathan Stewart,RB,car,h,tam,2.8,3700
 16,2017,2613,Matt Forte,RB,nyj,h,lac,2.6,3800
 16,2017,2721,LeGarrette Blount,RB,phi,h,oak,2.5,3900
@@ -26690,7 +26405,6 @@
 16,2017,2913,Jamize Olawale,RB,oak,a,phi,0,3000
 16,2017,2980,Jay Prosch,RB,hou,h,pit,0,3000
 16,2017,5517,Dan Vitale,RB,cle,a,chi,0,3000
-16,2017,5529,Bronson Hill,RB,ari,h,nyg,-0.2,0
 16,2017,5544,Elijah McGuire,RB,nyj,h,lac,-1,3600
 16,2017,3501,Larry Fitzgerald,WR,ari,h,nyg,30.74,6800
 16,2017,5089,Julio Jones,WR,atl,a,nor,24.9,7900
@@ -26713,7 +26427,6 @@
 16,2017,3902,Eric Decker,WR,ten,h,lar,13.3,3200
 16,2017,5160,Deonte Thompson,WR,buf,a,nwe,13.1,3000
 16,2017,5579,Chris Godwin,WR,tam,a,car,12.8,3000
-16,2017,5383,Jaelen Strong,WR,jac,a,sfo,12.8,0
 16,2017,2580,Ryan Grant,WR,was,h,den,12.5,3200
 16,2017,5252,Sammy Watkins,WR,lar,a,ten,12,4400
 16,2017,5257,Kelvin Benjamin,WR,buf,a,nwe,12,4200
@@ -26751,7 +26464,6 @@
 16,2017,5205,Marquise Goodwin,WR,sfo,h,jac,6.7,5200
 16,2017,5162,Kendall Wright,WR,chi,h,cle,6.7,3800
 16,2017,5339,Albert Wilson,WR,kan,h,mia,6.6,3200
-16,2017,5610,Michael Clark,WR,gnb,h,min,6.6,0
 16,2017,3891,Dez Bryant,WR,dal,h,sea,6.4,6000
 16,2017,5217,Robert Woods,WR,lar,a,ten,6.3,6500
 16,2017,3851,Danny Amendola,WR,nwe,h,buf,5.8,4800
@@ -27043,7 +26755,6 @@
 17,2017,5564,Tarik Cohen,RB,chi,a,min,8.7,3600
 17,2017,5320,Mike Davis,RB,sea,h,ari,8.4,4100
 17,2017,2912,Zach Line,RB,nor,a,tam,7.8,3000
-17,2017,5396,Marcus Murphy,RB,buf,a,mia,6.8,0
 17,2017,2819,Bilal Powell,RB,nyj,a,nwe,6.6,4700
 17,2017,2874,Brandon Bolden,RB,nwe,h,nyj,6.3,3000
 17,2017,2924,C.J. Anderson,RB,den,h,kan,6.1,6000
@@ -27614,7 +27325,6 @@
 1,2018,5634,Michael Gallup,WR,dal,a,car,1.9,4000
 1,2018,5229,Jaron Brown,WR,sea,a,den,1.7,3300
 1,2018,5216,Terrance Williams,WR,dal,a,car,1.6,3800
-1,2018,5458,T.J. Jones,WR,det,h,nyj,1.6,
 1,2018,5207,Justin Hunter,WR,pit,a,cle,1.6,3000
 1,2018,5479,Chris Moore,WR,bal,h,buf,1.5,3000
 1,2018,5636,Christian Kirk,WR,ari,h,was,1.4,3700
@@ -27906,7 +27616,6 @@
 2,2018,2957,Damien Williams,RB,kan,a,pit,1.2,3000
 2,2018,5643,Shaun Wilson,RB,tam,h,phi,0.9,3000
 2,2018,5581,C.J. Ham,RB,min,a,gnb,0.5,3000
-2,2018,5522,Brandon Wilds,RB,ari,a,lar,0.4,0
 2,2018,5644,Alex Armah,RB,car,a,atl,0.4,3000
 2,2018,2914,Spencer Ware,RB,kan,a,pit,0.3,4100
 2,2018,5490,Jalen Richard,RB,oak,a,den,0.3,3400
@@ -27993,7 +27702,6 @@
 2,2018,5384,Phillip Dorsett,WR,nwe,a,jac,9.4,4500
 2,2018,5632,Anthony Miller,WR,chi,h,sea,9.1,3700
 2,2018,5323,Odell Beckham Jr.,WR,nyg,a,dal,9.1,8500
-2,2018,5275,Kamar Aiken,WR,phi,a,tam,8.9,0
 2,2018,5361,Taylor Gabriel,WR,chi,h,sea,8.7,3900
 2,2018,5385,Chris Conley,WR,kan,a,pit,8.7,3300
 2,2018,3670,Ted Ginn Jr.,WR,nor,h,cle,8.5,4800
@@ -28007,7 +27715,6 @@
 2,2018,5160,Deonte Thompson,WR,dal,h,nyg,7.3,3600
 2,2018,5515,Demarcus Robinson,WR,kan,a,pit,7.3,3100
 2,2018,3851,Danny Amendola,WR,mia,a,nyj,7.2,4600
-2,2018,5367,Martavis Bryant,WR,oak,a,den,7,0
 2,2018,5125,Randall Cobb,WR,gnb,h,min,7,4600
 2,2018,3997,Demaryius Thomas,WR,den,h,oak,6.8,5600
 2,2018,5636,Christian Kirk,WR,ari,a,lar,6.7,3600
@@ -28302,7 +28009,6 @@
 3,2018,2957,Damien Williams,RB,kan,h,sfo,3.6,3000
 3,2018,5507,Peyton Barber,RB,tam,h,pit,3.3,3800
 3,2018,5446,Kenyan Drake,RB,mia,h,oak,3,5600
-3,2018,5661,Josh Adams,RB,phi,h,ind,3,0
 3,2018,5643,Shaun Wilson,RB,tam,h,pit,2.9,3000
 3,2018,2915,Chris Thompson,RB,was,h,gnb,2.7,6300
 3,2018,2960,Alfred Blue,RB,hou,h,nyg,2.7,3600
@@ -28327,7 +28033,6 @@
 3,2018,5663,Nick Bellore,RB,det,h,nwe,0.5,3000
 3,2018,5522,Brandon Wilds,RB,ari,h,chi,0.5,3000
 3,2018,5618,Rashaad Penny,RB,sea,h,dal,0.5,4100
-3,2018,2963,Kapri Bibbs,RB,was,h,gnb,0.3,0
 3,2018,5596,Tre Madden,RB,sea,h,dal,0.2,3000
 3,2018,5482,Andy Janovich,RB,den,a,bal,0.2,3000
 3,2018,5644,Alex Armah,RB,car,h,cin,0.1,3000
@@ -28434,7 +28139,6 @@
 3,2018,5635,James Washington,WR,pit,a,tam,4.5,3700
 3,2018,5160,Deonte Thompson,WR,dal,a,sea,4.3,3600
 3,2018,5341,Allen Hurns,WR,dal,a,sea,4.2,3600
-3,2018,5254,Jordan Matthews,WR,phi,h,ind,4.1,0
 3,2018,5653,Vyncint Smith,WR,hou,h,nyg,3.8,3000
 3,2018,5598,Kendrick Bourne,WR,sfo,a,kan,3.7,3000
 3,2018,5376,Amari Cooper,WR,oak,a,mia,3.7,6600
@@ -28452,7 +28156,6 @@
 3,2018,5208,Cordarrelle Patterson,WR,nwe,a,det,2.2,3400
 3,2018,3754,Pierre Garcon,WR,sfo,a,kan,2.1,5300
 3,2018,5265,Bruce Ellington,WR,hou,h,nyg,2,3500
-3,2018,5134,Aldrick Robinson,WR,min,h,buf,1.9,0
 3,2018,5580,Chad Williams,WR,ari,h,chi,1.8,3000
 3,2018,5666,Marcus Kemp,WR,kan,h,sfo,1.7,3000
 3,2018,5188,Jarius Wright,WR,car,h,cin,1.7,3700
@@ -28460,7 +28163,6 @@
 3,2018,5595,Marvin Hall,WR,atl,h,nor,1.7,3000
 3,2018,5461,Tajae Sharpe,WR,ten,a,jac,1.6,3100
 3,2018,5665,Ray-Ray McCloud,WR,buf,a,min,1.6,3000
-3,2018,5458,T.J. Jones,WR,det,h,nwe,1.4,
 3,2018,5182,Rishard Matthews,WR,ten,a,jac,1.3,3600
 3,2018,5647,Zach Pascal,WR,ind,a,phi,1.3,3000
 3,2018,5633,D.J. Moore,WR,car,h,cin,1.3,3800
@@ -28553,7 +28255,6 @@
 3,2018,4493,Jermaine Gresham,TE,ari,h,chi,1.9,2600
 3,2018,4564,Garrett Celek,TE,sfo,a,kan,1.7,2600
 3,2018,4653,Jesse James,TE,pit,a,tam,1.7,3400
-3,2018,4626,Erik Swoope,TE,ind,a,phi,1.7,0
 3,2018,4732,Tyler Conklin,TE,min,h,buf,1.7,2500
 3,2018,4542,Virgil Green,TE,lac,a,lar,1.6,2700
 3,2018,4650,Maxx Williams,TE,bal,h,den,1.5,2500
@@ -28728,13 +28429,10 @@
 4,2018,2969,Isaiah Crowell,RB,nyj,a,jac,1.3,3700
 4,2018,2721,LeGarrette Blount,RB,det,a,dal,1.2,3900
 4,2018,5662,Mike Boone,RB,min,a,lar,1.1,3000
-4,2018,2887,Kenjon Barner,RB,nwe,h,mia,1.1,0
 4,2018,2858,Doug Martin,RB,oak,h,cle,1.1,3700
 4,2018,2914,Spencer Ware,RB,kan,a,den,0.6,3800
 4,2018,5668,Roc Thomas,RB,min,a,lar,0.4,3000
-4,2018,5542,Jeremy McNichols,RB,ind,h,hou,0.4,0
 4,2018,5628,Kalen Ballage,RB,mia,a,nwe,0.3,3300
-4,2018,5483,Dwayne Washington,RB,nor,a,nyg,0.2,0
 4,2018,5619,Chase Edmonds,RB,ari,h,sea,0.1,4300
 4,2018,2818,Jacquizz Rodgers,RB,tam,a,chi,0,3400
 4,2018,5414,Raheem Mostert,RB,sfo,a,lac,0,3000
@@ -28941,7 +28639,6 @@
 4,2018,4677,Austin Hooper,TE,atl,h,cin,2.9,2900
 4,2018,4734,Chris Herndon,TE,nyj,a,jac,2.8,2500
 4,2018,4674,Matt LaCosse,TE,den,h,kan,2.7,2500
-4,2018,4736,Mo Alie-Cox,TE,ind,h,hou,2.7,0
 4,2018,4705,Gerald Everett,TE,lar,h,min,2.3,2500
 4,2018,4728,Jason Croom,TE,buf,a,gnb,2.3,2500
 4,2018,4592,Ryan Griffin,TE,hou,a,ind,2.2,2600
@@ -29304,7 +29001,6 @@
 5,2018,4492,Jimmy Graham,TE,gnb,a,det,13.6,4700
 5,2018,5110,Niles Paul,TE,jac,a,kan,13.5,2500
 5,2018,4494,Rob Gronkowski,TE,nwe,h,ind,13.5,6400
-5,2018,4626,Erik Swoope,TE,ind,a,nwe,13.4,0
 5,2018,4703,George Kittle,TE,sfo,h,ari,13.3,5400
 5,2018,4702,David Njoku,TE,cle,h,bal,12.9,3400
 5,2018,4592,Ryan Griffin,TE,hou,h,dal,12.5,2500
@@ -29492,7 +29188,6 @@
 6,2018,5468,Devontae Booker,RB,den,h,lar,4.9,3800
 6,2018,5370,Javorius Allen,RB,bal,a,ten,4.9,4800
 6,2018,5617,Ronald Jones,RB,tam,a,atl,4.9,3900
-6,2018,5681,Gus Edwards,RB,bal,a,ten,4.2,0
 6,2018,5543,Aaron Jones,RB,gnb,h,sfo,4.1,4600
 6,2018,5320,Mike Davis,RB,sea,a,oak,3.6,4100
 6,2018,5445,Derrick Henry,RB,ten,h,bal,3.6,4000
@@ -29506,10 +29201,8 @@
 6,2018,5682,Justin Jackson,RB,lac,a,cle,2.2,3000
 6,2018,5620,Royce Freeman,RB,den,h,lar,2.2,3900
 6,2018,5662,Mike Boone,RB,min,h,ari,2,3000
-6,2018,2629,Jamaal Charles,RB,jac,a,dal,2,0
 6,2018,2741,Chris Ivory,RB,buf,a,hou,1.9,3800
 6,2018,2858,Doug Martin,RB,oak,h,sea,1.8,3500
-6,2018,2887,Kenjon Barner,RB,nwe,h,kan,1.6,0
 6,2018,2867,Robert Turbin,RB,ind,a,nyj,1.3,3500
 6,2018,2913,Jamize Olawale,RB,dal,h,jac,1.3,3000
 6,2018,5538,Samaje Perine,RB,was,h,car,1,3200
@@ -29714,15 +29407,12 @@
 6,2018,4538,Lance Kendricks,TE,gnb,h,sfo,5.7,2500
 6,2018,4604,Xavier Grimble,TE,pit,a,cin,5.5,2500
 6,2018,4676,Jeff Heuerman,TE,den,h,lar,5.3,2600
-6,2018,4738,Anthony Firkser,TE,ten,h,bal,4.5,0
 6,2018,4705,Gerald Everett,TE,lar,a,den,4.4,2900
-6,2018,4736,Mo Alie-Cox,TE,ind,a,nyj,4.4,0
 6,2018,4668,Geoff Swaim,TE,dal,h,jac,4.1,2900
 6,2018,4721,Mark Andrews,TE,bal,a,ten,4,2600
 6,2018,4493,Jermaine Gresham,TE,ari,a,min,3.6,2700
 6,2018,4620,Scott Simonson,TE,nyg,h,phi,3.4,2500
 6,2018,4684,Neal Sterling,TE,nyj,h,ind,3.3,2500
-6,2018,4740,Tyrone Swoopes,TE,sea,a,oak,3.3,0
 6,2018,4437,Jared Cook,TE,oak,h,sea,3,5000
 6,2018,4660,Nick Boyle,TE,bal,a,ten,2.7,2500
 6,2018,4735,Rico Gathers,TE,dal,h,jac,2.4,2500
@@ -29731,7 +29421,6 @@
 6,2018,4561,Orson Charles,TE,cle,h,lac,1.8,2500
 6,2018,4725,Dallas Goedert,TE,phi,a,nyg,1.7,2600
 6,2018,4674,Matt LaCosse,TE,den,h,lar,1.7,2500
-6,2018,4739,David Grinnage,TE,jac,a,dal,1.7,0
 6,2018,4729,Jordan Akins,TE,hou,h,buf,1.6,2500
 6,2018,4716,Antony Auclair,TE,tam,a,atl,1.5,2500
 6,2018,4270,Antonio Gates,TE,lac,a,cle,1.5,2800
@@ -30014,8 +29703,6 @@
 7,2018,3978,Andre Roberts,WR,nyj,h,min,4.1,3100
 7,2018,5570,Keelan Cole,WR,jac,h,hou,4.1,4600
 7,2018,5550,Corey Davis,WR,ten,a,lac,4,5100
-7,2018,5247,Nick Williams,WR,lar,a,sfo,3.7,0
-7,2018,5458,T.J. Jones,WR,det,a,mia,3.6,
 7,2018,5409,J.J. Nelson,WR,ari,h,den,3.5,3000
 7,2018,5677,Brandon Zylstra,WR,min,a,nyj,3.3,3000
 7,2018,5479,Chris Moore,WR,bal,h,nor,3.3,3000
@@ -30025,12 +29712,9 @@
 7,2018,5642,Antonio Callaway,WR,cle,a,tam,2.4,4300
 7,2018,5177,Andre Holmes,WR,buf,a,ind,2.3,3100
 7,2018,5173,Travis Benjamin,WR,lac,h,ten,2.3,3500
-7,2018,5353,Bennie Fowler,WR,nyg,a,atl,2.1,0
-7,2018,5686,Deontay Burnett,WR,nyj,h,min,1.9,0
 7,2018,5384,Phillip Dorsett,WR,nwe,a,chi,1.8,3700
 7,2018,5531,Damiere Byrd,WR,car,a,phi,1.8,3000
 7,2018,5555,Taywan Taylor,WR,ten,a,lac,1.8,3800
-7,2018,5391,Rashad Greene,WR,jac,h,hou,1.8,0
 7,2018,5385,Chris Conley,WR,kan,h,cin,1.6,3200
 7,2018,5571,Trent Taylor,WR,sfo,h,lar,1.6,4100
 7,2018,5379,Breshad Perriman,WR,cle,a,tam,1.6,3000
@@ -30466,7 +30150,6 @@
 8,2018,4719,Mike Gesicki,TE,mia,a,hou,5.4,2600
 8,2018,4578,Luke Willson,TE,det,h,sea,5.1,2500
 8,2018,4618,Trey Burton,TE,chi,h,nyj,4.8,4800
-8,2018,4743,Jordan Franks,TE,cin,h,tam,4.2,0
 8,2018,4493,Jermaine Gresham,TE,ari,h,sfo,4.2,2600
 8,2018,4712,Ricky Seals-Jones,TE,ari,h,sfo,3.2,3000
 8,2018,4705,Gerald Everett,TE,lar,h,gnb,3.2,2600
@@ -30643,7 +30326,6 @@
 9,2018,2721,LeGarrette Blount,RB,det,a,min,2,3400
 9,2018,5482,Andy Janovich,RB,den,h,hou,1.9,3000
 9,2018,3191,Rod Smith,RB,dal,h,ten,1.8,4000
-9,2018,5693,Taquan Mizzell,RB,chi,a,buf,1.5,0
 9,2018,2912,Zach Line,RB,nor,h,lar,1.3,3000
 9,2018,2871,Alfred Morris,RB,sfo,h,oak,1.3,3500
 9,2018,5681,Gus Edwards,RB,bal,h,pit,1,3000
@@ -30735,7 +30417,6 @@
 9,2018,5453,Laquon Treadwell,WR,min,h,det,5.7,3300
 9,2018,5386,Tyler Lockett,WR,sea,h,lac,5.2,5200
 9,2018,3770,DeSean Jackson,WR,tam,a,car,5.2,5000
-9,2018,5692,Chad Beebe,WR,min,h,det,5.1,0
 9,2018,5569,Ryan Switzer,WR,pit,a,bal,5.1,3100
 9,2018,5186,Jermaine Kearse,WR,nyj,a,mia,5,4200
 9,2018,3946,Brandon LaFell,WR,oak,a,sfo,5,3800
@@ -30750,12 +30431,10 @@
 9,2018,5134,Aldrick Robinson,WR,min,h,det,4,3200
 9,2018,5635,James Washington,WR,pit,a,bal,3.7,3300
 9,2018,5655,David Moore,WR,sea,h,lac,3.6,3900
-9,2018,1407,Terrelle Pryor,WR,buf,h,chi,3.6,0
 9,2018,5260,Paul Richardson,WR,was,h,atl,3.6,3800
 9,2018,3751,Jordy Nelson,WR,oak,a,sfo,3.6,4600
 9,2018,5678,Damion Ratley,WR,cle,h,kan,3.6,3500
 9,2018,5385,Chris Conley,WR,kan,a,cle,3.3,3200
-9,2018,5458,T.J. Jones,WR,det,a,min,3.3,
 9,2018,5212,Kenny Stills,WR,mia,h,nyj,2.9,4300
 9,2018,5651,Tim Patrick,WR,den,h,hou,2.7,3000
 9,2018,5253,Mike Evans,WR,tam,a,car,2.6,8100
@@ -31005,7 +30684,6 @@
 10,2018,2912,Zach Line,RB,nor,a,cin,1.3,3000
 10,2018,5643,Shaun Wilson,RB,tam,h,was,1.3,3000
 10,2018,2822,Anthony Sherman,RB,kan,h,ari,1.2,3000
-10,2018,5397,Zach Zenner,RB,det,a,chi,1.2,0
 10,2018,5619,Chase Edmonds,RB,ari,a,kan,0.7,4100
 10,2018,5683,Dontrell Hilliard,RB,cle,h,atl,0.6,3000
 10,2018,2933,Carlos Hyde,RB,jac,a,ind,0.5,4400
@@ -31052,7 +30730,6 @@
 10,2018,5553,JuJu Smith-Schuster,WR,pit,h,car,19.3,6900
 10,2018,5344,Donte Moncrief,WR,jac,a,ind,18.8,4700
 10,2018,5198,Keenan Allen,WR,lac,a,oak,17.7,7100
-10,2018,5649,Robert Foster,WR,buf,a,nyj,16.5,0
 10,2018,5217,Robert Woods,WR,lar,h,sea,14.6,6600
 10,2018,5460,Josh Doctson,WR,was,a,tam,14.6,4300
 10,2018,3851,Danny Amendola,WR,mia,a,gnb,14.2,4500
@@ -31086,7 +30763,6 @@
 10,2018,5631,Calvin Ridley,WR,atl,a,cle,7,5900
 10,2018,5254,Jordan Matthews,WR,phi,h,dal,7,3100
 10,2018,5408,Seth Roberts,WR,oak,h,lac,6.9,3200
-10,2018,5695,Keith Kirkwood,WR,nor,a,cin,6.5,0
 10,2018,5633,D.J. Moore,WR,car,a,pit,6.5,4700
 10,2018,5381,Devin Funchess,WR,car,a,pit,6.2,5300
 10,2018,5341,Allen Hurns,WR,dal,a,phi,6,3400
@@ -31094,7 +30770,6 @@
 10,2018,5642,Antonio Callaway,WR,cle,h,atl,5.9,4000
 10,2018,5420,Quincy Enunwa,WR,nyj,h,buf,5.8,3700
 10,2018,5679,Cameron Batson,WR,ten,h,nwe,5.6,3000
-10,2018,5574,Isaiah McKenzie,WR,buf,a,nyj,5.6,0
 10,2018,5634,Michael Gallup,WR,dal,a,phi,5.4,3700
 10,2018,5379,Breshad Perriman,WR,cle,h,atl,5.3,3000
 10,2018,5188,Jarius Wright,WR,car,a,pit,5.2,3100
@@ -31117,7 +30792,6 @@
 10,2018,5655,David Moore,WR,sea,a,lar,2.6,3900
 10,2018,5672,Equanimeous St. Brown,WR,gnb,h,mia,2.3,3500
 10,2018,5571,Trent Taylor,WR,sfo,h,nyg,2.2,3700
-10,2018,5458,T.J. Jones,WR,det,a,chi,2.2,
 10,2018,5595,Marvin Hall,WR,atl,a,cle,2.2,3100
 10,2018,5506,Charone Peake,WR,nyj,h,buf,2.1,3000
 10,2018,5452,Corey Coleman,WR,nyg,a,sfo,2.1,3000
@@ -31448,7 +31122,6 @@
 11,2018,5655,David Moore,WR,sea,h,gnb,9.7,3800
 11,2018,5698,Marcell Ateman,WR,oak,a,ari,9,3000
 11,2018,3995,Golden Tate,WR,phi,a,nor,9,5500
-11,2018,5652,Trey Quinn,WR,was,h,hou,8.9,0
 11,2018,5579,Chris Godwin,WR,tam,a,nyg,8,4300
 11,2018,5408,Seth Roberts,WR,oak,a,ari,7.8,3000
 11,2018,3770,DeSean Jackson,WR,tam,a,nyg,7.8,5000
@@ -31494,7 +31167,6 @@
 11,2018,5252,Sammy Watkins,WR,kan,a,lar,1.4,5200
 11,2018,5640,DaeSean Hamilton,WR,den,a,lac,1.4,3000
 11,2018,5675,KhaDarel Hodge,WR,lar,h,kan,1.3,3000
-11,2018,5458,T.J. Jones,WR,det,h,car,1.2,
 11,2018,5595,Marvin Hall,WR,atl,h,dal,0.3,3000
 11,2018,5666,Marcus Kemp,WR,kan,a,lar,0,3000
 11,2018,5684,J'Mon Moore,WR,gnb,a,sea,0,3000
@@ -31711,7 +31383,6 @@
 12,2018,5682,Justin Jackson,RB,lac,h,ari,5.7,3000
 12,2018,2993,T.J. Yeldon,RB,jac,a,buf,5.3,4100
 12,2018,5625,Jordan Wilkins,RB,ind,h,mia,5.2,3300
-12,2018,5703,Jeff Wilson Jr.,RB,sfo,a,tam,5.1,0
 12,2018,2997,Duke Johnson,RB,cle,a,cin,4.9,5100
 12,2018,5547,Wayne Gallman,RB,nyg,a,phi,4.3,3600
 12,2018,2910,Tommy Bohanon,RB,jac,a,buf,3.9,3000
@@ -31810,7 +31481,6 @@
 12,2018,3872,Michael Crabtree,WR,bal,h,oak,11.1,4600
 12,2018,3501,Larry Fitzgerald,WR,ari,a,lac,11,5000
 12,2018,5574,Isaiah McKenzie,WR,buf,h,jac,9.9,3000
-12,2018,5496,Tommylee Lewis,WR,nor,h,atl,9.8,0
 12,2018,5265,Bruce Ellington,WR,det,h,chi,9,3200
 12,2018,5136,Doug Baldwin,WR,sea,a,car,8.9,5100
 12,2018,5672,Equanimeous St. Brown,WR,gnb,a,min,8.8,3300
@@ -31849,7 +31519,6 @@
 12,2018,5585,Noah Brown,WR,dal,h,was,3.2,3000
 12,2018,5384,Phillip Dorsett,WR,nwe,a,nyj,3,3300
 12,2018,5702,Malik Turner,WR,sea,a,car,2.9,3000
-12,2018,5458,T.J. Jones,WR,det,h,chi,2.5,
 12,2018,5637,Courtland Sutton,WR,den,h,pit,2.4,4400
 12,2018,5654,DeAndre Carter,WR,hou,h,ten,2.4,3000
 12,2018,5679,Cameron Batson,WR,ten,a,hou,2.3,3000
@@ -31858,7 +31527,6 @@
 12,2018,5378,Nelson Agholor,WR,phi,h,nyg,2.2,4100
 12,2018,5134,Aldrick Robinson,WR,min,h,gnb,2.1,3200
 12,2018,5208,Cordarrelle Patterson,WR,nwe,a,nyj,1.9,3600
-12,2018,5701,Keon Hatcher,WR,oak,a,bal,1.8,0
 12,2018,5341,Allen Hurns,WR,dal,h,was,1.7,3200
 12,2018,5518,Cody Core,WR,cin,h,cle,1.7,3000
 12,2018,5191,Josh Bellamy,WR,chi,a,det,1.7,3000
@@ -32269,7 +31937,6 @@
 13,2018,5649,Robert Foster,WR,buf,a,mia,3.7,3300
 13,2018,5570,Keelan Cole,WR,jac,h,ind,3.6,3000
 13,2018,5558,John Ross,WR,cin,h,den,3.5,3900
-13,2018,5458,T.J. Jones,WR,det,h,lar,3.5,
 13,2018,5097,Dontrelle Inman,WR,ind,a,jac,3.4,3800
 13,2018,5453,Laquon Treadwell,WR,min,a,nwe,3.3,3200
 13,2018,5479,Chris Moore,WR,bal,a,atl,3.1,3000
@@ -32464,7 +32131,6 @@
 14,2018,1501,Dak Prescott,QB,dal,h,phi,30.4,5600
 14,2018,1131,Tom Brady,QB,nwe,a,mia,29.62,5800
 14,2018,1409,Andrew Luck,QB,ind,a,hou,27.56,5900
-14,2018,1320,Josh Johnson,QB,was,h,nyg,25.3,0
 14,2018,1523,Patrick Mahomes II,QB,kan,h,bal,24.78,7000
 14,2018,1529,Josh Allen,QB,buf,h,nyj,24.34,5500
 14,2018,1410,Ryan Tannehill,QB,mia,h,nwe,23.9,4800
@@ -32502,7 +32168,6 @@
 14,2018,1517,DeShone Kizer,QB,gnb,h,atl,-0.1,4300
 14,2018,1339,Mark Sanchez,QB,was,h,nyg,-0.48,4000
 14,2018,1530,Taysom Hill,QB,nor,a,tam,-0.6,4000
-14,2018,1535,Kyle Lauletta,QB,nyg,a,was,-1.2,0
 14,2018,5445,Derrick Henry,RB,ten,h,jac,50.8,3600
 14,2018,5444,Ezekiel Elliott,RB,dal,h,phi,34.2,8600
 14,2018,5614,Saquon Barkley,RB,nyg,a,was,32.7,8900
@@ -32691,7 +32356,6 @@
 14,2018,5420,Quincy Enunwa,WR,nyj,a,buf,5.2,3700
 14,2018,5453,Laquon Treadwell,WR,min,a,sea,4.6,3100
 14,2018,5432,Tyrell Williams,WR,lac,h,cin,4.4,4600
-14,2018,5707,Jalen Tolliver,WR,ari,h,det,4.2,0
 14,2018,5598,Kendrick Bourne,WR,sfo,h,den,4.2,3400
 14,2018,5550,Corey Davis,WR,ten,h,jac,4.1,5100
 14,2018,5695,Keith Kirkwood,WR,nor,a,tam,4.1,3500
@@ -32978,7 +32642,6 @@
 15,2018,5657,Trenton Cannon,RB,nyj,h,hou,6.7,3100
 15,2018,5446,Kenyan Drake,RB,mia,a,min,6.4,4200
 15,2018,5619,Chase Edmonds,RB,ari,a,atl,6.4,3800
-15,2018,5709,Keith Ford,RB,buf,h,det,6.3,0
 15,2018,5469,Kenneth Dixon,RB,bal,h,tam,6,3500
 15,2018,5658,Ito Smith,RB,atl,h,ari,5.9,3700
 15,2018,5615,Sony Michel,RB,nwe,a,pit,5.9,5400
@@ -33150,7 +32813,6 @@
 15,2018,5461,Tajae Sharpe,WR,ten,a,nyg,1.6,3300
 15,2018,5177,Andre Holmes,WR,den,h,cle,1.5,3000
 15,2018,5704,Jake Kumerow,WR,gnb,a,chi,1.5,3000
-15,2018,5458,T.J. Jones,WR,det,a,buf,1.5,
 15,2018,5665,Ray-Ray McCloud,WR,buf,h,det,0.7,3000
 15,2018,5666,Marcus Kemp,WR,kan,h,lac,0,3000
 15,2018,5679,Cameron Batson,WR,ten,a,nyg,0,3000
@@ -33194,7 +32856,6 @@
 15,2018,5570,Keelan Cole,WR,jac,h,was,0,3200
 15,2018,5130,Dwayne Harris,WR,oak,a,cin,0,3000
 15,2018,5496,Tommylee Lewis,WR,nor,a,car,-0.6,3000
-15,2018,5602,JoJo Natson,WR,lar,h,phi,-1,
 15,2018,4701,Evan Engram,TE,nyg,h,ten,15.5,4100
 15,2018,4564,Garrett Celek,TE,sfo,h,sea,14.1,2500
 15,2018,4618,Trey Burton,TE,chi,h,gnb,13.6,3700
@@ -33353,7 +33014,6 @@
 16,2018,1492,Cody Kessler,QB,jac,a,mia,3.44,4600
 16,2018,1241,Matt Cassel,QB,det,h,min,3.2,4000
 16,2018,1420,Mike Glennon,QB,ari,h,lar,2.52,4200
-16,2018,1536,Kyle Allen,QB,car,h,atl,1.52,0
 16,2018,1507,Nate Sudfeld,QB,phi,h,hou,0,4000
 16,2018,5071,Joe Webb,QB,hou,a,phi,0,4000
 16,2018,1484,Sean Mannion,QB,lar,a,ari,-0.2,4300
@@ -33364,7 +33024,6 @@
 16,2018,5541,Jamaal Williams,RB,gnb,a,nyj,27.6,5400
 16,2018,5565,Chris Carson,RB,sea,h,kan,26.6,5800
 16,2018,5562,Alvin Kamara,RB,nor,h,pit,26.5,7400
-16,2018,2924,C.J. Anderson,RB,lar,a,ari,26.2,0
 16,2018,5544,Elijah McGuire,RB,nyj,h,gnb,23.5,4700
 16,2018,2858,Doug Martin,RB,oak,h,den,21.6,4400
 16,2018,5615,Sony Michel,RB,nwe,h,buf,20.6,4900
@@ -33516,7 +33175,6 @@
 16,2018,5556,Curtis Samuel,WR,car,h,atl,11.1,4500
 16,2018,5198,Keenan Allen,WR,lac,h,bal,10.8,7700
 16,2018,5653,Vyncint Smith,WR,hou,a,phi,10.5,3000
-16,2018,5458,T.J. Jones,WR,det,h,min,10.2,
 16,2018,5163,Cole Beasley,WR,dal,h,tam,10,3600
 16,2018,5515,Demarcus Robinson,WR,kan,a,sea,9.7,4300
 16,2018,5379,Breshad Perriman,WR,cle,h,cin,9.6,3200
@@ -33749,7 +33407,6 @@
 17,2018,1528,Baker Mayfield,QB,cle,a,bal,27.04,5300
 17,2018,1131,Tom Brady,QB,nwe,h,nyj,26,6000
 17,2018,1536,Kyle Allen,QB,car,a,nor,25.02,4000
-17,2018,1409,Andrew Luck,QB,ind,a,ten,24.1,0
 17,2018,1490,Jared Goff,QB,lar,h,sfo,23.96,6200
 17,2018,1225,Eli Manning,QB,nyg,h,dal,23.24,4900
 17,2018,1534,Nick Mullens,QB,sfo,a,lar,22.08,4700
@@ -33765,7 +33422,6 @@
 17,2018,1231,Philip Rivers,QB,lac,a,den,9.04,6400
 17,2018,1439,Teddy Bridgewater,QB,nor,h,car,8.92,5300
 17,2018,1412,Russell Wilson,QB,sea,h,ari,8.88,6100
-17,2018,1381,Blaine Gabbert,QB,ten,h,ind,8.6,0
 17,2018,1524,Sam Darnold,QB,nyj,a,nwe,8.48,5200
 17,2018,1530,Taysom Hill,QB,nor,h,car,8.4,4700
 17,2018,1517,DeShone Kizer,QB,gnb,h,det,8.28,4800
@@ -33775,7 +33431,6 @@
 17,2018,1507,Nate Sudfeld,QB,phi,a,was,4.68,4000
 17,2018,1441,Derek Carr,QB,oak,a,kan,4.4,5100
 17,2018,1320,Josh Johnson,QB,was,h,phi,3.04,4800
-17,2018,1446,Garrett Gilbert,QB,car,a,nor,1.6,0
 17,2018,1309,Chad Henne,QB,kan,h,oak,1.46,4800
 17,2018,1252,Aaron Rodgers,QB,gnb,h,det,1.04,6300
 17,2018,1484,Sean Mannion,QB,lar,h,sfo,0.12,4300
@@ -33787,7 +33442,6 @@
 17,2018,2924,C.J. Anderson,RB,lar,h,sfo,27.4,5400
 17,2018,5614,Saquon Barkley,RB,nyg,h,dal,27.2,8200
 17,2018,5565,Chris Carson,RB,sea,h,ari,22.9,6500
-17,2018,5548,Marlon Mack,RB,ind,a,ten,22.8,0
 17,2018,2871,Alfred Morris,RB,sfo,a,lar,21.5,3200
 17,2018,5397,Zach Zenner,RB,det,a,gnb,19.3,4000
 17,2018,5620,Royce Freeman,RB,den,h,lac,18.3,3500
@@ -33808,7 +33462,6 @@
 17,2018,5395,David Johnson,RB,ari,a,sea,11.8,5700
 17,2018,5575,Austin Ekeler,RB,lac,a,den,11.8,5400
 17,2018,5473,Wendell Smallwood,RB,phi,a,was,11.7,3200
-17,2018,5445,Derrick Henry,RB,ten,h,ind,11.6,0
 17,2018,5661,Josh Adams,RB,phi,a,was,11.3,3700
 17,2018,5688,Jaylen Samuels,RB,pit,h,cin,11.2,6800
 17,2018,5564,Tarik Cohen,RB,chi,a,min,11.2,5900
@@ -33824,10 +33477,8 @@
 17,2018,5544,Elijah McGuire,RB,nyj,a,nwe,7.5,5300
 17,2018,2915,Chris Thompson,RB,was,h,phi,7.4,3900
 17,2018,2793,Mark Ingram,RB,nor,h,car,6.3,5300
-17,2018,5623,Nyheim Hines,RB,ind,a,ten,5.9,0
 17,2018,5627,John Kelly,RB,lar,h,sfo,5.8,3600
 17,2018,2484,Darren Sproles,RB,phi,a,was,5.6,4400
-17,2018,2816,Dion Lewis,RB,ten,h,ind,5.3,0
 17,2018,5536,Christian McCaffrey,RB,car,a,nor,5,9100
 17,2018,5541,Jamaal Williams,RB,gnb,h,det,5,6000
 17,2018,5615,Sony Michel,RB,nwe,h,nyj,5,5200
@@ -33842,7 +33493,6 @@
 17,2018,5619,Chase Edmonds,RB,ari,a,sea,3.8,4000
 17,2018,2889,Giovani Bernard,RB,cin,a,pit,3.5,3900
 17,2018,2997,Duke Johnson,RB,cle,a,bal,3.4,3800
-17,2018,5625,Jordan Wilkins,RB,ind,a,ten,3.3,0
 17,2018,2869,Travaris Cadet,RB,car,a,nor,3.2,3000
 17,2018,5392,Ty Montgomery,RB,bal,h,cle,3.2,3300
 17,2018,5708,Darrel Williams,RB,kan,h,oak,3.1,4100
@@ -33908,8 +33558,6 @@
 17,2018,5159,Mohamed Sanu,WR,atl,a,tam,20.4,4800
 17,2018,3826,Julian Edelman,WR,nwe,h,nyj,20.3,7600
 17,2018,5689,Brandon Powell,WR,det,a,gnb,19.3,3000
-17,2018,5458,T.J. Jones,WR,det,a,gnb,19,
-17,2018,5097,Dontrelle Inman,WR,ind,a,ten,18.7,0
 17,2018,5424,Stefon Diggs,WR,min,h,chi,18.7,7000
 17,2018,5642,Antonio Callaway,WR,cle,a,bal,17.9,3700
 17,2018,5268,Cody Latimer,WR,nyg,h,dal,17.2,3000
@@ -33943,10 +33591,8 @@
 17,2018,5634,Michael Gallup,WR,dal,a,nyg,10,3800
 17,2018,5640,DaeSean Hamilton,WR,den,h,lac,9.9,5000
 17,2018,5212,Kenny Stills,WR,mia,a,buf,9.82,3700
-17,2018,5550,Corey Davis,WR,ten,h,ind,9.8,0
 17,2018,5635,James Washington,WR,pit,h,cin,9.4,3100
 17,2018,5570,Keelan Cole,WR,jac,a,hou,8.5,3000
-17,2018,5151,T.Y. Hilton,WR,ind,a,ten,8.1,0
 17,2018,5459,Michael Thomas,WR,nor,h,car,7.9,8400
 17,2018,5651,Tim Patrick,WR,den,h,lac,7.8,4300
 17,2018,5408,Seth Roberts,WR,oak,a,kan,7.7,3400
@@ -33958,7 +33604,6 @@
 17,2018,5333,Adam Thielen,WR,min,h,chi,6.7,7400
 17,2018,3851,Danny Amendola,WR,mia,a,buf,6.6,3800
 17,2018,5654,DeAndre Carter,WR,hou,h,jac,6.3,3600
-17,2018,5500,Chester Rogers,WR,ind,a,ten,6.2,0
 17,2018,5341,Allen Hurns,WR,dal,a,nyg,5.9,3000
 17,2018,5653,Vyncint Smith,WR,hou,h,jac,5.8,3000
 17,2018,3978,Andre Roberts,WR,nyj,a,nwe,5.8,3200
@@ -33966,7 +33611,6 @@
 17,2018,5460,Josh Doctson,WR,was,h,phi,5.3,3400
 17,2018,5353,Bennie Fowler,WR,nyg,h,dal,5.1,3000
 17,2018,5704,Jake Kumerow,WR,gnb,h,det,4.9,3000
-17,2018,5433,Darius Jennings,WR,ten,h,ind,4.7,0
 17,2018,5136,Doug Baldwin,WR,sea,h,ari,4.7,6100
 17,2018,5217,Robert Woods,WR,lar,h,sfo,4.5,6900
 17,2018,5694,River Cracraft,WR,den,h,lac,4.4,3000
@@ -33985,7 +33629,6 @@
 17,2018,5705,Gehrig Dieter,WR,kan,h,oak,3.2,3000
 17,2018,5377,Kevin White,WR,chi,a,min,3.2,3000
 17,2018,5603,Dede Westbrook,WR,jac,a,hou,3,4700
-17,2018,5555,Taywan Taylor,WR,ten,h,ind,2.8,0
 17,2018,5496,Tommylee Lewis,WR,nor,h,car,2.8,3000
 17,2018,5606,Bobo Wilson,WR,tam,h,atl,2.6,3000
 17,2018,5696,Auden Tate,WR,cin,a,pit,2.5,3000
@@ -34000,9 +33643,7 @@
 17,2018,5410,Jamison Crowder,WR,was,h,phi,1.7,4800
 17,2018,5684,J'Mon Moore,WR,gnb,h,det,1.5,3000
 17,2018,5665,Ray-Ray McCloud,WR,buf,h,mia,1.5,3000
-17,2018,2580,Ryan Grant,WR,ind,a,ten,1.4,0
 17,2018,5585,Noah Brown,WR,dal,a,nyg,1.3,3000
-17,2018,5646,J.J. Jones,WR,nyj,a,nwe,1.3,0
 17,2018,5191,Josh Bellamy,WR,chi,a,min,1.2,3000
 17,2018,5569,Ryan Switzer,WR,pit,h,cin,1.2,3300
 17,2018,5558,John Ross,WR,cin,a,pit,1.1,4000
@@ -34040,16 +33681,13 @@
 17,2018,4703,George Kittle,TE,sfo,a,lar,32.9,6300
 17,2018,4701,Evan Engram,TE,nyg,h,dal,21.1,5300
 17,2018,4730,Ian Thomas,TE,car,a,nor,17.1,3300
-17,2018,4601,Eric Ebron,TE,ind,a,ten,16,0
 17,2018,4577,Levine Toilolo,TE,det,a,gnb,14.3,2500
 17,2018,4677,Austin Hooper,TE,atl,a,tam,11.7,3500
 17,2018,4582,Travis Kelce,TE,kan,h,oak,11.2,7200
 17,2018,4721,Mark Andrews,TE,bal,h,cle,9.4,3100
 17,2018,4702,David Njoku,TE,cle,a,bal,9.2,3700
-17,2018,4532,Luke Stocker,TE,ten,h,ind,9.2,0
 17,2018,4618,Trey Burton,TE,chi,a,min,8.3,3800
 17,2018,4674,Matt LaCosse,TE,den,h,lac,8.3,3000
-17,2018,2978,Ryan Hewitt,TE,ind,a,ten,7.1,0
 17,2018,4572,Vance McDonald,TE,pit,h,cin,6.9,4200
 17,2018,4720,Hayden Hurst,TE,bal,h,cle,6.3,2500
 17,2018,4537,Kyle Rudolph,TE,min,h,chi,5.9,4400
@@ -34063,18 +33701,15 @@
 17,2018,4433,John Phillips,TE,ari,a,sea,4.9,2500
 17,2018,4292,Ben Watson,TE,nor,h,car,4.9,2600
 17,2018,4680,Tyler Higbee,TE,lar,h,sfo,4.6,2600
-17,2018,4669,MyCole Pruitt,TE,ten,h,ind,4.6,0
 17,2018,4569,Zach Ertz,TE,phi,a,was,4.5,6700
 17,2018,4494,Rob Gronkowski,TE,nwe,h,nyj,4.4,5100
 17,2018,4737,Durham Smythe,TE,mia,a,buf,4.4,2500
 17,2018,4688,Nick Vannett,TE,sea,h,ari,3.7,2500
 17,2018,4620,Scott Simonson,TE,nyg,h,dal,3.4,2500
-17,2018,4736,Mo Alie-Cox,TE,ind,a,ten,3.1,0
 17,2018,4513,Logan Paulsen,TE,atl,a,tam,2.9,2500
 17,2018,4719,Mike Gesicki,TE,mia,a,buf,2.8,2500
 17,2018,4742,Dalton Schultz,TE,dal,a,nyg,2.7,2500
 17,2018,4604,Xavier Grimble,TE,pit,h,cin,2.6,2500
-17,2018,4738,Anthony Firkser,TE,ten,h,ind,1.8,0
 17,2018,4734,Chris Herndon,TE,nyj,a,nwe,1.8,3400
 17,2018,4592,Ryan Griffin,TE,hou,h,jac,1.8,2600
 17,2018,4724,Jordan Leggett,TE,nyj,a,nwe,1.7,2500
@@ -34133,8 +33768,6 @@
 17,2018,7010,Denver,Def,den,h,lac,10,2200
 17,2018,7007,Cincinnati,Def,cin,a,pit,10,2000
 17,2018,7028,Seattle,Def,sea,h,ari,10,3700
-17,2018,7030,Tennessee,Def,ten,h,ind,10,0
-17,2018,7013,Indianapolis,Def,ind,a,ten,10,0
 17,2018,7014,Jacksonville,Def,jac,a,hou,9,2300
 17,2018,7006,Chicago,Def,chi,a,min,8,2800
 17,2018,7024,Pittsburgh,Def,pit,h,cin,8,3500
@@ -34627,7 +34260,6 @@
 2,2019,1231,Philip Rivers,QB,lac,a,det,11.92,6100
 2,2019,1415,Kirk Cousins,QB,min,a,gnb,11.9,5300
 2,2019,1441,Derek Carr,QB,oak,h,kan,11.72,5100
-2,2019,1541,Luke Falk,QB,nyj,h,cle,7.92,0
 2,2019,1439,Teddy Bridgewater,QB,nor,a,lar,7.1,4400
 2,2019,1519,Mitchell Trubisky,QB,chi,a,den,5.6,5500
 2,2019,1530,Taysom Hill,QB,nor,a,lar,3.6,4200
@@ -34652,7 +34284,6 @@
 2,2019,2467,Frank Gore,RB,buf,a,nyg,16.3,3500
 2,2019,5507,Peyton Barber,RB,tam,a,car,15.9,3900
 2,2019,2992,Todd Gurley,RB,lar,h,nor,15.7,7000
-2,2019,5703,Jeff Wilson Jr.,RB,sfo,a,cin,15.4,0
 2,2019,5620,Royce Freeman,RB,den,h,chi,15.2,3700
 2,2019,5713,David Montgomery,RB,chi,a,den,13.8,4900
 2,2019,5615,Sony Michel,RB,nwe,a,mia,13.5,6200
@@ -34785,7 +34416,6 @@
 2,2019,5264,John Brown,WR,buf,a,nyg,14.2,5200
 2,2019,5553,JuJu Smith-Schuster,WR,pit,h,sea,13.4,7500
 2,2019,5634,Michael Gallup,WR,dal,a,was,12.8,5600
-2,2019,5458,T.J. Jones,WR,nyg,h,buf,12.8,0
 2,2019,5333,Adam Thielen,WR,min,a,gnb,12.5,7100
 2,2019,5574,Isaiah McKenzie,WR,buf,a,nyg,12.4,3000
 2,2019,5163,Cole Beasley,WR,buf,a,nyg,12.3,3800
@@ -35548,7 +35178,6 @@
 4,2019,5473,Wendell Smallwood,RB,was,a,nyg,2.4,3100
 4,2019,5742,Ty Johnson,RB,det,h,kan,2.4,3000
 4,2019,5720,Alexander Mattison,RB,min,a,chi,2.3,3900
-4,2019,5768,Jon Hilliman,RB,nyg,h,was,2.3,0
 4,2019,2890,Rex Burkhead,RB,nwe,a,buf,1.7,4400
 4,2019,5741,Nick Bawden,RB,det,h,kan,1.4,3000
 4,2019,5441,Malcolm Brown,RB,lar,h,tam,1.4,4400
@@ -35656,7 +35285,6 @@
 4,2019,5553,JuJu Smith-Schuster,WR,pit,h,cin,4.5,6600
 4,2019,5260,Paul Richardson,WR,was,a,nyg,4.4,3700
 4,2019,5212,Kenny Stills,WR,hou,h,car,4.4,4200
-4,2019,5773,Andre Patton,WR,lac,a,mia,4.2,0
 4,2019,5323,Odell Beckham Jr.,WR,cle,a,bal,4,7300
 4,2019,5384,Phillip Dorsett,WR,nwe,a,buf,3.9,4700
 4,2019,5731,KeeSean Johnson,WR,ari,h,sea,3.9,3200
@@ -35668,7 +35296,6 @@
 4,2019,5632,Anthony Miller,WR,chi,h,min,3.1,3700
 4,2019,5670,Keke Coutee,WR,hou,h,car,3.1,3100
 4,2019,5652,Trey Quinn,WR,was,a,nyg,3,3000
-4,2019,5706,Isaiah Ford,WR,mia,h,lac,2.9,0
 4,2019,5570,Keelan Cole,WR,jac,a,den,2.9,3500
 4,2019,5385,Chris Conley,WR,jac,a,den,2.7,4000
 4,2019,5333,Adam Thielen,WR,min,a,chi,2.6,6600
@@ -35767,7 +35394,6 @@
 4,2019,4688,Nick Vannett,TE,pit,h,cin,4.8,2700
 4,2019,4568,Tyler Eifert,TE,cin,a,pit,4.7,3200
 4,2019,4668,Geoff Swaim,TE,jac,a,den,4.7,2900
-4,2019,4578,Luke Willson,TE,sea,a,ari,4.6,0
 4,2019,4324,Marcedes Lewis,TE,gnb,h,phi,3.9,2500
 4,2019,4618,Trey Burton,TE,chi,h,min,3.6,3800
 4,2019,4709,Adam Shaheen,TE,chi,h,min,3.3,3100
@@ -35923,7 +35549,6 @@
 5,2019,2991,Melvin Gordon,RB,lac,h,den,7.8,7000
 5,2019,2997,Duke Johnson,RB,hou,h,atl,7.7,4200
 5,2019,5617,Ronald Jones,RB,tam,a,nor,7.6,4600
-5,2019,5776,Tra Carson,RB,gnb,a,dal,7.2,0
 5,2019,5618,Rashaad Penny,RB,sea,h,lar,6.9,4300
 5,2019,2957,Damien Williams,RB,kan,h,ind,6.8,5700
 5,2019,2993,T.J. Yeldon,RB,buf,a,ten,6.8,3800
@@ -36011,7 +35636,6 @@
 5,2019,5753,Steven Sims Jr.,WR,was,h,nwe,14.6,3000
 5,2019,5386,Tyler Lockett,WR,sea,h,lar,14.3,6400
 5,2019,5594,Mike Williams,WR,lac,h,den,13.4,4500
-5,2019,5777,Duke Williams,WR,buf,a,ten,12.9,0
 5,2019,5264,John Brown,WR,buf,a,ten,12.5,5100
 5,2019,5725,D.K. Metcalf,WR,sea,h,lar,12.4,4500
 5,2019,3501,Larry Fitzgerald,WR,ari,a,cin,11.8,6000
@@ -36049,7 +35673,6 @@
 5,2019,5323,Odell Beckham Jr.,WR,cle,a,sfo,6,7000
 5,2019,5198,Keenan Allen,WR,lac,h,den,5.8,7300
 5,2019,5731,KeeSean Johnson,WR,ari,a,cin,5.5,3500
-5,2019,5462,Pharoh Cooper,WR,ari,a,cin,5.3,0
 5,2019,5163,Cole Beasley,WR,buf,a,ten,5.1,4600
 5,2019,5511,Geronimo Allison,WR,gnb,a,dal,4.8,5000
 5,2019,5550,Corey Davis,WR,ten,h,buf,4.8,4400
@@ -36081,7 +35704,6 @@
 5,2019,5480,Alex Erickson,WR,cin,h,ari,1.7,3100
 5,2019,5750,Deon Cain,WR,ind,a,kan,1.7,3400
 5,2019,5188,Jarius Wright,WR,car,h,jac,1.6,3200
-5,2019,5779,Stanley Morgan,WR,cin,h,ari,1.6,0
 5,2019,5749,Jakobi Meyers,WR,nwe,a,was,1.6,3700
 5,2019,5256,Marqise Lee,WR,jac,a,car,1.5,4200
 5,2019,5387,Justin Hardy,WR,atl,a,hou,1.5,3000
@@ -36334,7 +35956,6 @@
 6,2019,5719,Justice Hill,RB,bal,h,cin,3.1,3200
 6,2019,5586,J.D. McKissic,RB,det,a,gnb,3.1,3000
 6,2019,5663,Nick Bellore,RB,sea,a,cle,3,3000
-6,2019,5624,Boston Scott,RB,phi,a,min,3,0
 6,2019,5507,Peyton Barber,RB,tam,h,car,2.8,4200
 6,2019,5448,C.J. Prosise,RB,sea,a,cle,2.3,3900
 6,2019,5482,Andy Janovich,RB,den,h,ten,1.8,3100
@@ -36346,7 +35967,6 @@
 6,2019,2819,Bilal Powell,RB,nyj,h,dal,0.5,3100
 6,2019,5473,Wendell Smallwood,RB,was,a,mia,0.4,3400
 6,2019,5644,Alex Armah,RB,car,a,tam,0.4,3000
-6,2019,5780,Dalyn Dawkins,RB,ten,a,den,0.2,0
 6,2019,5492,Keith Smith,RB,atl,a,ari,0.2,3000
 6,2019,5745,Ryquell Armstead,RB,jac,h,nor,0.1,3400
 6,2019,5744,Darwin Thompson,RB,kan,h,hou,0,3400
@@ -36430,7 +36050,6 @@
 6,2019,5335,Jarvis Landry,WR,cle,h,sea,6.6,5200
 6,2019,5550,Corey Davis,WR,ten,a,den,6.6,4000
 6,2019,5339,Albert Wilson,WR,mia,h,was,6.5,4000
-6,2019,5781,Jason Moore,WR,lac,h,pit,6.3,0
 6,2019,5767,Darius Slayton,WR,nyg,a,nwe,6.2,3100
 6,2019,5255,Brandin Cooks,WR,lar,h,sfo,6.2,5400
 6,2019,5159,Mohamed Sanu,WR,atl,a,ari,5.9,4500
@@ -36714,7 +36333,6 @@
 7,2019,5703,Jeff Wilson Jr.,RB,sfo,a,was,2,4200
 7,2019,5720,Alexander Mattison,RB,min,a,det,1.8,4600
 7,2019,5490,Jalen Richard,RB,oak,a,gnb,1.7,3800
-7,2019,5397,Zach Zenner,RB,nor,a,chi,1.7,0
 7,2019,5448,C.J. Prosise,RB,sea,h,bal,1.7,3700
 7,2019,5483,Dwayne Washington,RB,nor,a,chi,1.6,3000
 7,2019,5715,Damien Harris,RB,nwe,a,nyj,1.2,3000
@@ -36807,7 +36425,6 @@
 7,2019,5199,Tavon Austin,WR,dal,h,phi,8,3700
 7,2019,5671,Javon Wims,WR,chi,h,nor,7.6,3500
 7,2019,5748,Miles Boykin,WR,bal,a,sea,7.5,3500
-7,2019,5353,Bennie Fowler,WR,nyg,h,ari,7.5,0
 7,2019,5511,Geronimo Allison,WR,gnb,h,oak,7.3,4900
 7,2019,5268,Cody Latimer,WR,nyg,h,ari,7.3,3500
 7,2019,5711,Allen Lazard,WR,gnb,h,oak,7.2,3000
@@ -36936,7 +36553,6 @@
 7,2019,4756,Drew Sample,TE,cin,h,jac,1.3,2500
 7,2019,4577,Levine Toilolo,TE,sfo,a,was,1.2,2500
 7,2019,4745,Ross Dwelley,TE,sfo,a,was,1.2,2500
-7,2019,4704,Eric Tomlinson,TE,nwe,a,nyj,1.1,0
 7,2019,4592,Ryan Griffin,TE,nyj,h,nwe,1.1,2700
 7,2019,4391,Clark Harris,TE,cin,h,jac,0,2500
 7,2019,4765,Jaeden Graham,TE,atl,h,lar,0,2500
@@ -37106,7 +36722,6 @@
 8,2019,5745,Ryquell Armstead,RB,jac,h,nyj,0.7,4500
 8,2019,5703,Jeff Wilson Jr.,RB,sfo,h,car,0.6,3900
 8,2019,5625,Jordan Wilkins,RB,ind,h,den,0.5,3300
-8,2019,5472,Paul Perkins,RB,det,h,nyg,0.4,0
 8,2019,5588,Elijhaa Penny,RB,nyg,a,det,0.3,3000
 8,2019,5504,Derek Watt,RB,lac,a,chi,0.2,3000
 8,2019,5764,Alec Ingold,RB,oak,a,hou,0.2,3000
@@ -37968,7 +37583,6 @@
 10,2019,5557,Zay Jones,WR,oak,h,lac,2,3300
 10,2019,5453,Laquon Treadwell,WR,min,a,dal,2,3200
 10,2019,5779,Stanley Morgan,WR,cin,h,bal,1.9,3100
-10,2019,5587,Marcus Johnson,WR,ind,h,mia,1.9,0
 10,2019,5632,Anthony Miller,WR,chi,h,det,1.7,3500
 10,2019,3978,Andre Roberts,WR,buf,a,cle,1.7,3000
 10,2019,5480,Alex Erickson,WR,cin,h,bal,1.3,3900
@@ -38172,7 +37786,6 @@
 11,2019,2991,Melvin Gordon,RB,lac,h,kan,12,6300
 11,2019,5560,Kareem Hunt,RB,cle,h,pit,11.8,4300
 11,2019,5788,Patrick Laird,RB,mia,h,buf,11.8,3000
-11,2019,5791,Bo Scarbrough,RB,det,h,dal,11.5,0
 11,2019,2954,James White,RB,nwe,a,phi,9.6,5400
 11,2019,5703,Jeff Wilson Jr.,RB,sfo,h,ari,9.5,3300
 11,2019,5630,Phillip Lindsay,RB,den,a,min,9.5,5300
@@ -38274,7 +37887,6 @@
 11,2019,5384,Phillip Dorsett,WR,nwe,a,phi,12.3,4200
 11,2019,5432,Tyrell Williams,WR,oak,h,cin,12.2,5400
 11,2019,5385,Chris Conley,WR,jac,a,ind,11.8,4400
-11,2019,5651,Tim Patrick,WR,den,a,min,11.7,0
 11,2019,5761,Hunter Renfrow,WR,oak,h,cin,11.6,4000
 11,2019,5632,Anthony Miller,WR,chi,a,lar,11.4,3300
 11,2019,5772,Scott Miller,WR,tam,h,nor,11.1,3000
@@ -38315,7 +37927,6 @@
 11,2019,5595,Marvin Hall,WR,det,h,dal,4.9,3100
 11,2019,5724,N'Keal Harry,WR,nwe,a,phi,4.8,3000
 11,2019,5252,Sammy Watkins,WR,kan,a,lac,4.6,4900
-11,2019,5792,Tevin Jones,WR,dal,a,det,4.4,0
 11,2019,5554,Kenny Golladay,WR,det,h,dal,4.4,6700
 11,2019,5730,Marquise Brown,WR,bal,h,hou,4.3,5600
 11,2019,5553,JuJu Smith-Schuster,WR,pit,a,cle,4.1,6000
@@ -38555,7 +38166,6 @@
 12,2019,5620,Royce Freeman,RB,den,a,buf,4.9,4500
 12,2019,5616,Derrius Guice,RB,was,h,det,4.8,4700
 12,2019,5712,Josh Jacobs,RB,oak,a,nyj,4.6,7400
-12,2019,5794,Kerrith Whyte,RB,pit,a,cin,4.3,0
 12,2019,5742,Ty Johnson,RB,det,a,was,4.1,3700
 12,2019,2997,Duke Johnson,RB,hou,h,ind,4,3900
 12,2019,5586,J.D. McKissic,RB,det,a,was,4,4400
@@ -38645,7 +38255,6 @@
 12,2019,5767,Darius Slayton,WR,nyg,a,chi,10.7,5300
 12,2019,5702,Malik Turner,WR,sea,a,phi,10.3,3000
 12,2019,5554,Kenny Golladay,WR,det,a,was,10.1,6600
-12,2019,5793,Greg Ward,WR,phi,h,sea,10,0
 12,2019,5339,Albert Wilson,WR,mia,a,cle,9.7,3200
 12,2019,5168,Marvin Jones,WR,det,a,was,9.6,6100
 12,2019,5634,Michael Gallup,WR,dal,a,nwe,9.5,5900
@@ -38678,7 +38287,6 @@
 12,2019,5151,T.Y. Hilton,WR,ind,a,hou,4.8,6600
 12,2019,5598,Kendrick Bourne,WR,sfo,h,gnb,4.7,3300
 12,2019,5655,David Moore,WR,sea,a,phi,4.5,3200
-12,2019,5750,Deon Cain,WR,pit,a,cin,4.5,0
 12,2019,3997,Demaryius Thomas,WR,nyj,h,oak,4.2,3800
 12,2019,5511,Geronimo Allison,WR,gnb,a,sfo,3.9,3500
 12,2019,5432,Tyrell Williams,WR,oak,a,nyj,3.8,5900
@@ -38753,7 +38361,6 @@
 12,2019,4368,Greg Olsen,TE,car,a,nor,9.4,4100
 12,2019,4725,Dallas Goedert,TE,phi,h,sea,9.2,3700
 12,2019,4601,Eric Ebron,TE,ind,a,hou,8.4,3700
-12,2019,4661,Nick O'Leary,TE,jac,a,ten,7.6,0
 12,2019,5419,Darren Waller,TE,oak,a,nyj,7.1,5700
 12,2019,4680,Tyler Higbee,TE,lar,h,bal,7,2500
 12,2019,4721,Mark Andrews,TE,bal,a,lar,6.5,6100
@@ -38784,7 +38391,6 @@
 12,2019,4262,Jason Witten,TE,dal,a,nwe,1.5,3500
 12,2019,4714,Jeremy Sprinkle,TE,was,h,det,1.4,2900
 12,2019,4730,Ian Thomas,TE,car,a,nor,1.4,2500
-12,2019,4771,Jesper Horsted,TE,chi,h,nyg,1.4,0
 12,2019,4760,Foster Moreau,TE,oak,a,nyj,1.3,2800
 12,2019,4572,Vance McDonald,TE,pit,a,cin,1.1,3500
 12,2019,4706,Jonnu Smith,TE,ten,h,jac,0.4,3600
@@ -39088,7 +38694,6 @@
 13,2019,5410,Jamison Crowder,WR,nyj,a,cin,2.8,5600
 13,2019,5798,Ashton Dulin,WR,ind,h,ten,2.3,3000
 13,2019,5287,Willie Snead,WR,bal,h,sfo,2.2,3600
-13,2019,5795,Da'Mari Scott,WR,nyg,h,gnb,2.1,0
 13,2019,5570,Keelan Cole,WR,jac,h,tam,2.1,3600
 13,2019,5770,Keelan Doss,WR,oak,a,kan,2.1,3000
 13,2019,5165,Josh Gordon,WR,sea,h,min,2,3700
@@ -39378,7 +38983,6 @@
 14,2019,2890,Rex Burkhead,RB,nwe,h,kan,1.5,3400
 14,2019,5662,Mike Boone,RB,min,h,det,1.3,3000
 14,2019,2995,Ameer Abdullah,RB,min,h,det,1.2,3000
-14,2019,2914,Spencer Ware,RB,kan,a,nwe,1.2,0
 14,2019,5619,Chase Edmonds,RB,ari,h,pit,0.9,3900
 14,2019,5719,Justice Hill,RB,bal,a,buf,0.8,3000
 14,2019,5745,Ryquell Armstead,RB,jac,h,lac,0.7,4300
@@ -39573,7 +39177,6 @@
 14,2019,5803,Alexander Hollins,WR,min,h,det,0,3000
 14,2019,5758,Chris Lacy,WR,det,a,min,0,3000
 14,2019,5674,Richie James,WR,sfo,a,nor,-0.1,3000
-14,2019,5785,Greg Dortch,WR,car,a,atl,-1,0
 14,2019,4569,Zach Ertz,TE,phi,h,nyg,30.1,6100
 14,2019,4748,Noah Fant,TE,den,a,hou,24.3,3400
 14,2019,4680,Tyler Higbee,TE,lar,h,sea,21.6,3400
@@ -39749,7 +39352,6 @@
 15,2019,2553,Adrian Peterson,RB,was,h,phi,18.1,4400
 15,2019,5662,Mike Boone,RB,min,a,lac,17.6,3000
 15,2019,5543,Aaron Jones,RB,gnb,h,chi,17.1,7300
-15,2019,5806,Wes Hills,RB,det,h,tam,16.2,0
 15,2019,5560,Kareem Hunt,RB,cle,a,ari,15.6,6300
 15,2019,5564,Tarik Cohen,RB,chi,a,gnb,15.5,4800
 15,2019,2954,James White,RB,nwe,a,cin,15.2,5400
@@ -39810,7 +39412,6 @@
 15,2019,2467,Frank Gore,RB,buf,a,pit,1.5,3700
 15,2019,5688,Jaylen Samuels,RB,pit,h,buf,1.4,3900
 15,2019,5800,Khari Blasingame,RB,ten,h,hou,1,3200
-15,2019,5484,Josh Ferguson,RB,was,h,phi,0.9,0
 15,2019,5738,Travis Homer,RB,sea,a,car,0.7,3000
 15,2019,5395,David Johnson,RB,ari,h,cle,0.6,4500
 15,2019,5794,Kerrith Whyte,RB,pit,h,buf,0.5,3000
@@ -39920,7 +39521,6 @@
 15,2019,5706,Isaiah Ford,WR,mia,a,nyg,5.1,3700
 15,2019,5461,Tajae Sharpe,WR,ten,h,hou,4.8,3200
 15,2019,5726,Deebo Samuel,WR,sfo,h,atl,4.7,5800
-15,2019,5097,Dontrelle Inman,WR,ind,a,nor,4.5,0
 15,2019,5558,John Ross,WR,cin,h,nwe,4.4,3900
 15,2019,5751,Kelvin Harmon,WR,was,h,phi,4.2,3500
 15,2019,5603,Dede Westbrook,WR,jac,a,oak,4.1,4600
@@ -39940,15 +39540,12 @@
 15,2019,5770,Keelan Doss,WR,oak,h,jac,2.7,3000
 15,2019,5287,Willie Snead,WR,bal,h,nyj,2.5,3500
 15,2019,3670,Ted Ginn Jr.,WR,nor,h,ind,2.3,3800
-15,2019,5167,Chris Hogan,WR,car,h,sea,2.3,0
-15,2019,5807,Jeff Smith,WR,nyj,a,bal,2.2,0
 15,2019,5598,Kendrick Bourne,WR,sfo,h,atl,2.1,4000
 15,2019,5727,Mecole Hardman,WR,kan,h,den,2,4000
 15,2019,5188,Jarius Wright,WR,car,h,sea,1.9,3500
 15,2019,5341,Allen Hurns,WR,mia,a,nyg,1.9,4700
 15,2019,5491,Johnny Holton,WR,pit,h,buf,1.9,3000
 15,2019,5229,Jaron Brown,WR,sea,a,car,1.9,3000
-15,2019,5784,C.J. Board,WR,jac,a,oak,1.8,0
 15,2019,5773,Andre Patton,WR,lac,h,min,1.8,3000
 15,2019,3978,Andre Roberts,WR,buf,a,pit,1.7,3000
 15,2019,5163,Cole Beasley,WR,buf,a,pit,1.6,5700
@@ -39957,7 +39554,6 @@
 15,2019,5557,Zay Jones,WR,oak,h,jac,1.5,3500
 15,2019,5503,Mike Thomas,WR,lar,a,dal,1.5,3000
 15,2019,5798,Ashton Dulin,WR,ind,a,nor,1.4,3000
-15,2019,5808,Ishmael Hyman,WR,tam,a,det,1.3,0
 15,2019,5734,Andy Isabella,WR,ari,h,cle,1.3,3200
 15,2019,5520,Kalif Raymond,WR,ten,h,hou,1.2,3300
 15,2019,5760,Deonte Harris,WR,nor,h,ind,1.1,3000
@@ -40224,7 +39820,6 @@
 16,2019,5581,C.J. Ham,RB,min,h,gnb,3.2,3000
 16,2019,5537,James Conner,RB,pit,a,nyj,3.2,6500
 16,2019,5788,Patrick Laird,RB,mia,h,cin,2.8,4600
-16,2019,5780,Dalyn Dawkins,RB,ten,h,nor,2.4,0
 16,2019,5492,Keith Smith,RB,atl,h,jac,2.3,3000
 16,2019,5794,Kerrith Whyte,RB,pit,a,nyj,2.2,3000
 16,2019,5742,Ty Johnson,RB,det,a,den,2,3100
@@ -40462,7 +40057,6 @@
 16,2019,4292,Ben Watson,TE,nwe,h,buf,4.5,2600
 16,2019,4750,Dawson Knox,TE,buf,a,nwe,4.3,2700
 16,2019,4758,Trevon Wesco,TE,nyj,h,pit,4.2,2500
-16,2019,4776,Codey McElroy,TE,tam,h,hou,4,0
 16,2019,4572,Vance McDonald,TE,pit,a,nyj,3.9,3100
 16,2019,4737,Durham Smythe,TE,mia,h,cin,3.8,2500
 16,2019,4594,Jack Doyle,TE,ind,h,car,3.7,4500
@@ -40564,7 +40158,6 @@
 17,2019,1252,Aaron Rodgers,QB,gnb,a,det,23.02,6900
 17,2019,1441,Derek Carr,QB,oak,a,den,22.64,5500
 17,2019,1151,Drew Brees,QB,nor,a,car,22.02,7000
-17,2019,1412,Russell Wilson,QB,sea,h,sfo,20.22,0
 17,2019,1537,Kyler Murray,QB,ari,a,lar,20,5500
 17,2019,1539,Daniel Jones,QB,nyg,h,phi,19.64,6400
 17,2019,1301,Matt Ryan,QB,atl,a,tam,18.52,6500
@@ -40579,7 +40172,6 @@
 17,2019,1547,Drew Lock,QB,den,h,oak,12.98,5800
 17,2019,1523,Patrick Mahomes II,QB,kan,h,lac,12.06,7200
 17,2019,1530,Taysom Hill,QB,nor,a,car,11.9,4500
-17,2019,1452,Jimmy Garoppolo,QB,sfo,a,sea,11.8,0
 17,2019,1536,Kyle Allen,QB,car,h,nor,11.3,4900
 17,2019,1435,Case Keenum,QB,was,a,dal,11.24,4500
 17,2019,1524,Sam Darnold,QB,nyj,a,buf,10.76,5000
@@ -40605,7 +40197,6 @@
 17,2019,5536,Christian McCaffrey,RB,car,h,nor,22.8,10000
 17,2019,5449,DeAndre Washington,RB,oak,a,den,21.2,5200
 17,2019,5614,Saquon Barkley,RB,nyg,h,phi,20.7,8700
-17,2019,5414,Raheem Mostert,RB,sfo,a,sea,20.3,0
 17,2019,5713,David Montgomery,RB,chi,a,min,20.3,5100
 17,2019,5562,Alvin Kamara,RB,nor,a,car,19.7,7800
 17,2019,5548,Marlon Mack,RB,ind,a,jac,19.7,6900
@@ -40618,7 +40209,6 @@
 17,2019,5617,Ronald Jones,RB,tam,h,atl,15.6,4900
 17,2019,5564,Tarik Cohen,RB,chi,a,min,15.4,4900
 17,2019,5740,Benny Snell,RB,pit,a,bal,15.1,4500
-17,2019,5738,Travis Homer,RB,sea,h,sfo,14.2,0
 17,2019,5615,Sony Michel,RB,nwe,h,mia,13.4,4900
 17,2019,2888,Le'Veon Bell,RB,nyj,a,buf,12.7,5800
 17,2019,5719,Justice Hill,RB,bal,h,pit,11.9,4600
@@ -40627,7 +40217,6 @@
 17,2019,2992,Todd Gurley,RB,lar,h,ari,10.9,6600
 17,2019,5788,Patrick Laird,RB,mia,a,nwe,10.9,4300
 17,2019,5441,Malcolm Brown,RB,lar,h,ari,10.2,4000
-17,2019,2552,Marshawn Lynch,RB,sea,h,sfo,9.4,
 17,2019,2930,Devonta Freeman,RB,atl,a,tam,9.3,6500
 17,2019,5623,Nyheim Hines,RB,ind,a,jac,8.6,4200
 17,2019,2899,Latavius Murray,RB,nor,a,car,8.5,5600
@@ -40644,13 +40233,11 @@
 17,2019,2890,Rex Burkhead,RB,nwe,h,mia,6.4,4500
 17,2019,5735,Reggie Bonnafon,RB,car,h,nor,6.2,4600
 17,2019,2820,Taiwan Jones,RB,hou,h,ten,5.9,3700
-17,2019,2908,Kyle Juszczyk,RB,sfo,a,sea,5.9,0
 17,2019,5507,Peyton Barber,RB,tam,h,atl,5.5,3600
 17,2019,5630,Phillip Lindsay,RB,den,h,oak,5.3,6100
 17,2019,5622,Nick Chubb,RB,cle,a,cin,5.2,7500
 17,2019,5791,Bo Scarbrough,RB,det,h,gnb,4.2,3700
 17,2019,5468,Devontae Booker,RB,den,h,oak,3.7,3000
-17,2019,2994,Tevin Coleman,RB,sfo,a,sea,2.8,0
 17,2019,2819,Bilal Powell,RB,nyj,a,buf,2.7,3800
 17,2019,5688,Jaylen Samuels,RB,pit,a,bal,2.6,4300
 17,2019,5470,Tyler Ervin,RB,gnb,a,det,2.5,4000
@@ -40658,10 +40245,7 @@
 17,2019,5370,Javorius Allen,RB,nyg,h,phi,2.3,3000
 17,2019,2915,Chris Thompson,RB,was,a,dal,2.1,3900
 17,2019,5608,Brian Hill,RB,atl,a,tam,2.1,3500
-17,2019,5676,Ricky Ortiz,RB,nor,a,car,1.8,0
 17,2019,5800,Khari Blasingame,RB,ten,a,hou,1.7,3000
-17,2019,5567,Matt Breida,RB,sfo,a,sea,1.6,0
-17,2019,5538,Samaje Perine,RB,mia,a,nwe,1.6,0
 17,2019,2974,Senorise Perry,RB,buf,h,nyj,1.4,3700
 17,2019,5620,Royce Freeman,RB,den,h,oak,1.4,4300
 17,2019,5586,J.D. McKissic,RB,det,h,gnb,1.4,3000
@@ -40704,7 +40288,6 @@
 17,2019,5492,Keith Smith,RB,atl,a,tam,-0.1,3000
 17,2019,5619,Chase Edmonds,RB,ari,a,lar,-0.1,3400
 17,2019,5634,Michael Gallup,WR,dal,h,was,32.8,5400
-17,2019,5726,Deebo Samuel,WR,sfo,a,sea,27.5,0
 17,2019,5379,Breshad Perriman,WR,tam,h,atl,27.4,6700
 17,2019,5728,A.J. Brown,WR,ten,a,hou,25.4,7000
 17,2019,5761,Hunter Renfrow,WR,oak,a,den,25.2,4500
@@ -40715,12 +40298,10 @@
 17,2019,5603,Dede Westbrook,WR,jac,h,ind,22.2,4200
 17,2019,5217,Robert Woods,WR,lar,h,ari,20.6,7000
 17,2019,5410,Jamison Crowder,WR,nyj,a,buf,20.6,5100
-17,2019,5725,D.K. Metcalf,WR,sea,h,sfo,20.1,0
 17,2019,5777,Duke Williams,WR,buf,h,nyj,19.8,3000
 17,2019,5531,Damiere Byrd,WR,ari,a,lar,19.4,3300
 17,2019,5753,Steven Sims Jr.,WR,was,a,dal,18.5,4700
 17,2019,3995,Golden Tate,WR,nyg,h,phi,17.8,5100
-17,2019,5386,Tyler Lockett,WR,sea,h,sfo,17.1,0
 17,2019,5323,Odell Beckham Jr.,WR,cle,a,cin,17.1,5700
 17,2019,5711,Allen Lazard,WR,gnb,a,det,16.9,4000
 17,2019,5639,Tre'Quan Smith,WR,nor,a,car,16.6,3700
@@ -40760,7 +40341,6 @@
 17,2019,5387,Justin Hardy,WR,atl,a,tam,7,3000
 17,2019,5385,Chris Conley,WR,jac,h,ind,6.8,4500
 17,2019,5724,N'Keal Harry,WR,nwe,h,mia,6.8,4200
-17,2019,5686,Deontay Burnett,WR,phi,a,nyg,6.8,0
 17,2019,5698,Marcell Ateman,WR,oak,a,den,6.6,3000
 17,2019,5803,Alexander Hollins,WR,min,h,chi,6.6,3000
 17,2019,5159,Mohamed Sanu,WR,nwe,h,mia,6.5,4100
@@ -40772,12 +40352,10 @@
 17,2019,5786,Steven Mitchell,WR,hou,h,ten,5.7,3000
 17,2019,5574,Isaiah McKenzie,WR,buf,h,nyj,5.7,3800
 17,2019,3826,Julian Edelman,WR,nwe,h,mia,5.6,7300
-17,2019,3983,Emmanuel Sanders,WR,sfo,a,sea,5.5,0
 17,2019,5671,Javon Wims,WR,chi,a,min,5.3,3000
 17,2019,5287,Willie Snead,WR,bal,h,pit,5.2,3600
 17,2019,5587,Marcus Johnson,WR,ind,a,jac,5.1,3500
 17,2019,5416,DeAndrew White,WR,car,h,nor,5.1,3000
-17,2019,5655,David Moore,WR,sea,h,sfo,5,0
 17,2019,5502,Robby Anderson,WR,nyj,a,buf,4.8,5300
 17,2019,5511,Geronimo Allison,WR,gnb,a,det,4.7,3700
 17,2019,5690,Justin Watson,WR,tam,h,atl,4.7,4900
@@ -40800,7 +40378,6 @@
 17,2019,5461,Tajae Sharpe,WR,ten,a,hou,2.3,4300
 17,2019,5812,Cam Sims,WR,was,a,dal,2.2,3000
 17,2019,5641,Braxton Berrios,WR,nyj,a,buf,2.1,3000
-17,2019,5817,John Ursua,WR,sea,h,sfo,2.1,
 17,2019,3670,Ted Ginn Jr.,WR,nor,a,car,2,4000
 17,2019,5252,Sammy Watkins,WR,kan,h,lac,1.8,4500
 17,2019,5704,Jake Kumerow,WR,gnb,a,det,1.7,3500
@@ -40850,7 +40427,6 @@
 17,2019,5419,Darren Waller,TE,oak,a,den,19.7,5400
 17,2019,4770,Kaden Smith,TE,nyg,h,phi,17.8,3700
 17,2019,4741,Dan Arnold,TE,ari,a,lar,17.6,2600
-17,2019,4703,George Kittle,TE,sfo,a,sea,16.3,0
 17,2019,4675,Hunter Henry,TE,lac,a,kan,15.2,4500
 17,2019,4693,Joshua Perkins,TE,phi,a,nyg,15,2500
 17,2019,4656,C.J. Uzomah,TE,cin,h,cle,13.5,2700
@@ -40866,7 +40442,6 @@
 17,2019,4761,Andrew Beck,TE,den,h,oak,8.8,2500
 17,2019,4648,Cameron Brate,TE,tam,h,atl,7.2,3200
 17,2019,4586,Josh Hill,TE,nor,a,car,6.5,3500
-17,2019,4707,Jacob Hollister,TE,sea,h,sfo,6.5,0
 17,2019,4262,Jason Witten,TE,dal,h,was,6.4,3900
 17,2019,5436,Daniel Brown,TE,nyj,a,buf,6.2,2600
 17,2019,4720,Hayden Hurst,TE,bal,h,pit,5.5,3200
@@ -40894,7 +40469,6 @@
 17,2019,4777,Charles Jones,TE,jac,h,ind,1.5,2500
 17,2019,4738,Anthony Firkser,TE,ten,a,hou,1.5,2500
 17,2019,4652,Tyler Kroft,TE,buf,h,nyj,1.5,2600
-17,2019,4740,Tyrone Swoopes,TE,sea,h,sfo,1.5,0
 17,2019,4599,Derek Carrier,TE,oak,a,den,1.4,2500
 17,2019,4292,Ben Watson,TE,nwe,h,mia,1.4,2700
 17,2019,4748,Noah Fant,TE,den,h,oak,1.4,3600
@@ -40954,9 +40528,7 @@
 17,2019,7013,Indianapolis,Def,ind,a,jac,4,3200
 17,2019,7011,Detroit,Def,det,h,gnb,3,2000
 17,2019,7008,Cleveland,Def,cle,a,cin,2,3600
-17,2019,7028,Seattle,Def,sea,h,sfo,2,0
 17,2019,7018,New England,Def,nwe,h,mia,2,4300
-17,2019,7027,San Francisco,Def,sfo,a,sea,1,0
 17,2019,7031,Washington,Def,was,a,dal,1,2200
 17,2019,7026,LA Chargers,Def,lac,a,kan,1,1900
 17,2019,7001,Arizona,Def,ari,a,lar,0,2400
@@ -41504,7 +41076,6 @@
 2,2020,5619,Chase Edmonds,RB,ari,h,was,4.3,4600
 2,2020,2553,Adrian Peterson,RB,det,a,gnb,4.1,4700
 2,2020,5625,Jordan Wilkins,RB,ind,h,min,4,4000
-2,2020,5628,Kalen Ballage,RB,nyj,h,sfo,3.7,0
 2,2020,5564,Tarik Cohen,RB,chi,h,nyg,3.7,4800
 2,2020,5824,Zack Moss,RB,buf,a,mia,3.7,4800
 2,2020,5614,Saquon Barkley,RB,nyg,a,chi,2.8,8400
@@ -41529,7 +41100,6 @@
 2,2020,5815,Ryan Nall,RB,chi,h,nyg,1.2,4000
 2,2020,5482,Andy Janovich,RB,cle,h,cin,1,4000
 2,2020,2974,Senorise Perry,RB,ten,h,jac,0.9,4000
-2,2020,5542,Jeremy McNichols,RB,ten,h,jac,0.7,0
 2,2020,5581,C.J. Ham,RB,min,a,ind,0.4,4000
 2,2020,5703,Jeff Wilson Jr.,RB,sfo,a,nyj,0.3,4000
 2,2020,5507,Peyton Barber,RB,was,a,ari,0.1,4400
@@ -41646,7 +41216,6 @@
 2,2020,5556,Curtis Samuel,WR,car,a,tam,5.9,4700
 2,2020,5515,Demarcus Robinson,WR,kan,a,lac,5.8,3500
 2,2020,5151,T.Y. Hilton,WR,ind,h,min,5.8,5700
-2,2020,5679,Cameron Batson,WR,ten,h,jac,5.7,0
 2,2020,5755,Preston Williams,WR,mia,h,buf,5.6,4800
 2,2020,5456,Sterling Shepard,WR,nyg,a,chi,5.5,5500
 2,2020,5208,Cordarrelle Patterson,WR,chi,h,nyg,5.3,3400
@@ -41872,7 +41441,6 @@
 3,2020,1540,Gardner Minshew,QB,jac,h,mia,11.2,6400
 3,2020,1539,Daniel Jones,QB,nyg,h,sfo,10.06,5500
 3,2020,1524,Sam Darnold,QB,nyj,a,ind,9.72,5000
-3,2020,1555,Brett Rypien,QB,den,h,tam,1.12,0
 3,2020,1554,Jalen Hurts,QB,phi,h,cin,0.8,4200
 3,2020,1530,Taysom Hill,QB,nor,h,gnb,0.7,4100
 3,2020,1496,Jacoby Brissett,QB,ind,h,nyj,0.68,5000
@@ -41940,7 +41508,6 @@
 3,2020,5468,Devontae Booker,RB,lvr,a,nwe,3.1,4000
 3,2020,2793,Mark Ingram,RB,bal,h,kan,3,5500
 3,2020,5822,D'Andre Swift,RB,det,a,ari,2.9,5000
-3,2020,5865,JaMycal Hasty,RB,sfo,a,nyg,2.8,0
 3,2020,5720,Alexander Mattison,RB,min,h,ten,2.7,4000
 3,2020,5541,Jamaal Williams,RB,gnb,a,nor,2.7,4000
 3,2020,5708,Darrel Williams,RB,kan,a,bal,2.7,4000
@@ -41952,7 +41519,6 @@
 3,2020,5738,Travis Homer,RB,sea,h,dal,1.9,4000
 3,2020,2993,T.J. Yeldon,RB,buf,h,lar,1.8,4000
 3,2020,2908,Kyle Juszczyk,RB,sfo,a,nyg,1.7,4000
-3,2020,5735,Reggie Bonnafon,RB,car,a,lac,1.6,0
 3,2020,5778,Jakob Johnson,RB,nwe,h,lvr,1.6,4000
 3,2020,5762,Cullen Gillaspia,RB,hou,a,pit,1.6,4000
 3,2020,5542,Jeremy McNichols,RB,ten,a,min,1.5,4000
@@ -42066,14 +41632,11 @@
 3,2020,5531,Damiere Byrd,WR,nwe,h,lvr,5.7,3000
 3,2020,5837,Michael Pittman Jr.,WR,ind,h,nyj,5.6,4000
 3,2020,5724,N'Keal Harry,WR,nwe,h,lvr,5.6,4200
-3,2020,5869,Lawrence Cager,WR,nyj,a,ind,5.5,0
 3,2020,5647,Zach Pascal,WR,ind,h,nyj,5.4,4500
 3,2020,5255,Brandin Cooks,WR,hou,a,pit,5.3,5200
 3,2020,5378,Nelson Agholor,WR,lvr,a,nwe,5.2,3800
 3,2020,5696,Auden Tate,WR,cin,a,phi,4.9,3000
-3,2020,5686,Deontay Burnett,WR,phi,h,cin,4.9,0
 3,2020,5680,Russell Gage,WR,atl,h,chi,4.6,5100
-3,2020,5731,KeeSean Johnson,WR,ari,h,det,4.4,0
 3,2020,5801,Jalen Guyton,WR,lac,h,car,4.3,3400
 3,2020,5870,Daurice Fountain,WR,ind,h,nyj,4.3,3000
 3,2020,3826,Julian Edelman,WR,nwe,h,lvr,4.2,6200
@@ -42107,7 +41670,6 @@
 3,2020,5603,Dede Westbrook,WR,jac,h,mia,1.4,3400
 3,2020,5208,Cordarrelle Patterson,WR,chi,a,atl,1.3,3600
 3,2020,5860,Collin Johnson,WR,jac,h,mia,1.3,3000
-3,2020,5872,Isaiah Zuber,WR,nwe,h,lvr,1.3,0
 3,2020,5655,David Moore,WR,sea,h,dal,1.2,3600
 3,2020,3501,Larry Fitzgerald,WR,ari,h,det,1,4600
 3,2020,5754,Diontae Johnson,WR,pit,h,hou,0.9,5400
@@ -42373,7 +41935,6 @@
 4,2020,5446,Kenyan Drake,RB,ari,a,car,3.5,6000
 4,2020,5620,Royce Freeman,RB,den,a,nyj,3.2,4000
 4,2020,5628,Kalen Ballage,RB,nyj,h,den,3.1,4300
-4,2020,5683,Dontrell Hilliard,RB,cle,a,dal,3.1,0
 4,2020,5703,Jeff Wilson Jr.,RB,sfo,h,phi,2.9,4900
 4,2020,5821,J.K. Dobbins,RB,bal,a,was,2.7,4800
 4,2020,5575,Austin Ekeler,RB,lac,a,tam,2.4,7100
@@ -42386,7 +41947,6 @@
 4,2020,2707,LeSean McCoy,RB,tam,h,lac,1.6,4000
 4,2020,5863,La'Mical Perine,RB,nyj,h,den,1.5,4000
 4,2020,5492,Keith Smith,RB,atl,a,gnb,1.4,4000
-4,2020,2907,Theo Riddick,RB,lvr,h,buf,1.3,0
 4,2020,5737,Chandler Cox,RB,mia,h,sea,1.3,4000
 4,2020,5447,Jordan Howard,RB,mia,h,sea,0.9,4100
 4,2020,5507,Peyton Barber,RB,was,h,bal,0.5,4000
@@ -42453,13 +42013,11 @@
 4,2020,5801,Jalen Guyton,WR,lac,a,tam,14.2,3400
 4,2020,5847,Laviska Shenault Jr.,WR,jac,a,cin,14.1,4400
 4,2020,5832,Jerry Jeudy,WR,den,a,nyj,14.1,5300
-4,2020,5809,Travis Fulgham,WR,phi,a,sfo,13.7,0
 4,2020,5830,Brandon Aiyuk,WR,sfo,h,phi,13.6,5000
 4,2020,5531,Damiere Byrd,WR,nwe,a,kan,13,3000
 4,2020,5839,Tee Higgins,WR,cin,h,jac,13,4500
 4,2020,5727,Mecole Hardman,WR,kan,h,nwe,12.7,4300
 4,2020,5730,Marquise Brown,WR,bal,a,was,12.6,6300
-4,2020,5878,Tyron Johnson,WR,lac,a,tam,12.3,0
 4,2020,5163,Cole Beasley,WR,buf,a,lvr,12.2,4700
 4,2020,5212,Kenny Stills,WR,hou,h,min,11.9,3200
 4,2020,5206,DeAndre Hopkins,WR,ari,a,car,11.1,8500
@@ -42510,7 +42068,6 @@
 4,2020,5680,Russell Gage,WR,atl,a,gnb,4,5100
 4,2020,5287,Willie Snead,WR,bal,a,was,4,4000
 4,2020,5574,Isaiah McKenzie,WR,buf,a,lvr,3.9,3000
-4,2020,5587,Marcus Johnson,WR,ind,a,chi,3.7,0
 4,2020,5812,Cam Sims,WR,was,h,bal,3.7,3000
 4,2020,3670,Ted Ginn Jr.,WR,chi,h,ind,3.1,3400
 4,2020,5879,Malik Taylor,WR,gnb,h,atl,3,3000
@@ -42918,7 +42475,6 @@
 5,2020,5462,Pharoh Cooper,WR,car,a,atl,2.2,3000
 5,2020,5515,Demarcus Robinson,WR,kan,h,lvr,2.2,3800
 5,2020,5696,Auden Tate,WR,cin,a,bal,2.2,3000
-5,2020,5796,Cody Hollister,WR,ten,h,buf,2.2,0
 5,2020,5692,Chad Beebe,WR,min,a,sea,2.1,3000
 5,2020,5868,K.J. Hill,WR,lac,a,nor,1.8,3000
 5,2020,5871,Nick Westbrook,WR,ten,h,buf,1.7,3000
@@ -42994,7 +42550,6 @@
 5,2020,4750,Dawson Knox,TE,buf,a,ten,2.5,3600
 5,2020,4542,Virgil Green,TE,lac,a,nor,2.4,2500
 5,2020,4666,Blake Bell,TE,dal,h,nyg,2.3,2800
-5,2020,4788,Temarrick Hemingway,TE,was,h,lar,2,0
 5,2020,4537,Kyle Rudolph,TE,min,a,sea,2,3500
 5,2020,4768,Tanner Hudson,TE,tam,a,chi,1.9,2500
 5,2020,4642,Demetrius Harris,TE,chi,h,tam,1.9,2500
@@ -43206,7 +42761,6 @@
 6,2020,5376,Amari Cooper,WR,dal,h,ari,20.9,6800
 6,2020,5809,Travis Fulgham,WR,phi,h,bal,19.5,4400
 6,2020,5631,Calvin Ridley,WR,atl,a,min,18.9,7800
-6,2020,5587,Marcus Johnson,WR,ind,h,cin,18.8,0
 6,2020,5412,Adam Humphries,WR,ten,h,hou,18.4,4000
 6,2020,5861,Chase Claypool,WR,pit,h,cle,18.1,5200
 6,2020,5726,Deebo Samuel,WR,sfo,h,lar,18,4700
@@ -43257,7 +42811,6 @@
 6,2020,5841,Devin Duvernay,WR,bal,a,phi,6.1,3000
 6,2020,5856,John Hightower,WR,phi,h,bal,6,3000
 6,2020,5793,Greg Ward,WR,phi,h,bal,5.9,4100
-6,2020,5882,De'Michael Harris,WR,ind,h,cin,5.9,0
 6,2020,5485,Tyreek Hill,WR,kan,a,buf,5.5,7100
 6,2020,5832,Jerry Jeudy,WR,den,a,nwe,5.2,5500
 6,2020,3501,Larry Fitzgerald,WR,ari,a,dal,5.2,3900
@@ -43277,8 +42830,6 @@
 6,2020,5168,Marvin Jones,WR,det,a,jac,2.8,5100
 6,2020,5553,JuJu Smith-Schuster,WR,pit,h,cle,2.6,6600
 6,2020,5774,Darrius Shepherd,WR,gnb,a,tam,2.6,3000
-6,2020,5872,Isaiah Zuber,WR,nwe,h,den,2.6,0
-6,2020,5679,Cameron Batson,WR,ten,h,hou,2.3,0
 6,2020,5695,Keith Kirkwood,WR,car,h,chi,2.3,3000
 6,2020,5748,Miles Boykin,WR,bal,a,phi,2.1,3800
 6,2020,3995,Golden Tate,WR,nyg,h,was,2.1,4600
@@ -43360,7 +42911,6 @@
 6,2020,4742,Dalton Schultz,TE,dal,h,ari,7.5,4500
 6,2020,4737,Durham Smythe,TE,mia,h,nyj,7.4,2500
 6,2020,4569,Zach Ertz,TE,phi,h,bal,7.3,5000
-6,2020,4728,Jason Croom,TE,phi,h,bal,7.3,0
 6,2020,4789,Albert Okwuegbunam,TE,den,a,nwe,6.5,2500
 6,2020,4629,Richard Rodgers,TE,phi,h,bal,6.1,2500
 6,2020,4751,Ryan Izzo,TE,nwe,h,den,5.8,2700
@@ -43529,7 +43079,6 @@
 7,2020,5565,Chris Carson,RB,sea,a,ari,5.1,6400
 7,2020,5446,Kenyan Drake,RB,ari,h,sea,5.1,4800
 7,2020,2553,Adrian Peterson,RB,det,a,atl,4,4600
-7,2020,2888,Le'Veon Bell,RB,kan,a,den,3.9,0
 7,2020,5873,DeeJay Dallas,RB,sea,a,ari,3.8,4000
 7,2020,5507,Peyton Barber,RB,was,h,dal,3.4,4000
 7,2020,5468,Devontae Booker,RB,lvr,h,tam,3.4,4000
@@ -43548,7 +43097,6 @@
 7,2020,5738,Travis Homer,RB,sea,a,ari,1,4000
 7,2020,2930,Devonta Freeman,RB,nyg,a,phi,0.8,4800
 7,2020,5657,Trenton Cannon,RB,car,a,nor,0.7,4000
-7,2020,5510,Troymaine Pope,RB,lac,h,jac,0.6,0
 7,2020,5864,Anthony McFarland,RB,pit,a,ten,0.6,4000
 7,2020,5688,Jaylen Samuels,RB,pit,a,ten,0.5,4000
 7,2020,5746,D'Ernest Johnson,RB,cle,a,cin,0.3,4000
@@ -43667,12 +43215,10 @@
 7,2020,5574,Isaiah McKenzie,WR,buf,a,nyj,2.3,3000
 7,2020,5860,Collin Johnson,WR,jac,a,lac,2.3,3000
 7,2020,5570,Keelan Cole,WR,jac,a,lac,2.2,4700
-7,2020,5666,Marcus Kemp,WR,kan,a,den,2.1,0
 7,2020,5858,Gabriel Davis,WR,buf,a,nyj,2.1,3600
 7,2020,5671,Javon Wims,WR,chi,a,lar,1.8,3000
 7,2020,5732,JJ Arcega-Whiteside,WR,phi,h,nyg,1.8,3000
 7,2020,5734,Andy Isabella,WR,ari,h,sea,1.7,3900
-7,2020,5648,Austin Carr,WR,nor,h,car,1.6,0
 7,2020,5724,N'Keal Harry,WR,nwe,h,sfo,1.6,3900
 7,2020,5677,Brandon Zylstra,WR,car,a,nor,1.4,3000
 7,2020,5689,Brandon Powell,WR,atl,h,det,1.4,3000
@@ -43912,13 +43458,11 @@
 8,2020,2890,Rex Burkhead,RB,nwe,a,buf,4.1,4000
 8,2020,2908,Kyle Juszczyk,RB,sfo,a,sea,4.1,4000
 8,2020,5583,Corey Clement,RB,phi,h,dal,3.8,4200
-8,2020,5539,D'Onta Foreman,RB,ten,a,cin,3.7,0
 8,2020,5708,Darrel Williams,RB,kan,h,nyj,3.6,4000
 8,2020,5829,Joshua Kelley,RB,lac,h,den,3.5,4900
 8,2020,5742,Ty Johnson,RB,nyj,a,kan,3.1,4000
 8,2020,2467,Frank Gore,RB,nyj,a,kan,3,4000
 8,2020,5490,Jalen Richard,RB,lvr,a,cle,2.8,4000
-8,2020,2871,Alfred Morris,RB,nyg,h,tam,2.8,0
 8,2020,5663,Nick Bellore,RB,sea,h,sfo,2.4,4000
 8,2020,2553,Adrian Peterson,RB,det,h,ind,2.2,4000
 8,2020,5588,Elijhaa Penny,RB,nyg,h,tam,2.1,4000
@@ -44042,7 +43586,6 @@
 8,2020,5475,Rashard Higgins,WR,cle,h,lvr,2.4,4200
 8,2020,5653,Vyncint Smith,WR,nyj,a,kan,2.3,3000
 8,2020,5798,Ashton Dulin,WR,ind,a,det,2.3,3000
-8,2020,5872,Isaiah Zuber,WR,nwe,a,buf,2.3,0
 8,2020,5672,Equanimeous St. Brown,WR,gnb,h,min,2.2,3000
 8,2020,5520,Kalif Raymond,WR,ten,a,cin,2.1,3000
 8,2020,5648,Austin Carr,WR,nor,a,chi,2,3000
@@ -44055,7 +43598,6 @@
 8,2020,5883,Juwan Johnson,WR,nor,a,chi,1.5,3000
 8,2020,5376,Amari Cooper,WR,dal,a,phi,1.5,6500
 8,2020,5884,Malcolm Perry,WR,mia,h,lar,1.5,4000
-8,2020,5496,Tommylee Lewis,WR,nor,a,chi,1.5,0
 8,2020,5801,Jalen Guyton,WR,lac,h,den,1.3,3600
 8,2020,5855,Jamal Agnew,WR,det,h,ind,1.1,3000
 8,2020,5752,Gunner Olszewski,WR,nwe,a,buf,0.6,3000
@@ -44248,7 +43790,6 @@
 9,2020,5559,Dalvin Cook,RB,min,h,det,42.2,8200
 9,2020,5536,Christian McCaffrey,RB,car,a,kan,37.1,8500
 9,2020,5586,J.D. McKissic,RB,was,h,nyg,17.2,4300
-9,2020,5628,Kalen Ballage,RB,lac,h,lvr,16.4,0
 9,2020,2997,Duke Johnson,RB,hou,a,jac,16.3,4000
 9,2020,5562,Alvin Kamara,RB,nor,a,tam,15.9,8100
 9,2020,5849,James Robinson,RB,jac,h,hou,15.9,7000
@@ -44307,7 +43848,6 @@
 9,2020,5608,Brian Hill,RB,atl,h,den,2.4,4000
 9,2020,5415,Michael Burton,RB,nor,a,tam,2.3,4000
 9,2020,5630,Phillip Lindsay,RB,den,a,atl,2.3,5200
-9,2020,5495,D.J. Foster,RB,ari,h,mia,1.9,0
 9,2020,5395,David Johnson,RB,hou,a,jac,1.6,5600
 9,2020,5764,Alec Ingold,RB,lvr,a,lac,1.6,4000
 9,2020,2908,Kyle Juszczyk,RB,sfo,h,gnb,1.4,4000
@@ -44316,8 +43856,6 @@
 9,2020,5539,D'Onta Foreman,RB,ten,h,chi,1.1,4000
 9,2020,5542,Jeremy McNichols,RB,ten,h,chi,1,4000
 9,2020,5483,Dwayne Washington,RB,nor,a,tam,0.9,4000
-9,2020,5782,Dexter Williams,RB,gnb,a,sfo,0.8,0
-9,2020,5450,Alex Collins,RB,sea,a,buf,0.5,0
 9,2020,5588,Elijhaa Penny,RB,nyg,a,was,0.2,4000
 9,2020,5492,Keith Smith,RB,atl,h,den,0.1,4000
 9,2020,5740,Benny Snell,RB,pit,a,dal,0.1,4000
@@ -44394,7 +43932,6 @@
 9,2020,5632,Anthony Miller,WR,chi,a,ten,9.9,4000
 9,2020,5837,Michael Pittman Jr.,WR,ind,h,bal,9.6,3900
 9,2020,5574,Isaiah McKenzie,WR,buf,h,sea,9.6,3000
-9,2020,5882,De'Michael Harris,WR,ind,h,bal,9.5,0
 9,2020,5835,Justin Jefferson,WR,min,h,det,9.4,6100
 9,2020,3501,Larry Fitzgerald,WR,ari,h,mia,9.4,3800
 9,2020,5857,Darnell Mooney,WR,chi,a,ten,9.3,3900
@@ -44442,7 +43979,6 @@
 9,2020,5801,Jalen Guyton,WR,lac,h,lvr,1.9,3100
 9,2020,5860,Collin Johnson,WR,jac,h,hou,1.9,3000
 9,2020,5767,Darius Slayton,WR,nyg,a,was,1.8,5000
-9,2020,5679,Cameron Batson,WR,ten,h,chi,1.6,0
 9,2020,5766,Cedrick Wilson,WR,dal,h,pit,1.6,3000
 9,2020,5570,Keelan Cole,WR,jac,h,hou,1.6,4000
 9,2020,5753,Steven Sims Jr.,WR,was,h,nyg,1.4,3000
@@ -44670,7 +44206,6 @@
 10,2020,2991,Melvin Gordon,RB,den,a,lvr,4.6,5200
 10,2020,5620,Royce Freeman,RB,den,a,lvr,4.6,4000
 10,2020,5542,Jeremy McNichols,RB,ten,h,ind,4.4,4000
-10,2020,5887,Austin Walter,RB,sfo,a,nor,4,0
 10,2020,5778,Jakob Johnson,RB,nwe,h,bal,4,4000
 10,2020,2553,Adrian Peterson,RB,det,h,was,4,4000
 10,2020,5819,Cam Akers,RB,lar,h,sea,3.8,4200
@@ -44681,8 +44216,6 @@
 10,2020,5625,Jordan Wilkins,RB,ind,a,ten,2.8,4300
 10,2020,5815,Ryan Nall,RB,chi,h,min,2.8,4000
 10,2020,5824,Zack Moss,RB,buf,a,ari,2.7,5200
-10,2020,2859,Lamar Miller,RB,chi,h,min,2.6,0
-10,2020,5890,Rodney Smith,RB,car,h,tam,2.5,0
 10,2020,5507,Peyton Barber,RB,was,a,det,2.4,4000
 10,2020,5821,J.K. Dobbins,RB,bal,a,nwe,2.4,5200
 10,2020,5800,Khari Blasingame,RB,ten,h,ind,2.3,4000
@@ -44699,7 +44232,6 @@
 10,2020,5743,Patrick Ricard,RB,bal,a,nwe,1.2,4000
 10,2020,5740,Benny Snell,RB,pit,h,cin,1.2,4000
 10,2020,5892,Artavis Pierce,RB,chi,h,min,0.9,4000
-10,2020,5448,C.J. Prosise,RB,hou,a,cle,0.8,0
 10,2020,2908,Kyle Juszczyk,RB,sfo,a,nor,0.5,4000
 10,2020,5720,Alexander Mattison,RB,min,a,chi,0.4,4000
 10,2020,5621,Kerryon Johnson,RB,det,h,was,0.3,4000
@@ -44895,7 +44427,6 @@
 10,2020,4701,Evan Engram,TE,nyg,h,phi,3.5,4500
 10,2020,4749,T.J. Hockenson,TE,det,h,was,3.3,5100
 10,2020,4770,Kaden Smith,TE,nyg,h,phi,3.2,2500
-10,2020,4762,Troy Fumagalli,TE,den,a,lvr,3.2,0
 10,2020,4745,Ross Dwelley,TE,sfo,a,nor,3.2,3800
 10,2020,4732,Tyler Conklin,TE,min,a,chi,3.1,2500
 10,2020,4751,Ryan Izzo,TE,nwe,h,bal,3,2500
@@ -45059,7 +44590,6 @@
 11,2020,5813,Devine Ozigbo,RB,jac,h,pit,3.5,4000
 11,2020,2890,Rex Burkhead,RB,nwe,a,hou,3.2,4600
 11,2020,5448,C.J. Prosise,RB,hou,h,nwe,3.2,4000
-11,2020,5791,Bo Scarbrough,RB,sea,h,ari,3.1,0
 11,2020,5538,Samaje Perine,RB,cin,a,was,3.1,4000
 11,2020,5468,Devontae Booker,RB,lvr,h,kan,2.9,4000
 11,2020,5890,Rodney Smith,RB,car,h,det,2.9,4000
@@ -45161,7 +44691,6 @@
 11,2020,5844,Van Jefferson,WR,lar,a,tam,7.7,3000
 11,2020,5842,KJ Hamler,WR,den,h,mia,7.5,3600
 11,2020,5656,Marquez Valdes-Scantling,WR,gnb,a,ind,7.5,4800
-11,2020,3891,Dez Bryant,WR,bal,h,ten,6.8,0
 11,2020,5749,Jakobi Meyers,WR,nwe,a,hou,6.8,4900
 11,2020,5832,Jerry Jeudy,WR,den,h,mia,6.7,5300
 11,2020,5151,T.Y. Hilton,WR,ind,h,gnb,6.6,4200
@@ -45194,7 +44723,6 @@
 11,2020,5727,Mecole Hardman,WR,kan,a,lvr,2.6,4200
 11,2020,5410,Jamison Crowder,WR,nyj,a,lac,2.6,6100
 11,2020,5655,David Moore,WR,sea,h,ari,2.5,3500
-11,2020,5344,Donte Moncrief,WR,nwe,a,hou,2.5,0
 11,2020,5845,James Proche,WR,bal,h,ten,2.4,3000
 11,2020,5587,Marcus Johnson,WR,ind,h,gnb,2.4,3000
 11,2020,5642,Antonio Callaway,WR,mia,a,den,2.3,3000
@@ -45298,7 +44826,6 @@
 11,2020,4437,Jared Cook,TE,nor,h,atl,1.6,4100
 11,2020,4786,Nick Keizer,TE,kan,a,lvr,1.5,2500
 11,2020,4653,Jesse James,TE,det,a,car,1.3,2500
-11,2020,4726,Eric Saubert,TE,jac,h,pit,1.3,0
 11,2020,4714,Jeremy Sprinkle,TE,was,h,cin,0,2500
 11,2020,4788,Temarrick Hemingway,TE,was,h,cin,0,2500
 11,2020,4774,Isaac Nauta,TE,det,a,car,0,2500
@@ -45396,7 +44923,6 @@
 12,2020,1465,Jameis Winston,QB,nor,a,den,0,5400
 12,2020,1234,Matt Schaub,QB,atl,h,lvr,-0.4,4700
 12,2020,1560,Logan Woodside,QB,ten,a,ind,-0.5,4100
-12,2020,1561,Kendall Hinton,QB,den,h,nor,-0.78,
 12,2020,5445,Derrick Henry,RB,ten,a,ind,41.5,7900
 12,2020,5827,Antonio Gibson,RB,was,a,dal,39.6,6000
 12,2020,5849,James Robinson,RB,jac,h,cle,29.9,6300
@@ -45475,8 +45001,6 @@
 12,2020,5720,Alexander Mattison,RB,min,h,car,0.6,6000
 12,2020,5483,Dwayne Washington,RB,nor,a,den,0.6,4000
 12,2020,5583,Corey Clement,RB,phi,h,sea,0.6,4000
-12,2020,5783,Tony Brooks-James,RB,atl,h,lvr,0.4,0
-12,2020,5661,Josh Adams,RB,nyj,h,mia,0.1,0
 12,2020,5744,Darwin Thompson,RB,kan,a,tam,0,4000
 12,2020,5881,Rico Dowdle,RB,dal,h,was,0,4000
 12,2020,5887,Austin Walter,RB,sfo,a,lar,0,4000
@@ -45704,7 +45228,6 @@
 12,2020,4778,Cole Kmet,TE,chi,a,gnb,1.8,2500
 12,2020,4784,Adam Trautman,TE,nor,a,den,1.8,2500
 12,2020,4680,Tyler Higbee,TE,lar,h,sfo,1.6,3700
-12,2020,4754,Brandon Dillon,TE,min,h,car,1.6,0
 12,2020,4711,Cethan Carter,TE,cin,h,nyg,1.5,2500
 12,2020,4773,Jace Sternberger,TE,gnb,h,chi,1.5,2500
 12,2020,4732,Tyler Conklin,TE,min,h,car,1.5,2500
@@ -45792,7 +45315,6 @@
 13,2020,1410,Ryan Tannehill,QB,ten,h,cle,31.56,6200
 13,2020,1340,Matthew Stafford,QB,det,a,chi,30.08,5700
 13,2020,1490,Jared Goff,QB,lar,a,ari,27.14,5800
-13,2020,1527,Lamar Jackson,QB,bal,h,dal,26.68,0
 13,2020,1415,Kirk Cousins,QB,min,h,jac,26.4,6400
 13,2020,1534,Nick Mullens,QB,sfo,h,buf,25.64,5400
 13,2020,1530,Taysom Hill,QB,nor,a,atl,24.58,6300
@@ -45803,7 +45325,6 @@
 13,2020,1523,Patrick Mahomes II,QB,kan,h,den,22.32,8200
 13,2020,1232,Ben Roethlisberger,QB,pit,h,was,22.2,6500
 13,2020,1231,Philip Rivers,QB,ind,a,hou,19.2,5900
-13,2020,1403,Andy Dalton,QB,dal,a,bal,18.6,0
 13,2020,1537,Kyler Murray,QB,ari,h,lar,18.42,7600
 13,2020,1412,Russell Wilson,QB,sea,h,nyg,17.02,7700
 13,2020,1551,Tua Tagovailoa,QB,mia,h,cin,16.14,5900
@@ -45838,9 +45359,6 @@
 13,2020,5716,Darrell Henderson,RB,lar,a,ari,15.4,4300
 13,2020,5789,Myles Gaskin,RB,mia,h,cin,15.1,5900
 13,2020,5446,Kenyan Drake,RB,ari,h,lar,13.8,5700
-13,2020,5444,Ezekiel Elliott,RB,dal,a,bal,13.5,0
-13,2020,5681,Gus Edwards,RB,bal,h,dal,13.1,0
-13,2020,5821,J.K. Dobbins,RB,bal,h,dal,13.1,0
 13,2020,5623,Nyheim Hines,RB,ind,a,hou,12.2,5300
 13,2020,5717,Devin Singletary,RB,buf,a,sfo,11.3,4400
 13,2020,5575,Austin Ekeler,RB,lac,h,nwe,10.8,7100
@@ -45869,8 +45387,6 @@
 13,2020,5788,Patrick Laird,RB,mia,h,cin,4.2,4000
 13,2020,2933,Carlos Hyde,RB,sea,h,nyg,4.1,5300
 13,2020,2995,Ameer Abdullah,RB,min,h,jac,3.9,4000
-13,2020,2793,Mark Ingram,RB,bal,h,dal,3.9,0
-13,2020,5718,Tony Pollard,RB,dal,a,bal,3.8,0
 13,2020,5625,Jordan Wilkins,RB,ind,a,hou,3.8,4200
 13,2020,2899,Latavius Murray,RB,nor,a,atl,3.7,5900
 13,2020,5441,Malcolm Brown,RB,lar,a,ari,3.7,4000
@@ -45878,19 +45394,16 @@
 13,2020,5714,Miles Sanders,RB,phi,a,gnb,3.1,6700
 13,2020,5873,DeeJay Dallas,RB,sea,h,nyg,3.1,4000
 13,2020,5621,Kerryon Johnson,RB,det,a,chi,3.1,4400
-13,2020,5743,Patrick Ricard,RB,bal,h,dal,3.1,0
 13,2020,2992,Todd Gurley,RB,atl,h,nor,3,5300
 13,2020,5740,Benny Snell,RB,pit,h,was,3,5400
 13,2020,5490,Jalen Richard,RB,lvr,a,nyj,2.7,4000
 13,2020,5630,Phillip Lindsay,RB,den,a,kan,2.6,4200
 13,2020,5824,Zack Moss,RB,buf,a,sfo,2.4,4500
 13,2020,5829,Joshua Kelley,RB,lac,h,nwe,2.3,4000
-13,2020,5447,Jordan Howard,RB,phi,a,gnb,1.9,0
 13,2020,2907,Theo Riddick,RB,lvr,a,nyj,1.9,4000
 13,2020,5608,Brian Hill,RB,atl,h,nor,1.8,4800
 13,2020,5746,D'Ernest Johnson,RB,cle,a,ten,1.5,4000
 13,2020,5864,Anthony McFarland,RB,pit,h,was,1.5,4200
-13,2020,5719,Justice Hill,RB,bal,h,dal,1.4,0
 13,2020,5827,Antonio Gibson,RB,was,a,pit,1.4,6800
 13,2020,5764,Alec Ingold,RB,lvr,a,nyj,1.2,4000
 13,2020,5778,Jakob Johnson,RB,nwe,a,lac,1.1,4000
@@ -45937,7 +45450,6 @@
 13,2020,5670,Keke Coutee,WR,hou,h,ind,25.1,3500
 13,2020,5459,Michael Thomas,WR,nor,a,atl,22.5,7000
 13,2020,5410,Jamison Crowder,WR,nyj,h,lvr,21.7,5100
-13,2020,5634,Michael Gallup,WR,dal,a,bal,21.6,0
 13,2020,5475,Rashard Higgins,WR,cle,a,ten,21.5,4000
 13,2020,5333,Adam Thielen,WR,min,h,jac,21.5,7300
 13,2020,5754,Diontae Johnson,WR,pit,h,was,21.1,6500
@@ -45948,18 +45460,15 @@
 13,2020,5424,Stefon Diggs,WR,buf,a,sfo,19.2,7500
 13,2020,5631,Calvin Ridley,WR,atl,h,nor,18.8,7200
 13,2020,5217,Robert Woods,WR,lar,a,ari,18.5,5900
-13,2020,5601,Chad Hansen,WR,hou,h,ind,18.1,0
 13,2020,5874,Donovan Peoples-Jones,WR,cle,a,ten,17.2,3000
 13,2020,5752,Gunner Olszewski,WR,nwe,a,lac,16.8,3000
 13,2020,5833,Henry Ruggs III,WR,lvr,a,nyj,16.4,4500
-13,2020,5376,Amari Cooper,WR,dal,a,bal,16.3,0
 13,2020,5635,James Washington,WR,pit,h,was,16,3300
 13,2020,5847,Laviska Shenault Jr.,WR,jac,a,min,15.8,3600
 13,2020,5858,Gabriel Davis,WR,buf,a,sfo,15.8,4300
 13,2020,5089,Julio Jones,WR,atl,h,nor,15.4,6600
 13,2020,5552,Cooper Kupp,WR,lar,a,ari,15.3,6100
 13,2020,5680,Russell Gage,WR,atl,h,nor,15.1,4500
-13,2020,5730,Marquise Brown,WR,bal,h,dal,14.9,0
 13,2020,5485,Tyreek Hill,WR,kan,h,den,14.8,9100
 13,2020,5793,Greg Ward,WR,phi,a,gnb,14.7,3400
 13,2020,5852,Quintez Cephus,WR,det,a,chi,14.3,3000
@@ -45977,8 +45486,6 @@
 13,2020,5255,Brandin Cooks,WR,hou,h,ind,11.5,5600
 13,2020,5574,Isaiah McKenzie,WR,buf,a,sfo,11.1,3000
 13,2020,5632,Anthony Miller,WR,chi,h,det,10.9,3100
-13,2020,5748,Miles Boykin,WR,bal,h,dal,10.8,0
-13,2020,5831,CeeDee Lamb,WR,dal,a,bal,10.6,0
 13,2020,5839,Tee Higgins,WR,cin,a,mia,10.6,4600
 13,2020,5679,Cameron Batson,WR,ten,h,cle,10.4,3000
 13,2020,5198,Keenan Allen,WR,lac,h,nwe,9.8,8100
@@ -45997,7 +45504,6 @@
 13,2020,5252,Sammy Watkins,WR,kan,h,den,7.5,4800
 13,2020,5598,Kendrick Bourne,WR,sfo,h,buf,7.5,3900
 13,2020,5380,DeVante Parker,WR,mia,h,cin,7.5,6400
-13,2020,5585,Noah Brown,WR,dal,a,bal,7,0
 13,2020,3995,Golden Tate,WR,nyg,a,sea,7,3800
 13,2020,5731,KeeSean Johnson,WR,ari,h,lar,6.7,3000
 13,2020,5844,Van Jefferson,WR,lar,a,ari,6.7,3000
@@ -46035,11 +45541,9 @@
 13,2020,5868,K.J. Hill,WR,lac,h,nwe,1.7,3000
 13,2020,5570,Keelan Cole,WR,jac,a,min,1.7,3800
 13,2020,5655,David Moore,WR,sea,h,nyg,1.6,3400
-13,2020,5496,Tommylee Lewis,WR,nor,a,atl,1.6,0
 13,2020,5867,Isaiah Wright,WR,was,a,pit,1.5,3000
 13,2020,5832,Jerry Jeudy,WR,den,a,kan,1.5,4600
 13,2020,5636,Christian Kirk,WR,ari,h,lar,1.2,5200
-13,2020,5841,Devin Duvernay,WR,bal,h,dal,1.2,0
 13,2020,5878,Tyron Johnson,WR,lac,h,nwe,1.1,3000
 13,2020,5784,C.J. Board,WR,nyg,a,sea,0.8,3000
 13,2020,5344,Donte Moncrief,WR,nwe,a,lac,0.4,3000
@@ -46092,7 +45596,6 @@
 13,2020,4705,Gerald Everett,TE,lar,a,ari,10.4,3200
 13,2020,4738,Anthony Firkser,TE,ten,h,cle,10.1,2500
 13,2020,4748,Noah Fant,TE,den,a,kan,9.7,4000
-13,2020,4742,Dalton Schultz,TE,dal,a,bal,8.4,0
 13,2020,4664,James O'Shaughnessy,TE,jac,a,min,8.1,2500
 13,2020,4653,Jesse James,TE,det,a,chi,7.9,2500
 13,2020,4701,Evan Engram,TE,nyg,a,sea,7.2,4900
@@ -46112,7 +45615,6 @@
 13,2020,4688,Nick Vannett,TE,den,a,kan,2.7,2500
 13,2020,4786,Nick Keizer,TE,kan,h,den,2.5,2500
 13,2020,4594,Jack Doyle,TE,ind,a,hou,2.2,2500
-13,2020,4578,Luke Willson,TE,bal,h,dal,2.2,0
 13,2020,4618,Trey Burton,TE,ind,a,hou,2.1,3500
 13,2020,4732,Tyler Conklin,TE,min,h,jac,2,2500
 13,2020,4720,Hayden Hurst,TE,atl,h,nor,1.9,4000
@@ -46121,7 +45623,6 @@
 13,2020,4675,Hunter Henry,TE,lac,h,nwe,1.5,4800
 13,2020,4702,David Njoku,TE,cle,a,ten,1.5,2500
 13,2020,4770,Kaden Smith,TE,nyg,a,sea,1.3,2500
-13,2020,4666,Blake Bell,TE,dal,a,bal,1.2,0
 13,2020,4714,Jeremy Sprinkle,TE,was,a,pit,0,2500
 13,2020,4788,Temarrick Hemingway,TE,was,a,pit,0,2500
 13,2020,4629,Richard Rodgers,TE,phi,a,gnb,0,3300
@@ -46176,7 +45677,6 @@
 13,2020,7015,Kansas City,Def,kan,h,den,5,3700
 13,2020,7004,Buffalo,Def,buf,a,sfo,4,2700
 13,2020,7002,Atlanta,Def,atl,h,nor,4,2400
-13,2020,7003,Baltimore,Def,bal,h,dal,4,0
 13,2020,7007,Cincinnati,Def,cin,a,mia,3,2300
 13,2020,7032,Houston,Def,hou,h,ind,3,2800
 13,2020,7006,Chicago,Def,chi,h,det,3,3100
@@ -46185,7 +45685,6 @@
 13,2020,7027,San Francisco,Def,sfo,h,buf,2,2500
 13,2020,7001,Arizona,Def,ari,h,lar,2,2900
 13,2020,7010,Denver,Def,den,a,kan,1,1900
-13,2020,7009,Dallas,Def,dal,a,bal,1,0
 13,2020,7030,Tennessee,Def,ten,h,cle,-2,2900
 13,2020,7026,LA Chargers,Def,lac,h,nwe,-3,2600
 14,2020,1527,Lamar Jackson,QB,bal,a,cle,37.92,7000
@@ -46438,7 +45937,6 @@
 14,2020,3501,Larry Fitzgerald,WR,ari,a,nyg,3,3500
 14,2020,5199,Tavon Austin,WR,gnb,a,det,2.8,3000
 14,2020,5410,Jamison Crowder,WR,nyj,a,sea,2.7,5400
-14,2020,5814,Jaleel Scott,WR,nyj,a,sea,2.6,0
 14,2020,5208,Cordarrelle Patterson,WR,chi,h,hou,2.6,3600
 14,2020,5748,Miles Boykin,WR,bal,a,cle,2.5,3000
 14,2020,5672,Equanimeous St. Brown,WR,gnb,a,det,2.5,3000
@@ -46663,7 +46161,6 @@
 15,2020,1530,Taysom Hill,QB,nor,h,kan,6.3,6000
 15,2020,1334,Chase Daniel,QB,det,a,ten,2.3,5000
 15,2020,1441,Derek Carr,QB,lvr,h,lac,2.12,5700
-15,2020,1562,Tyler Huntley,QB,bal,h,jac,2.08,0
 15,2020,1496,Jacoby Brissett,QB,ind,h,hou,0.2,4100
 15,2020,1417,Matt Barkley,QB,buf,a,den,0,4300
 15,2020,1560,Logan Woodside,QB,ten,h,det,-0.3,4100
@@ -46822,7 +46319,6 @@
 15,2020,5767,Darius Slayton,WR,nyg,h,cle,11.4,3900
 15,2020,5263,Davante Adams,WR,gnb,h,car,11.2,9400
 15,2020,5151,T.Y. Hilton,WR,ind,h,hou,11.1,5500
-15,2020,5771,Lil'Jordan Humphrey,WR,nor,h,kan,10.9,0
 15,2020,5727,Mecole Hardman,WR,kan,a,nor,10.7,3400
 15,2020,5848,Lynn Bowden,WR,mia,h,nwe,10.6,3600
 15,2020,5711,Allen Lazard,WR,gnb,h,car,10.6,4100
@@ -46857,7 +46353,6 @@
 15,2020,3851,Danny Amendola,WR,det,a,ten,5,4200
 15,2020,5809,Travis Fulgham,WR,phi,a,ari,5,4000
 15,2020,5838,Denzel Mims,WR,nyj,a,lar,4.8,3500
-15,2020,5706,Isaiah Ford,WR,mia,h,nwe,4.8,0
 15,2020,5515,Demarcus Robinson,WR,kan,a,nor,4.7,3200
 15,2020,5852,Quintez Cephus,WR,det,a,ten,4.6,3400
 15,2020,5651,Tim Patrick,WR,den,h,buf,4.4,4300
@@ -47175,10 +46670,8 @@
 16,2020,5490,Jalen Richard,RB,lvr,h,mia,3.3,4000
 16,2020,5718,Tony Pollard,RB,dal,h,phi,3,6500
 16,2020,5619,Chase Edmonds,RB,ari,h,sfo,2.8,4600
-16,2020,5898,LeVante Bellamy,RB,den,a,lac,2.6,0
 16,2020,5415,Michael Burton,RB,nor,h,min,2.4,4000
 16,2020,2871,Alfred Morris,RB,nyg,a,bal,2.3,4000
-16,2020,5899,Craig Reynolds,RB,jac,h,chi,1.7,0
 16,2020,5624,Boston Scott,RB,phi,a,dal,1.7,4900
 16,2020,5542,Jeremy McNichols,RB,ten,a,gnb,1.6,4000
 16,2020,2816,Dion Lewis,RB,nyg,a,bal,1.5,4000
@@ -47191,7 +46684,6 @@
 16,2020,5507,Peyton Barber,RB,was,h,car,1,4400
 16,2020,2553,Adrian Peterson,RB,det,h,tam,1,4000
 16,2020,5618,Rashaad Penny,RB,sea,h,lar,0.9,4000
-16,2020,5447,Jordan Howard,RB,phi,a,dal,0.8,0
 16,2020,5888,Trayveon Williams,RB,cin,a,hou,0.6,4000
 16,2020,5682,Justin Jackson,RB,lac,h,den,0.4,4000
 16,2020,5826,Darrynton Evans,RB,ten,a,gnb,0.3,4000
@@ -47264,7 +46756,6 @@
 16,2020,5730,Marquise Brown,WR,bal,h,nyg,12.5,5700
 16,2020,5832,Jerry Jeudy,WR,den,a,lac,12.1,3700
 16,2020,5725,D.K. Metcalf,WR,sea,h,lar,11.9,7800
-16,2020,5897,Ja'Marcus Bradley,WR,cle,a,nyj,11,0
 16,2020,5515,Demarcus Robinson,WR,kan,h,atl,10.9,3900
 16,2020,5485,Tyreek Hill,WR,kan,h,atl,10.5,9000
 16,2020,5091,A.J. Green,WR,cin,a,hou,10.4,3400
@@ -47339,7 +46830,6 @@
 16,2020,5531,Damiere Byrd,WR,nwe,h,buf,1.7,3500
 16,2020,5772,Scott Miller,WR,tam,a,det,1.7,3100
 16,2020,5841,Devin Duvernay,WR,bal,h,nyg,1.7,3000
-16,2020,5900,Trenton Irwin,WR,cin,a,hou,1.5,0
 16,2020,5724,N'Keal Harry,WR,nwe,h,buf,1.3,3100
 16,2020,5786,Steven Mitchell,WR,hou,h,cin,1.2,3000
 16,2020,5798,Ashton Dulin,WR,ind,a,pit,0.8,3000
@@ -47534,7 +47024,6 @@
 17,2020,1151,Drew Brees,QB,nor,a,car,20.04,5900
 17,2020,1412,Russell Wilson,QB,sea,a,sfo,18.14,7300
 17,2020,1420,Mike Glennon,QB,jac,a,ind,17.64,4900
-17,2020,1554,Jalen Hurts,QB,phi,h,was,17.28,0
 17,2020,1539,Daniel Jones,QB,nyg,h,dal,16.86,5100
 17,2020,1309,Chad Henne,QB,kan,h,lac,16.72,5100
 17,2020,1528,Baker Mayfield,QB,cle,h,pit,16.24,5500
@@ -47542,7 +47031,6 @@
 17,2020,1563,John Wolford,QB,lar,h,ari,13.84,4900
 17,2020,1403,Andy Dalton,QB,dal,a,nyg,13.52,5600
 17,2020,1524,Sam Darnold,QB,nyj,a,nwe,12.94,4900
-17,2020,1254,Alex Smith,QB,was,a,phi,12.48,0
 17,2020,1530,Taysom Hill,QB,nor,a,car,11.6,5800
 17,2020,1231,Philip Rivers,QB,ind,h,jac,11.36,6000
 17,2020,1519,Mitchell Trubisky,QB,chi,h,gnb,11.28,5600
@@ -47550,12 +47038,10 @@
 17,2020,1553,Chris Streveler,QB,ari,a,lar,8.4,4700
 17,2020,1439,Teddy Bridgewater,QB,car,h,nor,5.74,5300
 17,2020,1537,Kyler Murray,QB,ari,a,lar,3.78,7500
-17,2020,1564,Tommy Stevens,QB,car,h,nor,2.4,
 17,2020,1532,Joshua Dobbs,QB,pit,a,cle,2.08,4000
 17,2020,1562,Tyler Huntley,QB,bal,a,cin,0.82,4900
 17,2020,1558,P.J. Walker,QB,car,h,nor,0.8,4600
 17,2020,1467,A.J. McCarron,QB,hou,h,ten,0.8,4800
-17,2020,1507,Nate Sudfeld,QB,phi,h,was,0.48,0
 17,2020,1496,Jacoby Brissett,QB,ind,h,jac,0.3,4100
 17,2020,1504,Brandon Allen,QB,cin,h,bal,0.12,5000
 17,2020,1465,Jameis Winston,QB,nor,a,car,-0.1,5200
@@ -47590,18 +47076,14 @@
 17,2020,5697,Dare Ogunbowale,RB,jac,a,ind,11.2,4500
 17,2020,5537,James Conner,RB,pit,a,cle,11.2,6000
 17,2020,5565,Chris Carson,RB,sea,a,sfo,10.3,6200
-17,2020,5624,Boston Scott,RB,phi,h,was,9.9,0
 17,2020,2995,Ameer Abdullah,RB,min,a,det,9.7,4000
 17,2020,5628,Kalen Ballage,RB,lac,a,kan,9.6,4000
-17,2020,5827,Antonio Gibson,RB,was,a,phi,9.1,0
-17,2020,5450,Alex Collins,RB,sea,a,sfo,8.9,0
 17,2020,5742,Ty Johnson,RB,nyj,a,nwe,8.8,4300
 17,2020,5888,Trayveon Williams,RB,cin,h,bal,8.7,4000
 17,2020,5446,Kenyan Drake,RB,ari,a,lar,8.1,5400
 17,2020,5903,Jonathan Ward,RB,ari,a,lar,8.1,4000
 17,2020,5681,Gus Edwards,RB,bal,a,cin,8,4900
 17,2020,2907,Theo Riddick,RB,lvr,a,den,8,4000
-17,2020,5586,J.D. McKissic,RB,was,a,phi,8,0
 17,2020,5547,Wayne Gallman,RB,nyg,h,dal,6.5,5300
 17,2020,5581,C.J. Ham,RB,min,a,det,6.4,4000
 17,2020,5718,Tony Pollard,RB,dal,a,nyg,6.3,5900
@@ -47620,17 +47102,13 @@
 17,2020,5717,Devin Singletary,RB,buf,h,mia,2.3,4500
 17,2020,5719,Justice Hill,RB,bal,a,cin,2.1,4000
 17,2020,5618,Rashaad Penny,RB,sea,a,sfo,1.9,4000
-17,2020,5583,Corey Clement,RB,phi,h,was,1.8,0
 17,2020,5864,Anthony McFarland,RB,pit,a,cle,1.7,4000
 17,2020,2935,Jerick McKinnon,RB,sfo,h,sea,1.6,4200
 17,2020,5468,Devontae Booker,RB,lvr,a,den,1.6,4000
-17,2020,5851,Jason Huntley,RB,phi,h,was,1.5,0
 17,2020,5876,Gabe Nabers,RB,lac,a,kan,1.5,4000
 17,2020,2908,Kyle Juszczyk,RB,sfo,h,sea,1.4,4000
-17,2020,5901,Tony Jones,RB,nor,a,car,1.3,
 17,2020,5708,Darrel Williams,RB,kan,h,lac,1.2,4800
 17,2020,2871,Alfred Morris,RB,nyg,h,dal,1.2,4000
-17,2020,5507,Peyton Barber,RB,was,a,phi,1,0
 17,2020,5740,Benny Snell,RB,pit,a,cle,1,5100
 17,2020,2889,Giovani Bernard,RB,cin,h,bal,0.7,5400
 17,2020,2816,Dion Lewis,RB,nyg,h,dal,0.7,4000
@@ -47695,7 +47173,6 @@
 17,2020,5633,D.J. Moore,WR,car,h,nor,18.1,5700
 17,2020,5264,John Brown,WR,buf,h,mia,17.2,3600
 17,2020,5656,Marquez Valdes-Scantling,WR,gnb,a,chi,17.1,3600
-17,2020,5757,Terry McLaurin,WR,was,a,phi,17,0
 17,2020,5263,Davante Adams,WR,gnb,a,chi,16.6,9200
 17,2020,5335,Jarvis Landry,WR,cle,h,pit,16.4,6500
 17,2020,5385,Chris Conley,WR,jac,a,ind,15.7,3000
@@ -47719,7 +47196,6 @@
 17,2020,5831,CeeDee Lamb,WR,dal,a,nyg,9.6,5200
 17,2020,5674,Richie James,WR,sfo,h,sea,9.6,3100
 17,2020,5884,Malcolm Perry,WR,mia,a,buf,9.5,3000
-17,2020,5812,Cam Sims,WR,was,a,phi,9.3,0
 17,2020,5844,Van Jefferson,WR,lar,h,ari,9,3000
 17,2020,5550,Corey Davis,WR,ten,a,hou,8.9,6200
 17,2020,5634,Michael Gallup,WR,dal,a,nyg,8.9,5000
@@ -47738,9 +47214,7 @@
 17,2020,5706,Isaiah Ford,WR,mia,a,buf,6.7,3000
 17,2020,5641,Braxton Berrios,WR,nyj,a,nwe,6.6,3300
 17,2020,5651,Tim Patrick,WR,den,h,lvr,6.6,4000
-17,2020,5889,Terry Godwin,WR,jac,a,ind,6.5,0
 17,2020,5647,Zach Pascal,WR,ind,h,jac,6.1,4200
-17,2020,5732,JJ Arcega-Whiteside,WR,phi,h,was,6,0
 17,2020,5833,Henry Ruggs III,WR,lvr,a,den,5.8,3600
 17,2020,5258,Allen Robinson,WR,chi,h,gnb,5.7,7700
 17,2020,5878,Tyron Johnson,WR,lac,a,kan,5.5,4000
@@ -47760,17 +47234,12 @@
 17,2020,5453,Laquon Treadwell,WR,atl,a,tam,3.5,3000
 17,2020,5727,Mecole Hardman,WR,kan,h,lac,3.5,4200
 17,2020,5752,Gunner Olszewski,WR,nwe,h,nyj,3.4,3000
-17,2020,5753,Steven Sims Jr.,WR,was,a,phi,3.4,0
 17,2020,5632,Anthony Miller,WR,chi,h,gnb,3.3,3300
 17,2020,5731,KeeSean Johnson,WR,ari,a,lar,3.3,3000
 17,2020,5786,Steven Mitchell,WR,hou,h,ten,3,3000
-17,2020,5771,Lil'Jordan Humphrey,WR,nor,a,car,2.7,0
 17,2020,5846,Tyler Johnson,WR,tam,h,atl,2.6,3200
-17,2020,5834,Jalen Reagor,WR,phi,h,was,2.5,0
 17,2020,5838,Denzel Mims,WR,nyj,a,nwe,2.5,3000
-17,2020,5809,Travis Fulgham,WR,phi,h,was,2.5,0
 17,2020,5455,Tyler Boyd,WR,cin,h,bal,2.2,4900
-17,2020,5793,Greg Ward,WR,phi,h,was,2.2,0
 17,2020,5772,Scott Miller,WR,tam,h,atl,2.2,3600
 17,2020,5841,Devin Duvernay,WR,bal,a,cin,2.2,3000
 17,2020,5531,Damiere Byrd,WR,nwe,h,nyj,2.1,3400
@@ -47783,13 +47252,11 @@
 17,2020,5208,Cordarrelle Patterson,WR,chi,h,gnb,1.8,3000
 17,2020,5665,Ray-Ray McCloud,WR,pit,a,cle,1.7,3000
 17,2020,3851,Danny Amendola,WR,det,h,min,1.6,3900
-17,2020,5895,Quez Watkins,WR,phi,h,was,1.6,0
 17,2020,5655,David Moore,WR,sea,a,sfo,1.5,3000
 17,2020,5883,Juwan Johnson,WR,nor,a,car,1.4,3400
 17,2020,5766,Cedrick Wilson,WR,dal,a,nyg,1.3,3000
 17,2020,5199,Tavon Austin,WR,gnb,a,chi,0.7,3000
 17,2020,5578,Mack Hollins,WR,mia,a,buf,0.3,3200
-17,2020,5856,John Hightower,WR,phi,h,was,0.1,0
 17,2020,5679,Cameron Batson,WR,ten,a,hou,0,3000
 17,2020,5677,Brandon Zylstra,WR,car,h,nor,0,3000
 17,2020,5853,Freddie Swain,WR,sea,a,sfo,0,3000
@@ -47825,7 +47292,6 @@
 17,2020,5254,Jordan Matthews,WR,sfo,h,sea,0,3000
 17,2020,5798,Ashton Dulin,WR,ind,h,jac,0,3000
 17,2020,5802,Nsimba Webster,WR,lar,h,ari,0,3000
-17,2020,5496,Tommylee Lewis,WR,nor,a,car,-0.2,0
 17,2020,5855,Jamal Agnew,WR,det,h,min,-1,3000
 17,2020,5419,Darren Waller,TE,lvr,a,den,30.7,7100
 17,2020,4734,Chris Herndon,TE,nyj,a,nwe,19.3,2800
@@ -47835,7 +47301,6 @@
 17,2020,4703,George Kittle,TE,sfo,h,sea,13.8,6000
 17,2020,4677,Austin Hooper,TE,cle,h,pit,13.7,3800
 17,2020,4720,Hayden Hurst,TE,atl,a,tam,12.8,3700
-17,2020,1463,Logan Thomas,TE,was,a,phi,12.7,0
 17,2020,4787,Donald Parham,TE,lac,a,kan,12.7,2900
 17,2020,4779,Devin Asiasi,TE,nwe,h,nyj,11.9,2500
 17,2020,4778,Cole Kmet,TE,chi,h,gnb,10.1,3000
@@ -47856,7 +47321,6 @@
 17,2020,4494,Rob Gronkowski,TE,tam,h,atl,4.9,4500
 17,2020,4750,Dawson Knox,TE,buf,h,mia,4.9,3000
 17,2020,4594,Jack Doyle,TE,ind,h,jac,4.7,3000
-17,2020,4569,Zach Ertz,TE,phi,h,was,4.6,0
 17,2020,4705,Gerald Everett,TE,lar,h,ari,4.5,2700
 17,2020,4745,Ross Dwelley,TE,sfo,h,sea,4.1,2500
 17,2020,4738,Anthony Firkser,TE,ten,a,hou,3.8,2800
@@ -47925,10 +47389,8 @@
 17,2020,7003,Baltimore,Def,bal,a,cin,11,4200
 17,2020,7010,Denver,Def,den,h,lvr,10,2400
 17,2020,7001,Arizona,Def,ari,a,lar,10,2800
-17,2020,7031,Washington,Def,was,a,phi,10,0
 17,2020,7020,New York G,Def,nyg,h,dal,9,2700
 17,2020,7013,Indianapolis,Def,ind,h,jac,9,3900
-17,2020,7023,Philadelphia,Def,phi,h,was,8,0
 17,2020,7018,New England,Def,nwe,h,nyj,8,3500
 17,2020,7009,Dallas,Def,dal,a,nyg,6,2900
 17,2020,7012,Green Bay,Def,gnb,a,chi,6,3700
@@ -48142,7 +47604,6 @@
 1,2021,5728,A.J. Brown,WR,ten,h,ari,14.9,7100
 1,2021,5859,K.J. Osborn,WR,min,a,cin,14.6,3000
 1,2021,5754,Diontae Johnson,WR,pit,a,buf,14.6,6300
-1,2021,3851,Danny Amendola,WR,hou,h,jac,14.4,0
 1,2021,5163,Cole Beasley,WR,buf,h,pit,14,4400
 1,2021,5651,Tim Patrick,WR,den,a,nyg,13.9,3900
 1,2021,5252,Sammy Watkins,WR,bal,a,oak,13.6,4200
@@ -48174,7 +47635,6 @@
 1,2021,5553,JuJu Smith-Schuster,WR,pit,a,buf,9.2,6200
 1,2021,5520,Kalif Raymond,WR,det,h,sfo,8.9,3000
 1,2021,5205,Marquise Goodwin,WR,chi,a,lar,8.3,3400
-1,2021,5167,Chris Hogan,WR,nor,h,gnb,8,0
 1,2021,5801,Jalen Guyton,WR,lac,a,was,7.9,3000
 1,2021,5634,Michael Gallup,WR,dal,a,tam,7.6,4900
 1,2021,5857,Darnell Mooney,WR,chi,a,lar,7.6,4000
@@ -51383,7 +50843,6 @@
 9,2021,5713,David Montgomery,RB,chi,a,pit,10,5000
 9,2021,5915,Eno Benjamin,RB,ari,a,sfo,9.9,4000
 9,2021,5907,Michael Carter,RB,nyj,a,ind,9.6,5300
-9,2021,2553,Adrian Peterson,RB,ten,a,lar,9.6,0
 9,2021,5716,Darrell Henderson,RB,lar,h,ten,8.8,6900
 9,2021,2933,Carlos Hyde,RB,jac,h,buf,7.3,4900
 9,2021,2995,Ameer Abdullah,RB,car,h,nwe,7,4000
@@ -51405,7 +50864,6 @@
 9,2021,5581,C.J. Ham,RB,min,a,bal,3.7,4000
 9,2021,2908,Kyle Juszczyk,RB,sfo,h,ari,3.4,4000
 9,2021,5952,Demetric Felton,RB,cle,a,cin,3.2,4300
-9,2021,5539,D'Onta Foreman,RB,ten,a,lar,2.9,0
 9,2021,5963,Derrick Gore,RB,kan,h,gnb,2.9,4000
 9,2021,5630,Phillip Lindsay,RB,hou,a,mia,2.8,4100
 9,2021,5320,Mike Davis,RB,atl,a,nor,2.8,4700

@@ -19,11 +19,120 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
      * 
      */
     public class TeamLeadHotCoDataImport : PassThroughCrossFunctionalTeamLead<RawDataFile, FullExampleSet> { }
-    public class TeamLeadHotCoExecutive : PassThroughCrossFunctionalTeamLead<FullExampleSet, ByDatePairedExampleSet> { }
+    
+    public class TeamLeadHotCoFilter : PassThroughCrossFunctionalTeamLead<PotentialTeamList, FantasyFootballProduct> { }
+
+    public class TeamLeadHotCoExecutive : CrossFunctionalTeamLead<FullExampleSet, ByDatePairedExampleSet>
+    {
+        Dictionary<double, EvaluationPacket> packets = new Dictionary<double, EvaluationPacket>();
+
+        public override bool CanUse(Worker worker)
+        {
+            if (worker is WorkerProfileHotCoExecutive) return true;
+            return false;
+        }
+
+        public override void Evaluate()
+        {
+            //
+        }
+
+        public override int MaxHires()
+        {
+            return 1;
+        }
+
+        public override int MinHires()
+        {
+            return 1;
+        }
+
+        public override object Plan(Clerk clerk)
+        {
+            ByDatePairedExampleSet result = (Workers.Keys.First() as WorkerProfileHotCoExecutive).Plan((FullExampleSet)clerk.PlanningInput);
+            packets[result.Year + (double)result.Week / 100] = new EvaluationPacket(result.Product.TestSet, result.Week, result.Year);
+            return result;
+        }
+
+        public void AddProduct(FantasyFootballProduct product, int week, int year)
+        {
+            packets[year + (double)week / 100].AddProduct(product);
+        }
+
+        public void SummarizePerformance()
+        {
+            int totalBigWins = 0;
+            int totalSmallWins = 0;
+            foreach (EvaluationPacket packet in packets.Values)
+            {
+                UI.Print(packet);
+                totalBigWins += packet.BigWins;
+                totalSmallWins += packet.SmallWins;
+            }
+            UI.Print($"Total Big Wins: {totalBigWins}");
+            UI.Print($"Total Small Wins: {totalSmallWins}");
+            UI.Print($"Total Entries: {packets.Values.Count * 10}");
+        }
+
+
+        public override object Produce(Clerk clerk)
+        {
+            throw new NotImplementedException();
+        }
+
+        private class EvaluationPacket
+        {
+            Dictionary<string, double> ActualScore = new Dictionary<string, double>();
+            FantasyFootballProduct Product;
+            public readonly int Week;
+            public readonly int Year;
+            public int BigWins { get; protected set; }
+            public int SmallWins { get; protected set; }
+
+            public EvaluationPacket(ExampleSet testSet, int week, int year)
+            {
+                Week = week;
+                Year = year;
+                foreach (Example x in testSet.Examples)
+                {
+                    ActualScore[x.ID.Value] = x.ContinuousLabel.Value;
+                }
+            }
+
+            public void AddProduct(FantasyFootballProduct product)
+            {
+                Product = product;
+            }
+
+            public override string ToString()
+            {
+                List<double> scores = new List<double>();
+                List<int> salaries = new List<int>();
+                BigWins = 0;
+                SmallWins = 0;
+                string salary = Environment.NewLine + "Remaining Salaries {";
+                foreach (FantasyFootballTeam team in Product.PredictedTeams)
+                {
+                    double score = 0;
+                    foreach (Player p in team.Team)
+                    {
+                        score += ActualScore[p.Name];
+                    }
+                    scores.Add(score);
+                    salaries.Add(team.RemainingSalary());
+                    if (score >= 200) BigWins++;
+                    else if (score >= 160) SmallWins++;
+                }
+                salary += string.Join(", ", salaries) + "}";
+                return $"Year {Year}, Week {Week}:  Scores {{" + string.Join(", ", scores) + $"}}, {SmallWins} Small wins, {BigWins} Big wins" + salary;
+            }
+        }
+    }
 
 
 
-    public class TeamLeadHotCoPicker : CrossFunctionalTeamLead<PlayersWithPredictedHotChance, HotCoPotentialTeamList>
+
+    public class TeamLeadHotCoPicker : CrossFunctionalTeamLead<PlayersWithPredictedHotChance, PotentialTeamList>
     {
         public override bool CanUse(Worker worker)
         {
@@ -53,7 +162,8 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
             {
                 potentialTeams.Add((w as WorkerProfileHotCoPicker).Plan((clerk.PlanningInput as PlayersWithPredictedHotChance).Product));
             }
-            return new HotCoPotentialTeamList(potentialTeams);
+            potentialTeams.Sort();
+            return new PotentialTeamList(potentialTeams);
         }
 
         public override object Produce(Clerk clerk)

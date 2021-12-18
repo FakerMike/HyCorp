@@ -11,14 +11,9 @@ namespace HyCorp.FantasyFootball
     {
         public List<FantasyFootballTeam> PredictedTeams { get; protected set; }
 
-        public FantasyFootballProduct() : base()
+        public FantasyFootballProduct(List<FantasyFootballTeam> teams) : base()
         {
-            PredictedTeams = new List<FantasyFootballTeam>();
-        }
-
-        public void AddTeam(FantasyFootballTeam team)
-        {
-            PredictedTeams.Add(team);
+            PredictedTeams = new List<FantasyFootballTeam>(teams);
         }
 
         public void SortTeams()
@@ -60,7 +55,7 @@ namespace HyCorp.FantasyFootball
         public double HotScore()
         {
             double result = 0;
-            foreach (Player p in Team) { result += p.Salary * 0.04; }
+            foreach (Player p in Team) { result += p.Salary * 0.004; }
             return result;
         }
 
@@ -71,7 +66,29 @@ namespace HyCorp.FantasyFootball
             {
                 currentCost += p.Salary;
             }
+            if (currentCost % 100 != 0)
+            {
+                UI.Print("WTF?");
+            }
             return SALARYCAP - currentCost;
+        }
+
+        public bool SharesEightPlayersWith(FantasyFootballTeam other)
+        {
+            int count = 0;
+            foreach (Player mine in Team)
+            {
+                foreach (Player theirs in other.Team) 
+                {
+                    if (mine == theirs)
+                    {
+                        count++;
+                        if (count >= 8) return true;
+                        break;
+                    }
+                }
+            }
+            return false;
         }
 
 
@@ -129,26 +146,55 @@ namespace HyCorp.FantasyFootball
 
         public FantasyFootballTeam GetRandomTeam()
         {
-            List<Player> players = new List<Player>
-            {
-                PickRandomPlayerOfType(PlayerRole.QB),
-                PickRandomPlayerOfType(PlayerRole.RB),
-                PickRandomPlayerOfType(PlayerRole.RB),
-                PickRandomPlayerOfType(PlayerRole.WR),
-                PickRandomPlayerOfType(PlayerRole.WR),
-                PickRandomPlayerOfType(PlayerRole.WR),
-                PickRandomPlayerOfType(PlayerRole.TE),
-                PickRandomPlayerOfType(PlayerRole.FLEX),
-                PickRandomPlayerOfType(PlayerRole.DST)
-            };
+            List<Player> players = new List<Player>();
+            players.Add(PickRandomPlayerOfType(PlayerRole.QB, players));
+            players.Add(PickRandomPlayerOfType(PlayerRole.RB, players));
+            players.Add(PickRandomPlayerOfType(PlayerRole.RB, players));
+            players.Add(PickRandomPlayerOfType(PlayerRole.WR, players));
+            players.Add(PickRandomPlayerOfType(PlayerRole.WR, players));
+            players.Add(PickRandomPlayerOfType(PlayerRole.WR, players));
+            players.Add(PickRandomPlayerOfType(PlayerRole.TE, players));
+            players.Add(PickRandomPlayerOfType(PlayerRole.FLEX, players));
+            players.Add(PickRandomPlayerOfType(PlayerRole.DST, players));
+
             return new FantasyFootballTeam(players);
         }
 
-        public Player PickRandomPlayerOfType(PlayerRole role)
+        public Player PickRandomPlayerOfType(PlayerRole role, List<Player> team)
         {
-            return byRole[role][rand.Next(0, byRole[role].Count)];
+            Player next = byRole[role][rand.Next(0, byRole[role].Count)];
+            while (team.Contains(next))
+            {
+                next = byRole[role][rand.Next(0, byRole[role].Count)];
+            }
+            return next;
         }
 
+        public void SmartSwap(FantasyFootballTeam team, int index, int minSalary, int maxSalary)
+        {
+            PlayerRole role = team.Team[index].Role;
+            if (index == 7) role = PlayerRole.FLEX;
+            Player current = team.Team[index];
+            Player next;
+            for (int i = 0; i < 100; i++)
+            {
+                next = byRole[role][rand.Next(0, byRole[role].Count)];
+                while (team.Team.Contains(next))
+                {
+                    next = byRole[role][rand.Next(0, byRole[role].Count)];
+                }
+                if (next.Salary >= minSalary && next.Salary <= maxSalary)
+                {
+                    double chance = next.HotChance / (current.HotChance - next.HotChance);
+                    if (rand.NextDouble() < chance)
+                    {
+                        team.Team[index] = next;
+                        return;
+                    }
+                }
+            }
+
+        }
     }
 
     public class Player : IComparable<Player>

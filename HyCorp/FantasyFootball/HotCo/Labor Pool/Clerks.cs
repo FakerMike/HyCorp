@@ -8,7 +8,10 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
 {
     public class ClerkHotCoExecutive : Clerk
     {
-        public ClerkHotCoExecutive(Team team, HotCo company) : base(team) {}
+        HotCo Company;
+        public ClerkHotCoExecutive(Team team, HotCo company) : base(team) {
+            Company = company;
+        }
 
         public override void Plan(object planningInput)
         {
@@ -28,6 +31,9 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
             {
                 PlanningOutput = team.Lead.Plan(this);
                 team.DownstreamTeam.Clerk.Plan(PlanningOutput);
+                HotCoFilterTeam filterTeam = Company.Organization.FindTeamOfType<HotCoFilterTeam>();
+                (team.Lead as TeamLeadHotCoExecutive).AddProduct(filterTeam.GetPlanningOutput() as FantasyFootballProduct, input.TrainingWeek, input.TrainingYear);
+                //(team.Lead as TeamLeadHotCoExecutive).SummarizePerformance();
                 input.TrainingWeek++;
                 if (input.TrainingWeek > 17)
                 {
@@ -35,6 +41,7 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
                     input.TrainingYear++;
                 }
             }
+            (team.Lead as TeamLeadHotCoExecutive).SummarizePerformance();
         }
 
     }

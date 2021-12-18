@@ -54,6 +54,13 @@ namespace HyCorp
                 UI.Instance.Print(e.Message);
             }
         }
+
+        public T FindTeamOfType<T>()
+        {
+            if (team is T) return (T)Convert.ChangeType(team, typeof(T));
+            else if (team.DownstreamTeam != null) return team.DownstreamTeam.Clerk.FindTeamOfType<T>();
+            else return default;
+        }
     }
 
 
