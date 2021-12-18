@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FantasyFootball\HotCo\Labor Pool\Clerks.cs" />
+    <Compile Include="FantasyFootball\HotCo\Labor Pool\Managers.cs" />
     <Compile Include="HyCorp\Basics\Clerks.cs" />
     <Compile Include="HyCorp\Basics\Leads.cs" />
     <Compile Include="HyCorp\Basics\Managers.cs" />

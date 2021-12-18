@@ -140,6 +140,23 @@ namespace HyCorp.FantasyFootball
             HotChance = chance;
         }
 
+        public static PlayerRole ConvertToRole(IValue value)
+        {
+            switch((value as CategoricalValue).Value)
+            {
+                case "QB":
+                    return PlayerRole.QB;
+                case "RB":
+                    return PlayerRole.RB;
+                case "WR":
+                    return PlayerRole.WR;
+                case "TE":
+                    return PlayerRole.TE;
+                default:
+                    return PlayerRole.DST;
+            }
+        }
+
     }
 
     public enum PlayerRole

@@ -20,7 +20,7 @@ namespace HyCorp
         public abstract int MinHires();
         public abstract int MaxHires();
         public abstract bool CanUse(Worker worker);
-        public void AddWorker(Worker worker) { Workers[worker] = new PerformanceEvaluation(); }
+        public virtual void AddWorker(Worker worker) { Workers[worker] = new PerformanceEvaluation(); }
         public virtual void Prepare(Clerk clerk) { }
         public abstract object Plan(Clerk clerk);
         public abstract object Produce(Clerk clerk);
@@ -28,10 +28,12 @@ namespace HyCorp
 
         public virtual void DoLayoffs()
         {
+            Dictionary<Worker, PerformanceEvaluation> RetainedWorkers = new Dictionary<Worker, PerformanceEvaluation>();
             foreach (Worker w in Workers.Keys)
             {
-                if (Workers[w].Rating <= FireThreshold) Workers.Remove(w);
+                if (Workers[w].Rating > FireThreshold) RetainedWorkers[w] = Workers[w];
             }
+            Workers = RetainedWorkers;
         }
     }
 
@@ -39,6 +41,8 @@ namespace HyCorp
     {
         public double Rating = 1;
         public int Tenure = 0;
+        public double Accuracy;
+        public double VoteShare;
     }
 
 

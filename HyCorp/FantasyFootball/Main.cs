@@ -21,11 +21,13 @@ namespace HyCorp.FantasyFootball
             LaborPool.AddWorker(typeof(HotCoDataImportWorker));
             LaborPool.AddWorker(typeof(HotCoExecutiveWorker));
             LaborPool.AddWorker(typeof(WorkerHotCoHistoricalAverageDataEnrichment));
+            LaborPool.AddWorker(typeof(WorkerHotCoModelingRandomTree));
 
             LaborPool.AddTeamLead(typeof(TeamLeadHotCoDataImport));
             LaborPool.AddTeamLead(typeof(TeamLeadHotCoExecutive));
             LaborPool.AddTeamLead(typeof(TeamLeadHotCoDataEnrichment));
-            
+            LaborPool.AddTeamLead(typeof(TeamLeadHotCoModeling));
+
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

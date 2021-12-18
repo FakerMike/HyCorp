@@ -26,6 +26,9 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
 
     public class TeamLeadHotCoModeling : CrossFunctionalTeamLead<EnrichedByDatePairedExampleSet, PlayersWithPredictedHotChance>
     {
+        public double averageAccuracy = -0.862;
+        private CIHotCoModeling workerInput;
+
         public override bool CanUse(Worker worker)
         {
             if (worker is WorkerProfileHotCoModeling) return true;
@@ -34,7 +37,7 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
 
         public override void Evaluate()
         {
-            // TODO : worst 10% by accuracy get fired
+            // Done in planning phase
         }
 
         public override int MaxHires()
@@ -47,14 +50,124 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
             return 10;
         }
 
+        public override void Prepare(Clerk clerk)
+        {
+            workerInput = new CIHotCoModeling { 
+                TrainingSet = (clerk.PlanningInput as EnrichedByDatePairedExampleSet).Product.TrainingSet, 
+                TestSet = (clerk.PlanningInput as EnrichedByDatePairedExampleSet).Product.TestSet 
+            };
+            foreach (Feature f in workerInput.TrainingSet.Features.Features)
+            {
+                if (f is ContinuousFeature)
+                {
+                    (f as ContinuousFeature).SwitchToQuartileSplitting();
+                }
+            }
+            Feature HotOrNot = new CategoricalFeature("HotOrNot");
+            HotOrNot.AutoSet(new List<string> { "Not", "Hot" });
+            workerInput.TrainingSet.Features.SetLabel(HotOrNot);
+            workerInput.TestSet.Features.SetLabel(HotOrNot);
+            Feature salary = workerInput.TrainingSet.Features.ByName["DK salary"];
+            foreach (Example x in workerInput.TrainingSet.Examples)
+            {
+                if ((x.ContinuousLabel.Value / (x.FeatureValues[salary] as ContinuousValue).Value) >= 0.0035){
+                    x.SetLabel(new CategoricalValue("Hot"));
+                } else
+                {
+                    x.SetLabel(new CategoricalValue("Not"));
+                }
+            }
+            foreach (Example x in workerInput.TestSet.Examples)
+            {
+                if ((x.ContinuousLabel.Value / (x.FeatureValues[salary] as ContinuousValue).Value) >= 0.0035)
+                {
+                    x.SetLabel(new CategoricalValue("Hot"));
+                }
+                else
+                {
+                    x.SetLabel(new CategoricalValue("Not"));
+                }
+            }
+        }
+
         public override object Plan(Clerk clerk)
         {
-            throw new NotImplementedException();
+            List<Player> players = new List<Player>();
+            List<double> accuracies = new List<double>();
+            Dictionary<Worker, COHotCoModeling> outputs = new Dictionary<Worker, COHotCoModeling>();
+            double TotalHot = 0;
+            foreach (Example x in workerInput.TestSet.Examples)
+            {
+                TotalHot += workerInput.TestSet.Features.CategoricalLabel.Split(x.CategoricalLabel);
+            }
+            
+
+            foreach (Worker w in Workers.Keys)
+            {
+                double Hot = 0;
+                double Not = 0;
+                COHotCoModeling workerOutput = (w as WorkerProfileHotCoModeling).Plan(workerInput);
+                outputs[w] = workerOutput;
+                foreach (Example x in workerOutput.Predictions.Keys)
+                {
+                    if (x.CategoricalLabel.Value == "Hot")
+                    {
+                        Hot += workerOutput.Predictions[x];
+                    } else
+                    {
+                        Not += workerOutput.Predictions[x];
+                    }
+                }
+                Workers[w].Accuracy = 0.97 * Workers[w].Accuracy + 0.03 * (Hot - Not) / TotalHot ;
+                accuracies.Add(Workers[w].Accuracy);
+            }
+
+            accuracies.Sort();
+            double cutoff = accuracies[accuracies.Count / 3];
+            double totalAccuracy = 0;
+            double retainedWorkerCount = 0;
+            foreach (Worker w in Workers.Keys)
+            {
+                double accuracy = Workers[w].Accuracy;
+                if (accuracy >= cutoff)
+                {
+                    Workers[w].VoteShare = 1;
+                    totalAccuracy += accuracy;
+                    retainedWorkerCount++;
+                    Workers[w].Rating = 1;
+                } else
+                {
+                    Workers[w].VoteShare = 0;
+                    Workers[w].Rating = 0;
+                }
+            }
+
+            averageAccuracy = totalAccuracy / retainedWorkerCount;
+            Feature role = workerInput.TestSet.Features.ByName["Pos"];
+            Feature salary = workerInput.TestSet.Features.ByName["DK salary"];
+            foreach (Example x in workerInput.TestSet.Examples)
+            {
+                double chance = 0;
+                double voteshare = 0;
+                foreach (Worker w in Workers.Keys)
+                {
+                    chance += outputs[w].Predictions[x] * Workers[w].VoteShare;
+                    voteshare += Workers[w].VoteShare;
+                }
+                Player player = new Player(x.ID.Value, Player.ConvertToRole(x.FeatureValues[role]), (int)(x.FeatureValues[salary] as ContinuousValue).Value, chance / voteshare);
+                players.Add(player);
+            }
+            return new PlayersWithPredictedHotChance(players);
         }
 
         public override object Produce(Clerk clerk)
         {
             throw new NotImplementedException();
+        }
+
+        public override void AddWorker(Worker worker)
+        {
+            Workers[worker] = new PerformanceEvaluation { Accuracy = averageAccuracy };
         }
     }
 

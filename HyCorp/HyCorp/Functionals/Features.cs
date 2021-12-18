@@ -47,6 +47,10 @@ namespace HyCorp
         public Histogram Distribution { get; protected set; }
         public ContinuousSeparator Separator { get; protected set; }
         public double Average { get; protected set; }
+        public double Median { get; protected set; }
+        public double FirstQuartile { get; protected set; }
+        public double ThirdQuartile { get; protected set; }
+        private List<double> NonZeros;
 
 
         public ContinuousFeature(string name) : base (name) { }
@@ -59,6 +63,7 @@ namespace HyCorp
 
         public override void AutoSet(List<string> sourceStrings)
         {
+            NonZeros = new List<double>();
             double min = double.PositiveInfinity, max = double.NegativeInfinity, sum = 0, count = 0;
 
             foreach (string s in sourceStrings)
@@ -67,6 +72,7 @@ namespace HyCorp
                 {
                     if (result > max) max = result;
                     if (result < min) min = result;
+                    if (result != 0) NonZeros.Add(result);
                     sum += result;
                     count++;
                 }
@@ -91,12 +97,14 @@ namespace HyCorp
         
         public void AutoSet(List<double> sourceDoubles)
         {
+            NonZeros = new List<double>();
             double min = double.PositiveInfinity, max = double.NegativeInfinity, sum = 0;
             foreach (double x in sourceDoubles)
             {
                  if (x > max) max = x;
                  if (x < min) min = x;
-                 sum += x;
+                    if (x != 0) NonZeros.Add(x);
+                sum += x;
             }
             Average = sum / sourceDoubles.Count;
             Separator = x => { if (x.Value > Average) return 1; return 0; };
@@ -112,6 +120,30 @@ namespace HyCorp
         {
             Separator = separator;
             Count = count;
+        }
+
+        public void SwitchToMedianSplitting()
+        {
+            if (NonZeros != null && NonZeros.Count > 0)
+            {
+                NonZeros.Sort();
+                Median = NonZeros[NonZeros.Count / 2];
+                Separator = x => { if (x.Value > Median) return 1; return 0; };
+                Count = 2;
+            }
+        }
+
+        public void SwitchToQuartileSplitting()
+        {
+            if (NonZeros != null && NonZeros.Count > 0)
+            {
+                NonZeros.Sort();
+                FirstQuartile = NonZeros[NonZeros.Count / 4];
+                Median = NonZeros[NonZeros.Count / 2];
+                ThirdQuartile = NonZeros[3 * NonZeros.Count / 4];
+                Separator = x => { if (x.Value > ThirdQuartile) return 3; if (x.Value > Median) return 2; if (x.Value > FirstQuartile) return 1; return 0; };
+                Count = 4;
+            }
         }
 
         public override List<IValue> CreateValues(List<string> sourceStrings)
@@ -273,7 +305,8 @@ namespace HyCorp
     {
         public List<Feature> Features { get; private set; }
         public IDFeature ID { get; private set; }
-        public Feature Label { get; private set; }
+        public ContinuousFeature ContinuousLabel { get; private set; }
+        public CategoricalFeature CategoricalLabel { get; private set; }
         public Dictionary<string, Feature> ByName { get; private set; }
 
         public FeatureVector(IEnumerable<Feature> features)
@@ -283,7 +316,6 @@ namespace HyCorp
             foreach (Feature f in features) {
                 ByName[f.Name] = f;
             }
-            Label = null;
         }
 
         public FeatureVector(IEnumerable<Feature> features, Feature label)
@@ -294,7 +326,7 @@ namespace HyCorp
             {
                 ByName[f.Name] = f;
             }
-            Label = label;
+            SetLabel(label);
         }
 
         public FeatureVector(IEnumerable<Feature> features, Feature label, IDFeature id)
@@ -305,7 +337,7 @@ namespace HyCorp
             {
                 ByName[f.Name] = f;
             }
-            Label = label;
+            SetLabel(label);
             ID = id;
         }
 
@@ -314,6 +346,12 @@ namespace HyCorp
             if (Features.Contains(feature)) return;
             Features.Add(feature);
             ByName[feature.Name] = feature;
+        }
+
+        public void SetLabel(Feature label)
+        {
+            if (label is ContinuousFeature) ContinuousLabel = label as ContinuousFeature;
+            else CategoricalLabel = label as CategoricalFeature;
         }
     }
 }

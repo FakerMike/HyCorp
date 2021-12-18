@@ -16,6 +16,8 @@ namespace HyCorp
         public object ProductionInput { get; protected set; }
         public object ProductionOutput { get; protected set; }
 
+        public int PlanningIteration { get; protected set; } = 0;
+
         public Clerk(Team team)
         {
             this.team = team;
@@ -25,7 +27,7 @@ namespace HyCorp
         {
             PlanningInput = planningInput;
             team.Lead.Prepare(this);
-            for (int i = 0; i < team.Manager.Budget; i++)
+            for (PlanningIteration = 0; PlanningIteration < team.Manager.Budget; PlanningIteration++)
             {
                 PlanningOutput = team.Lead.Plan(this);
                 team.Lead.Evaluate();

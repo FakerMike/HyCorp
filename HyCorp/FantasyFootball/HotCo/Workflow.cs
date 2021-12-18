@@ -84,8 +84,16 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
 
     public class HotCoModelingTeam : Team
     {
+        public HotCoModelingTeam()
+        {
+            TeamInput = typeof(EnrichedByDatePairedExampleSet);
+            TeamOutput = typeof(PlayersWithPredictedHotChance);
 
-    
+            Hire(new Clerk(this));
+            Hire(new ManagerHotCoModelingRandomForest(this));
+            Manager.HireLead();
+            Manager.HireWorkers();
+        }
     }
 
     public class PlayersWithPredictedHotChance : Intermediate<List<Player>>

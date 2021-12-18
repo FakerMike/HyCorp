@@ -17,6 +17,11 @@ namespace HyCorp
     {
         public static UI Instance;
 
+        public static void Print(object o)
+        {
+            Instance.PrintOut(o);
+        }
+
         public UI()
         {
             InitializeComponent();
@@ -28,7 +33,7 @@ namespace HyCorp
 
             HyCorp HotCo = new HotCo();
             HotCo.Plan(FileTools.Load(@"FantasyFootball\Data\Training\DraftKingsRaw2014-2021W9.csv"));
-            UI.Instance.Print(HotCo.Organization.StartingTeam.Clerk.PlanningOutput);
+            UI.Print(HotCo.Organization.StartingTeam.Clerk.PlanningOutput);
 
 
 
@@ -58,7 +63,7 @@ namespace HyCorp
             OutputText.AppendText(s + Environment.NewLine);
         }
 
-        public void Print(object o)
+        public void PrintOut(object o)
         {
             OutputText.AppendText(o.ToString() + Environment.NewLine); ;
         }

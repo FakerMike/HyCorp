@@ -25,7 +25,7 @@ namespace HyCorp
         {
             this.team = team;
         }
-        public void HireLead()
+        public virtual void HireLead()
         {
             foreach(Type newTeamLead in LaborPool.TeamLeads)
             {
@@ -37,7 +37,7 @@ namespace HyCorp
             team.Hire(Activator.CreateInstance(availableLeads[0]) as TeamLead);
         }
 
-        public void HireWorkers() {
+        public virtual void HireWorkers() {
             for (int i = 0; i < team.Lead.MinHires(); i++)
             {
                 foreach (Type newWorker in LaborPool.Workers)

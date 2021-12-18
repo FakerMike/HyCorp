@@ -13,6 +13,7 @@ namespace HyCorp
         public IDValue ID { get; private set; }
         public ContinuousValue ContinuousLabel { get; private set; }
         public CategoricalValue CategoricalLabel { get; private set; }
+        public bool BinaryLabel { get; private set; }
         public double Weight { get; private set; }
 
         public Example(Dictionary<Feature, IValue> values, double weight)
@@ -54,7 +55,7 @@ namespace HyCorp
 
         public ExampleSet(ExampleSet set)
         {
-            Features = new FeatureVector(set.Examples[0].FeatureValues.Keys, set.Features.Label, set.Features.ID);
+            Features = new FeatureVector(set.Examples[0].FeatureValues.Keys, set.Features.ContinuousLabel, set.Features.ID);
             Examples = new List<Example>();
             foreach (Example x in set.Examples)
             {
@@ -118,7 +119,7 @@ namespace HyCorp
             List<ExampleSet> resultingSets = new List<ExampleSet>();
             for (int i = 0; i < feature.Count; i++)
             {
-                resultingSets.Add(new ExampleSet(Features.Features, Features.Label));
+                resultingSets.Add(new ExampleSet(Features.Features, Features.ContinuousLabel));
             }
             for (int i = 0; i < Examples.Count; i++)
             {

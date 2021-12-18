@@ -13,6 +13,7 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
             Organization.AddStartingTeam(new HotCoDataImportTeam());
             Organization.AddNextTeam(new HotCoExecutiveTeam(this));
             Organization.AddNextTeam(new HotCoDataEnrichmentTeam());
+            Organization.AddNextTeam(new HotCoModelingTeam());
         }
     }
 }

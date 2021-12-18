@@ -29,9 +29,98 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
 
     public abstract class WorkerProfileHotCoModeling : CrossFunctionalWorker<CIHotCoModeling, COHotCoModeling, CIHotCoModeling, COHotCoModeling>
     {
+        protected static Random rand = new Random();
         protected bool initialized = false;
     }
 
+
+    public class WorkerHotCoModelingRandomTree : WorkerProfileHotCoModeling
+    {
+        int[] Positives;
+        int[] Totals;
+        int runningCount;
+        double overallAverage;
+        List<Feature> Features = new List<Feature>();
+        List<int> Counts = new List<int>();
+
+        public override COHotCoModeling Plan(CIHotCoModeling input)
+        {
+            if (!initialized)
+            {
+                runningCount = 1;
+                while (true)
+                {
+                    Feature f = input.TrainingSet.Features.Features[rand.Next(0, input.TrainingSet.Features.Features.Count)];
+                    while (Features.Contains(f))
+                    {
+                        f = input.TrainingSet.Features.Features[rand.Next(0, input.TrainingSet.Features.Features.Count)];
+                    }
+                    if (runningCount * f.Count > 4092) break;
+                    runningCount *= f.Count;
+                    Features.Add(f);
+                    Counts.Add(f.Count);
+                }
+                initialized = true;
+            }
+
+            Positives = new int[runningCount * Features.Count];
+            Totals = new int[runningCount * Features.Count];
+            CategoricalFeature label = input.TrainingSet.Features.CategoricalLabel;
+            double totalPositives = 0;
+            double total = 0;
+            foreach (Example x in input.TrainingSet.Examples)
+            {
+                List<int> splits = new List<int>();
+                for (int i = 0; i < Features.Count; i++)
+                {
+                    splits.Add(Features[i].Split(x.FeatureValues[Features[i]]));
+                    int index = Index(splits);
+                    Totals[index] += 1;
+                    total++;
+                    int positive = label.Split(x.CategoricalLabel);
+                    Positives[index] += positive;
+                    totalPositives += positive;
+                }
+            }
+
+            overallAverage = totalPositives / total;
+
+
+            COHotCoModeling output = new COHotCoModeling();
+            foreach (Example x in input.TestSet.Examples)
+            {
+                List<int> splits = new List<int>();
+                double best = overallAverage;
+                for (int i = 0; i < Features.Count; i++)
+                {
+                    splits.Add(Features[i].Split(x.FeatureValues[Features[i]]));
+                    int index = Index(splits);
+                    if (Totals[index] < 3) break;
+                    best = (double)Positives[index] / Totals[index];
+                }
+                output.Predictions[x] = best;
+            }
+
+            return output;
+        }
+
+        private int Index(List<int> splits)
+        {
+            int m = 1;
+            int index = runningCount * (splits.Count - 1);
+            for (int i = 0; i < splits.Count; i++)
+            {
+                index += splits[i] * m;
+                m *= Counts[i];
+            }
+            return index;
+        }
+
+        public override COHotCoModeling Produce(CIHotCoModeling input)
+        {
+            throw new NotImplementedException();
+        }
+    }
 
 
 
@@ -155,6 +244,8 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
                 List<IValue> values;
                 switch (rawColumn.Name)
                 {
+                    case "GID":
+                        continue;
                     case "DK points":
                         label = new ContinuousFeature(rawColumn.Name);
                         feature = label;
