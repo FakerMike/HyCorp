@@ -23,6 +23,46 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
 
 
 
+    public class TeamLeadHotCoPicker : CrossFunctionalTeamLead<PlayersWithPredictedHotChance, HotCoPotentialTeamList>
+    {
+        public override bool CanUse(Worker worker)
+        {
+            if (worker is WorkerProfileHotCoPicker) return true;
+            return false;
+        }
+
+        public override void Evaluate()
+        {
+            // Not yet
+        }
+
+        public override int MaxHires()
+        {
+            return 500;
+        }
+
+        public override int MinHires()
+        {
+            return 500;
+        }
+
+        public override object Plan(Clerk clerk)
+        {
+            List<FantasyFootballTeam> potentialTeams = new List<FantasyFootballTeam>();
+            foreach (Worker w in Workers.Keys)
+            {
+                potentialTeams.Add((w as WorkerProfileHotCoPicker).Plan((clerk.PlanningInput as PlayersWithPredictedHotChance).Product));
+            }
+            return new HotCoPotentialTeamList(potentialTeams);
+        }
+
+        public override object Produce(Clerk clerk)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+
 
     public class TeamLeadHotCoModeling : CrossFunctionalTeamLead<EnrichedByDatePairedExampleSet, PlayersWithPredictedHotChance>
     {
@@ -157,7 +197,7 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
                 Player player = new Player(x.ID.Value, Player.ConvertToRole(x.FeatureValues[role]), (int)(x.FeatureValues[salary] as ContinuousValue).Value, chance / voteshare);
                 players.Add(player);
             }
-            return new PlayersWithPredictedHotChance(players);
+            return new PlayersWithPredictedHotChance(new PlayerPicker(players));
         }
 
         public override object Produce(Clerk clerk)

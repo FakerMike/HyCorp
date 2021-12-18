@@ -33,6 +33,29 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
         protected bool initialized = false;
     }
 
+    public abstract class WorkerProfileHotCoPicker : CrossFunctionalWorker<PlayerPicker, FantasyFootballTeam, PlayerPicker, FantasyFootballTeam>
+    {
+        protected static Random rand = new Random();
+        protected bool initialized = false;
+    }
+
+
+    public class WorkerHotCoSwapPicker : WorkerProfileHotCoPicker
+    {
+        public override FantasyFootballTeam Plan(PlayerPicker input)
+        {
+            return input.GetRandomTeam();
+        }
+
+        public override FantasyFootballTeam Produce(PlayerPicker input)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+
+
+
 
     public class WorkerHotCoModelingRandomTree : WorkerProfileHotCoModeling
     {

@@ -39,66 +39,116 @@ namespace HyCorp.FantasyFootball
 
     public class FantasyFootballTeam : IComparable<FantasyFootballTeam>
     {
-        private const int SAMPLECOUNT = 10000;
+        protected const int SALARYCAP = 50000;
 
         public List<Player> Team { get; protected set; }
-        public Histogram ProjectedScore { get; protected set; }
 
-        public double AverageScore { get; protected set; }
+
 
         public FantasyFootballTeam(IEnumerable<Player> team)
         {
             Team = new List<Player>(team);
-            if (Team.Count != 9) throw new Exception("Somehow got a team with other than 9 players");
-            ProjectedScore = new Histogram(10, 310, 15);
-
-            Histogram[] histograms = new Histogram[Team.Count];
-            for (int i = 0; i < Team.Count; i++)
-            {
-                histograms[i] = Team[i].ProjectedScore;
-            }
-
-            double[] samples = new double[SAMPLECOUNT];
-            for (int i = 0; i < SAMPLECOUNT; i++)
-            {
-                samples[i] = 0;
-                for (int j = 0; j < Team.Count; j++)
-                {
-                    double sample = histograms[j].Sample();
-                    samples[i] += sample;
-                    AverageScore += sample;
-                }
-            }
-            AverageScore /= SAMPLECOUNT;
-            ProjectedScore.AddData(samples);
         }
 
-        public double OddsOverTwoHundred()
+        public double HotOdds()
         {
-            int count = 0;
-            for (int i=0; i<ProjectedScore.Buckets.Length; i++)
-            {
-                if (ProjectedScore.Boundaries[i] >= 200)
-                {
-                    count += ProjectedScore.Buckets[i];
-                }
-            }
-            //if (count > 0) Console.WriteLine("YES!");
-            return (double)count / ProjectedScore.Count;
+            double result = 1;
+            foreach (Player p in Team) { result *= p.HotChance; }
+            return result;
         }
+
+        public double HotScore()
+        {
+            double result = 0;
+            foreach (Player p in Team) { result += p.Salary * 0.04; }
+            return result;
+        }
+
+        public int RemainingSalary()
+        {
+            int currentCost = 0;
+            foreach (Player p in Team)
+            {
+                currentCost += p.Salary;
+            }
+            return SALARYCAP - currentCost;
+        }
+
 
         public int CompareTo(FantasyFootballTeam other)
         {
             // Reverse default sort order
-            int result = -OddsOverTwoHundred().CompareTo(other.OddsOverTwoHundred());
-            if (result == 0) return other.AverageScore.CompareTo(AverageScore);
+            int result = -HotOdds().CompareTo(other.HotOdds());
+            if (result == 0) return other.HotScore().CompareTo(HotScore());
             return result;
         }
 
         public override string ToString()
         {
-            return string.Join(", ", Team) + "   Odds: " + OddsOverTwoHundred() + " Average: " + AverageScore;
+            return string.Join(", ", Team) + "   Odds: " + HotOdds() + " Target Score: " + HotScore();
         }
+    }
+
+
+    public class PlayerPicker
+    {
+        protected List<Player> Players;
+        protected const int SALARYCAP = 50000;
+        protected static Random rand = new Random();
+        protected Dictionary<PlayerRole, List<Player>> byRole;
+
+        public PlayerPicker(List<Player> players)
+        {
+            Players = players;
+
+            byRole = new Dictionary<PlayerRole, List<Player>>
+            {
+                [PlayerRole.TE] = new List<Player>(),
+                [PlayerRole.WR] = new List<Player>(),
+                [PlayerRole.QB] = new List<Player>(),
+                [PlayerRole.RB] = new List<Player>(),
+                [PlayerRole.DST] = new List<Player>(),
+                [PlayerRole.FLEX] = new List<Player>()
+            };
+
+            foreach (Player p in players)
+            {
+                byRole[p.Role].Add(p);
+                if (p.Role == PlayerRole.RB || p.Role == PlayerRole.WR || p.Role == PlayerRole.TE)
+                {
+                    byRole[PlayerRole.FLEX].Add(p);
+                }
+            }
+
+            foreach (List<Player> list in byRole.Values)
+            {
+                list.Sort();
+            }
+
+        }
+
+        public FantasyFootballTeam GetRandomTeam()
+        {
+            List<Player> players = new List<Player>
+            {
+                PickRandomPlayerOfType(PlayerRole.QB),
+                PickRandomPlayerOfType(PlayerRole.RB),
+                PickRandomPlayerOfType(PlayerRole.RB),
+                PickRandomPlayerOfType(PlayerRole.WR),
+                PickRandomPlayerOfType(PlayerRole.WR),
+                PickRandomPlayerOfType(PlayerRole.WR),
+                PickRandomPlayerOfType(PlayerRole.TE),
+                PickRandomPlayerOfType(PlayerRole.FLEX),
+                PickRandomPlayerOfType(PlayerRole.DST)
+            };
+            return new FantasyFootballTeam(players);
+        }
+
+        public Player PickRandomPlayerOfType(PlayerRole role)
+        {
+            return byRole[role][rand.Next(0, byRole[role].Count)];
+        }
+
     }
 
     public class Player : IComparable<Player>

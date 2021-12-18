@@ -11,6 +11,7 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
     {
         public HotCoDataImportTeam()
         {
+            Name = "Data Import Team";
             TeamInput = typeof(RawDataFile);
             TeamOutput = typeof(FullExampleSet);
 
@@ -32,6 +33,7 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
     {
         public HotCoExecutiveTeam(HotCo company) : base()
         {
+            Name = "Executive Team";
             TeamInput = typeof(FullExampleSet);
             TeamOutput = typeof(ByDatePairedExampleSet);
 
@@ -67,6 +69,7 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
     {
         public HotCoDataEnrichmentTeam() : base()
         {
+            Name = "Data Enrichment Team";
             TeamInput = typeof(ByDatePairedExampleSet);
             TeamOutput = typeof(EnrichedByDatePairedExampleSet);
 
@@ -86,6 +89,7 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
     {
         public HotCoModelingTeam()
         {
+            Name = "Modeling Team";
             TeamInput = typeof(EnrichedByDatePairedExampleSet);
             TeamOutput = typeof(PlayersWithPredictedHotChance);
 
@@ -96,14 +100,26 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
         }
     }
 
-    public class PlayersWithPredictedHotChance : Intermediate<List<Player>>
+
+
+    public class PlayersWithPredictedHotChance : Intermediate<PlayerPicker>
     {
-        public PlayersWithPredictedHotChance(List<Player> product) : base(product) { }
+        public PlayersWithPredictedHotChance(PlayerPicker product) : base(product) { }
     }
 
     public class HotCoPlayerPickerTeam : Team
     {
+        public HotCoPlayerPickerTeam()
+        {
+            Name = "Picker Team";
+            TeamInput = typeof(PlayersWithPredictedHotChance);
+            TeamOutput = typeof(HotCoPotentialTeamList);
 
+            Hire(new Clerk(this));
+            Hire(new RandomReplacementOnlyManager(this));
+            Manager.HireLead();
+            Manager.HireWorkers();
+        }
     }
 
     public class HotCoPotentialTeamList : Intermediate<List<FantasyFootballTeam>>

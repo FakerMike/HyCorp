@@ -25,6 +25,7 @@ namespace HyCorp
 
         public virtual void Plan(object planningInput)
         {
+            UI.Print($"{team.Name} is planning...");
             PlanningInput = planningInput;
             team.Lead.Prepare(this);
             for (PlanningIteration = 0; PlanningIteration < team.Manager.Budget; PlanningIteration++)
