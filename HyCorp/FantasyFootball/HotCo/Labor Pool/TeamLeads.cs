@@ -108,9 +108,11 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
             {
                 List<double> scores = new List<double>();
                 List<int> salaries = new List<int>();
+                //List<double> odds = new List<double>();
                 BigWins = 0;
                 SmallWins = 0;
                 string salary = Environment.NewLine + "Remaining Salaries {";
+                //string odd = Environment.NewLine + "Odds {";
                 foreach (FantasyFootballTeam team in Product.PredictedTeams)
                 {
                     double score = 0;
@@ -120,10 +122,12 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
                     }
                     scores.Add(score);
                     salaries.Add(team.RemainingSalary());
+                    //odds.Add(team.HotOdds());
                     if (score >= 200) BigWins++;
                     else if (score >= 160) SmallWins++;
                 }
                 salary += string.Join(", ", salaries) + "}";
+                //odd += string.Join(", ", odds) + "}";
                 return $"Year {Year}, Week {Week}:  Scores {{" + string.Join(", ", scores) + $"}}, {SmallWins} Small wins, {BigWins} Big wins" + salary;
             }
         }
@@ -293,6 +297,7 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
             }
 
             averageAccuracy = totalAccuracy / retainedWorkerCount;
+            if (clerk.PlanningIteration == 9) UI.Print($"Average Accuracy for most recent dataset: {averageAccuracy}");
             Feature role = workerInput.TestSet.Features.ByName["Pos"];
             Feature salary = workerInput.TestSet.Features.ByName["DK salary"];
             foreach (Example x in workerInput.TestSet.Examples)

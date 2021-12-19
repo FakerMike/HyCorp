@@ -32,21 +32,19 @@ namespace HyCorp
                 TeamLead lead = Activator.CreateInstance(newTeamLead) as TeamLead;
                 if (!lead.CanLead(team.TeamInput, team.TeamOutput)) continue;
                 availableLeads.Add(newTeamLead);
-                break;
             }
             team.Hire(Activator.CreateInstance(availableLeads[0]) as TeamLead);
         }
 
         public virtual void HireWorkers() {
+            foreach (Type newWorker in LaborPool.Workers)
+            {
+                Worker worker = Activator.CreateInstance(newWorker) as Worker;
+                if (!team.Lead.CanUse(worker)) continue;
+                availableWorkers.Add(newWorker);
+            }
             for (int i = 0; i < team.Lead.MinHires(); i++)
             {
-                foreach (Type newWorker in LaborPool.Workers)
-                {
-                    Worker worker = Activator.CreateInstance(newWorker) as Worker;
-                    if (!team.Lead.CanUse(worker)) continue;
-                    availableWorkers.Add(newWorker);
-                    break;
-                }
                 team.Lead.AddWorker(Activator.CreateInstance(availableWorkers[rand.Next(0,availableWorkers.Count)]) as Worker);
             }
         }

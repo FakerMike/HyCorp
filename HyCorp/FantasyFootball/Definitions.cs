@@ -66,10 +66,6 @@ namespace HyCorp.FantasyFootball
             {
                 currentCost += p.Salary;
             }
-            if (currentCost % 100 != 0)
-            {
-                UI.Print("WTF?");
-            }
             return SALARYCAP - currentCost;
         }
 
@@ -94,10 +90,15 @@ namespace HyCorp.FantasyFootball
 
         public int CompareTo(FantasyFootballTeam other)
         {
-            // Reverse default sort order
-            int result = -HotOdds().CompareTo(other.HotOdds());
-            if (result == 0) return other.HotScore().CompareTo(HotScore());
-            return result;
+            if (HotScore() > other.HotScore() + 10) return -1;
+            if (HotScore() < other.HotScore() - 10) return 1;
+
+            return (other.HotScore() + 20 * other.HotOdds() / (HotOdds() + other.HotOdds())).CompareTo(HotScore() + 20 * HotOdds() / (HotOdds() + other.HotOdds()));
+
+
+            //int result = -HotOdds().CompareTo(other.HotOdds());
+            //if (result == 0) return other.HotScore().CompareTo(HotScore());
+            //return result;
         }
 
         public override string ToString()

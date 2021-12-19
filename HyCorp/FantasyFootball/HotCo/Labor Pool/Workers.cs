@@ -204,7 +204,72 @@ namespace HyCorp.FantasyFootball.Corps.HotCo
 
 
 
+    public class WorkerHotCoPreviouslyHotDataEnrichment : WorkerProfileHotCoDataEnrichment
+    {
+        private int weeks;
+        private string idea;
+        private CategoricalFeature feature;
+        public override COHotCoDataEnrichment Plan(CIDataEnrichment input)
+        {
+            if (!initialized)
+            {
+                initialized = true;
+                weeks = rand.Next(1, 5);
+                idea = $"Hot{weeks}WeeksAgo";
+                if (featureIdeas.Contains(idea))
+                {
+                    feature = new CategoricalFeature("BadIdea");
+                    return new COHotCoDataEnrichment { EnrichedFeature = new ContinuousFeature("BadIdea") };
+                }
+                feature = new CategoricalFeature(idea);
+            }
 
+            COHotCoDataEnrichment output = new COHotCoDataEnrichment();
+            Feature week = input.Features.ByName["Week"];
+            Feature salary = input.Features.ByName["DK salary"];
+            foreach (Example x in input.MostRecent)
+            {
+                output.TrainingFeatureValues[x] = new CategoricalValue("Not");
+                foreach (Example y in input.ExampleByID[x.ID.Value])
+                {
+                    if ((x.FeatureValues[week] as ContinuousValue).Value == (y.FeatureValues[week] as ContinuousValue).Value + weeks)
+                    {
+                        if (y.ContinuousLabel.Value / (y.FeatureValues[salary] as ContinuousValue).Value >= 0.0035)
+                        {
+                            output.TrainingFeatureValues[x] = new CategoricalValue("Hot");
+                        } 
+                    }
+                }
+            }
+
+            foreach (Example x in input.TestExamples)
+            {
+                output.TestFeatureValues[x] = new CategoricalValue("Not");
+                if (input.ExampleByID.ContainsKey(x.ID.Value))
+                {
+                    foreach (Example y in input.ExampleByID[x.ID.Value])
+                    {
+                        if ((x.FeatureValues[week] as ContinuousValue).Value == (y.FeatureValues[week] as ContinuousValue).Value + weeks)
+                        {
+                            if (y.ContinuousLabel.Value / (y.FeatureValues[salary] as ContinuousValue).Value >= 0.0035)
+                            {
+                                output.TestFeatureValues[x] = new CategoricalValue("Hot");
+                            }
+                        }
+                    }
+                } 
+            }
+
+            feature.AutoSet(new List<string> { "Not", "Hot" });
+            output.EnrichedFeature = feature;
+            return output;
+        }
+
+        public override COHotCoDataEnrichment Produce(CIDataEnrichment input)
+        {
+            throw new NotImplementedException();
+        }
+    }
 
     public class WorkerHotCoHistoricalAverageDataEnrichment : WorkerProfileHotCoDataEnrichment
     {

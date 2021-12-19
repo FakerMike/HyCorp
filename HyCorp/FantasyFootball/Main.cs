@@ -21,8 +21,9 @@ namespace HyCorp.FantasyFootball
             LaborPool.AddWorker(typeof(HotCoDataImportWorker));
             LaborPool.AddWorker(typeof(HotCoExecutiveWorker));
             LaborPool.AddWorker(typeof(WorkerHotCoHistoricalAverageDataEnrichment));
+            LaborPool.AddWorker(typeof(WorkerHotCoPreviouslyHotDataEnrichment));
             LaborPool.AddWorker(typeof(WorkerHotCoModelingRandomTree));
-            //LaborPool.AddWorker(typeof(WorkerHotCoRandomPicker));
+            LaborPool.AddWorker(typeof(WorkerHotCoRandomPicker));
             LaborPool.AddWorker(typeof(WorkerHotCoSwapPicker));
             LaborPool.AddWorker(typeof(WorkerHotCoFilter));
 
